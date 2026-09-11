@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-11T14:38:04.944Z",
-  "generatedAtLabel": "11/09/2026, 11:38 (Brasília)",
+  "generatedAt": "2026-09-11T15:15:18.471Z",
+  "generatedAtLabel": "11/09/2026, 12:15 (Brasília)",
   "causas": [
     {
       "id": "3c91c97d-43e7-813d-bf61-c2bab85ddee7",
@@ -9,7 +9,7 @@
       "hipotese": "A fricção no pós-compra (sem rastreio, cobrança fora do Zendesk, sem alerta de urgência, CPF na abertura) agrava e prolonga a devolução/troca.",
       "leitura": "Alta",
       "status": "Evidência parcial",
-      "nEvidencias": 13
+      "nEvidencias": 15
     },
     {
       "id": "3c91c97d-43e7-814f-a5d5-d84af14ab572",
@@ -18,7 +18,7 @@
       "hipotese": null,
       "leitura": "Alta",
       "status": "Confirmada",
-      "nEvidencias": 8
+      "nEvidencias": 13
     },
     {
       "id": "3c91c97d-43e7-817e-ba33-ed6d318547bb",
@@ -27,7 +27,7 @@
       "hipotese": "Busca por veículo (hipótese: paginação; e informar só a versão retorna 3–4 medidas) e filtro fraco na PDP levam à medida divergente. Placa (nova plataforma) e medida ficaram mais assertivas e derrubaram o número; a busca por veículo é o gap que não melhorou.",
       "leitura": "Alta",
       "status": "Evidência parcial",
-      "nEvidencias": 16
+      "nEvidencias": 18
     },
     {
       "id": "3c91c97d-43e7-817f-af94-ccb1b7baab02",
@@ -36,7 +36,7 @@
       "hipotese": "Cliente majoritariamente leigo na nomenclatura; muitos decidem no visual/achismo, sem saber ler a medida.",
       "leitura": "Média",
       "status": "Evidência parcial",
-      "nEvidencias": 6
+      "nEvidencias": 9
     },
     {
       "id": "3c91c97d-43e7-8182-94fa-cb56d5f83bd9",
@@ -54,7 +54,7 @@
       "hipotese": "Nomenclatura complexa (XL, radial, TT/TL, índices) confunde; o time compensa mandando o cliente ver o manual e perguntando se ele sabe ler a medida.",
       "leitura": "Alta",
       "status": "Evidência parcial",
-      "nEvidencias": 7
+      "nEvidencias": 13
     },
     {
       "id": "3c91c97d-43e7-81c4-b26e-d757b964d087",
@@ -63,7 +63,7 @@
       "hipotese": "Regra automática de substituição de estoque oferta uma medida que não corresponde.",
       "leitura": "Média",
       "status": "Evidência parcial",
-      "nEvidencias": 4
+      "nEvidencias": 6
     }
   ],
   "evidencias": [
@@ -1048,6 +1048,309 @@
       "frenteIds": [
         "a"
       ]
+    },
+    {
+      "id": "3d81c97d-43e7-812c-858e-d801b21b76ad",
+      "achado": "Usuários pedem espontaneamente um alerta de confirmação da medida",
+      "tipo": "Pista",
+      "citacao": "Verifique o pneu do seu carro pra ver se bate com o recomendado (Rafael); Você comprou essa medida antes, tem certeza? (Eduardo)",
+      "evidencia": "Dois entrevistados, sem serem perguntados, sugeriram um mecanismo de confirmação/alerta ('essa é a medida do seu veículo?') antes de finalizar a compra.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": null,
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-8167-9a45-e1e04538780e",
+      "achado": "Cliente induzido ao erro por atendente de marketplace (Shopee) antes de comprar no site",
+      "tipo": "Dor",
+      "citacao": "Acabei sendo induzido ao erro pelo atendente da Shopee",
+      "evidencia": "Marcos perguntou no chat da Shopee se o pneu era sem câmara, recebeu confirmação equivocada e depois comprou no site (que considera mais confiável). O erro nasceu no atendimento do marketplace, não no site.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": null,
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a",
+        "b"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-8185-b9ca-fe1f2ef5737a",
+      "achado": "Caso rotulado 'medida errada' era, na verdade, MODELO errado (com/sem câmara)",
+      "tipo": "Dado",
+      "citacao": "A medida não estava errada, o errado era... uso com Câmara",
+      "evidencia": "Marcos (moto Yamaha) recebeu o pneu na medida certa, mas com câmara quando precisava sem câmara. Reforça que o balde 'medida errada' mistura erro de modelo.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": null,
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a",
+        "b"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-8194-97b6-ce53a7536929",
+      "achado": "Compra da medida errada por excesso de confiança — cliente não conferiu e só percebeu com o pneu ao lado do carro",
+      "tipo": "Dor",
+      "citacao": "Conheço pneu, nem abri nada... fiquei com 65 na cabeça",
+      "evidencia": "Eduardo (Captiva, 235/60 R17) comprou 235/65 por engano; diz ter confundido com o carro da esposa e não conferiu o pedido anterior. Só descobriu o erro ao emparelhar o pneu recebido ao carro.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": null,
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-81ad-8145-eb383e25e5da",
+      "achado": "Erro só é descoberto ao pôr o pneu ao lado do carro — não há checkpoint antes da entrega",
+      "tipo": "Pista",
+      "citacao": "Coloquei do lado... esse pneu está maior, está diferente",
+      "evidencia": "Eduardo e Rafael, independentemente, só perceberam o erro ao emparelhar o pneu recebido ao carro. Não existe ponto de conferência da medida entre a compra e a entrega.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": null,
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a",
+        "b"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-81b6-b5f0-ed11b529bcdd",
+      "achado": "'Minha Garagem' existe, mas o cliente não conhece a funcionalidade",
+      "tipo": "Pista",
+      "citacao": "Eu não sabia dessa minha garagem",
+      "evidencia": "Eduardo desconhecia a funcionalidade Minha Garagem, que poderia tê-lo ajudado a acertar a medida. Baixa descoberta da feature.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": null,
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a",
+        "b"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-81f7-aa10-e14b49eba347",
+      "achado": "Ordenar por menor preço mistura câmara de ar e pneu de moto no resultado da medida",
+      "tipo": "Dor",
+      "citacao": "A hora que põe menor preço, mistura tudo... aparece câmera de ar, pneu de moto",
+      "evidencia": "Eduardo reproduziu ao vivo: digitando a medida e ordenando por menor preço, o resultado traz itens não relacionados (câmara de ar, pneu de moto), dificultando achar o pneu certo.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Alta",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-81ff-9d25-f5ed991947e6",
+      "achado": "Busca por placa / Minha Garagem retornou medida incompatível — pneu não coube no veículo",
+      "tipo": "Dor",
+      "citacao": "Coloquei a minha placa e apareceu o Palio... o que comprei era maior... na oficina o rapaz falou 'essa aqui não dá certo'",
+      "evidencia": "Rafael cadastrou o carro e buscou pela placa na Minha Garagem; o retorno o levou a comprar uma medida maior, que a oficina disse que agarraria no paralama. Contradiz a tese de que a busca por placa 'acerta ~99%'.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": null,
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a",
+        "b"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-8159-8c78-c97b84f90de5",
+      "achado": "Atrito no pós-compra: logística reversa sem agendamento/contato prévio (LGPD) e exigência de fotos dos pneus",
+      "tipo": "Dor",
+      "citacao": "O recolhimento em casa... não tenho contato do motorista (Marcos); A parte mais ruim é tirar foto dos pneus (Rafael)",
+      "evidencia": "Marcos apontou dificuldade de conciliar o recolhimento por não haver agendamento nem contato do transportador; Rafael citou a exigência de fotos dos pneus como a etapa mais chata. Atrito no fluxo de devolução/troca.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": null,
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-8106-adc8-cba44b3e4970",
+      "achado": "Comitê já age sobre a inconsistência dos motivos (treinamento + manual de motivos)",
+      "tipo": "Pista",
+      "citacao": "Treinamento de utilização dos motivos; Manual de motivos atualizado",
+      "evidencia": "O plano de ação do comitê de agosto/2026 inclui 'Treinamento de utilização dos motivos' e 'Manual de motivos atualizado' — reconhecimento interno de que a classificação dos motivos de devolução é inconsistente.",
+      "fonteCanal": "Área interna",
+      "forca": "Caso concreto",
+      "frequencia": null,
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-8191-a42d-ca047eb432e8",
+      "achado": "~73% do valor do motivo medida/modelo concentra-se na Pneustore Digital",
+      "tipo": "Dado",
+      "citacao": null,
+      "evidencia": "Dos R$ 2,09 mi de 'Medida/Modelo errado' do grupo em agosto/2026, R$ 1,53 mi (~73%) estão na Pneustore Digital. O problema é majoritariamente do e-commerce PneuStore.",
+      "fonteCanal": "Área interna",
+      "forca": "Dado quantitativo",
+      "frequencia": null,
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-81bf-b728-ce50f21a27c9",
+      "achado": "Só ~1% das devoluções por medida/modelo é refaturado — vira custo quase integral",
+      "tipo": "Dado",
+      "citacao": null,
+      "evidencia": "No comitê de agosto/2026, o motivo 'Erro cliente - Medida/Modelo errado' tem ~1% de refaturamento — quase nunca é reaproveitado, tornando-se custo quase integral. Bem abaixo da média geral (28%).",
+      "fonteCanal": "Área interna",
+      "forca": "Dado quantitativo",
+      "frequencia": null,
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-81df-a28b-fa739271a29c",
+      "achado": "'Medida/Modelo errado' é o MAIOR motivo de devolução da Pneustore Digital: 1.217 ordens, R$ 1,53 mi em agosto",
+      "tipo": "Dado",
+      "citacao": null,
+      "evidencia": "No comitê de agosto/2026, na BU Pneustore Digital o motivo 'Erro cliente - Medida/Modelo errado' lidera as devoluções: 1.217 ordens e R$ 1.533.314,39. No total do grupo o motivo é o 2º maior (R$ 2,09 mi, 17,2%).",
+      "fonteCanal": "Área interna",
+      "forca": "Dado quantitativo",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-81fe-8543-fbd25295b92d",
+      "achado": "Comitê oficial funde 'Medida/Modelo' num motivo único rotulado 'Erro cliente' — impossível separar e culpa do cliente por padrão",
+      "tipo": "Dado",
+      "citacao": "Erro cliente - Medida/Modelo errado",
+      "evidencia": "No fechamento de agosto/2026 do Comitê de Devoluções, o motivo oficial é 'Erro cliente - Medida/Modelo errado' — medida e modelo fundidos num só motivo e já rotulados como erro do cliente.",
+      "fonteCanal": "Área interna",
+      "forca": "Dado quantitativo",
+      "frequencia": null,
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a",
+        "b"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
     }
   ],
   "fontes": [
@@ -1087,10 +1390,20 @@
       "id": "3ce1c97d-43e7-814b-a214-ea328a3ca9bd",
       "fonte": "Pesquisa anterior (Djeison + Rodrigo) — entrevistas com usuários",
       "tipo": "Pesquisa anterior",
-      "statusAnalise": "A analisar",
-      "extraido": "Primeira tentativa do projeto (Djeison + Rodrigo) de entrevistar usuários sobre erro de medida; baixa adesão, não engatou. Nenhum material/resultado foi repassado ao time de RA. Recuperar o que existe e entender por que não engatou antes de abrir nova pesquisa com usuário.",
+      "statusAnalise": "Analisado",
+      "extraido": "Material recuperado: 3 transcrições de entrevistas com usuários conduzidas pelo Rodrigo Beckmann (Djeison como observador), 04–05/12/2025 — Eduardo (Captiva), Marcos (moto Yamaha) e Rafael (Palio). Gerou 9 evidências novas: compra por excesso de confiança sem conferir; busca por placa/Minha Garagem retornou medida incompatível; ordenação por menor preço mistura câmara de ar/pneu de moto; caso rotulado 'medida errada' era MODELO (com/sem câmara); cliente induzido ao erro por atendente da Shopee; Minha Garagem existe mas o cliente não conhece; erro só descoberto ao emparelhar o pneu ao carro; pedido espontâneo de alerta de confirmação; atrito no pós-compra (logística reversa sem agendamento, exigência de fotos).",
       "link": null,
-      "evidenciasGeradasIds": []
+      "evidenciasGeradasIds": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i"
+      ]
     },
     {
       "id": "3ce1c97d-43e7-816a-a3b3-e0a374f9ff4e",
@@ -1140,10 +1453,16 @@
       "id": "3ce1c97d-43e7-81c7-b58f-df16df2b5578",
       "fonte": "Comitê NAI — Compra Medida Errada (por BU)",
       "tipo": "Área interna",
-      "statusAnalise": "A analisar",
-      "extraido": "Comitê conduzido pela NAI puxa semanal/mensalmente as devoluções por BU. É a fonte oficial da classificação do número.",
+      "statusAnalise": "Analisado",
+      "extraido": "Material localizado: deck 'Apresentação Comitê Devoluções V2.0' — fechamento de agosto/2026 (Gestão da Qualidade / Nayara Almeida). Gerou 5 evidências: motivo oficial é 'Erro cliente - Medida/Modelo errado' (fundidos, culpa do cliente por padrão); na Pneustore Digital é o MAIOR motivo de devolução (1.217 ordens, R$ 1,53 mi em agosto); ~73% do valor do motivo está na PS Digital; só ~1% é refaturado; comitê já tem plano de ação (treinamento + manual de motivos).",
       "link": null,
-      "evidenciasGeradasIds": []
+      "evidenciasGeradasIds": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ]
     },
     {
       "id": "3cf1c97d-43e7-815b-8c9e-f7aa3aa10a0b",
@@ -1273,7 +1592,9 @@
       "proximoPasso": "Explorar compatibilidade veículo × pneu (veículo cadastrado, compatíveis, medida recomendada).",
       "causasIds": [],
       "evidenciasIds": [
-        "a"
+        "a",
+        "b",
+        "c"
       ]
     },
     {
@@ -1285,7 +1606,9 @@
       "prioridade": "Alta",
       "proximoPasso": "Consolidar pesquisa anterior + Reclame Aqui + dados de troca/devolução já existentes.",
       "causasIds": [],
-      "evidenciasIds": []
+      "evidenciasIds": [
+        "a"
+      ]
     },
     {
       "id": "3c91c97d-43e7-813f-9403-f7acddadc129",
@@ -1312,7 +1635,10 @@
         "b",
         "c",
         "d",
-        "e"
+        "e",
+        "f",
+        "g",
+        "h"
       ]
     },
     {
@@ -1329,7 +1655,11 @@
         "b",
         "c",
         "d",
-        "e"
+        "e",
+        "f",
+        "g",
+        "h",
+        "i"
       ]
     },
     {
@@ -1369,7 +1699,10 @@
         "a",
         "b",
         "c",
-        "d"
+        "d",
+        "e",
+        "f",
+        "g"
       ]
     },
     {
@@ -1393,7 +1726,9 @@
         "i",
         "j",
         "k",
-        "l"
+        "l",
+        "m",
+        "n"
       ]
     },
     {
@@ -1403,7 +1738,7 @@
       "tipo": "Solução",
       "status": "A fazer",
       "prioridade": "Média",
-      "proximoPasso": "Mapear e reduzir a fricção do pós-compra que prolonga a devolução/troca (sem rastreio de transportadora, cobrança de áreas fora do Zendesk, sem alerta de urgência, CPF na abertura do ticket).",
+      "proximoPasso": "Mapear e reduzir a fricção do pós-compra que prolonga a devolução/troca.",
       "causasIds": [],
       "evidenciasIds": [
         "a",
@@ -1415,7 +1750,9 @@
         "g",
         "h",
         "i",
-        "j"
+        "j",
+        "k",
+        "l"
       ]
     }
   ]
