@@ -1,0 +1,13 @@
+{
+  "name": "compra-medida-errada-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Dashboard estático (GitHub Pages) do projeto de UX 'Compra Medida Errada', alimentado por 4 databases do Notion.",
+  "scripts": {
+    "build": "node build/build.mjs"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.15"
+  }
+}

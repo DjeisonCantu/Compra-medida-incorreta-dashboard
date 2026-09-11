@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dashboard",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["-y", "serve", "public", "-l", "8080"],
+      "port": 8080
+    }
+  ]
+}

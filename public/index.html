@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Compra Medida Errada — Dashboard</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <img src="assets/logo-pneustore-roxo.png" alt="PneuStore" class="logo" />
+      <div class="topbar-titles">
+        <h1>Compra Medida Errada</h1>
+        <p id="updated-at" class="updated-at">Carregando dados…</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="kpi-row" id="kpi-row" aria-label="Indicadores principais"></section>
+
+    <section class="panel" id="section-causas">
+      <div class="panel-header">
+        <h2>Decomposição do número por Causa</h2>
+        <p class="panel-subtitle">As 7 causas-raiz, ordenadas por peso no problema</p>
+      </div>
+      <div id="causas-grid" class="causas-grid"></div>
+    </section>
+
+    <section class="panel" id="section-evidencias">
+      <div class="panel-header">
+        <h2>Evidências: força, frequência e impacto</h2>
+        <p class="panel-subtitle">Priorização das evidências ativas (excluindo arquivadas)</p>
+      </div>
+      <div class="charts-grid">
+        <div class="chart-card">
+          <h3>Por Tipo</h3>
+          <canvas id="chart-tipo"></canvas>
+        </div>
+        <div class="chart-card">
+          <h3>Por Força da evidência</h3>
+          <canvas id="chart-forca"></canvas>
+        </div>
+        <div class="chart-card">
+          <h3>Por Frequência</h3>
+          <canvas id="chart-frequencia"></canvas>
+        </div>
+        <div class="chart-card">
+          <h3>Por Impacto</h3>
+          <canvas id="chart-impacto"></canvas>
+        </div>
+      </div>
+      <div class="panel-subheader">
+        <h3>Candidatas a decisão (Força alta + Impacto alto)</h3>
+      </div>
+      <div id="evidencias-destaque" class="evidencias-lista"></div>
+    </section>
+
+    <section class="panel" id="section-frentes">
+      <div class="panel-header">
+        <h2>Status das Frentes (backlog A–E)</h2>
+        <p class="panel-subtitle">Progresso por grupo, do diagnóstico interno à medição</p>
+      </div>
+      <div id="frentes-grupos" class="frentes-grupos"></div>
+    </section>
+
+    <section class="panel" id="section-fontes">
+      <div class="panel-header">
+        <h2>Fontes e cobertura</h2>
+        <p class="panel-subtitle">Quanto da base de fontes já foi analisado</p>
+      </div>
+      <div class="fontes-layout">
+        <div class="chart-card">
+          <h3>Cobertura de análise</h3>
+          <canvas id="chart-fontes-status"></canvas>
+        </div>
+        <div class="fontes-ranking">
+          <h3>Ranking por evidências geradas</h3>
+          <ol id="fontes-ranking-list" class="ranking-list"></ol>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img src="assets/logo-pneustore-branco.png" alt="PneuStore" class="logo-footer" />
+    <p>Dashboard somente leitura · dados sincronizados do Notion</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.5.1/chart.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
