@@ -1,0 +1,1422 @@
+{
+  "generatedAt": "2026-09-11T14:04:25.984Z",
+  "generatedAtLabel": "11/09/2026, 11:04 (Brasília)",
+  "causas": [
+    {
+      "id": "3c91c97d-43e7-813d-bf61-c2bab85ddee7",
+      "causa": "Operação",
+      "descricao": "Erro que acontece depois da compra (separação, envio, troca) e acaba contado como 'medida errada'.",
+      "hipotese": "A fricção no pós-compra (sem rastreio, cobrança fora do Zendesk, sem alerta de urgência, CPF na abertura) agrava e prolonga a devolução/troca.",
+      "leitura": "Alta",
+      "status": "Evidência parcial",
+      "nEvidencias": 13
+    },
+    {
+      "id": "3c91c97d-43e7-814f-a5d5-d84af14ab572",
+      "causa": "Classificação interna",
+      "descricao": "Caso classificado como 'compra medida errada' no comitê sem de fato ser — pode estar inflando o número.",
+      "hipotese": null,
+      "leitura": "Alta",
+      "status": "Confirmada",
+      "nEvidencias": 8
+    },
+    {
+      "id": "3c91c97d-43e7-817e-ba33-ed6d318547bb",
+      "causa": "Busca",
+      "descricao": "A busca / Tire Selector leva a uma medida incorreta ou não impede o erro (veículo, placa, medida).",
+      "hipotese": "Busca por veículo (hipótese: paginação; e informar só a versão retorna 3–4 medidas) e filtro fraco na PDP levam à medida divergente. Placa (nova plataforma) e medida ficaram mais assertivas e derrubaram o número; a busca por veículo é o gap que não melhorou.",
+      "leitura": "Alta",
+      "status": "Evidência parcial",
+      "nEvidencias": 16
+    },
+    {
+      "id": "3c91c97d-43e7-817f-af94-ccb1b7baab02",
+      "causa": "Usuário",
+      "descricao": "O próprio cliente escolhe ou informa a medida errada — por desconhecimento, distração ou confiança indevida no que achou.",
+      "hipotese": "Cliente majoritariamente leigo na nomenclatura; muitos decidem no visual/achismo, sem saber ler a medida.",
+      "leitura": "Média",
+      "status": "Evidência parcial",
+      "nEvidencias": 6
+    },
+    {
+      "id": "3c91c97d-43e7-8182-94fa-cb56d5f83bd9",
+      "causa": "Cadastro",
+      "descricao": "Erro no cadastro do produto, do veículo ou da relação de compatibilidade veículo × pneu.",
+      "hipotese": "Anúncio ativo sem estoque leva à compra de produto indisponível → troca/cancelamento.",
+      "leitura": "Baixa",
+      "status": "Investigando",
+      "nEvidencias": 3
+    },
+    {
+      "id": "3c91c97d-43e7-81b3-8fe6-cacfaf8d1bcf",
+      "causa": "Informação",
+      "descricao": "A medida é apresentada de forma confusa, incompleta ou inconsistente ao longo da jornada (nomenclatura que varia entre pontos).",
+      "hipotese": "Nomenclatura complexa (XL, radial, TT/TL, índices) confunde; o time compensa mandando o cliente ver o manual e perguntando se ele sabe ler a medida.",
+      "leitura": "Alta",
+      "status": "Evidência parcial",
+      "nEvidencias": 7
+    },
+    {
+      "id": "3c91c97d-43e7-81c4-b26e-d757b964d087",
+      "causa": "Recomendação",
+      "descricao": "Recomendação de medida incorreta, seja pelo sistema, seja pelo atendimento/venda.",
+      "hipotese": "Regra automática de substituição de estoque oferta uma medida que não corresponde.",
+      "leitura": "Média",
+      "status": "Evidência parcial",
+      "nEvidencias": 4
+    }
+  ],
+  "evidencias": [
+    {
+      "id": "3ca1c97d-43e7-8128-8de3-c69c56321deb",
+      "achado": "Busca por placa via Swing acerta ~99% — caminho que mais acerta a medida",
+      "tipo": "Pista",
+      "citacao": null,
+      "evidencia": "A busca por placa é o caminho que mais acerta a medida — benchmark a espelhar. Atenção: a plataforma da busca por placa foi trocada recentemente e ficou ainda mais precisa (retorna a medida exata); a referência '~99% / Swing' pode estar desatualizada.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": null,
+      "impacto": null,
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3ca1c97d-43e7-8135-afe7-eab65f5f3082",
+      "achado": "Integração HugMe ↔ Zendesk é resiliente (ação em um reflete no outro)",
+      "tipo": "Dado",
+      "citacao": null,
+      "evidencia": "A integração entre Rugby e Zendesk é resiliente: ação em um reflete no outro.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": null,
+      "impacto": null,
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3ca1c97d-43e7-813a-800c-cb965b1f438c",
+      "achado": "Disparo automático de substituição de estoque oferta a medida errada",
+      "tipo": "Dor",
+      "citacao": null,
+      "evidencia": "Regra automática de substituição de estoque empurra um item que não corresponde à medida correta.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": null,
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3ca1c97d-43e7-813a-973e-d0258c0844b1",
+      "achado": "Busca por veículo devolve medida diferente da simulada no atendimento → vira cancelamento",
+      "tipo": "Dor",
+      "citacao": null,
+      "evidencia": "A busca por veículo no site retorna medida diferente da que o atendimento pré-venda simulou, gerando cancelamento. Hipótese do time: paginação de resultados.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": null,
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3ca1c97d-43e7-8145-a6d7-d6fa14bd3119",
+      "achado": "PDP herdada do Hybris é arcaica; filtro de medidas sem busca interna",
+      "tipo": "Dor",
+      "citacao": null,
+      "evidencia": "A PDP é herdada do Hybris e o filtro de medidas não tem busca interna, dificultando achar a medida certa.",
+      "fonteCanal": "Observação",
+      "forca": "Indício",
+      "frequencia": "Alta",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3ca1c97d-43e7-8156-ae5b-c9fcd16dfee4",
+      "achado": "Zendesk pede CPF como primeira pergunta e gera evasão",
+      "tipo": "Dado",
+      "citacao": null,
+      "evidencia": "O Zendesk pede CPF como primeira pergunta na abertura do ticket e gera evasão. Achado mais sólido do lote (curado).",
+      "fonteCanal": "Zendesk / CIEX",
+      "forca": "Dado quantitativo",
+      "frequencia": null,
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3ca1c97d-43e7-8159-90d3-d8db190192d8",
+      "achado": "Busca por medida na barra não é otimizada",
+      "tipo": "Dor",
+      "citacao": null,
+      "evidencia": "A busca por medida na barra de busca não é otimizada.",
+      "fonteCanal": "Comportamento de busca",
+      "forca": "Indício",
+      "frequencia": null,
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3ca1c97d-43e7-8172-bb5c-e3f60306da14",
+      "achado": "Escalonamento sobrecarrega a líder — falta ponto focal por área",
+      "tipo": "Dor",
+      "citacao": null,
+      "evidencia": "O escalonamento sobrecarrega a líder; falta ponto focal por área.",
+      "fonteCanal": "Entrevista",
+      "forca": "Indício",
+      "frequencia": null,
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3ca1c97d-43e7-819d-a711-c7e104f4994c",
+      "achado": "Áreas parceiras usam Teams/formulários próprios em vez do Zendesk",
+      "tipo": "Dor",
+      "citacao": null,
+      "evidencia": "Áreas parceiras (expedição, serviço, garantia) usam Teams/formulários próprios em vez do Zendesk — retrabalho e cobrança repetitiva.",
+      "fonteCanal": "Zendesk / CIEX",
+      "forca": "Relato recorrente",
+      "frequencia": null,
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3ca1c97d-43e7-81c2-80ba-e9ab24e7320d",
+      "achado": "Anúncio segue ativo no site sem estoque → compra de produto indisponível",
+      "tipo": "Dor",
+      "citacao": null,
+      "evidencia": "O anúncio permanece ativo sem estoque; o cliente compra um produto indisponível, gerando troca/cancelamento.",
+      "fonteCanal": "Entrevista",
+      "forca": null,
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Em análise",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3ca1c97d-43e7-81cb-960a-c5fb1a24b60a",
+      "achado": "Sem rastreio de transportadora no sistema — time abre cada site (TAM, E-TEX) manualmente",
+      "tipo": "Dor",
+      "citacao": null,
+      "evidencia": "Não há rastreio de transportadora no sistema; o time abre cada site (TAM, E-TEX) manualmente.",
+      "fonteCanal": "Zendesk / CIEX",
+      "forca": "Relato recorrente",
+      "frequencia": null,
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3ca1c97d-43e7-81e8-a20f-f5016b7e8a53",
+      "achado": "Sem alerta de urgência no Zendesk — tickets do RA ficam parados mesmo com prioridade",
+      "tipo": "Dor",
+      "citacao": null,
+      "evidencia": "Não há alerta de urgência no Zendesk; tickets do Reclame Aqui ficam parados mesmo com prioridade definida.",
+      "fonteCanal": "Zendesk / CIEX",
+      "forca": "Relato recorrente",
+      "frequencia": null,
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3ce1c97d-43e7-810a-ada3-d205d36ddf2f",
+      "achado": "Ausência de botão de cancelamento no site faz o pedido embarcar mesmo quando o cliente percebe o erro logo após comprar",
+      "tipo": "Dor",
+      "citacao": "A gente não tem dentro do nosso site um botão de cancelamento.",
+      "evidencia": "Ao perceber o erro logo após a compra, o cliente precisa acionar o SAC → ticket para a expedição barrar → normalmente não há tempo hábil e o pedido embarca, gerando devolução/coleta. Já levado a Flávio/Avero.",
+      "fonteCanal": "Reclame Aqui",
+      "forca": "Caso concreto",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Arquivado",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3ce1c97d-43e7-812b-b799-c809f7d57287",
+      "achado": "Reclamação de 'medida errada' quase sempre é sobre falha de cancelamento/morosidade da devolução, não sobre a medida",
+      "tipo": "Dor",
+      "citacao": "A reclamação de medida errada, ela sempre vai estar atrelada a um não-cancelamento ou uma dificuldade de devolução.",
+      "evidencia": "O cliente raramente abre reclamação só pela medida; abre porque não conseguiu cancelar a tempo ou porque a devolução é morosa. A reclamação está sempre atrelada ao atendimento, não ao erro de medida em si.",
+      "fonteCanal": "Reclame Aqui",
+      "forca": "Relato recorrente",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a",
+        "b"
+      ],
+      "fonteIds": [
+        "a",
+        "b"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3ce1c97d-43e7-813a-9839-c094e70de7f1",
+      "achado": "Busca por placa/veículo pode sugerir medida incorreta quando o carro teve troca de aro/roda",
+      "tipo": "Dor",
+      "citacao": "Ele busca pela placa ou pelo modelo do carro, só que não sabe que esse carro foi alterado.",
+      "evidencia": "Carros com modificação (troca de aro) recebem sugestão da medida original. Caso concreto relatado pela Fernanda: cliente com rodas não originais comprou pela referência do veículo e o pneu não coube.",
+      "fonteCanal": "Reclame Aqui",
+      "forca": "Caso concreto",
+      "frequencia": "Média",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a",
+        "b",
+        "c"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3ce1c97d-43e7-8163-ac08-cdf2d9d0409d",
+      "achado": "Percepção do time: o número de compra medida errada já diminuiu, possível efeito de melhorias incrementais na busca",
+      "tipo": "Dado",
+      "citacao": null,
+      "evidencia": "Confirmado com dado do Zendesk (base da Camila, jun–ago): Medida Incorreta caiu 24% YoY — 1.714 (2025) → 1.303 (2026). Agosto isolado caiu 33% (603→405). Ressalva: queda em número absoluto; sem o volume total de tickets do período ainda não dá pra afirmar melhora de TAXA.",
+      "fonteCanal": "Reclame Aqui",
+      "forca": "Dado quantitativo",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Em análise",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a",
+        "b"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3ce1c97d-43e7-8187-a065-ebe7eab5c3f8",
+      "achado": "O número citado como 'medida errada' inclui Modelo Incorreto — a medida real é ~80% do bucket (1.303, não 1.521)",
+      "tipo": "Dado",
+      "citacao": null,
+      "evidencia": "A base 'Erro Cliente' do Zendesk contém 2 sub-motivos: Medida Incorreta e Modelo Incorreto. Em 2026 (jun–ago): Medida Incorreta = 1.303 e Modelo Incorreto = 218 (total 1.521). Quem cita '1.521' como 'compra medida errada' superestima.",
+      "fonteCanal": "Zendesk / CIEX",
+      "forca": "Dado quantitativo",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3ce1c97d-43e7-818d-bb04-c1b2a1000c45",
+      "achado": "Falta conteúdo educativo consolidado de 'compra assertiva' — hoje espalhado (home, YouTube)",
+      "tipo": "Pista",
+      "citacao": "Você sabe identificar a medida do seu pneu?… o compra assertiva.",
+      "evidencia": "Ideia surgida na conversa: guia/notificação ensinando a identificar a medida. Conteúdo atual disperso e sem cobrir a jornada de ponta a ponta. Visto como diferencial competitivo.",
+      "fonteCanal": "Reclame Aqui",
+      "forca": "Indício",
+      "frequencia": "Média",
+      "impacto": "Médio",
+      "status": "Arquivado",
+      "causaRaizIds": [
+        "a",
+        "b"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3ce1c97d-43e7-81af-9728-f399c5fbbfaf",
+      "achado": "Cliente decide por preço e índice do Inmetro, não pela especificação técnica da medida",
+      "tipo": "Pista",
+      "citacao": "Sempre vão pelo preço e pelo índice do Inmetro.",
+      "evidencia": "Relato do time: público amplo, muitos sem domínio técnico; a decisão costuma priorizar preço e Inmetro em vez da medida, elevando o risco de erro.",
+      "fonteCanal": "Reclame Aqui",
+      "forca": "Relato recorrente",
+      "frequencia": "Média",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3ce1c97d-43e7-81c7-9d8e-c1f97c99975e",
+      "achado": "100% dos tickets de Erro Cliente (medida/modelo) têm Assunto = Cancelamento — confirmação no dado",
+      "tipo": "Dado",
+      "citacao": null,
+      "evidencia": "Nas 3.704 linhas da base (2025+2026), o campo Assunto é CANCELAMENTO em 100% dos casos. Confirma no dado que medida errada não entra como reclamação sobre a medida, e sim como solicitação de cancelamento/devolução.",
+      "fonteCanal": "Zendesk / CIEX",
+      "forca": "Dado quantitativo",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3ce1c97d-43e7-81d2-8eaa-cf930a88130f",
+      "achado": "Disparo automático de substituição de estoque oferta medidas similares e confunde o cliente",
+      "tipo": "Dor",
+      "citacao": "Ele busca uma medida e a gente vai indicando pra ele outras.",
+      "evidencia": "Na falta do item buscado, o site sugere automaticamente medidas similares; nem todo cliente percebe a diferença. Confirma o achado da Roda de Experiência (ex.: cliente comprou 175/65 R15 e o sistema ofertou 215).",
+      "fonteCanal": "Reclame Aqui",
+      "forca": "Relato recorrente",
+      "frequencia": "Média",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a",
+        "b"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3ce1c97d-43e7-81d7-b011-c710e49b0c86",
+      "achado": "Ordenação da busca (medida correta primeiro, similares logo abaixo) contribui para a confusão do cliente",
+      "tipo": "Pista",
+      "citacao": "O primeiro pneu normalmente é a medida que o cliente pediu e depois pra baixo… vai colocando números parecidos.",
+      "evidencia": "A lista mostra a medida correta e, na sequência, medidas parecidas; o cliente às vezes escolhe pelo preço uma opção próxima e erra.",
+      "fonteCanal": "Reclame Aqui",
+      "forca": "Relato recorrente",
+      "frequencia": "Média",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a",
+        "b"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3ce1c97d-43e7-81d8-97d5-e2a16e43b8d9",
+      "achado": "O número de 'medida errada' é autodeclarado pelo cliente e não é verificado pelo atendimento",
+      "tipo": "Pista",
+      "citacao": "A gente não faz essa investigação se realmente comprou… a gente só atende a solicitação.",
+      "evidencia": "O motivo 'medida errada' vem do relato do cliente na plataforma do RA; o time atende a solicitação sem confirmar se de fato houve erro de medida. Ninguém valida a classificação.",
+      "fonteCanal": "Reclame Aqui",
+      "forca": "Relato recorrente",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a",
+        "b"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3ce1c97d-43e7-81fe-b09a-eade1a4041b9",
+      "achado": "Casos raros de pneu montado com perfil errado na oficina, detectados só no alinhamento ou após falha na estrada",
+      "tipo": "Dor",
+      "citacao": "O pneu só soltou assim no meio da estrada e ele mandou a foto.",
+      "evidencia": "Poucos casos: a oficina monta mesmo com perfil incorreto para dispensar o cliente; o erro aparece no alinhamento/balanceamento ou depois na estrada. Raro, mas de alto impacto (segurança).",
+      "fonteCanal": "Reclame Aqui",
+      "forca": "Caso concreto",
+      "frequencia": "Baixa",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3cf1c97d-43e7-8103-9076-c69c89ec5418",
+      "achado": "Busca por placa ficou mais precisa após troca de plataforma — retorna a medida exata",
+      "tipo": "Pista",
+      "citacao": null,
+      "evidencia": "A busca por placa passou por atualização recente de plataforma e ficou mais precisa: informando a placa, retorna a medida exata do veículo.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": null,
+      "impacto": null,
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3cf1c97d-43e7-813c-8cb9-d14bf0003189",
+      "achado": "Busca por veículo: informando só a versão, retorna 3–4 medidas → confusão",
+      "tipo": "Dor",
+      "citacao": "Se tu coloca a versão, não faz diferença nenhuma, porque ele vai dar 3 medidas, 4 medidas.",
+      "evidencia": "A busca por veículo exige marca, modelo, ano e versão. Informada só a versão, retorna 3–4 medidas diferentes, gerando confusão na escolha.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": null,
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3cf1c97d-43e7-814d-b32b-fd40a137c6f6",
+      "achado": "Nomenclatura de pneu é complexa (XL, radial, TT/TL, índices; agrícola pior)",
+      "tipo": "Dor",
+      "citacao": null,
+      "evidencia": "A nomenclatura tem muitas variáveis: medida, XL, radial/diagonal, TT/TL, índice de carga e de velocidade. Pneu agrícola e de carga são ainda mais complexos que o de passeio.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": null,
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3cf1c97d-43e7-817a-9acc-f5bcc70e0b57",
+      "achado": "Cliente é majoritariamente leigo na nomenclatura do pneu",
+      "tipo": "Dor",
+      "citacao": "As pessoas normalmente são mais leigas, não sabem nada sobre... os clientes têm dificuldade com isso.",
+      "evidencia": "A maioria dos clientes não entende a nomenclatura do pneu; muitos decidem no visual/achismo. O time pergunta se o cliente sabe ler a medida ou tem foto do pneu atual.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": null,
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3cf1c97d-43e7-817b-8644-c39202542592",
+      "achado": "Regra dos 3% de tolerância de diâmetro define compatibilidade entre medidas próximas",
+      "tipo": "Dado",
+      "citacao": null,
+      "evidencia": "O time usa a regra de até ~3% de tolerância no diâmetro do pneu para verificar se ele encaixa na caixa de roda — medidas diferentes mas próximas podem ser compatíveis.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": null,
+      "impacto": null,
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3cf1c97d-43e7-8185-ad8a-dc55a8bdc7a5",
+      "achado": "Tendência: casos de compra medida errada em queda",
+      "tipo": "Dado",
+      "citacao": "A gente diminuiu, na verdade.",
+      "evidencia": "Percepção do analista: o problema está em queda, não em crescimento. Fatores: placa mais precisa, medida mais assertiva e o time conhecendo melhor as nuâncias do sistema.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": null,
+      "impacto": null,
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3cf1c97d-43e7-81d0-ae8a-f509e9a7008e",
+      "achado": "Prática do time: orientar o cliente a ver a medida no manual do veículo",
+      "tipo": "Pista",
+      "citacao": null,
+      "evidencia": "Diante de dúvida de medida, o time orienta o cliente a conferir a medida recomendada pela fabricante no manual — geralmente na tampa de combustível ou na coluna da porta do carona.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": null,
+      "impacto": null,
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3cf1c97d-43e7-81ea-a850-d3ac318d722e",
+      "achado": "Dúvidas frequentes no GoBots: compatibilidade, garantia e se o pneu é novo",
+      "tipo": "Dado",
+      "citacao": null,
+      "evidencia": "No GoBots (perguntas/respostas em marketplaces e FAQ da PDP), as dúvidas recorrentes são: compatibilidade pneu×veículo, funcionamento da garantia e se os pneus vendidos são novos.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": null,
+      "impacto": null,
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3cf1c97d-43e7-81eb-840f-c9b990a0edd8",
+      "achado": "Busca por medida é mais filtrada e assertiva",
+      "tipo": "Pista",
+      "citacao": null,
+      "evidencia": "A busca por medida é mais filtrada: informando a medida, retorna o resultado específico — mais assertiva que a barra de busca geral.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": null,
+      "impacto": null,
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3cf1c97d-43e7-81ec-834f-e98e6506583d",
+      "achado": "Busca por veículo é o ponto que não melhorou (gap principal restante)",
+      "tipo": "Pista",
+      "citacao": "Busca por veículo... pra mim ainda é algo que, do meu ponto de vista, foi algo que não mudou.",
+      "evidencia": "Enquanto placa e medida melhoraram, a busca por veículo é apontada como o ponto que não evoluiu — o gap que resta atacar.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": null,
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3d11c97d-43e7-8165-8227-dc300953baed",
+      "achado": "O cliente pergunta pelo veículo/ano/modelo, quase nunca pela medida técnica (205/55 R16)",
+      "tipo": "Dado",
+      "citacao": "Este pneu serve pra JEEP RENEGADE 4x4, ano 2022?",
+      "evidencia": "O padrão das perguntas é por referência do veículo (modelo, ano, moto) e não pela medida técnica. Reforça veículo/placa como trilho principal da busca.",
+      "fonteCanal": "Área interna",
+      "forca": "Dado quantitativo",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a",
+        "b"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3d11c97d-43e7-81ce-a77d-c386ce3b9812",
+      "achado": "1/4 a 1/3 das perguntas de pré-venda é 'serve no meu carro?' — demanda enorme por confirmação de medida antes de comprar",
+      "tipo": "Dado",
+      "citacao": "Bom dia, serve pra colocar num HB20",
+      "evidencia": "Nas perguntas de pré-venda, medida/compatibilidade responde por ~25% no Mercado Livre e ~39% no site da PneuStore. O cliente sinaliza insegurança sobre a medida no momento pré-compra em grande volume.",
+      "fonteCanal": "Área interna",
+      "forca": "Dado quantitativo",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a",
+        "b"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3d11c97d-43e7-81f9-8758-cb95ec6f1afa",
+      "achado": "No momento da dúvida de medida, o canal de pré-venda devolve a confirmação ao cliente (maioria via bot)",
+      "tipo": "Dado",
+      "citacao": "Verifique no manual ou nos pneus que já estão instalados se as medidas correspondem…",
+      "evidencia": "A maioria das perguntas de compatibilidade é respondida por bot (85% no ML, ~75% no site) com um texto padrão que empurra a decisão de volta ao cliente. No ponto exato onde o erro nasce, o canal não confirma a medida.",
+      "fonteCanal": "Área interna",
+      "forca": "Dado quantitativo",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a",
+        "b"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3d51c97d-43e7-8152-89d5-f5ca37a04f49",
+      "achado": "Valor de medida errada: mediana R$1.170/ticket; o 'R$702M' (painel e CSV) são 6 linhas corrompidas — exposição real ~R$6–37M",
+      "tipo": "Dado",
+      "citacao": "2 milhões de custos... nos últimos sete dias",
+      "evidencia": "O 'R$ em jogo' de Medida Incorreta no painel é a soma do campo Valor do export — mas só 42% dos tickets têm valor e 6 linhas acima de R$1M somam R$665,6M (95% do total), claramente corrompidas. Limpo: R$36,7M (excl. >R$1M) ou ~R$8M (excl. >R$50k); mediana R$1.170/ticket.",
+      "fonteCanal": "Zendesk / CIEX",
+      "forca": "Dado quantitativo",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a",
+        "b"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3d51c97d-43e7-8161-8f3c-d2fc8e176344",
+      "achado": "Medida errada tende a NÃO ser barrada a tempo — Coletado 31,6% > Barrado 18,1% (entre os com info, 64% já geraram custo)",
+      "tipo": "Dado",
+      "citacao": null,
+      "evidencia": "No export de 13.203 tickets de Medida Incorreta: Coletado = 4.172 (31,6%), Barrado = 2.387 (18,1%), Sem info = 6.644 (50,3%). Entre os com informação, 64% Coletado × 36% Barrado — o inverso do painel geral (61% barrado).",
+      "fonteCanal": "Zendesk / CIEX",
+      "forca": "Dado quantitativo",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3d51c97d-43e7-8170-8af0-ed5944bf9522",
+      "achado": "'Medida incorreta' é sub-motivo de cancelamento, não assunto próprio — os 100% CANCELAMENTO são artefato estrutural",
+      "tipo": "Dado",
+      "citacao": "Eu não tenho como já abrir um chamado de medida incorreta",
+      "evidencia": "No Zendesk, 'medida incorreta' não existe como Assunto; é um motivo dentro de 'erro durante a compra', que está sob cancelamento. 100% dos tickets de medida errada aparecerem como Assunto=CANCELAMENTO é consequência da arquitetura, não do comportamento do cliente.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3d51c97d-43e7-8170-8b23-e9e17820e06a",
+      "achado": "Medida × Modelo sem regra de classificação — atendentes/clientes confundem, tornando frágil o split de ~80% medida",
+      "tipo": "Pista",
+      "citacao": "Não tem regra, é confusão mesmo, bota o que der",
+      "evidencia": "Os campos 'medida incorreta' e 'modelo incorreto' existem no bot, mas não há critério; a equipe admite que se misturam. O recorte de que 'medida = ~80% do balde Erro Cliente' é instável no nível do ticket.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": "Média",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3d51c97d-43e7-8173-a1a9-d3ed9eec068c",
+      "achado": "Fluxo de expedição no Zendesk não funciona — devoluções que poderiam ser barradas não são, gerando custo logístico",
+      "tipo": "Dor",
+      "citacao": "Sobre expedição no Zendesk? Não funciona",
+      "evidencia": "Após a limpeza de acessos (600→350), a expedição foi a mais afetada: agentes só fazem comentário interno, não transferem ticket entre áreas, e não atendem fim de semana. Jéssica classifica como alerta vermelho, já escalado várias vezes.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3d51c97d-43e7-818b-ae92-fe3bca53f4fa",
+      "achado": "Site oferta pneu incompatível pro modelo do veículo e induz o cliente ao erro (confirmação da dona do Zendesk)",
+      "tipo": "Dor",
+      "citacao": "O site também me induz ao erro",
+      "evidencia": "Jéssica confirma que, ao pesquisar pelo modelo do veículo, o site apresenta opções que não são todas compatíveis, induzindo à compra errada. Reforça o achado do disparo automático de substituição de estoque.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": "Média",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a",
+        "b"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3d51c97d-43e7-819a-ae40-cff64adb6dfa",
+      "achado": "O rótulo 'medida incorreta' é autodeclarado pelo cliente no bot e não é verificado pelo atendimento",
+      "tipo": "Dado",
+      "citacao": "Se o cliente falou, tá falado; a gente não fica segmentando isso",
+      "evidencia": "No fluxo de cancelamento do bot, o motivo é escolhido pelo próprio cliente. O atendente pode corrigir se estiver incoerente, mas normalmente não corrige. Não há conferência contra o SKU/pedido.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3d51c97d-43e7-81a8-be60-d3341383fed9",
+      "achado": "O Zendesk não segmenta 'cliente escolheu errado' × 'site induziu ao erro' — impede decompor medida errada por causa",
+      "tipo": "Dado",
+      "citacao": "Medida errada vai pra um buraco só; tá tudo no mesmo saco",
+      "evidencia": "Não existe tag/motivo no Zendesk que diferencie erro do usuário de erro induzido pelo site/busca. A decomposição do número por causa que o projeto busca NÃO existe no dado hoje.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a",
+        "b"
+      ],
+      "fonteIds": [
+        "a"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3d51c97d-43e7-81fc-98cf-eda314e93f74",
+      "achado": "Recontato conta como ticket novo, sem dedup automático — o 1.303 pode contar pedidos repetidos",
+      "tipo": "Dado",
+      "citacao": "Cada vez que ele chega num bot é um ticket novo",
+      "evidencia": "O mesmo cliente/pedido que retorna gera um novo ticket. Não há função no Zendesk pra fundir tickets do mesmo cliente/pedido automaticamente. Refino: o campo Pedido está preenchido em só 16%, o que impede deduplicar em escala.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Média",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "a"
+      ],
+      "fonteIds": [
+        "a",
+        "b"
+      ],
+      "frenteIds": [
+        "a"
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "id": "3ca1c97d-43e7-8152-a802-c72943cc1c0f",
+      "fonte": "Entrevista em grupo — Canais Críticos / Reclame Aqui (REP-18)",
+      "tipo": "Pesquisa anterior",
+      "statusAnalise": "Em análise",
+      "extraido": "Fricção no pós-compra que agrava devolução/troca; vocabulário de sistemas (Zendesk, Rugby, Swing, SAP, Reclame Aqui).",
+      "link": null,
+      "evidenciasGeradasIds": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ]
+    },
+    {
+      "id": "3ca1c97d-43e7-81e0-9351-ff21cef5bb63",
+      "fonte": "Kick-off pré/pós-venda — e-commerce PneuStore",
+      "tipo": "Pesquisa anterior",
+      "statusAnalise": "Em análise",
+      "extraido": "Papéis de pré e pós-venda; origem da medida errada na busca e no estoque. Analistas de pós-venda (Jenifer, Ester) ainda não ouvidas individualmente.",
+      "link": null,
+      "evidenciasGeradasIds": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ]
+    },
+    {
+      "id": "3ce1c97d-43e7-814b-a214-ea328a3ca9bd",
+      "fonte": "Pesquisa anterior (Djeison + Rodrigo) — entrevistas com usuários",
+      "tipo": "Pesquisa anterior",
+      "statusAnalise": "A analisar",
+      "extraido": "Primeira tentativa do projeto (Djeison + Rodrigo) de entrevistar usuários sobre erro de medida; baixa adesão, não engatou. Nenhum material/resultado foi repassado ao time de RA. Recuperar o que existe e entender por que não engatou antes de abrir nova pesquisa com usuário.",
+      "link": null,
+      "evidenciasGeradasIds": []
+    },
+    {
+      "id": "3ce1c97d-43e7-816a-a3b3-e0a374f9ff4e",
+      "fonte": "Base Zendesk — medida errada (01/06–31/08, todos os canais)",
+      "tipo": "Zendesk",
+      "statusAnalise": "Em análise",
+      "extraido": "1ª entrega da Camila (01/09): deck 'Motivo - Erro Cliente.pptx' + base 'Base_Motivo_Erro_Cliente.xlsx' (tickets Zendesk, jun–ago, 2025 vs 2026). Medida Incorreta: 1.714 (2025) → 1.303 (2026), queda de 24%. 100% dos tickets são Assunto=CANCELAMENTO. Agosto YoY -33%. Reclame Aqui na contramão: 79→89 (+13%).",
+      "link": null,
+      "evidenciasGeradasIds": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "id": "3ce1c97d-43e7-8172-9715-cc2fd5b4f152",
+      "fonte": "Discovery RA — Compra Medida Errada (reunião 01/09)",
+      "tipo": "Reclame Aqui",
+      "statusAnalise": "Em análise",
+      "extraido": "Segunda conversa com o time de Canais Críticos/RA (Camila, Gabriela, Fernanda, Ingrid), com foco em medida errada. O número de 'medida errada' é autodeclarado pelo cliente e não é verificado; a reclamação quase sempre é sobre falha de cancelamento/morosidade da devolução, não sobre a medida.",
+      "link": "https://app.notion.com/p/3ce1c97d43e780bb95c6fb115790b1a9",
+      "evidenciasGeradasIds": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "j"
+      ]
+    },
+    {
+      "id": "3ce1c97d-43e7-818a-a957-f9f49d964843",
+      "fonte": "Prints de reclamações reais (RA) — medida errada",
+      "tipo": "Reclame Aqui",
+      "statusAnalise": "A analisar",
+      "extraido": "Fernanda, Ingrid e Gabriela enviarão 2–3 prints cada de reclamações reais de medida errada no chat da reunião de 01/09.",
+      "link": null,
+      "evidenciasGeradasIds": []
+    },
+    {
+      "id": "3ce1c97d-43e7-81c7-b58f-df16df2b5578",
+      "fonte": "Comitê NAI — Compra Medida Errada (por BU)",
+      "tipo": "Área interna",
+      "statusAnalise": "A analisar",
+      "extraido": "Comitê conduzido pela NAI puxa semanal/mensalmente as devoluções por BU. É a fonte oficial da classificação do número.",
+      "link": null,
+      "evidenciasGeradasIds": []
+    },
+    {
+      "id": "3cf1c97d-43e7-815b-8c9e-f7aa3aa10a0b",
+      "fonte": "Relatório GoBots — perguntas/respostas (1º jun–30 ago)",
+      "tipo": "Dashboard / BI",
+      "statusAnalise": "A analisar",
+      "extraido": "Pendente: Paulo vai extrair. Dúvidas frequentes: compatibilidade, garantia, se o pneu é novo.",
+      "link": null,
+      "evidenciasGeradasIds": []
+    },
+    {
+      "id": "3cf1c97d-43e7-81a5-ade3-f8bec95d5adf",
+      "fonte": "Entrevista com Paulo Victor — Analista Pré-vendas (PneuStore)",
+      "tipo": "Documento",
+      "statusAnalise": "Em análise",
+      "extraido": "2ª conversa do tema. Número em queda, puxado por placa (nova plataforma) e medida mais assertivas; busca por veículo é o gap que não melhorou.",
+      "link": "https://app.notion.com/p/3cf1c97d43e7802fb1abeeeace1b6c9b",
+      "evidenciasGeradasIds": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "j"
+      ]
+    },
+    {
+      "id": "3d11c97d-43e7-810d-9ccd-cedd01a99fed",
+      "fonte": "Pré-venda — Perguntas Mercado Livre + Site (Paulo Victor)",
+      "tipo": "Área interna",
+      "statusAnalise": "Em análise",
+      "extraido": "Perguntas sobre medida/compatibilidade são ~25% no ML e ~39% no site. A maioria é respondida por BOT com texto padrão que devolve a decisão ao cliente.",
+      "link": null,
+      "evidenciasGeradasIds": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "id": "3d51c97d-43e7-8156-b9ea-fbe9ca32eb89",
+      "fonte": "Entrevista Zendesk — Jéssica Lima (classificação de cancelamento/devolução, 08/09)",
+      "tipo": "Área interna",
+      "statusAnalise": "Em análise",
+      "extraido": "Entrevista 08/09 com Jéssica Lima (dona do Zendesk). 'Medida incorreta' é sub-motivo de cancelamento, autodeclarado pelo cliente e não verificado. Zendesk não segmenta erro do usuário x induzido pelo site.",
+      "link": "https://app.notion.com/p/3d51c97d43e780478cd0dd0cc058247f",
+      "evidenciasGeradasIds": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h"
+      ]
+    },
+    {
+      "id": "3d51c97d-43e7-81b3-b9f1-c5a360b3b735",
+      "fonte": "Export Zendesk — Medida Incorreta (CSV, 13.203 tickets, 02/01/25–07/09/26)",
+      "tipo": "Zendesk",
+      "statusAnalise": "Em análise",
+      "extraido": "13.203 tickets. Coletado 31,6% > Barrado 18,1%. Valor bruto R$702M é majoritariamente linhas corrompidas; exposição real ~R$6-37M, mediana R$1.170/ticket.",
+      "link": null,
+      "evidenciasGeradasIds": [
+        "a",
+        "b",
+        "c"
+      ]
+    }
+  ],
+  "frentes": [
+    {
+      "id": "3c91c97d-43e7-8100-896d-d07581f96142",
+      "frente": "9. Operação",
+      "grupo": "A — Entender interno",
+      "tipo": "Diagnóstico",
+      "status": "A fazer",
+      "prioridade": "Média",
+      "proximoPasso": "Identificar erros que acontecem depois da compra e separá-los de 'medida errada'.",
+      "causasIds": [],
+      "evidenciasIds": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "id": "3c91c97d-43e7-8119-896c-e22e7921e76c",
+      "frente": "8. Conteúdo",
+      "grupo": "D — Solução UX",
+      "tipo": "Solução",
+      "status": "A fazer",
+      "prioridade": "Baixa",
+      "proximoPasso": "Melhorar a explicação da medida (205/55 R16) e 'como comprar o pneu correto', possivelmente com Marketing.",
+      "causasIds": [],
+      "evidenciasIds": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ]
+    },
+    {
+      "id": "3c91c97d-43e7-8129-bc28-db217f951da1",
+      "frente": "0. Macro diagnóstico (entrega da semana)",
+      "grupo": "A — Entender interno",
+      "tipo": "Plano",
+      "status": "Em andamento",
+      "prioridade": "Alta",
+      "proximoPasso": "Montar o macro pedido pela Grace: objetivo → o que já sabemos → o que precisamos descobrir → áreas envolvidas → dados/fontes → pesquisa → frentes de solução.",
+      "causasIds": [],
+      "evidenciasIds": []
+    },
+    {
+      "id": "3c91c97d-43e7-8136-8083-cfbe011f582a",
+      "frente": "7. Garagem",
+      "grupo": "D — Solução UX",
+      "tipo": "Solução",
+      "status": "A fazer",
+      "prioridade": "Baixa",
+      "proximoPasso": "Explorar compatibilidade veículo × pneu (veículo cadastrado, compatíveis, medida recomendada).",
+      "causasIds": [],
+      "evidenciasIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3c91c97d-43e7-813c-8a33-cb3949e0fd75",
+      "frente": "2. Dados históricos",
+      "grupo": "B — Reaproveitar",
+      "tipo": "Dados",
+      "status": "A fazer",
+      "prioridade": "Alta",
+      "proximoPasso": "Consolidar pesquisa anterior + Reclame Aqui + dados de troca/devolução já existentes.",
+      "causasIds": [],
+      "evidenciasIds": []
+    },
+    {
+      "id": "3c91c97d-43e7-813f-9403-f7acddadc129",
+      "frente": "4. Pesquisa com usuário",
+      "grupo": "C — Pesquisa usuário",
+      "tipo": "Pesquisa",
+      "status": "A fazer",
+      "prioridade": "Média",
+      "proximoPasso": "Investigar como o usuário descobre, identifica e escolhe a medida — a partir da base anterior.",
+      "causasIds": [],
+      "evidenciasIds": []
+    },
+    {
+      "id": "3c91c97d-43e7-8150-bf4f-f9015195b6a0",
+      "frente": "10. Métricas",
+      "grupo": "E — Medir",
+      "tipo": "Métrica",
+      "status": "A fazer",
+      "prioridade": "Alta",
+      "proximoPasso": "Criar visão do problema por causa/origem — decompor o número.",
+      "causasIds": [],
+      "evidenciasIds": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "id": "3c91c97d-43e7-8167-94dd-e12a3462d482",
+      "frente": "3. Taxonomia",
+      "grupo": "A — Entender interno",
+      "tipo": "Diagnóstico",
+      "status": "A fazer",
+      "prioridade": "Alta",
+      "proximoPasso": "Entender o que realmente entra em 'medida errada' e como o comitê classifica os motivos.",
+      "causasIds": [],
+      "evidenciasIds": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "id": "3c91c97d-43e7-8174-acc1-c3e9af4cec16",
+      "frente": "11. Plano de ação",
+      "grupo": "E — Medir",
+      "tipo": "Plano",
+      "status": "A fazer",
+      "prioridade": "Média",
+      "proximoPasso": "Transformar descobertas em iniciativas priorizadas.",
+      "causasIds": [],
+      "evidenciasIds": []
+    },
+    {
+      "id": "3c91c97d-43e7-818d-89af-f022000a540e",
+      "frente": "1. Diagnóstico interno",
+      "grupo": "A — Entender interno",
+      "tipo": "Diagnóstico",
+      "status": "A fazer",
+      "prioridade": "Alta",
+      "proximoPasso": "Mapear processo, sistemas, áreas e como a classificação é feita (CIEX + trocas/devoluções; operação em Itajaí).",
+      "causasIds": [],
+      "evidenciasIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "3c91c97d-43e7-818d-928b-e1c8c0aff776",
+      "frente": "6. PDP",
+      "grupo": "D — Solução UX",
+      "tipo": "Solução",
+      "status": "A fazer",
+      "prioridade": "Média",
+      "proximoPasso": "Criar mecanismos de confirmação/segurança ('essa é a medida do seu veículo?').",
+      "causasIds": [],
+      "evidenciasIds": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    {
+      "id": "3c91c97d-43e7-81bd-be17-cea81e45f2bb",
+      "frente": "5. Busca / Tire Selector",
+      "grupo": "D — Solução UX",
+      "tipo": "Solução",
+      "status": "A fazer",
+      "prioridade": "Média",
+      "proximoPasso": "Avaliar busca guiada, veículo, placa e medida; evitar que o usuário precise saber a medida.",
+      "causasIds": [],
+      "evidenciasIds": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "j",
+        "k",
+        "l"
+      ]
+    },
+    {
+      "id": "3ca1c97d-43e7-81ba-80a8-e331e52028b6",
+      "frente": "12. Fluxo de devolução/troca (pós-compra)",
+      "grupo": "D — Solução UX",
+      "tipo": "Solução",
+      "status": "A fazer",
+      "prioridade": "Média",
+      "proximoPasso": "Mapear e reduzir a fricção do pós-compra que prolonga a devolução/troca (sem rastreio de transportadora, cobrança de áreas fora do Zendesk, sem alerta de urgência, CPF na abertura do ticket).",
+      "causasIds": [],
+      "evidenciasIds": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "j"
+      ]
+    }
+  ]
+}

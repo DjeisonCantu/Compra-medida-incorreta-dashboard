@@ -1,12 +1,15 @@
-name: Build & Deploy Dashboard
+name: Deploy Dashboard
+
+# Este workflow só publica o conteúdo de public/ no GitHub Pages.
+# A atualização dos dados (public/data.json) é feita por uma rotina agendada
+# do Claude (usando o conector do Notion) que faz commit + push direto para main.
+# Se um dia você tiver um NOTION_TOKEN (integração do Notion com permissão de
+# criar conexões), dá pra voltar a gerar os dados aqui mesmo — ver README.md.
 
 on:
-  schedule:
-    # 09:00 UTC ≈ 06:00 em Brasília. Ajuste este cron para mudar a frequência.
-    - cron: "0 9 * * *"
-  workflow_dispatch: {}
   push:
     branches: [main]
+  workflow_dispatch: {}
 
 permissions:
   contents: read
@@ -18,38 +21,20 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-          cache: "npm"
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build dashboard data
-        env:
-          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-        run: npm run build
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

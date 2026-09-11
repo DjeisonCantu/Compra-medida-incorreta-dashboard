@@ -1,4 +1,4 @@
 node_modules/
-public/data.json
+build/.mcp-export/
 .DS_Store
 *.log
