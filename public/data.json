@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-11T14:04:25.984Z",
-  "generatedAtLabel": "11/09/2026, 11:04 (Brasília)",
+  "generatedAt": "2026-09-11T14:38:04.944Z",
+  "generatedAtLabel": "11/09/2026, 11:38 (Brasília)",
   "causas": [
     {
       "id": "3c91c97d-43e7-813d-bf61-c2bab85ddee7",
@@ -1096,7 +1096,7 @@
       "id": "3ce1c97d-43e7-816a-a3b3-e0a374f9ff4e",
       "fonte": "Base Zendesk — medida errada (01/06–31/08, todos os canais)",
       "tipo": "Zendesk",
-      "statusAnalise": "Em análise",
+      "statusAnalise": "Analisado",
       "extraido": "1ª entrega da Camila (01/09): deck 'Motivo - Erro Cliente.pptx' + base 'Base_Motivo_Erro_Cliente.xlsx' (tickets Zendesk, jun–ago, 2025 vs 2026). Medida Incorreta: 1.714 (2025) → 1.303 (2026), queda de 24%. 100% dos tickets são Assunto=CANCELAMENTO. Agosto YoY -33%. Reclame Aqui na contramão: 79→89 (+13%).",
       "link": null,
       "evidenciasGeradasIds": [
@@ -1149,8 +1149,8 @@
       "id": "3cf1c97d-43e7-815b-8c9e-f7aa3aa10a0b",
       "fonte": "Relatório GoBots — perguntas/respostas (1º jun–30 ago)",
       "tipo": "Dashboard / BI",
-      "statusAnalise": "A analisar",
-      "extraido": "Pendente: Paulo vai extrair. Dúvidas frequentes: compatibilidade, garantia, se o pneu é novo.",
+      "statusAnalise": "Analisado",
+      "extraido": "Consolidado na fonte 'Pré-venda — Perguntas Mercado Livre + Site (Paulo Victor)': o material do GoBots já foi analisado e as evidências (compatibilidade/medida ~25% ML e ~39% site; maioria respondida por bot) já estão registradas lá.",
       "link": null,
       "evidenciasGeradasIds": []
     },
