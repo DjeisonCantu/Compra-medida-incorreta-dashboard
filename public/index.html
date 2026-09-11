@@ -7,6 +7,25 @@
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div id="auth-gate" class="auth-gate">
+    <form id="auth-form" class="auth-card" autocomplete="off">
+      <img src="assets/logo-pneustore-roxo.png" alt="PneuStore" class="logo auth-logo" />
+      <h1>Acesso restrito</h1>
+      <p class="auth-subtitle">Entre com o login e senha do projeto para ver o dashboard.</p>
+      <label class="auth-field">
+        <span>Usuário</span>
+        <input type="text" id="auth-user" name="username" autocomplete="username" required />
+      </label>
+      <label class="auth-field">
+        <span>Senha</span>
+        <input type="password" id="auth-pass" name="password" autocomplete="current-password" required />
+      </label>
+      <p id="auth-error" class="auth-error" hidden>Usuário ou senha incorretos.</p>
+      <button type="submit" class="auth-submit">Entrar</button>
+    </form>
+  </div>
+
+  <div id="app-content" class="app-hidden">
   <header class="topbar">
     <div class="topbar-inner">
       <img src="assets/logo-pneustore-roxo.png" alt="PneuStore" class="logo" />
@@ -87,8 +106,10 @@
     <img src="assets/logo-pneustore-branco.png" alt="PneuStore" class="logo-footer" />
     <p>Dashboard somente leitura · dados sincronizados do Notion</p>
   </footer>
+  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.5.1/chart.umd.min.js"></script>
   <script src="app.js"></script>
+  <script src="auth.js"></script>
 </body>
 </html>

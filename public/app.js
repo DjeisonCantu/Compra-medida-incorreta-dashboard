@@ -284,4 +284,4 @@ async function main() {
   }
 }
 
-main();
+window.startDashboard = main;
