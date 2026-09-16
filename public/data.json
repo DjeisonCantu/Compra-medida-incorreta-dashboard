@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-16T09:08:04.308Z",
-  "generatedAtLabel": "16/09/2026, 06:08 (Brasília)",
+  "generatedAt": "2026-09-16T15:19:51.267Z",
+  "generatedAtLabel": "16/09/2026, 12:19 (Brasília)",
   "causas": [
     {
       "id": "3c91c97d-43e7-813d-bf61-c2bab85ddee7",
@@ -9,7 +9,7 @@
       "hipotese": "A fricção no pós-compra (sem rastreio, cobrança fora do Zendesk, sem alerta de urgência, CPF na abertura) agrava e prolonga a devolução/troca.",
       "leitura": "Alta",
       "status": "Evidência parcial",
-      "nEvidencias": 15
+      "nEvidencias": 16
     },
     {
       "id": "3c91c97d-43e7-814f-a5d5-d84af14ab572",
@@ -18,7 +18,7 @@
       "hipotese": null,
       "leitura": "Alta",
       "status": "Confirmada",
-      "nEvidencias": 13
+      "nEvidencias": 14
     },
     {
       "id": "3c91c97d-43e7-817e-ba33-ed6d318547bb",
@@ -1351,6 +1351,49 @@
         "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb",
         "https://app.notion.com/3c91c97d43e781368083cfbe011f582a"
       ]
+    },
+    {
+      "id": "3dd1c97d-43e7-815f-862e-c2c89b513f5f",
+      "achado": "Medida errada é 55–58% de todo o universo de cancelamento+troca (cliente + expedição)",
+      "tipo": "Dado",
+      "citacao": null,
+      "evidencia": "Somando os dois motivos no período jun–ago: 2025 = 2.183 (erro cliente) + 769 (expedição) = 2.952; 2026 = 1.521 + 830 = 2.351. A Medida Incorreta (1.714 / 1.303) representa 58% (2025) e 55% (2026) desse universo — segue sendo a maior fatia isolada do problema de devolução/cancelamento, mesmo depois de descontar Modelo Incorreto e Erro Expedição. Reforça a prioridade da medida errada dentro do todo.",
+      "fonteCanal": "Zendesk / CIEX",
+      "forca": "Dado quantitativo",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3dd1c97d43e7814c9573f0069ff7b329",
+        "https://app.notion.com/3ce1c97d43e7816aa3b3e0a374f9ff4e"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
+      ]
+    },
+    {
+      "id": "3dd1c97d-43e7-81d6-bdf0-eaf23cfd12f0",
+      "achado": "Erro Expedição sobe +8% (769→830) enquanto o lado do cliente cai — vetores opostos",
+      "tipo": "Dado",
+      "citacao": null,
+      "evidencia": "No mesmo período jun–ago, o Erro Expedição (empresa enviou errado) subiu de 769 para 830 tickets (+8%), puxado por Cancelamento (309→361, +17%) mais que Troca (460→469, +2%). Vai na direção contrária do lado do cliente, que caiu (Erro Cliente -30%, Medida Incorreta -24%). Ou seja, a melhora do número é só do lado do cliente; o erro operacional de expedição cresceu. Ressalva: 2026 ainda não 100% fechado (37 em Hold/Open).",
+      "fonteCanal": "Zendesk / CIEX",
+      "forca": "Dado quantitativo",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3dd1c97d43e7814c9573f0069ff7b329"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
+      ]
     }
   ],
   "fontes": [
@@ -1417,7 +1460,8 @@
         "https://app.notion.com/3ce1c97d43e7812bb799c809f7d57287",
         "https://app.notion.com/3ce1c97d43e78163ac08cdf2d9d0409d",
         "https://app.notion.com/3ce1c97d43e78187a065ebe7eab5c3f8",
-        "https://app.notion.com/3ce1c97d43e781c79d8ec1f97c99975e"
+        "https://app.notion.com/3ce1c97d43e781c79d8ec1f97c99975e",
+        "https://app.notion.com/3dd1c97d43e7815f862ec2c89b513f5f"
       ]
     },
     {
@@ -1536,6 +1580,18 @@
         "https://app.notion.com/3d51c97d43e7815289d5f5ca37a04f49",
         "https://app.notion.com/3d51c97d43e781fc98cfeda314e93f74"
       ]
+    },
+    {
+      "id": "3dd1c97d-43e7-814c-9573-f0069ff7b329",
+      "fonte": "Base Zendesk — Erro Expedição (Camila)",
+      "tipo": "Zendesk",
+      "statusAnalise": "Em análise",
+      "extraido": "Contraparte do Erro Cliente, entregue pela Camila: base 'Cópia de Erro expedição.xlsx' + dash 'Dash Erro Expedição.pptx' (Zendesk, jun–ago, 2025 vs 2026). NÚMEROS: Erro Expedição 769 (2025) → 830 (2026), +8% — puxado por Cancelamento (309→361, +17%) mais que Troca (460→469, +2%). VETORES OPOSTOS: enquanto o lado do cliente cai (Erro Cliente -30%, Medida Incorreta -24%), o lado da empresa (expedição) sobe +8%. Medida Incorreta = 55–58% de todo o universo cancelamento+troca (cliente+expedição). DISTINÇÃO: Erro Expedição = empresa enviou errado (causa Operação), não é compra medida errada; e é majoritariamente TROCA DE MERCADORIA (~460/769), ao contrário do Erro Cliente que era 100% CANCELAMENTO. PENDÊNCIAS: volume total de pedidos/tickets (denominador) ainda não veio — segue absoluto, não taxa; 2026 não 100% fechado (37 em Hold/Open); mesma reorg de filas. A CRUZAR: quanto do que entra como 'medida errada do cliente' é na verdade expedição enviando a medida errada.",
+      "link": null,
+      "evidenciasGeradasIds": [
+        "https://app.notion.com/3dd1c97d43e781d6bdf0eaf23cfd12f0",
+        "https://app.notion.com/3dd1c97d43e7815f862ec2c89b513f5f"
+      ]
     }
   ],
   "frentes": [
@@ -1638,7 +1694,8 @@
         "https://app.notion.com/3d51c97d43e7815289d5f5ca37a04f49",
         "https://app.notion.com/3d81c97d43e781dfa28bfa739271a29c",
         "https://app.notion.com/3d81c97d43e78191a42dca047eb432e8",
-        "https://app.notion.com/3d81c97d43e781bfb728ce50f21a27c9"
+        "https://app.notion.com/3d81c97d43e781bfb728ce50f21a27c9",
+        "https://app.notion.com/3dd1c97d43e781d6bdf0eaf23cfd12f0"
       ]
     },
     {
@@ -1659,7 +1716,8 @@
         "https://app.notion.com/3d81c97d43e78185b9cafe1f2ef5737a",
         "https://app.notion.com/3d81c97d43e781679a45e1e04538780e",
         "https://app.notion.com/3d81c97d43e781fe8543fbd25295b92d",
-        "https://app.notion.com/3d81c97d43e78106adc8cba44b3e4970"
+        "https://app.notion.com/3d81c97d43e78106adc8cba44b3e4970",
+        "https://app.notion.com/3dd1c97d43e7815f862ec2c89b513f5f"
       ]
     },
     {
