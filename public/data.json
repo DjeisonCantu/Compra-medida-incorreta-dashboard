@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-11T15:15:18.471Z",
-  "generatedAtLabel": "11/09/2026, 12:15 (Brasília)",
+  "generatedAt": "2026-09-16T09:08:04.308Z",
+  "generatedAtLabel": "16/09/2026, 06:08 (Brasília)",
   "causas": [
     {
       "id": "3c91c97d-43e7-813d-bf61-c2bab85ddee7",
@@ -79,13 +79,13 @@
       "impacto": null,
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ca1c97d43e781e09351ff21cef5bb63"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
       ]
     },
     {
@@ -100,13 +100,13 @@
       "impacto": null,
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ca1c97d43e78152a802c72943cc1c0f"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7818d89aff022000a540e"
       ]
     },
     {
@@ -121,13 +121,13 @@
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ca1c97d43e781e09351ff21cef5bb63"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
       ]
     },
     {
@@ -142,13 +142,13 @@
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ca1c97d43e781e09351ff21cef5bb63"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
       ]
     },
     {
@@ -163,13 +163,13 @@
       "impacto": "Médio",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ca1c97d43e781e09351ff21cef5bb63"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
       ]
     },
     {
@@ -184,13 +184,13 @@
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ca1c97d43e78152a802c72943cc1c0f"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
       ]
     },
     {
@@ -205,13 +205,13 @@
       "impacto": "Médio",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ca1c97d43e781e09351ff21cef5bb63"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
       ]
     },
     {
@@ -226,13 +226,13 @@
       "impacto": "Médio",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ca1c97d43e78152a802c72943cc1c0f"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
       ]
     },
     {
@@ -247,13 +247,13 @@
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ca1c97d43e78152a802c72943cc1c0f"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
       ]
     },
     {
@@ -268,13 +268,13 @@
       "impacto": "Alto",
       "status": "Em análise",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7818294facb56d5f83bd9"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ca1c97d43e781e09351ff21cef5bb63"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
       ]
     },
     {
@@ -289,13 +289,13 @@
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ca1c97d43e78152a802c72943cc1c0f"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
       ]
     },
     {
@@ -310,13 +310,13 @@
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ca1c97d43e78152a802c72943cc1c0f"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
       ]
     },
     {
@@ -331,13 +331,13 @@
       "impacto": "Alto",
       "status": "Arquivado",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ce1c97d43e781729715cc2fd5b4f152"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
       ]
     },
     {
@@ -352,15 +352,15 @@
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a",
-        "b"
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7",
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
       ],
       "fonteIds": [
-        "a",
-        "b"
+        "https://app.notion.com/3ce1c97d43e781729715cc2fd5b4f152",
+        "https://app.notion.com/3ce1c97d43e7816aa3b3e0a374f9ff4e"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
       ]
     },
     {
@@ -375,15 +375,15 @@
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a",
-        "b",
-        "c"
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb",
+        "https://app.notion.com/3c91c97d43e7818294facb56d5f83bd9",
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ce1c97d43e781729715cc2fd5b4f152"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
       ]
     },
     {
@@ -391,21 +391,21 @@
       "achado": "Percepção do time: o número de compra medida errada já diminuiu, possível efeito de melhorias incrementais na busca",
       "tipo": "Dado",
       "citacao": null,
-      "evidencia": "Confirmado com dado do Zendesk (base da Camila, jun–ago): Medida Incorreta caiu 24% YoY — 1.714 (2025) → 1.303 (2026). Agosto isolado caiu 33% (603→405). Ressalva: queda em número absoluto; sem o volume total de tickets do período ainda não dá pra afirmar melhora de TAXA.",
+      "evidencia": "Confirmado com dado do Zendesk (base da Camila, jun–ago): Medida Incorreta caiu 24% YoY — 1.714 (2025) → 1.303 (2026). Agosto isolado caiu 33% (603→405). Ressalva: queda em número absoluto; sem o volume total de tickets do período ainda não dá pra afirmar melhora de TAXA. Parte da percepção de queda do time vinha do bucket 'Erro Cliente' (-30%), que exagera o efeito por incluir Modelo Incorreto.",
       "fonteCanal": "Reclame Aqui",
       "forca": "Dado quantitativo",
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Em análise",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
       ],
       "fonteIds": [
-        "a",
-        "b"
+        "https://app.notion.com/3ce1c97d43e781729715cc2fd5b4f152",
+        "https://app.notion.com/3ce1c97d43e7816aa3b3e0a374f9ff4e"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
       ]
     },
     {
@@ -413,20 +413,20 @@
       "achado": "O número citado como 'medida errada' inclui Modelo Incorreto — a medida real é ~80% do bucket (1.303, não 1.521)",
       "tipo": "Dado",
       "citacao": null,
-      "evidencia": "A base 'Erro Cliente' do Zendesk contém 2 sub-motivos: Medida Incorreta e Modelo Incorreto. Em 2026 (jun–ago): Medida Incorreta = 1.303 e Modelo Incorreto = 218 (total 1.521). Quem cita '1.521' como 'compra medida errada' superestima.",
+      "evidencia": "A base 'Erro Cliente' do Zendesk contém 2 sub-motivos: Medida Incorreta e Modelo Incorreto (produto errado, não medida). Em 2026 (jun–ago): Medida Incorreta = 1.303 e Modelo Incorreto = 218 (total 1.521). Medida errada é ~80–86% do bucket. Quem cita '1.521' ou o '-30% YoY' como 'compra medida errada' superestima: o número real de 2026 é 1.303, e a queda real da medida foi -24% (não -30%). Reforça a necessidade de separar o motivo na origem. [Ressalva 08/09 — entrevista Jéssica: no bot não há regra para distinguir 'medida' de 'modelo' ('bota o que der') e os campos se confundem. Logo o split de ~80% medida é instável no nível do ticket — parte do que está em 'medida' pode ser 'modelo' e vice-versa. Ver EV do medida×modelo.]",
       "fonteCanal": "Zendesk / CIEX",
       "forca": "Dado quantitativo",
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ce1c97d43e7816aa3b3e0a374f9ff4e"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
       ]
     },
     {
@@ -434,21 +434,21 @@
       "achado": "Falta conteúdo educativo consolidado de 'compra assertiva' — hoje espalhado (home, YouTube)",
       "tipo": "Pista",
       "citacao": "Você sabe identificar a medida do seu pneu?… o compra assertiva.",
-      "evidencia": "Ideia surgida na conversa: guia/notificação ensinando a identificar a medida. Conteúdo atual disperso e sem cobrir a jornada de ponta a ponta. Visto como diferencial competitivo.",
+      "evidencia": "Ideia surgida na conversa: guia/notificação ensinando a identificar a medida (onde ler no pneu, o que checar no carro). Conteúdo atual disperso e sem cobrir a jornada de ponta a ponta. Visto como diferencial competitivo. Insight: quem não sabe comprar pneu pesquisa 'como identificar a medida' antes do produto — capturar esse momento pode converter.",
       "fonteCanal": "Reclame Aqui",
       "forca": "Indício",
       "frequencia": "Média",
       "impacto": "Médio",
       "status": "Arquivado",
       "causaRaizIds": [
-        "a",
-        "b"
+        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf",
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ce1c97d43e781729715cc2fd5b4f152"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e78119896ce22e7921e76c"
       ]
     },
     {
@@ -456,41 +456,41 @@
       "achado": "Cliente decide por preço e índice do Inmetro, não pela especificação técnica da medida",
       "tipo": "Pista",
       "citacao": "Sempre vão pelo preço e pelo índice do Inmetro.",
-      "evidencia": "Relato do time: público amplo, muitos sem domínio técnico; a decisão costuma priorizar preço e Inmetro em vez da medida, elevando o risco de erro.",
+      "evidencia": "Relato do time: público amplo, muitos sem domínio técnico; a decisão costuma priorizar preço e Inmetro em vez da medida, elevando o risco de erro. Pneu é compra cara, não recorrente e de alta carga emocional.",
       "fonteCanal": "Reclame Aqui",
       "forca": "Relato recorrente",
       "frequencia": "Média",
       "impacto": "Médio",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ce1c97d43e781729715cc2fd5b4f152"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
       ]
     },
     {
       "id": "3ce1c97d-43e7-81c7-9d8e-c1f97c99975e",
-      "achado": "100% dos tickets de Erro Cliente (medida/modelo) têm Assunto = Cancelamento — confirmação no dado",
+      "achado": "100% dos tickets de Erro Cliente (medida/modelo) têm Assunto = Cancelamento — confirmação no dado de que medida errada aparece como pedido de cancelamento",
       "tipo": "Dado",
       "citacao": null,
-      "evidencia": "Nas 3.704 linhas da base (2025+2026), o campo Assunto é CANCELAMENTO em 100% dos casos. Confirma no dado que medida errada não entra como reclamação sobre a medida, e sim como solicitação de cancelamento/devolução.",
+      "evidencia": "Nas 3.704 linhas da base (2025+2026), o campo '[Relacionamento] Assunto' é 'CANCELAMENTO' em 100% dos casos. Confirma no dado o que o time do RA relatou: medida errada não entra como reclamação sobre a medida, e sim como solicitação de cancelamento/devolução. Reforço quantitativo da evidência EV-14 (reclamação atrelada a não-cancelamento/devolução). Em 2026, 31 recontatos do mesmo pedido — possível eco do atrito de cancelamento. [Explicação 08/09 — entrevista Jéssica: os 100% são ESTRUTURAIS, não comportamento. 'Medida incorreta' não é um Assunto próprio no Zendesk — é sub-motivo dentro de cancelamento; não há como abrir um chamado de medida incorreta fora de um cancelamento. Ver EV 'sub-motivo de cancelamento'.]",
       "fonteCanal": "Zendesk / CIEX",
       "forca": "Dado quantitativo",
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ce1c97d43e7816aa3b3e0a374f9ff4e"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
       ]
     },
     {
@@ -505,14 +505,14 @@
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a",
-        "b"
+        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087",
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ce1c97d43e781729715cc2fd5b4f152"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
       ]
     },
     {
@@ -527,14 +527,14 @@
       "impacto": "Médio",
       "status": "Bruto",
       "causaRaizIds": [
-        "a",
-        "b"
+        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf",
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ce1c97d43e781729715cc2fd5b4f152"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
       ]
     },
     {
@@ -542,21 +542,21 @@
       "achado": "O número de 'medida errada' é autodeclarado pelo cliente e não é verificado pelo atendimento",
       "tipo": "Pista",
       "citacao": "A gente não faz essa investigação se realmente comprou… a gente só atende a solicitação.",
-      "evidencia": "O motivo 'medida errada' vem do relato do cliente na plataforma do RA; o time atende a solicitação sem confirmar se de fato houve erro de medida. Ninguém valida a classificação.",
+      "evidencia": "O motivo 'medida errada' vem do relato do cliente na plataforma do RA; o time atende a solicitação (cancelamento/devolução) sem confirmar se de fato houve erro de medida. Ninguém valida a classificação.",
       "fonteCanal": "Reclame Aqui",
       "forca": "Relato recorrente",
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
       ],
       "fonteIds": [
-        "a",
-        "b"
+        "https://app.notion.com/3ce1c97d43e781729715cc2fd5b4f152",
+        "https://app.notion.com/3ce1c97d43e7816aa3b3e0a374f9ff4e"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
       ]
     },
     {
@@ -571,13 +571,13 @@
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ce1c97d43e781729715cc2fd5b4f152"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
       ]
     },
     {
@@ -585,20 +585,20 @@
       "achado": "Busca por placa ficou mais precisa após troca de plataforma — retorna a medida exata",
       "tipo": "Pista",
       "citacao": null,
-      "evidencia": "A busca por placa passou por atualização recente de plataforma e ficou mais precisa: informando a placa, retorna a medida exata do veículo.",
+      "evidencia": "A busca por placa passou por atualização recente de plataforma e ficou mais precisa: informando a placa, retorna a medida exata do veículo. Antes usava outra plataforma (a confirmar qual).",
       "fonteCanal": "Entrevista",
       "forca": "Relato recorrente",
       "frequencia": null,
       "impacto": null,
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3cf1c97d43e781a5ade3f8bec95d5adf"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
       ]
     },
     {
@@ -613,13 +613,13 @@
       "impacto": "Médio",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3cf1c97d43e781a5ade3f8bec95d5adf"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
       ]
     },
     {
@@ -634,13 +634,13 @@
       "impacto": "Médio",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3cf1c97d43e781a5ade3f8bec95d5adf"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e78119896ce22e7921e76c"
       ]
     },
     {
@@ -655,13 +655,13 @@
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3cf1c97d43e781a5ade3f8bec95d5adf"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e78119896ce22e7921e76c"
       ]
     },
     {
@@ -676,13 +676,13 @@
       "impacto": null,
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7818294facb56d5f83bd9"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3cf1c97d43e781a5ade3f8bec95d5adf"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e781368083cfbe011f582a"
       ]
     },
     {
@@ -697,13 +697,13 @@
       "impacto": null,
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3cf1c97d43e781a5ade3f8bec95d5adf"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
       ]
     },
     {
@@ -711,20 +711,20 @@
       "achado": "Prática do time: orientar o cliente a ver a medida no manual do veículo",
       "tipo": "Pista",
       "citacao": null,
-      "evidencia": "Diante de dúvida de medida, o time orienta o cliente a conferir a medida recomendada pela fabricante no manual — geralmente na tampa de combustível ou na coluna da porta do carona.",
+      "evidencia": "Diante de dúvida de medida, o time orienta o cliente a conferir a medida recomendada pela fabricante no manual — geralmente na tampa de combustível ou na coluna da porta do carona. Mitigação atual; insumo para conteúdo.",
       "fonteCanal": "Entrevista",
       "forca": "Relato recorrente",
       "frequencia": null,
       "impacto": null,
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3cf1c97d43e781a5ade3f8bec95d5adf"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e78119896ce22e7921e76c"
       ]
     },
     {
@@ -739,13 +739,13 @@
       "impacto": null,
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3cf1c97d43e781a5ade3f8bec95d5adf"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e78119896ce22e7921e76c"
       ]
     },
     {
@@ -760,13 +760,13 @@
       "impacto": null,
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3cf1c97d43e781a5ade3f8bec95d5adf"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
       ]
     },
     {
@@ -781,13 +781,13 @@
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3cf1c97d43e781a5ade3f8bec95d5adf"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
       ]
     },
     {
@@ -795,21 +795,21 @@
       "achado": "O cliente pergunta pelo veículo/ano/modelo, quase nunca pela medida técnica (205/55 R16)",
       "tipo": "Dado",
       "citacao": "Este pneu serve pra JEEP RENEGADE 4x4, ano 2022?",
-      "evidencia": "O padrão das perguntas é por referência do veículo (modelo, ano, moto) e não pela medida técnica. Reforça veículo/placa como trilho principal da busca.",
+      "evidencia": "O padrão das perguntas é por referência do veículo (modelo, ano, moto) e não pela medida técnica. Confirma a jornada mental relatada pelo RA: o cliente pensa 'meu carro', não '205/55 R16'. Reforça veículo/placa como trilho principal da busca e explica por que a medida técnica exibida sozinha não dá segurança.",
       "fonteCanal": "Área interna",
       "forca": "Dado quantitativo",
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a",
-        "b"
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02",
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3d11c97d43e7810d9ccdcedd01a99fed"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
       ]
     },
     {
@@ -817,21 +817,21 @@
       "achado": "1/4 a 1/3 das perguntas de pré-venda é 'serve no meu carro?' — demanda enorme por confirmação de medida antes de comprar",
       "tipo": "Dado",
       "citacao": "Bom dia, serve pra colocar num HB20",
-      "evidencia": "Nas perguntas de pré-venda, medida/compatibilidade responde por ~25% no Mercado Livre e ~39% no site da PneuStore. O cliente sinaliza insegurança sobre a medida no momento pré-compra em grande volume.",
+      "evidencia": "Nas perguntas de pré-venda, medida/compatibilidade responde por ~25% no Mercado Livre (2.160 de 8.653) e ~39% no site da PneuStore (1.688 de 4.342). O cliente sinaliza insegurança sobre a medida no momento pré-compra em grande volume — a demanda por 'confirma se serve' é estrutural, não pontual. (% por palavra-chave = piso.)",
       "fonteCanal": "Área interna",
       "forca": "Dado quantitativo",
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a",
-        "b"
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02",
+        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3d11c97d43e7810d9ccdcedd01a99fed"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
       ]
     },
     {
@@ -839,21 +839,21 @@
       "achado": "No momento da dúvida de medida, o canal de pré-venda devolve a confirmação ao cliente (maioria via bot)",
       "tipo": "Dado",
       "citacao": "Verifique no manual ou nos pneus que já estão instalados se as medidas correspondem…",
-      "evidencia": "A maioria das perguntas de compatibilidade é respondida por bot (85% no ML, ~75% no site) com um texto padrão que empurra a decisão de volta ao cliente. No ponto exato onde o erro nasce, o canal não confirma a medida.",
+      "evidencia": "A maioria das perguntas de compatibilidade é respondida por bot (85% no ML, ~75% no site) com um texto padrão que empurra a decisão de volta ao cliente ('verifique no manual… largura, perfil, aro, índice'). Respostas humanas (Marketplace/Gabriela) confirmam de fato, mas são minoria. Ou seja, no ponto exato onde o erro nasce, o canal não confirma a medida — buraco de prevenção.",
       "fonteCanal": "Área interna",
       "forca": "Dado quantitativo",
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a",
-        "b"
+        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087",
+        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3d11c97d43e7810d9ccdcedd01a99fed"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e78119896ce22e7921e76c"
       ]
     },
     {
@@ -861,21 +861,21 @@
       "achado": "Valor de medida errada: mediana R$1.170/ticket; o 'R$702M' (painel e CSV) são 6 linhas corrompidas — exposição real ~R$6–37M",
       "tipo": "Dado",
       "citacao": "2 milhões de custos... nos últimos sete dias",
-      "evidencia": "O 'R$ em jogo' de Medida Incorreta no painel é a soma do campo Valor do export — mas só 42% dos tickets têm valor e 6 linhas acima de R$1M somam R$665,6M (95% do total), claramente corrompidas. Limpo: R$36,7M (excl. >R$1M) ou ~R$8M (excl. >R$50k); mediana R$1.170/ticket.",
+      "evidencia": "O 'R$ em jogo' de Medida Incorreta no painel (R$702.337.317,65) é a soma do campo Valor do export — mas só 42% dos tickets têm valor e 6 linhas acima de R$1M somam R$665,6M (95% do total), claramente corrompidas (R$161,9M / R$60M numa devolução de pneu). Limpo: R$36,7M (excl. >R$1M) ou ~R$8M (excl. >R$50k); mediana R$1.170/ticket. NÃO usar R$702M como custo de medida errada — a exposição real está na casa de R$6–37M, e o custo logístico realizado precisa vir do recorte Coletado.",
       "fonteCanal": "Zendesk / CIEX",
       "forca": "Dado quantitativo",
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
       ],
       "fonteIds": [
-        "a",
-        "b"
+        "https://app.notion.com/3d51c97d43e781b3b9f1c5a360b3b735",
+        "https://app.notion.com/3d51c97d43e78156b9eafbe9ca32eb89"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
       ]
     },
     {
@@ -883,20 +883,20 @@
       "achado": "Medida errada tende a NÃO ser barrada a tempo — Coletado 31,6% > Barrado 18,1% (entre os com info, 64% já geraram custo)",
       "tipo": "Dado",
       "citacao": null,
-      "evidencia": "No export de 13.203 tickets de Medida Incorreta: Coletado = 4.172 (31,6%), Barrado = 2.387 (18,1%), Sem info = 6.644 (50,3%). Entre os com informação, 64% Coletado × 36% Barrado — o inverso do painel geral (61% barrado).",
+      "evidencia": "No export de 13.203 tickets de Medida Incorreta: Coletado (já saiu, gerou custo) = 4.172 (31,6%), Barrado (impedido a tempo) = 2.387 (18,1%), Sem info = 6.644 (50,3%). Entre os 6.559 com informação, 64% Coletado × 36% Barrado — o inverso do painel geral (61% barrado). Confirma no dado que o gargalo pós-compra deixa o pedido sair antes de barrar; é onde mora o custo logístico evitável.",
       "fonteCanal": "Zendesk / CIEX",
       "forca": "Dado quantitativo",
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3d51c97d43e781b3b9f1c5a360b3b735"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
       ]
     },
     {
@@ -904,20 +904,20 @@
       "achado": "'Medida incorreta' é sub-motivo de cancelamento, não assunto próprio — os 100% CANCELAMENTO são artefato estrutural",
       "tipo": "Dado",
       "citacao": "Eu não tenho como já abrir um chamado de medida incorreta",
-      "evidencia": "No Zendesk, 'medida incorreta' não existe como Assunto; é um motivo dentro de 'erro durante a compra', que está sob cancelamento. 100% dos tickets de medida errada aparecerem como Assunto=CANCELAMENTO é consequência da arquitetura, não do comportamento do cliente.",
+      "evidencia": "No Zendesk, 'medida incorreta' não existe como Assunto; é um motivo dentro de 'erro durante a compra', que está sob cancelamento. Todo cancelamento tem um motivo. Logo, 100% dos tickets de medida errada aparecerem como Assunto=CANCELAMENTO é consequência da arquitetura, não do comportamento do cliente. Refina a leitura do dado da Camila (EV dos 100% cancelamento).",
       "fonteCanal": "Entrevista",
       "forca": "Caso concreto",
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3d51c97d43e78156b9eafbe9ca32eb89"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
       ]
     },
     {
@@ -925,20 +925,20 @@
       "achado": "Medida × Modelo sem regra de classificação — atendentes/clientes confundem, tornando frágil o split de ~80% medida",
       "tipo": "Pista",
       "citacao": "Não tem regra, é confusão mesmo, bota o que der",
-      "evidencia": "Os campos 'medida incorreta' e 'modelo incorreto' existem no bot, mas não há critério; a equipe admite que se misturam. O recorte de que 'medida = ~80% do balde Erro Cliente' é instável no nível do ticket.",
+      "evidencia": "Os campos 'medida incorreta' e 'modelo incorreto' existem no bot (em 'erro durante a compra'), mas não há critério; a equipe admite que se misturam e Jéssica quase não vê 'modelo' usado. Logo, o recorte de que 'medida = ~80% do balde Erro Cliente' (1.303) é instável no nível do ticket — parte do que está em medida pode ser modelo e vice-versa.",
       "fonteCanal": "Entrevista",
       "forca": "Relato recorrente",
       "frequencia": "Média",
       "impacto": "Médio",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3d51c97d43e78156b9eafbe9ca32eb89"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
       ]
     },
     {
@@ -946,20 +946,20 @@
       "achado": "Fluxo de expedição no Zendesk não funciona — devoluções que poderiam ser barradas não são, gerando custo logístico",
       "tipo": "Dor",
       "citacao": "Sobre expedição no Zendesk? Não funciona",
-      "evidencia": "Após a limpeza de acessos (600→350), a expedição foi a mais afetada: agentes só fazem comentário interno, não transferem ticket entre áreas, e não atendem fim de semana. Jéssica classifica como alerta vermelho, já escalado várias vezes.",
+      "evidencia": "Após a limpeza de acessos (600→350), a expedição foi a mais afetada: agentes só fazem comentário interno, não transferem ticket entre áreas, e não atendem fim de semana — uma devolução que chega sexta à noite pra ser barrada só anda segunda, quando o pedido já saiu/voltou. Parte do fluxo vive no Teams, fora do Zendesk. Jéssica classifica como alerta vermelho, já escalado várias vezes. Custo pós-compra evitável.",
       "fonteCanal": "Entrevista",
       "forca": "Caso concreto",
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3d51c97d43e78156b9eafbe9ca32eb89"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
       ]
     },
     {
@@ -967,21 +967,21 @@
       "achado": "Site oferta pneu incompatível pro modelo do veículo e induz o cliente ao erro (confirmação da dona do Zendesk)",
       "tipo": "Dor",
       "citacao": "O site também me induz ao erro",
-      "evidencia": "Jéssica confirma que, ao pesquisar pelo modelo do veículo, o site apresenta opções que não são todas compatíveis, induzindo à compra errada. Reforça o achado do disparo automático de substituição de estoque.",
+      "evidencia": "Jéssica confirma que, ao pesquisar pelo modelo do veículo, o site apresenta opções que não são todas compatíveis, induzindo à compra errada. Reforça o achado do Roda de Experiência do disparo automático de substituição de estoque (comprou 175/65 R15, sistema ofertou 215). Aponta origem no produto/busca, não no cliente.",
       "fonteCanal": "Entrevista",
       "forca": "Relato recorrente",
       "frequencia": "Média",
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a",
-        "b"
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb",
+        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3d51c97d43e78156b9eafbe9ca32eb89"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
       ]
     },
     {
@@ -989,20 +989,20 @@
       "achado": "O rótulo 'medida incorreta' é autodeclarado pelo cliente no bot e não é verificado pelo atendimento",
       "tipo": "Dado",
       "citacao": "Se o cliente falou, tá falado; a gente não fica segmentando isso",
-      "evidencia": "No fluxo de cancelamento do bot, o motivo é escolhido pelo próprio cliente. O atendente pode corrigir se estiver incoerente, mas normalmente não corrige. Não há conferência contra o SKU/pedido.",
+      "evidencia": "No fluxo de cancelamento do bot, o motivo é escolhido pelo próprio cliente (campo pré-cadastrado). O atendente pode corrigir se estiver incoerente, mas normalmente não corrige e 'passa pra frente'. O cliente só marca 'medida incorreta' — não informa qual medida comprou nem qual seria a correta, e não há conferência contra o SKU/pedido. Confirma no processo que o número de 'medida errada' é autodeclaração não verificada.",
       "fonteCanal": "Entrevista",
       "forca": "Caso concreto",
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3d51c97d43e78156b9eafbe9ca32eb89"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
       ]
     },
     {
@@ -1010,21 +1010,21 @@
       "achado": "O Zendesk não segmenta 'cliente escolheu errado' × 'site induziu ao erro' — impede decompor medida errada por causa",
       "tipo": "Dado",
       "citacao": "Medida errada vai pra um buraco só; tá tudo no mesmo saco",
-      "evidencia": "Não existe tag/motivo no Zendesk que diferencie erro do usuário de erro induzido pelo site/busca. A decomposição do número por causa que o projeto busca NÃO existe no dado hoje.",
+      "evidencia": "Não existe tag/motivo no Zendesk que diferencie erro do usuário de erro induzido pelo site/busca. Todos os casos de medida errada caem no mesmo motivo. Consequência direta pra Frente E (Métricas): a decomposição do número por causa que o projeto busca NÃO existe no dado hoje — só via mudança na marcação ou cruzamento externo (SKU/pedido/jornada).",
       "fonteCanal": "Entrevista",
       "forca": "Caso concreto",
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a",
-        "b"
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572",
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3d51c97d43e78156b9eafbe9ca32eb89"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
       ]
     },
     {
@@ -1032,21 +1032,42 @@
       "achado": "Recontato conta como ticket novo, sem dedup automático — o 1.303 pode contar pedidos repetidos",
       "tipo": "Dado",
       "citacao": "Cada vez que ele chega num bot é um ticket novo",
-      "evidencia": "O mesmo cliente/pedido que retorna gera um novo ticket. Não há função no Zendesk pra fundir tickets do mesmo cliente/pedido automaticamente. Refino: o campo Pedido está preenchido em só 16%, o que impede deduplicar em escala.",
+      "evidencia": "O mesmo cliente/pedido que retorna gera um novo ticket. O bot novo pergunta se há protocolo aberto, mas se o cliente não informa, abre outro. Não há função no Zendesk pra fundir tickets do mesmo cliente/pedido automaticamente. A contagem por ticket superestima os casos distintos (em 2026 havia 31 recontatos do mesmo pedido). Sugere contar por número de pedido, não por ticket. [Refino 08/09 — export de 13.203 tickets de medida errada: o campo Pedido está preenchido em só 16% (2.158); no subconjunto mediível só 44 pedidos têm >1 ticket (56 extras, ~2,6%). A inflação por recontato NÃO é comprovável em escala — o problema é o Pedido não ser preenchido, o que impede deduplicar. Priorizar preenchimento de Pedido antes de afirmar inflação.]",
       "fonteCanal": "Entrevista",
       "forca": "Caso concreto",
       "frequencia": "Média",
       "impacto": "Médio",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
       ],
       "fonteIds": [
-        "a",
-        "b"
+        "https://app.notion.com/3d51c97d43e78156b9eafbe9ca32eb89",
+        "https://app.notion.com/3d51c97d43e781b3b9f1c5a360b3b735"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-8106-adc8-cba44b3e4970",
+      "achado": "Comitê já age sobre a inconsistência dos motivos (treinamento + manual de motivos)",
+      "tipo": "Pista",
+      "citacao": "Treinamento de utilização dos motivos; Manual de motivos atualizado",
+      "evidencia": "O plano de ação do comitê de agosto/2026 inclui 'Treinamento de utilização dos motivos' (Vitoria, 30/09) e 'Manual de motivos atualizado' (concluído) — reconhecimento interno de que a classificação dos motivos de devolução é inconsistente. Oportunidade de alinhar a taxonomia do projeto com a do comitê.",
+      "fonteCanal": "Área interna",
+      "forca": "Caso concreto",
+      "frequencia": null,
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
       ]
     },
     {
@@ -1061,166 +1082,13 @@
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
       ],
       "frenteIds": [
-        "a"
-      ]
-    },
-    {
-      "id": "3d81c97d-43e7-8167-9a45-e1e04538780e",
-      "achado": "Cliente induzido ao erro por atendente de marketplace (Shopee) antes de comprar no site",
-      "tipo": "Dor",
-      "citacao": "Acabei sendo induzido ao erro pelo atendente da Shopee",
-      "evidencia": "Marcos perguntou no chat da Shopee se o pneu era sem câmara, recebeu confirmação equivocada e depois comprou no site (que considera mais confiável). O erro nasceu no atendimento do marketplace, não no site.",
-      "fonteCanal": "Entrevista",
-      "forca": "Caso concreto",
-      "frequencia": null,
-      "impacto": "Médio",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "a",
-        "b"
-      ],
-      "fonteIds": [
-        "a"
-      ],
-      "frenteIds": [
-        "a"
-      ]
-    },
-    {
-      "id": "3d81c97d-43e7-8185-b9ca-fe1f2ef5737a",
-      "achado": "Caso rotulado 'medida errada' era, na verdade, MODELO errado (com/sem câmara)",
-      "tipo": "Dado",
-      "citacao": "A medida não estava errada, o errado era... uso com Câmara",
-      "evidencia": "Marcos (moto Yamaha) recebeu o pneu na medida certa, mas com câmara quando precisava sem câmara. Reforça que o balde 'medida errada' mistura erro de modelo.",
-      "fonteCanal": "Entrevista",
-      "forca": "Caso concreto",
-      "frequencia": null,
-      "impacto": "Alto",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "a",
-        "b"
-      ],
-      "fonteIds": [
-        "a"
-      ],
-      "frenteIds": [
-        "a"
-      ]
-    },
-    {
-      "id": "3d81c97d-43e7-8194-97b6-ce53a7536929",
-      "achado": "Compra da medida errada por excesso de confiança — cliente não conferiu e só percebeu com o pneu ao lado do carro",
-      "tipo": "Dor",
-      "citacao": "Conheço pneu, nem abri nada... fiquei com 65 na cabeça",
-      "evidencia": "Eduardo (Captiva, 235/60 R17) comprou 235/65 por engano; diz ter confundido com o carro da esposa e não conferiu o pedido anterior. Só descobriu o erro ao emparelhar o pneu recebido ao carro.",
-      "fonteCanal": "Entrevista",
-      "forca": "Caso concreto",
-      "frequencia": null,
-      "impacto": "Alto",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "a"
-      ],
-      "fonteIds": [
-        "a"
-      ],
-      "frenteIds": [
-        "a"
-      ]
-    },
-    {
-      "id": "3d81c97d-43e7-81ad-8145-eb383e25e5da",
-      "achado": "Erro só é descoberto ao pôr o pneu ao lado do carro — não há checkpoint antes da entrega",
-      "tipo": "Pista",
-      "citacao": "Coloquei do lado... esse pneu está maior, está diferente",
-      "evidencia": "Eduardo e Rafael, independentemente, só perceberam o erro ao emparelhar o pneu recebido ao carro. Não existe ponto de conferência da medida entre a compra e a entrega.",
-      "fonteCanal": "Entrevista",
-      "forca": "Relato recorrente",
-      "frequencia": null,
-      "impacto": "Alto",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "a",
-        "b"
-      ],
-      "fonteIds": [
-        "a"
-      ],
-      "frenteIds": [
-        "a"
-      ]
-    },
-    {
-      "id": "3d81c97d-43e7-81b6-b5f0-ed11b529bcdd",
-      "achado": "'Minha Garagem' existe, mas o cliente não conhece a funcionalidade",
-      "tipo": "Pista",
-      "citacao": "Eu não sabia dessa minha garagem",
-      "evidencia": "Eduardo desconhecia a funcionalidade Minha Garagem, que poderia tê-lo ajudado a acertar a medida. Baixa descoberta da feature.",
-      "fonteCanal": "Entrevista",
-      "forca": "Relato recorrente",
-      "frequencia": null,
-      "impacto": "Médio",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "a",
-        "b"
-      ],
-      "fonteIds": [
-        "a"
-      ],
-      "frenteIds": [
-        "a"
-      ]
-    },
-    {
-      "id": "3d81c97d-43e7-81f7-aa10-e14b49eba347",
-      "achado": "Ordenar por menor preço mistura câmara de ar e pneu de moto no resultado da medida",
-      "tipo": "Dor",
-      "citacao": "A hora que põe menor preço, mistura tudo... aparece câmera de ar, pneu de moto",
-      "evidencia": "Eduardo reproduziu ao vivo: digitando a medida e ordenando por menor preço, o resultado traz itens não relacionados (câmara de ar, pneu de moto), dificultando achar o pneu certo.",
-      "fonteCanal": "Entrevista",
-      "forca": "Caso concreto",
-      "frequencia": "Alta",
-      "impacto": "Médio",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "a"
-      ],
-      "fonteIds": [
-        "a"
-      ],
-      "frenteIds": [
-        "a"
-      ]
-    },
-    {
-      "id": "3d81c97d-43e7-81ff-9d25-f5ed991947e6",
-      "achado": "Busca por placa / Minha Garagem retornou medida incompatível — pneu não coube no veículo",
-      "tipo": "Dor",
-      "citacao": "Coloquei a minha placa e apareceu o Palio... o que comprei era maior... na oficina o rapaz falou 'essa aqui não dá certo'",
-      "evidencia": "Rafael cadastrou o carro e buscou pela placa na Minha Garagem; o retorno o levou a comprar uma medida maior, que a oficina disse que agarraria no paralama. Contradiz a tese de que a busca por placa 'acerta ~99%'.",
-      "fonteCanal": "Entrevista",
-      "forca": "Caso concreto",
-      "frequencia": null,
-      "impacto": "Alto",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "a",
-        "b"
-      ],
-      "fonteIds": [
-        "a"
-      ],
-      "frenteIds": [
-        "a",
-        "b"
+        "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
       ]
     },
     {
@@ -1235,34 +1103,57 @@
       "impacto": "Médio",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
       ]
     },
     {
-      "id": "3d81c97d-43e7-8106-adc8-cba44b3e4970",
-      "achado": "Comitê já age sobre a inconsistência dos motivos (treinamento + manual de motivos)",
-      "tipo": "Pista",
-      "citacao": "Treinamento de utilização dos motivos; Manual de motivos atualizado",
-      "evidencia": "O plano de ação do comitê de agosto/2026 inclui 'Treinamento de utilização dos motivos' e 'Manual de motivos atualizado' — reconhecimento interno de que a classificação dos motivos de devolução é inconsistente.",
-      "fonteCanal": "Área interna",
+      "id": "3d81c97d-43e7-8167-9a45-e1e04538780e",
+      "achado": "Cliente induzido ao erro por atendente de marketplace (Shopee) antes de comprar no site",
+      "tipo": "Dor",
+      "citacao": "Acabei sendo induzido ao erro pelo atendente da Shopee",
+      "evidencia": "Marcos perguntou no chat da Shopee se o pneu era sem câmara, recebeu confirmação equivocada e depois comprou no site (que considera mais confiável). O erro nasceu no atendimento do marketplace, não no site.",
+      "fonteCanal": "Entrevista",
       "forca": "Caso concreto",
       "frequencia": null,
       "impacto": "Médio",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087",
+        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-8185-b9ca-fe1f2ef5737a",
+      "achado": "Caso rotulado 'medida errada' era, na verdade, MODELO errado (com/sem câmara)",
+      "tipo": "Dado",
+      "citacao": "A medida não estava errada, o errado era... uso com Câmara",
+      "evidencia": "Marcos (moto Yamaha) recebeu o pneu na medida certa, mas com câmara quando precisava sem câmara. Reforça que o balde 'medida errada' mistura erro de modelo.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": null,
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572",
+        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
       ]
     },
     {
@@ -1270,20 +1161,85 @@
       "achado": "~73% do valor do motivo medida/modelo concentra-se na Pneustore Digital",
       "tipo": "Dado",
       "citacao": null,
-      "evidencia": "Dos R$ 2,09 mi de 'Medida/Modelo errado' do grupo em agosto/2026, R$ 1,53 mi (~73%) estão na Pneustore Digital. O problema é majoritariamente do e-commerce PneuStore.",
+      "evidencia": "Dos R$ 2,09 mi de 'Medida/Modelo errado' do grupo em agosto/2026, R$ 1,53 mi (~73%) estão na Pneustore Digital. As demais BUs (Speedmax B2F, B2B, Gripmaster GP, OHT Pro, Rede Pneustore) têm valores bem menores. O problema é majoritariamente do e-commerce PneuStore.",
       "fonteCanal": "Área interna",
       "forca": "Dado quantitativo",
       "frequencia": null,
       "impacto": "Médio",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-8194-97b6-ce53a7536929",
+      "achado": "Compra da medida errada por excesso de confiança — cliente não conferiu e só percebeu com o pneu ao lado do carro",
+      "tipo": "Dor",
+      "citacao": "Conheço pneu, nem abri nada... fiquei com 65 na cabeça",
+      "evidencia": "Eduardo (Captiva, 235/60 R17) comprou 235/65 por engano; diz ter confundido com o carro da esposa e não conferiu o pedido anterior. Só descobriu o erro ao emparelhar o pneu recebido ao carro.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": null,
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-81ad-8145-eb383e25e5da",
+      "achado": "Erro só é descoberto ao pôr o pneu ao lado do carro — não há checkpoint antes da entrega",
+      "tipo": "Pista",
+      "citacao": "Coloquei do lado... esse pneu está maior, está diferente",
+      "evidencia": "Eduardo e Rafael, independentemente, só perceberam o erro ao emparelhar o pneu recebido ao carro. Não existe ponto de conferência da medida entre a compra e a entrega.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": null,
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02",
+        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-81b6-b5f0-ed11b529bcdd",
+      "achado": "'Minha Garagem' existe, mas o cliente não conhece a funcionalidade",
+      "tipo": "Pista",
+      "citacao": "Eu não sabia dessa minha garagem",
+      "evidencia": "Eduardo desconhecia a funcionalidade Minha Garagem, que poderia tê-lo ajudado a acertar a medida. Baixa descoberta da feature.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": null,
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02",
+        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e781368083cfbe011f582a"
       ]
     },
     {
@@ -1291,21 +1247,21 @@
       "achado": "Só ~1% das devoluções por medida/modelo é refaturado — vira custo quase integral",
       "tipo": "Dado",
       "citacao": null,
-      "evidencia": "No comitê de agosto/2026, o motivo 'Erro cliente - Medida/Modelo errado' tem ~1% de refaturamento — quase nunca é reaproveitado, tornando-se custo quase integral. Bem abaixo da média geral (28%).",
+      "evidencia": "No comitê de agosto/2026, o motivo 'Erro cliente - Medida/Modelo errado' tem ~1% de refaturamento (R$ 19,1 mil refaturados de R$ 2,09 mi) — o produto devolvido por esse motivo quase nunca é reaproveitado, tornando-se custo quase integral. Bem abaixo da média geral de refaturamento (28%).",
       "fonteCanal": "Área interna",
       "forca": "Dado quantitativo",
       "frequencia": null,
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
       ],
       "frenteIds": [
-        "a",
-        "b"
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6",
+        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
       ]
     },
     {
@@ -1313,21 +1269,42 @@
       "achado": "'Medida/Modelo errado' é o MAIOR motivo de devolução da Pneustore Digital: 1.217 ordens, R$ 1,53 mi em agosto",
       "tipo": "Dado",
       "citacao": null,
-      "evidencia": "No comitê de agosto/2026, na BU Pneustore Digital o motivo 'Erro cliente - Medida/Modelo errado' lidera as devoluções: 1.217 ordens e R$ 1.533.314,39. No total do grupo o motivo é o 2º maior (R$ 2,09 mi, 17,2%).",
+      "evidencia": "No comitê de agosto/2026, na BU Pneustore Digital o motivo 'Erro cliente - Medida/Modelo errado' lidera as devoluções: 1.217 ordens e R$ 1.533.314,39 — acima de qualquer outro motivo da BU. No total do grupo o motivo é o 2º maior (R$ 2,09 mi, 17,2%).",
       "fonteCanal": "Área interna",
       "forca": "Dado quantitativo",
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
       ],
       "frenteIds": [
-        "a",
-        "b"
+        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0",
+        "https://app.notion.com/3c91c97d43e7813c8a33cb3949e0fd75"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-81f7-aa10-e14b49eba347",
+      "achado": "Ordenar por menor preço mistura câmara de ar e pneu de moto no resultado da medida",
+      "tipo": "Dor",
+      "citacao": "A hora que põe menor preço, mistura tudo... aparece câmera de ar, pneu de moto",
+      "evidencia": "Eduardo reproduziu ao vivo: digitando a medida e ordenando por menor preço, o resultado traz itens não relacionados (câmara de ar, pneu de moto), dificultando achar o pneu certo.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Alta",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
       ]
     },
     {
@@ -1335,21 +1312,44 @@
       "achado": "Comitê oficial funde 'Medida/Modelo' num motivo único rotulado 'Erro cliente' — impossível separar e culpa do cliente por padrão",
       "tipo": "Dado",
       "citacao": "Erro cliente - Medida/Modelo errado",
-      "evidencia": "No fechamento de agosto/2026 do Comitê de Devoluções, o motivo oficial é 'Erro cliente - Medida/Modelo errado' — medida e modelo fundidos num só motivo e já rotulados como erro do cliente.",
+      "evidencia": "No fechamento de agosto/2026 do Comitê de Devoluções (Gestão da Qualidade/Nayara), o motivo oficial é 'Erro cliente - Medida/Modelo errado' — medida e modelo fundidos num só motivo e já rotulados como erro do cliente. Confirma no dado oficial que o número mistura medida+modelo e assume culpa do cliente por padrão (site/busca induzido não aparece).",
       "fonteCanal": "Área interna",
       "forca": "Dado quantitativo",
       "frequencia": null,
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "a",
-        "b"
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572",
+        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
       ],
       "fonteIds": [
-        "a"
+        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
       ],
       "frenteIds": [
-        "a"
+        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-81ff-9d25-f5ed991947e6",
+      "achado": "Busca por placa / Minha Garagem retornou medida incompatível — pneu não coube no veículo",
+      "tipo": "Dor",
+      "citacao": "Coloquei a minha placa e apareceu o Palio... o que comprei era maior... na oficina o rapaz falou 'essa aqui não dá certo'",
+      "evidencia": "Rafael cadastrou o carro e buscou pela placa na Minha Garagem; o retorno o levou a comprar uma medida maior, que a oficina disse que agarraria no paralama. Contradiz a tese de que a busca por placa 'acerta ~99%'.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": null,
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb",
+        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb",
+        "https://app.notion.com/3c91c97d43e781368083cfbe011f582a"
       ]
     }
   ],
@@ -1362,12 +1362,12 @@
       "extraido": "Fricção no pós-compra que agrava devolução/troca; vocabulário de sistemas (Zendesk, Rugby, Swing, SAP, Reclame Aqui).",
       "link": null,
       "evidenciasGeradasIds": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f"
+        "https://app.notion.com/3ca1c97d43e78135afe7eab65f5f3082",
+        "https://app.notion.com/3ca1c97d43e781cb960ac5fb1a24b60a",
+        "https://app.notion.com/3ca1c97d43e7819da711c7e104f4994c",
+        "https://app.notion.com/3ca1c97d43e781e8a20ff5016b7e8a53",
+        "https://app.notion.com/3ca1c97d43e78172bb5ce3f60306da14",
+        "https://app.notion.com/3ca1c97d43e78156ae5bc9fcd16dfee4"
       ]
     },
     {
@@ -1378,12 +1378,12 @@
       "extraido": "Papéis de pré e pós-venda; origem da medida errada na busca e no estoque. Analistas de pós-venda (Jenifer, Ester) ainda não ouvidas individualmente.",
       "link": null,
       "evidenciasGeradasIds": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f"
+        "https://app.notion.com/3ca1c97d43e7813a973ed0258c0844b1",
+        "https://app.notion.com/3ca1c97d43e7813a800ccb965b1f438c",
+        "https://app.notion.com/3ca1c97d43e781c280bae9ab24e7320d",
+        "https://app.notion.com/3ca1c97d43e78145a6d7d6fa14bd3119",
+        "https://app.notion.com/3ca1c97d43e7815990d3d8db190192d8",
+        "https://app.notion.com/3ca1c97d43e781288de3c69c56321deb"
       ]
     },
     {
@@ -1391,18 +1391,18 @@
       "fonte": "Pesquisa anterior (Djeison + Rodrigo) — entrevistas com usuários",
       "tipo": "Pesquisa anterior",
       "statusAnalise": "Analisado",
-      "extraido": "Material recuperado: 3 transcrições de entrevistas com usuários conduzidas pelo Rodrigo Beckmann (Djeison como observador), 04–05/12/2025 — Eduardo (Captiva), Marcos (moto Yamaha) e Rafael (Palio). Gerou 9 evidências novas: compra por excesso de confiança sem conferir; busca por placa/Minha Garagem retornou medida incompatível; ordenação por menor preço mistura câmara de ar/pneu de moto; caso rotulado 'medida errada' era MODELO (com/sem câmara); cliente induzido ao erro por atendente da Shopee; Minha Garagem existe mas o cliente não conhece; erro só descoberto ao emparelhar o pneu ao carro; pedido espontâneo de alerta de confirmação; atrito no pós-compra (logística reversa sem agendamento, exigência de fotos).",
+      "extraido": "Material recuperado: 3 transcrições de entrevistas com usuários conduzidas pelo Rodrigo Beckmann (Djeison como observador), 04–05/12/2025, no OneDrive do Rodrigo (Arquivos de Chat do Teams) — Eduardo (Captiva), Marcos (moto Yamaha) e Rafael (Palio). Gerou 9 evidências: compra por excesso de confiança sem conferir (Usuário); busca por placa/Minha Garagem retornou medida incompatível (Busca+Recomendação — contradiz a tese de placa ~99%); ordenação por menor preço mistura câmara de ar/pneu de moto (Busca); caso rotulado 'medida errada' era MODELO com/sem câmara (Classificação interna); induzido ao erro por atendente da Shopee (Recomendação); Minha Garagem existe mas o cliente não conhece (Usuário); erro só descoberto ao emparelhar o pneu ao carro, sem checkpoint (Informação); pedido espontâneo e recorrente de alerta de confirmação (PDP); atrito no pós-compra — logística reversa sem agendamento/contato e exigência de fotos (Operação). Obs.: a pesquisa 'não engatou' na época, mas as 3 entrevistas são completas e aproveitáveis.",
       "link": null,
       "evidenciasGeradasIds": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f",
-        "g",
-        "h",
-        "i"
+        "https://app.notion.com/3d81c97d43e7819497b6ce53a7536929",
+        "https://app.notion.com/3d81c97d43e781ff9d25f5ed991947e6",
+        "https://app.notion.com/3d81c97d43e781f7aa10e14b49eba347",
+        "https://app.notion.com/3d81c97d43e78185b9cafe1f2ef5737a",
+        "https://app.notion.com/3d81c97d43e781679a45e1e04538780e",
+        "https://app.notion.com/3d81c97d43e781b6b5f0ed11b529bcdd",
+        "https://app.notion.com/3d81c97d43e781ad8145eb383e25e5da",
+        "https://app.notion.com/3d81c97d43e7812c858ed801b21b76ad",
+        "https://app.notion.com/3d81c97d43e781598c78c97b84f90de5"
       ]
     },
     {
@@ -1410,14 +1410,14 @@
       "fonte": "Base Zendesk — medida errada (01/06–31/08, todos os canais)",
       "tipo": "Zendesk",
       "statusAnalise": "Analisado",
-      "extraido": "1ª entrega da Camila (01/09): deck 'Motivo - Erro Cliente.pptx' + base 'Base_Motivo_Erro_Cliente.xlsx' (tickets Zendesk, jun–ago, 2025 vs 2026). Medida Incorreta: 1.714 (2025) → 1.303 (2026), queda de 24%. 100% dos tickets são Assunto=CANCELAMENTO. Agosto YoY -33%. Reclame Aqui na contramão: 79→89 (+13%).",
+      "extraido": "1ª entrega da Camila (01/09): deck 'Motivo - Erro Cliente.pptx' + base 'Base_Motivo_Erro_Cliente.xlsx' (tickets Zendesk, jun–ago, 2025 vs 2026). ACHADOS: a base 'Erro Cliente' tem 2 sub-motivos — Medida Incorreta e Modelo Incorreto. MEDIDA ERRADA REAL (Medida Incorreta): 1.714 (2025) → 1.303 (2026), queda de 24%. O -30% do deck (2.183→1.521) está inflado pela queda de Modelo Incorreto (-53%); medida é ~80% do bucket, então o número de 2026 é 1.303, não 1.521. 100% dos tickets são Assunto=CANCELAMENTO. Agosto YoY -33%. Reclame Aqui na contramão: 79→89 (+13%) enquanto o total caiu. Reorg de filas entre 2025-2026 (N1 Voz vira topo, surge Gestão Canais Receptivos) — não ler grupos como comportamento. PENDÊNCIAS: lado Expedição (fechar erro cliente × expedição); volume total de tickets p/ virar taxa; 2026 ainda não 100% fechado (44 em Hold/Open/Pending/Solved); 31 recontatos do mesmo pedido em 2026.",
       "link": null,
       "evidenciasGeradasIds": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e"
+        "https://app.notion.com/3ce1c97d43e781d897d5e2a16e43b8d9",
+        "https://app.notion.com/3ce1c97d43e7812bb799c809f7d57287",
+        "https://app.notion.com/3ce1c97d43e78163ac08cdf2d9d0409d",
+        "https://app.notion.com/3ce1c97d43e78187a065ebe7eab5c3f8",
+        "https://app.notion.com/3ce1c97d43e781c79d8ec1f97c99975e"
       ]
     },
     {
@@ -1425,19 +1425,19 @@
       "fonte": "Discovery RA — Compra Medida Errada (reunião 01/09)",
       "tipo": "Reclame Aqui",
       "statusAnalise": "Em análise",
-      "extraido": "Segunda conversa com o time de Canais Críticos/RA (Camila, Gabriela, Fernanda, Ingrid), com foco em medida errada. O número de 'medida errada' é autodeclarado pelo cliente e não é verificado; a reclamação quase sempre é sobre falha de cancelamento/morosidade da devolução, não sobre a medida.",
+      "extraido": "Segunda conversa com o time de Canais Críticos/RA (Camila, Gabriela, Fernanda, Ingrid), com foco em medida errada. Principais extrações: o número de 'medida errada' é autodeclarado pelo cliente e não é verificado; a reclamação quase sempre é sobre falha de cancelamento/morosidade da devolução, não sobre a medida; indutores no site (disparo de substituição, ordenação da busca, busca por veículo desatualizada); cliente compra por preço/Inmetro; ideia de conteúdo 'compra assertiva'. Percepção do time: número já diminuiu.",
       "link": "https://app.notion.com/p/3ce1c97d43e780bb95c6fb115790b1a9",
       "evidenciasGeradasIds": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f",
-        "g",
-        "h",
-        "i",
-        "j"
+        "https://app.notion.com/3ce1c97d43e781d897d5e2a16e43b8d9",
+        "https://app.notion.com/3ce1c97d43e7812bb799c809f7d57287",
+        "https://app.notion.com/3ce1c97d43e7810aada3d205d36ddf2f",
+        "https://app.notion.com/3ce1c97d43e781d28eaacf930a88130f",
+        "https://app.notion.com/3ce1c97d43e781d7b011c710e49b0c86",
+        "https://app.notion.com/3ce1c97d43e7813a9839c094e70de7f1",
+        "https://app.notion.com/3ce1c97d43e781af9728f399c5fbbfaf",
+        "https://app.notion.com/3ce1c97d43e781feb09aeade1a4041b9",
+        "https://app.notion.com/3ce1c97d43e7818dbb04c1b2a1000c45",
+        "https://app.notion.com/3ce1c97d43e78163ac08cdf2d9d0409d"
       ]
     },
     {
@@ -1445,7 +1445,7 @@
       "fonte": "Prints de reclamações reais (RA) — medida errada",
       "tipo": "Reclame Aqui",
       "statusAnalise": "A analisar",
-      "extraido": "Fernanda, Ingrid e Gabriela enviarão 2–3 prints cada de reclamações reais de medida errada no chat da reunião de 01/09.",
+      "extraido": "Fernanda, Ingrid e Gabriela enviarão 2–3 prints cada de reclamações reais de medida errada no chat da reunião de 01/09. Insumo qualitativo para o banco de evidências.",
       "link": null,
       "evidenciasGeradasIds": []
     },
@@ -1454,14 +1454,14 @@
       "fonte": "Comitê NAI — Compra Medida Errada (por BU)",
       "tipo": "Área interna",
       "statusAnalise": "Analisado",
-      "extraido": "Material localizado: deck 'Apresentação Comitê Devoluções V2.0' — fechamento de agosto/2026 (Gestão da Qualidade / Nayara Almeida). Gerou 5 evidências: motivo oficial é 'Erro cliente - Medida/Modelo errado' (fundidos, culpa do cliente por padrão); na Pneustore Digital é o MAIOR motivo de devolução (1.217 ordens, R$ 1,53 mi em agosto); ~73% do valor do motivo está na PS Digital; só ~1% é refaturado; comitê já tem plano de ação (treinamento + manual de motivos).",
+      "extraido": "Material localizado: deck 'Apresentação Comitê Devoluções V2.0' — fechamento de agosto/2026 (Gestão da Qualidade / Nayara Almeida; é o mesmo Comitê de Melhorias – Devoluções que se reúne periodicamente). Gerou 5 evidências: (1) o motivo oficial é 'Erro cliente - Medida/Modelo errado' — medida e modelo fundidos e rotulados como erro do cliente por padrão (Classificação interna); (2) na Pneustore Digital é o MAIOR motivo de devolução (1.217 ordens, R$ 1,53 mi em agosto); (3) ~73% do valor do motivo no grupo está na PS Digital; (4) só ~1% é refaturado — vira custo quase integral (vs. 28% de refaturamento geral); (5) o comitê já tem plano de ação de treinamento de motivos + manual de motivos, reconhecendo inconsistência na classificação. No total do grupo, medida/modelo é o 2º maior motivo (R$ 2,09 mi, 17,2%). Próximo report (fechamento definitivo de agosto) será enviado pela Nayara na reunião do comitê.",
       "link": null,
       "evidenciasGeradasIds": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e"
+        "https://app.notion.com/3d81c97d43e781fe8543fbd25295b92d",
+        "https://app.notion.com/3d81c97d43e781dfa28bfa739271a29c",
+        "https://app.notion.com/3d81c97d43e78191a42dca047eb432e8",
+        "https://app.notion.com/3d81c97d43e781bfb728ce50f21a27c9",
+        "https://app.notion.com/3d81c97d43e78106adc8cba44b3e4970"
       ]
     },
     {
@@ -1469,7 +1469,7 @@
       "fonte": "Relatório GoBots — perguntas/respostas (1º jun–30 ago)",
       "tipo": "Dashboard / BI",
       "statusAnalise": "Analisado",
-      "extraido": "Consolidado na fonte 'Pré-venda — Perguntas Mercado Livre + Site (Paulo Victor)': o material do GoBots já foi analisado e as evidências (compatibilidade/medida ~25% ML e ~39% site; maioria respondida por bot) já estão registradas lá.",
+      "extraido": "Consolidado na fonte 'Pré-venda — Perguntas Mercado Livre + Site (Paulo Victor)': o material do GoBots que o Paulo enviou foi analisado e as evidências (compatibilidade/medida ~25% ML e ~39% site; maioria respondida por bot) já estão registradas lá. Esta linha é a mesma fonte — fechada para não duplicar. Dúvidas frequentes: compatibilidade, garantia, se o pneu é novo.",
       "link": null,
       "evidenciasGeradasIds": []
     },
@@ -1478,19 +1478,19 @@
       "fonte": "Entrevista com Paulo Victor — Analista Pré-vendas (PneuStore)",
       "tipo": "Documento",
       "statusAnalise": "Em análise",
-      "extraido": "2ª conversa do tema. Número em queda, puxado por placa (nova plataforma) e medida mais assertivas; busca por veículo é o gap que não melhorou.",
+      "extraido": "2ª conversa do tema (1ª foi com a Carol). Número em queda, puxado por placa (nova plataforma) e medida mais assertivas; busca por veículo é o gap que não melhorou. Cliente leigo na nomenclatura; time orienta a ver o manual. Paulo é analista, não atendente de linha de frente.",
       "link": "https://app.notion.com/p/3cf1c97d43e7802fb1abeeeace1b6c9b",
       "evidenciasGeradasIds": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f",
-        "g",
-        "h",
-        "i",
-        "j"
+        "https://app.notion.com/3cf1c97d43e7813c8cb9d14bf0003189",
+        "https://app.notion.com/3cf1c97d43e781ec834fe98e6506583d",
+        "https://app.notion.com/3cf1c97d43e781039076c69c89ec5418",
+        "https://app.notion.com/3cf1c97d43e781eb840fc9b990a0edd8",
+        "https://app.notion.com/3cf1c97d43e78185ad8adc55a8bdc7a5",
+        "https://app.notion.com/3cf1c97d43e7817a9accf5bcc70e0b57",
+        "https://app.notion.com/3cf1c97d43e7814db32bfd40a137c6f6",
+        "https://app.notion.com/3cf1c97d43e781d0ae8af509e9a7008e",
+        "https://app.notion.com/3cf1c97d43e7817b8644c39202542592",
+        "https://app.notion.com/3cf1c97d43e781eaa850d3ac318d722e"
       ]
     },
     {
@@ -1498,12 +1498,12 @@
       "fonte": "Pré-venda — Perguntas Mercado Livre + Site (Paulo Victor)",
       "tipo": "Área interna",
       "statusAnalise": "Em análise",
-      "extraido": "Perguntas sobre medida/compatibilidade são ~25% no ML e ~39% no site. A maioria é respondida por BOT com texto padrão que devolve a decisão ao cliente.",
+      "extraido": "Dois exports entregues por Paulo Victor (03/09): (1) 'perguntas-...16_45_57.csv' — 8.653 perguntas de pré-venda no Mercado Livre (30/jun–03/set); (2) 'perguntas-...16_58_19.xls' — 4.342 perguntas no site da PneuStore (julho). ACHADOS: perguntas sobre medida/compatibilidade ('serve no meu carro?') são ~25% no ML e ~39% no site. O cliente pergunta sempre pelo veículo/ano/modelo, quase nunca pela medida técnica (205/55 R16). A maioria dessas perguntas é respondida por BOT (85% no ML, ~75% no site) e o padrão é DEVOLVER a confirmação ao cliente ('verifique no manual ou nos pneus instalados… largura, perfil, aro, índice'). Respostas humanas (Marketplace/Gabriela) confirmam de verdade, mas são minoria. Aparece confusão de índice de carga/velocidade (ex.: H102 vs H98). RESSALVA: % por palavra-chave (piso, aproximado); o site tem copiloto de IA sugerindo resposta. A MINERAR: temas além de compatibilidade, taxa de resposta que realmente resolve, produtos/medidas mais perguntados.",
       "link": null,
       "evidenciasGeradasIds": [
-        "a",
-        "b",
-        "c"
+        "https://app.notion.com/3d11c97d43e781cea77dc386ce3b9812",
+        "https://app.notion.com/3d11c97d43e781658227dc300953baed",
+        "https://app.notion.com/3d11c97d43e781f98758cb95ec6f1afa"
       ]
     },
     {
@@ -1511,17 +1511,17 @@
       "fonte": "Entrevista Zendesk — Jéssica Lima (classificação de cancelamento/devolução, 08/09)",
       "tipo": "Área interna",
       "statusAnalise": "Em análise",
-      "extraido": "Entrevista 08/09 com Jéssica Lima (dona do Zendesk). 'Medida incorreta' é sub-motivo de cancelamento, autodeclarado pelo cliente e não verificado. Zendesk não segmenta erro do usuário x induzido pelo site.",
+      "extraido": "Entrevista 08/09 com Jéssica Lima (dona do Zendesk). Foco: como nasce o rótulo 'medida incorreta'. PRINCIPAIS EXTRAÇÕES: (1) O ticket nunca chega marcado como medida errada — chega como cancelamento/devolução; o motivo é escolhido pelo PRÓPRIO CLIENTE no fluxo do bot (campo pré-cadastrado). O atendente pode corrigir se estiver incoerente, mas normalmente não corrige e passa pra frente. O cliente não informa qual medida comprou nem qual seria a correta — não há verificação ('se o cliente falou, tá falado'). (2) 'Medida incorreta' não é assunto próprio: é sub-motivo dentro de 'erro durante a compra' > cancelamento — explica os 100% CANCELAMENTO como artefato estrutural, não comportamento. (3) Medida × Modelo: os dois campos existem mas sem regra ('não tem regra, bota o que der'); atendentes/clientes confundem — o split ~80% medida é frágil no nível do ticket. (4) O Zendesk NÃO segmenta 'cliente escolheu errado' × 'site induziu ao erro' — tudo cai no mesmo motivo ('vai pra um buraco só'); Jéssica confirma que o site oferta pneu incompatível pro modelo e induz ao erro. (5) Recontato = ticket novo, sem dedup automático — infla a contagem; o novo bot pergunta por protocolo aberto, mas se o cliente não informa, gera ticket novo. (6) Expedição no Zendesk não funciona (agentes só comentam, não transferem ticket; não atendem fim de semana; pós-limpeza de acessos 600→350) — precisa migrar pra fora do Zendesk. BÔNUS: painel (Vercel) mostra ~R$2 mi de custo logístico de cancelamento+devolução em 7 dias, filtrável por motivo (ex.: medida incorreta) — nem todo ticket tem valor, então é piso; fluxo de cancelamento burocrático (cancelar → coletar → estornar até 60 dias → recomprar); pedido com NF ainda não emitida não é barrado a tempo, sai e volta gerando custo. PENDÊNCIAS: liberar acesso ao painel Vercel; relatório de frequência do campo motivo de cancelamento; export legível do Miro do fluxo do bot.",
       "link": "https://app.notion.com/p/3d51c97d43e780478cd0dd0cc058247f",
       "evidenciasGeradasIds": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f",
-        "g",
-        "h"
+        "https://app.notion.com/3d51c97d43e7819aae40cff64adb6dfa",
+        "https://app.notion.com/3d51c97d43e781708af0ed5944bf9522",
+        "https://app.notion.com/3d51c97d43e781a8be60d3341383fed9",
+        "https://app.notion.com/3d51c97d43e7818bae92fe3bca53f4fa",
+        "https://app.notion.com/3d51c97d43e781708b23e9e17820e06a",
+        "https://app.notion.com/3d51c97d43e781fc98cfeda314e93f74",
+        "https://app.notion.com/3d51c97d43e78173a1a9d3ed9eec068c",
+        "https://app.notion.com/3d51c97d43e7815289d5f5ca37a04f49"
       ]
     },
     {
@@ -1529,12 +1529,12 @@
       "fonte": "Export Zendesk — Medida Incorreta (CSV, 13.203 tickets, 02/01/25–07/09/26)",
       "tipo": "Zendesk",
       "statusAnalise": "Em análise",
-      "extraido": "13.203 tickets. Coletado 31,6% > Barrado 18,1%. Valor bruto R$702M é majoritariamente linhas corrompidas; exposição real ~R$6-37M, mediana R$1.170/ticket.",
+      "extraido": "Export do painel Cantu filtrado por Motivo=Medida Incorreta. 13.203 tickets, 02/01/2025–07/09/2026 (~613 dias, ~21,5/dia). Colunas: ID, Data, Status, Motivo, Resultado, Tipo, Loja, Canal, Pedido, NF, Remessa, Filial, FormaPagto, Valor, Assunto. ACHADOS: (1) RESULTADO — Coletado 4.172 (31,6%) > Barrado 2.387 (18,1%), Sem info 6.644 (50,3%); entre os com info, 64% Coletado × 36% Barrado → medida errada tende a NÃO ser barrada a tempo (pior que o painel geral, 61% barrado). (2) VALOR — só 42% preenchido; soma bruta R$702.337.317,65 (= número do painel), MAS 6 linhas > R$1M somam R$665,6M (95% do total) e são lixo (R$161,9M / R$60M numa devolução de pneu). Limpo: R$36,7M (excl. >R$1M) ou ~R$8M (excl. >R$50k); mediana R$1.170/ticket. Exposição real na casa de R$6–37M, não R$702M. (3) RECONTATO — campo Pedido preenchido em só 16% (2.158); no mediível, 44 pedidos com >1 ticket (56 extras, ~2,6%). Não dá pra deduplicar em escala. (4) Loja: PneuStore 53%, resto marketplace (ML, Shopee, Magalu, Amazon). Canal: Ativo Voz e Marketplace lideram; Reclame Aqui 479. Filial de origem nº1: Itajai/SC (4.166), depois Serra/ES e Jaboatão/PE. Status: 91% Fechado. Assunto é texto livre quase vazio — não re-testa o '100% cancelamento' (aquilo era outro campo).",
       "link": null,
       "evidenciasGeradasIds": [
-        "a",
-        "b",
-        "c"
+        "https://app.notion.com/3d51c97d43e781618f3cd2fc8e176344",
+        "https://app.notion.com/3d51c97d43e7815289d5f5ca37a04f49",
+        "https://app.notion.com/3d51c97d43e781fc98cfeda314e93f74"
       ]
     }
   ],
@@ -1549,8 +1549,8 @@
       "proximoPasso": "Identificar erros que acontecem depois da compra e separá-los de 'medida errada'.",
       "causasIds": [],
       "evidenciasIds": [
-        "a",
-        "b"
+        "https://app.notion.com/3ca1c97d43e7813a800ccb965b1f438c",
+        "https://app.notion.com/3ce1c97d43e781feb09aeade1a4041b9"
       ]
     },
     {
@@ -1563,12 +1563,12 @@
       "proximoPasso": "Melhorar a explicação da medida (205/55 R16) e 'como comprar o pneu correto', possivelmente com Marketing.",
       "causasIds": [],
       "evidenciasIds": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f"
+        "https://app.notion.com/3ce1c97d43e7818dbb04c1b2a1000c45",
+        "https://app.notion.com/3cf1c97d43e7817a9accf5bcc70e0b57",
+        "https://app.notion.com/3cf1c97d43e7814db32bfd40a137c6f6",
+        "https://app.notion.com/3cf1c97d43e781d0ae8af509e9a7008e",
+        "https://app.notion.com/3cf1c97d43e781eaa850d3ac318d722e",
+        "https://app.notion.com/3d11c97d43e781f98758cb95ec6f1afa"
       ]
     },
     {
@@ -1578,7 +1578,7 @@
       "tipo": "Plano",
       "status": "Em andamento",
       "prioridade": "Alta",
-      "proximoPasso": "Montar o macro pedido pela Grace: objetivo → o que já sabemos → o que precisamos descobrir → áreas envolvidas → dados/fontes → pesquisa → frentes de solução.",
+      "proximoPasso": "Montar o macro pedido pela Grace: objetivo → o que já sabemos → o que precisamos descobrir → áreas envolvidas → dados/fontes → pesquisa → frentes de solução. Sem detalhar demais.",
       "causasIds": [],
       "evidenciasIds": []
     },
@@ -1592,9 +1592,9 @@
       "proximoPasso": "Explorar compatibilidade veículo × pneu (veículo cadastrado, compatíveis, medida recomendada).",
       "causasIds": [],
       "evidenciasIds": [
-        "a",
-        "b",
-        "c"
+        "https://app.notion.com/3cf1c97d43e7817b8644c39202542592",
+        "https://app.notion.com/3d81c97d43e781ff9d25f5ed991947e6",
+        "https://app.notion.com/3d81c97d43e781b6b5f0ed11b529bcdd"
       ]
     },
     {
@@ -1607,7 +1607,7 @@
       "proximoPasso": "Consolidar pesquisa anterior + Reclame Aqui + dados de troca/devolução já existentes.",
       "causasIds": [],
       "evidenciasIds": [
-        "a"
+        "https://app.notion.com/3d81c97d43e781dfa28bfa739271a29c"
       ]
     },
     {
@@ -1631,14 +1631,14 @@
       "proximoPasso": "Criar visão do problema por causa/origem — decompor o número.",
       "causasIds": [],
       "evidenciasIds": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f",
-        "g",
-        "h"
+        "https://app.notion.com/3ce1c97d43e78163ac08cdf2d9d0409d",
+        "https://app.notion.com/3cf1c97d43e78185ad8adc55a8bdc7a5",
+        "https://app.notion.com/3d51c97d43e781a8be60d3341383fed9",
+        "https://app.notion.com/3d51c97d43e781fc98cfeda314e93f74",
+        "https://app.notion.com/3d51c97d43e7815289d5f5ca37a04f49",
+        "https://app.notion.com/3d81c97d43e781dfa28bfa739271a29c",
+        "https://app.notion.com/3d81c97d43e78191a42dca047eb432e8",
+        "https://app.notion.com/3d81c97d43e781bfb728ce50f21a27c9"
       ]
     },
     {
@@ -1651,15 +1651,15 @@
       "proximoPasso": "Entender o que realmente entra em 'medida errada' e como o comitê classifica os motivos.",
       "causasIds": [],
       "evidenciasIds": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f",
-        "g",
-        "h",
-        "i"
+        "https://app.notion.com/3ce1c97d43e781d897d5e2a16e43b8d9",
+        "https://app.notion.com/3ce1c97d43e78187a065ebe7eab5c3f8",
+        "https://app.notion.com/3d51c97d43e7819aae40cff64adb6dfa",
+        "https://app.notion.com/3d51c97d43e781708af0ed5944bf9522",
+        "https://app.notion.com/3d51c97d43e781708b23e9e17820e06a",
+        "https://app.notion.com/3d81c97d43e78185b9cafe1f2ef5737a",
+        "https://app.notion.com/3d81c97d43e781679a45e1e04538780e",
+        "https://app.notion.com/3d81c97d43e781fe8543fbd25295b92d",
+        "https://app.notion.com/3d81c97d43e78106adc8cba44b3e4970"
       ]
     },
     {
@@ -1683,7 +1683,7 @@
       "proximoPasso": "Mapear processo, sistemas, áreas e como a classificação é feita (CIEX + trocas/devoluções; operação em Itajaí).",
       "causasIds": [],
       "evidenciasIds": [
-        "a"
+        "https://app.notion.com/3ca1c97d43e78135afe7eab65f5f3082"
       ]
     },
     {
@@ -1696,13 +1696,13 @@
       "proximoPasso": "Criar mecanismos de confirmação/segurança ('essa é a medida do seu veículo?').",
       "causasIds": [],
       "evidenciasIds": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f",
-        "g"
+        "https://app.notion.com/3ca1c97d43e781c280bae9ab24e7320d",
+        "https://app.notion.com/3ca1c97d43e78145a6d7d6fa14bd3119",
+        "https://app.notion.com/3ce1c97d43e781af9728f399c5fbbfaf",
+        "https://app.notion.com/3d11c97d43e781cea77dc386ce3b9812",
+        "https://app.notion.com/3d81c97d43e7819497b6ce53a7536929",
+        "https://app.notion.com/3d81c97d43e781ad8145eb383e25e5da",
+        "https://app.notion.com/3d81c97d43e7812c858ed801b21b76ad"
       ]
     },
     {
@@ -1715,20 +1715,20 @@
       "proximoPasso": "Avaliar busca guiada, veículo, placa e medida; evitar que o usuário precise saber a medida.",
       "causasIds": [],
       "evidenciasIds": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f",
-        "g",
-        "h",
-        "i",
-        "j",
-        "k",
-        "l",
-        "m",
-        "n"
+        "https://app.notion.com/3ca1c97d43e7813a973ed0258c0844b1",
+        "https://app.notion.com/3ca1c97d43e7815990d3d8db190192d8",
+        "https://app.notion.com/3ca1c97d43e781288de3c69c56321deb",
+        "https://app.notion.com/3ce1c97d43e781d28eaacf930a88130f",
+        "https://app.notion.com/3ce1c97d43e781d7b011c710e49b0c86",
+        "https://app.notion.com/3ce1c97d43e7813a9839c094e70de7f1",
+        "https://app.notion.com/3cf1c97d43e7813c8cb9d14bf0003189",
+        "https://app.notion.com/3cf1c97d43e781ec834fe98e6506583d",
+        "https://app.notion.com/3cf1c97d43e781039076c69c89ec5418",
+        "https://app.notion.com/3cf1c97d43e781eb840fc9b990a0edd8",
+        "https://app.notion.com/3d11c97d43e781658227dc300953baed",
+        "https://app.notion.com/3d51c97d43e7818bae92fe3bca53f4fa",
+        "https://app.notion.com/3d81c97d43e781ff9d25f5ed991947e6",
+        "https://app.notion.com/3d81c97d43e781f7aa10e14b49eba347"
       ]
     },
     {
@@ -1738,21 +1738,21 @@
       "tipo": "Solução",
       "status": "A fazer",
       "prioridade": "Média",
-      "proximoPasso": "Mapear e reduzir a fricção do pós-compra que prolonga a devolução/troca.",
+      "proximoPasso": "Mapear e reduzir a fricção do pós-compra que prolonga a devolução/troca (sem rastreio de transportadora, cobrança de áreas fora do Zendesk, sem alerta de urgência, CPF na abertura do ticket). Separar 'por que erra' de 'por que a resolução demora'.",
       "causasIds": [],
       "evidenciasIds": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f",
-        "g",
-        "h",
-        "i",
-        "j",
-        "k",
-        "l"
+        "https://app.notion.com/3ca1c97d43e781cb960ac5fb1a24b60a",
+        "https://app.notion.com/3ca1c97d43e7819da711c7e104f4994c",
+        "https://app.notion.com/3ca1c97d43e781e8a20ff5016b7e8a53",
+        "https://app.notion.com/3ca1c97d43e78172bb5ce3f60306da14",
+        "https://app.notion.com/3ca1c97d43e78156ae5bc9fcd16dfee4",
+        "https://app.notion.com/3ce1c97d43e7812bb799c809f7d57287",
+        "https://app.notion.com/3ce1c97d43e7810aada3d205d36ddf2f",
+        "https://app.notion.com/3ce1c97d43e781c79d8ec1f97c99975e",
+        "https://app.notion.com/3d51c97d43e78173a1a9d3ed9eec068c",
+        "https://app.notion.com/3d51c97d43e781618f3cd2fc8e176344",
+        "https://app.notion.com/3d81c97d43e781598c78c97b84f90de5",
+        "https://app.notion.com/3d81c97d43e781bfb728ce50f21a27c9"
       ]
     }
   ]
