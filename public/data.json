@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-16T15:19:51.267Z",
-  "generatedAtLabel": "16/09/2026, 12:19 (Brasília)",
+  "generatedAt": "2026-09-17T09:08:09.060Z",
+  "generatedAtLabel": "17/09/2026, 06:08 (Brasília)",
   "causas": [
     {
       "id": "3c91c97d-43e7-813d-bf61-c2bab85ddee7",
@@ -9,7 +9,7 @@
       "hipotese": "A fricção no pós-compra (sem rastreio, cobrança fora do Zendesk, sem alerta de urgência, CPF na abertura) agrava e prolonga a devolução/troca.",
       "leitura": "Alta",
       "status": "Evidência parcial",
-      "nEvidencias": 16
+      "nEvidencias": 17
     },
     {
       "id": "3c91c97d-43e7-814f-a5d5-d84af14ab572",
@@ -18,7 +18,7 @@
       "hipotese": null,
       "leitura": "Alta",
       "status": "Confirmada",
-      "nEvidencias": 14
+      "nEvidencias": 17
     },
     {
       "id": "3c91c97d-43e7-817e-ba33-ed6d318547bb",
@@ -1050,27 +1050,6 @@
       ]
     },
     {
-      "id": "3d81c97d-43e7-8106-adc8-cba44b3e4970",
-      "achado": "Comitê já age sobre a inconsistência dos motivos (treinamento + manual de motivos)",
-      "tipo": "Pista",
-      "citacao": "Treinamento de utilização dos motivos; Manual de motivos atualizado",
-      "evidencia": "O plano de ação do comitê de agosto/2026 inclui 'Treinamento de utilização dos motivos' (Vitoria, 30/09) e 'Manual de motivos atualizado' (concluído) — reconhecimento interno de que a classificação dos motivos de devolução é inconsistente. Oportunidade de alinhar a taxonomia do projeto com a do comitê.",
-      "fonteCanal": "Área interna",
-      "forca": "Caso concreto",
-      "frequencia": null,
-      "impacto": "Médio",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
-      ]
-    },
-    {
       "id": "3d81c97d-43e7-812c-858e-d801b21b76ad",
       "achado": "Usuários pedem espontaneamente um alerta de confirmação da medida",
       "tipo": "Pista",
@@ -1089,27 +1068,6 @@
       ],
       "frenteIds": [
         "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
-      ]
-    },
-    {
-      "id": "3d81c97d-43e7-8159-8c78-c97b84f90de5",
-      "achado": "Atrito no pós-compra: logística reversa sem agendamento/contato prévio (LGPD) e exigência de fotos dos pneus",
-      "tipo": "Dor",
-      "citacao": "O recolhimento em casa... não tenho contato do motorista (Marcos); A parte mais ruim é tirar foto dos pneus (Rafael)",
-      "evidencia": "Marcos apontou dificuldade de conciliar o recolhimento por não haver agendamento nem contato do transportador; Rafael citou a exigência de fotos dos pneus como a etapa mais chata. Atrito no fluxo de devolução/troca.",
-      "fonteCanal": "Entrevista",
-      "forca": "Relato recorrente",
-      "frequencia": null,
-      "impacto": "Médio",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
       ]
     },
     {
@@ -1154,27 +1112,6 @@
       ],
       "frenteIds": [
         "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
-      ]
-    },
-    {
-      "id": "3d81c97d-43e7-8191-a42d-ca047eb432e8",
-      "achado": "~73% do valor do motivo medida/modelo concentra-se na Pneustore Digital",
-      "tipo": "Dado",
-      "citacao": null,
-      "evidencia": "Dos R$ 2,09 mi de 'Medida/Modelo errado' do grupo em agosto/2026, R$ 1,53 mi (~73%) estão na Pneustore Digital. As demais BUs (Speedmax B2F, B2B, Gripmaster GP, OHT Pro, Rede Pneustore) têm valores bem menores. O problema é majoritariamente do e-commerce PneuStore.",
-      "fonteCanal": "Área interna",
-      "forca": "Dado quantitativo",
-      "frequencia": null,
-      "impacto": "Médio",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
       ]
     },
     {
@@ -1243,6 +1180,113 @@
       ]
     },
     {
+      "id": "3d81c97d-43e7-81f7-aa10-e14b49eba347",
+      "achado": "Ordenar por menor preço mistura câmara de ar e pneu de moto no resultado da medida",
+      "tipo": "Dor",
+      "citacao": "A hora que põe menor preço, mistura tudo... aparece câmera de ar, pneu de moto",
+      "evidencia": "Eduardo reproduziu ao vivo: digitando a medida e ordenando por menor preço, o resultado traz itens não relacionados (câmara de ar, pneu de moto), dificultando achar o pneu certo.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Alta",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-81ff-9d25-f5ed991947e6",
+      "achado": "Busca por placa / Minha Garagem retornou medida incompatível — pneu não coube no veículo",
+      "tipo": "Dor",
+      "citacao": "Coloquei a minha placa e apareceu o Palio... o que comprei era maior... na oficina o rapaz falou 'essa aqui não dá certo'",
+      "evidencia": "Rafael cadastrou o carro e buscou pela placa na Minha Garagem; o retorno o levou a comprar uma medida maior, que a oficina disse que agarraria no paralama. Contradiz a tese de que a busca por placa 'acerta ~99%'.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": null,
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb",
+        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb",
+        "https://app.notion.com/3c91c97d43e781368083cfbe011f582a"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-8159-8c78-c97b84f90de5",
+      "achado": "Atrito no pós-compra: logística reversa sem agendamento/contato prévio (LGPD) e exigência de fotos dos pneus",
+      "tipo": "Dor",
+      "citacao": "O recolhimento em casa... não tenho contato do motorista (Marcos); A parte mais ruim é tirar foto dos pneus (Rafael)",
+      "evidencia": "Marcos apontou dificuldade de conciliar o recolhimento por não haver agendamento nem contato do transportador; Rafael citou a exigência de fotos dos pneus como a etapa mais chata. Atrito no fluxo de devolução/troca.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": null,
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-8106-adc8-cba44b3e4970",
+      "achado": "Comitê já age sobre a inconsistência dos motivos (treinamento + manual de motivos)",
+      "tipo": "Pista",
+      "citacao": "Treinamento de utilização dos motivos; Manual de motivos atualizado",
+      "evidencia": "O plano de ação do comitê de agosto/2026 inclui 'Treinamento de utilização dos motivos' (Vitoria, 30/09) e 'Manual de motivos atualizado' (concluído) — reconhecimento interno de que a classificação dos motivos de devolução é inconsistente. Oportunidade de alinhar a taxonomia do projeto com a do comitê.",
+      "fonteCanal": "Área interna",
+      "forca": "Caso concreto",
+      "frequencia": null,
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-8191-a42d-ca047eb432e8",
+      "achado": "~73% do valor do motivo medida/modelo concentra-se na Pneustore Digital",
+      "tipo": "Dado",
+      "citacao": null,
+      "evidencia": "Dos R$ 2,09 mi de 'Medida/Modelo errado' do grupo em agosto/2026, R$ 1,53 mi (~73%) estão na Pneustore Digital. As demais BUs (Speedmax B2F, B2B, Gripmaster GP, OHT Pro, Rede Pneustore) têm valores bem menores. O problema é majoritariamente do e-commerce PneuStore.",
+      "fonteCanal": "Área interna",
+      "forca": "Dado quantitativo",
+      "frequencia": null,
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
+      ]
+    },
+    {
       "id": "3d81c97d-43e7-81bf-b728-ce50f21a27c9",
       "achado": "Só ~1% das devoluções por medida/modelo é refaturado — vira custo quase integral",
       "tipo": "Dado",
@@ -1287,27 +1331,6 @@
       ]
     },
     {
-      "id": "3d81c97d-43e7-81f7-aa10-e14b49eba347",
-      "achado": "Ordenar por menor preço mistura câmara de ar e pneu de moto no resultado da medida",
-      "tipo": "Dor",
-      "citacao": "A hora que põe menor preço, mistura tudo... aparece câmera de ar, pneu de moto",
-      "evidencia": "Eduardo reproduziu ao vivo: digitando a medida e ordenando por menor preço, o resultado traz itens não relacionados (câmara de ar, pneu de moto), dificultando achar o pneu certo.",
-      "fonteCanal": "Entrevista",
-      "forca": "Caso concreto",
-      "frequencia": "Alta",
-      "impacto": "Médio",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
-      ]
-    },
-    {
       "id": "3d81c97d-43e7-81fe-8543-fbd25295b92d",
       "achado": "Comitê oficial funde 'Medida/Modelo' num motivo único rotulado 'Erro cliente' — impossível separar e culpa do cliente por padrão",
       "tipo": "Dado",
@@ -1327,29 +1350,6 @@
       ],
       "frenteIds": [
         "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
-      ]
-    },
-    {
-      "id": "3d81c97d-43e7-81ff-9d25-f5ed991947e6",
-      "achado": "Busca por placa / Minha Garagem retornou medida incompatível — pneu não coube no veículo",
-      "tipo": "Dor",
-      "citacao": "Coloquei a minha placa e apareceu o Palio... o que comprei era maior... na oficina o rapaz falou 'essa aqui não dá certo'",
-      "evidencia": "Rafael cadastrou o carro e buscou pela placa na Minha Garagem; o retorno o levou a comprar uma medida maior, que a oficina disse que agarraria no paralama. Contradiz a tese de que a busca por placa 'acerta ~99%'.",
-      "fonteCanal": "Entrevista",
-      "forca": "Caso concreto",
-      "frequencia": null,
-      "impacto": "Alto",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb",
-        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb",
-        "https://app.notion.com/3c91c97d43e781368083cfbe011f582a"
       ]
     },
     {
@@ -1393,6 +1393,90 @@
       ],
       "frenteIds": [
         "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
+      ]
+    },
+    {
+      "id": "3dd1c97d-43e7-81a9-94d5-cac58e38a85f",
+      "achado": "O comitê de devoluções já age sobre cancelamento e pedidos duplicados — convergindo com nosso diagnóstico",
+      "tipo": "Pista",
+      "citacao": null,
+      "evidencia": "O plano de ação do comitê tem itens que batem direto com evidências nossas: 'Análise do SLA de fluxo de cancelamento para SLA de 24h' (nossa dor do cancelamento que não dá tempo), 'Pedidos duplicados na integração' (chamado #7688183; nossos 31 recontatos do mesmo pedido) e 'Integração de pedidos cancelados do Meli para SAP'. Diagnóstico convergente — vale alinhar em vez de duplicar esforço.",
+      "fonteCanal": "Área interna",
+      "forca": "Indício",
+      "frequencia": "Média",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
+      ]
+    },
+    {
+      "id": "3dd1c97d-43e7-81c9-9e55-dcf1c1cbdbdd",
+      "achado": "Medida errada é o MAIOR ofensor de devolução do PneuStore Digital — 34% do valor (R$398 mil)",
+      "tipo": "Dado",
+      "citacao": null,
+      "evidencia": "No comitê oficial de devoluções (01–09/set/2026), somando os rótulos de medida, são 308 ordens / R$398 mil = 34% de todo o valor devolvido do PneuStore Digital (R$1,16 mi) — o motivo nº1, à frente de transportadora e desistência. No agregado Cantu, 'Erro cliente - Medida/Modelo errado' também lidera (R$586 mil, 20,6%). Eleva a medida errada de 'uma fatia' para a maior linha financeira de devolução no nível do comitê.",
+      "fonteCanal": "Área interna",
+      "forca": "Dado quantitativo",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
+      ]
+    },
+    {
+      "id": "3dd1c97d-43e7-81f3-bb3c-c2f15704a9a7",
+      "achado": "% Dev cai no agregado Cantu (2,38%) mas o PneuStore Digital está acima da meta (4,39% vs 4,00%)",
+      "tipo": "Dado",
+      "citacao": null,
+      "evidencia": "O comitê mostra % Dev 2026 em 2,38% (vs 3,48% em 2025 e 4,27% em 2024) — queda real (receita 3,1→3,6 Bi, devolução 132→92 Mi). Porém o BU PneuStore Digital, que é o nosso foco, está ACIMA da meta: meta 4,00%, agosto 4,87%, setembro 4,39%. Ou seja, a melhora é da Cantu como um todo; o e-commerce não bate a meta. Cuidado para não atribuir ao projeto uma melhora que não é do nosso canal.",
+      "fonteCanal": "Área interna",
+      "forca": "Dado quantitativo",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
+      ]
+    },
+    {
+      "id": "3dd1c97d-43e7-8190-900d-d29c15a8e9b8",
+      "achado": "A taxonomia oficial dobra a medida errada: rótulo legado combinado + rótulo novo separado, ao mesmo tempo",
+      "tipo": "Dado",
+      "citacao": null,
+      "evidencia": "Na base do comitê o mesmo problema aparece em dois motivos simultaneamente: legado 'Erro cliente - Medida/Modelo errado' (combinado, 175 ordens no PS Digital) e novo 'Compra: Medida incorreta' (separado, 133 ordens). Não dá pra ler o número de medida sem unificar os dois. Confirmado pela própria ação 'Treinamento de utilização dos motivos' (Vitoria) no plano de ação — eles sabem que o preenchimento está inconsistente. Evidência de Classificação interna no nível mais alto.",
+      "fonteCanal": "Área interna",
+      "forca": "Dado quantitativo",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
       ]
     }
   ],
@@ -1495,17 +1579,21 @@
     },
     {
       "id": "3ce1c97d-43e7-81c7-b58f-df16df2b5578",
-      "fonte": "Comitê NAI — Compra Medida Errada (por BU)",
-      "tipo": "Área interna",
-      "statusAnalise": "Analisado",
-      "extraido": "Material localizado: deck 'Apresentação Comitê Devoluções V2.0' — fechamento de agosto/2026 (Gestão da Qualidade / Nayara Almeida; é o mesmo Comitê de Melhorias – Devoluções que se reúne periodicamente). Gerou 5 evidências: (1) o motivo oficial é 'Erro cliente - Medida/Modelo errado' — medida e modelo fundidos e rotulados como erro do cliente por padrão (Classificação interna); (2) na Pneustore Digital é o MAIOR motivo de devolução (1.217 ordens, R$ 1,53 mi em agosto); (3) ~73% do valor do motivo no grupo está na PS Digital; (4) só ~1% é refaturado — vira custo quase integral (vs. 28% de refaturamento geral); (5) o comitê já tem plano de ação de treinamento de motivos + manual de motivos, reconhecendo inconsistência na classificação. No total do grupo, medida/modelo é o 2º maior motivo (R$ 2,09 mi, 17,2%). Próximo report (fechamento definitivo de agosto) será enviado pela Nayara na reunião do comitê.",
+      "fonte": "Comitê de Melhorias Devoluções — Gestão da Qualidade (NAI)",
+      "tipo": "Dashboard / BI",
+      "statusAnalise": "Em análise",
+      "extraido": "Comitê oficial de devoluções da Cantu (Gestão da Qualidade, Nayara Almeida). Material: apresentação 'Apresentação Comitê Devoluções V2' + base 'data (24).xlsx' (retrato 01–09/set/2026, por ordem, em R$). ACHADOS: (1) MEDIDA ERRADA É O MAIOR OFENSOR de devolução do PneuStore Digital — 308 ordens / R$398 mil = 34% do valor devolvido do PS Digital (R$1,16 mi); no agregado Cantu 'Erro cliente - Medida/Modelo errado' também lidera (R$586 mil, 20,6%). (2) TAXONOMIA DOBRADA: o mesmo problema aparece em dois rótulos ao mesmo tempo — legado 'Erro cliente - Medida/Modelo errado' (combinado) + novo 'Compra: Medida incorreta' (separado); já há ação 'Treinamento de utilização dos motivos' (Vitoria) no plano. (3) % Dev cai no agregado (2026 2,38% vs 2025 3,48% vs 2024 4,27%), MAS PneuStore Digital está ACIMA da meta (meta 4,00% | ago 4,87% | set 4,39%) — a melhora é da Cantu, não do e-commerce. (4) Marketplaces devolvem 6,89% vs site 2,93%; expedição de Itajaí concentra o maior valor (R$375 mil). PLANO DE AÇÃO converge com nosso diagnóstico: SLA de cancelamento 24h (Nayara), pedidos duplicados na integração (TI, #7688183), integração pedidos cancelados Meli→SAP (Tania/Nayara), atendimento automático de devolução (fase 1 entregue). RESSALVAS: retrato de 9 dias, em R$ (não comparar direto com Zendesk jun–ago por ticket); não traz o volume de pedidos jun–ago que falta p/ fechar a taxa. Donos: Nayara Almeida, Vitória, Tania.",
       "link": null,
       "evidenciasGeradasIds": [
         "https://app.notion.com/3d81c97d43e781fe8543fbd25295b92d",
         "https://app.notion.com/3d81c97d43e781dfa28bfa739271a29c",
         "https://app.notion.com/3d81c97d43e78191a42dca047eb432e8",
         "https://app.notion.com/3d81c97d43e781bfb728ce50f21a27c9",
-        "https://app.notion.com/3d81c97d43e78106adc8cba44b3e4970"
+        "https://app.notion.com/3d81c97d43e78106adc8cba44b3e4970",
+        "https://app.notion.com/3dd1c97d43e781c99e55dcf1c1cbdbdd",
+        "https://app.notion.com/3dd1c97d43e78190900dd29c15a8e9b8",
+        "https://app.notion.com/3dd1c97d43e781f3bb3cc2f15704a9a7",
+        "https://app.notion.com/3dd1c97d43e781a994d5cac58e38a85f"
       ]
     },
     {
@@ -1695,7 +1783,9 @@
         "https://app.notion.com/3d81c97d43e781dfa28bfa739271a29c",
         "https://app.notion.com/3d81c97d43e78191a42dca047eb432e8",
         "https://app.notion.com/3d81c97d43e781bfb728ce50f21a27c9",
-        "https://app.notion.com/3dd1c97d43e781d6bdf0eaf23cfd12f0"
+        "https://app.notion.com/3dd1c97d43e781d6bdf0eaf23cfd12f0",
+        "https://app.notion.com/3dd1c97d43e781c99e55dcf1c1cbdbdd",
+        "https://app.notion.com/3dd1c97d43e781f3bb3cc2f15704a9a7"
       ]
     },
     {
@@ -1717,7 +1807,8 @@
         "https://app.notion.com/3d81c97d43e781679a45e1e04538780e",
         "https://app.notion.com/3d81c97d43e781fe8543fbd25295b92d",
         "https://app.notion.com/3d81c97d43e78106adc8cba44b3e4970",
-        "https://app.notion.com/3dd1c97d43e7815f862ec2c89b513f5f"
+        "https://app.notion.com/3dd1c97d43e7815f862ec2c89b513f5f",
+        "https://app.notion.com/3dd1c97d43e78190900dd29c15a8e9b8"
       ]
     },
     {
@@ -1810,7 +1901,8 @@
         "https://app.notion.com/3d51c97d43e78173a1a9d3ed9eec068c",
         "https://app.notion.com/3d51c97d43e781618f3cd2fc8e176344",
         "https://app.notion.com/3d81c97d43e781598c78c97b84f90de5",
-        "https://app.notion.com/3d81c97d43e781bfb728ce50f21a27c9"
+        "https://app.notion.com/3d81c97d43e781bfb728ce50f21a27c9",
+        "https://app.notion.com/3dd1c97d43e781a994d5cac58e38a85f"
       ]
     }
   ]
