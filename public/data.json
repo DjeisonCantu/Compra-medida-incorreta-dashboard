@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T09:08:09.060Z",
-  "generatedAtLabel": "17/09/2026, 06:08 (Brasília)",
+  "generatedAt": "2026-09-18T09:12:17.713Z",
+  "generatedAtLabel": "18/09/2026, 06:12 (Brasília)",
   "causas": [
     {
       "id": "3c91c97d-43e7-813d-bf61-c2bab85ddee7",
@@ -9,7 +9,7 @@
       "hipotese": "A fricção no pós-compra (sem rastreio, cobrança fora do Zendesk, sem alerta de urgência, CPF na abertura) agrava e prolonga a devolução/troca.",
       "leitura": "Alta",
       "status": "Evidência parcial",
-      "nEvidencias": 17
+      "nEvidencias": 23
     },
     {
       "id": "3c91c97d-43e7-814f-a5d5-d84af14ab572",
@@ -18,7 +18,7 @@
       "hipotese": null,
       "leitura": "Alta",
       "status": "Confirmada",
-      "nEvidencias": 17
+      "nEvidencias": 24
     },
     {
       "id": "3c91c97d-43e7-817e-ba33-ed6d318547bb",
@@ -27,7 +27,7 @@
       "hipotese": "Busca por veículo (hipótese: paginação; e informar só a versão retorna 3–4 medidas) e filtro fraco na PDP levam à medida divergente. Placa (nova plataforma) e medida ficaram mais assertivas e derrubaram o número; a busca por veículo é o gap que não melhorou.",
       "leitura": "Alta",
       "status": "Evidência parcial",
-      "nEvidencias": 18
+      "nEvidencias": 20
     },
     {
       "id": "3c91c97d-43e7-817f-af94-ccb1b7baab02",
@@ -36,7 +36,7 @@
       "hipotese": "Cliente majoritariamente leigo na nomenclatura; muitos decidem no visual/achismo, sem saber ler a medida.",
       "leitura": "Média",
       "status": "Evidência parcial",
-      "nEvidencias": 9
+      "nEvidencias": 14
     },
     {
       "id": "3c91c97d-43e7-8182-94fa-cb56d5f83bd9",
@@ -45,7 +45,7 @@
       "hipotese": "Anúncio ativo sem estoque leva à compra de produto indisponível → troca/cancelamento.",
       "leitura": "Baixa",
       "status": "Investigando",
-      "nEvidencias": 3
+      "nEvidencias": 4
     },
     {
       "id": "3c91c97d-43e7-81b3-8fe6-cacfaf8d1bcf",
@@ -54,7 +54,7 @@
       "hipotese": "Nomenclatura complexa (XL, radial, TT/TL, índices) confunde; o time compensa mandando o cliente ver o manual e perguntando se ele sabe ler a medida.",
       "leitura": "Alta",
       "status": "Evidência parcial",
-      "nEvidencias": 13
+      "nEvidencias": 16
     },
     {
       "id": "3c91c97d-43e7-81c4-b26e-d757b964d087",
@@ -63,7 +63,7 @@
       "hipotese": "Regra automática de substituição de estoque oferta uma medida que não corresponde.",
       "leitura": "Média",
       "status": "Evidência parcial",
-      "nEvidencias": 6
+      "nEvidencias": 10
     }
   ],
   "evidencias": [
@@ -1050,6 +1050,27 @@
       ]
     },
     {
+      "id": "3d81c97d-43e7-8106-adc8-cba44b3e4970",
+      "achado": "Comitê já age sobre a inconsistência dos motivos (treinamento + manual de motivos)",
+      "tipo": "Pista",
+      "citacao": "Treinamento de utilização dos motivos; Manual de motivos atualizado",
+      "evidencia": "O plano de ação do comitê de agosto/2026 inclui 'Treinamento de utilização dos motivos' (Vitoria, 30/09) e 'Manual de motivos atualizado' (concluído) — reconhecimento interno de que a classificação dos motivos de devolução é inconsistente. Oportunidade de alinhar a taxonomia do projeto com a do comitê.",
+      "fonteCanal": "Área interna",
+      "forca": "Caso concreto",
+      "frequencia": null,
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
+      ]
+    },
+    {
       "id": "3d81c97d-43e7-812c-858e-d801b21b76ad",
       "achado": "Usuários pedem espontaneamente um alerta de confirmação da medida",
       "tipo": "Pista",
@@ -1068,6 +1089,27 @@
       ],
       "frenteIds": [
         "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-8159-8c78-c97b84f90de5",
+      "achado": "Atrito no pós-compra: logística reversa sem agendamento/contato prévio (LGPD) e exigência de fotos dos pneus",
+      "tipo": "Dor",
+      "citacao": "O recolhimento em casa... não tenho contato do motorista (Marcos); A parte mais ruim é tirar foto dos pneus (Rafael)",
+      "evidencia": "Marcos apontou dificuldade de conciliar o recolhimento por não haver agendamento nem contato do transportador; Rafael citou a exigência de fotos dos pneus como a etapa mais chata. Atrito no fluxo de devolução/troca.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": null,
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
       ]
     },
     {
@@ -1112,6 +1154,27 @@
       ],
       "frenteIds": [
         "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-8191-a42d-ca047eb432e8",
+      "achado": "~73% do valor do motivo medida/modelo concentra-se na Pneustore Digital",
+      "tipo": "Dado",
+      "citacao": null,
+      "evidencia": "Dos R$ 2,09 mi de 'Medida/Modelo errado' do grupo em agosto/2026, R$ 1,53 mi (~73%) estão na Pneustore Digital. As demais BUs (Speedmax B2F, B2B, Gripmaster GP, OHT Pro, Rede Pneustore) têm valores bem menores. O problema é majoritariamente do e-commerce PneuStore.",
+      "fonteCanal": "Área interna",
+      "forca": "Dado quantitativo",
+      "frequencia": null,
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
       ]
     },
     {
@@ -1180,113 +1243,6 @@
       ]
     },
     {
-      "id": "3d81c97d-43e7-81f7-aa10-e14b49eba347",
-      "achado": "Ordenar por menor preço mistura câmara de ar e pneu de moto no resultado da medida",
-      "tipo": "Dor",
-      "citacao": "A hora que põe menor preço, mistura tudo... aparece câmera de ar, pneu de moto",
-      "evidencia": "Eduardo reproduziu ao vivo: digitando a medida e ordenando por menor preço, o resultado traz itens não relacionados (câmara de ar, pneu de moto), dificultando achar o pneu certo.",
-      "fonteCanal": "Entrevista",
-      "forca": "Caso concreto",
-      "frequencia": "Alta",
-      "impacto": "Médio",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
-      ]
-    },
-    {
-      "id": "3d81c97d-43e7-81ff-9d25-f5ed991947e6",
-      "achado": "Busca por placa / Minha Garagem retornou medida incompatível — pneu não coube no veículo",
-      "tipo": "Dor",
-      "citacao": "Coloquei a minha placa e apareceu o Palio... o que comprei era maior... na oficina o rapaz falou 'essa aqui não dá certo'",
-      "evidencia": "Rafael cadastrou o carro e buscou pela placa na Minha Garagem; o retorno o levou a comprar uma medida maior, que a oficina disse que agarraria no paralama. Contradiz a tese de que a busca por placa 'acerta ~99%'.",
-      "fonteCanal": "Entrevista",
-      "forca": "Caso concreto",
-      "frequencia": null,
-      "impacto": "Alto",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb",
-        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb",
-        "https://app.notion.com/3c91c97d43e781368083cfbe011f582a"
-      ]
-    },
-    {
-      "id": "3d81c97d-43e7-8159-8c78-c97b84f90de5",
-      "achado": "Atrito no pós-compra: logística reversa sem agendamento/contato prévio (LGPD) e exigência de fotos dos pneus",
-      "tipo": "Dor",
-      "citacao": "O recolhimento em casa... não tenho contato do motorista (Marcos); A parte mais ruim é tirar foto dos pneus (Rafael)",
-      "evidencia": "Marcos apontou dificuldade de conciliar o recolhimento por não haver agendamento nem contato do transportador; Rafael citou a exigência de fotos dos pneus como a etapa mais chata. Atrito no fluxo de devolução/troca.",
-      "fonteCanal": "Entrevista",
-      "forca": "Relato recorrente",
-      "frequencia": null,
-      "impacto": "Médio",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
-    },
-    {
-      "id": "3d81c97d-43e7-8106-adc8-cba44b3e4970",
-      "achado": "Comitê já age sobre a inconsistência dos motivos (treinamento + manual de motivos)",
-      "tipo": "Pista",
-      "citacao": "Treinamento de utilização dos motivos; Manual de motivos atualizado",
-      "evidencia": "O plano de ação do comitê de agosto/2026 inclui 'Treinamento de utilização dos motivos' (Vitoria, 30/09) e 'Manual de motivos atualizado' (concluído) — reconhecimento interno de que a classificação dos motivos de devolução é inconsistente. Oportunidade de alinhar a taxonomia do projeto com a do comitê.",
-      "fonteCanal": "Área interna",
-      "forca": "Caso concreto",
-      "frequencia": null,
-      "impacto": "Médio",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
-      ]
-    },
-    {
-      "id": "3d81c97d-43e7-8191-a42d-ca047eb432e8",
-      "achado": "~73% do valor do motivo medida/modelo concentra-se na Pneustore Digital",
-      "tipo": "Dado",
-      "citacao": null,
-      "evidencia": "Dos R$ 2,09 mi de 'Medida/Modelo errado' do grupo em agosto/2026, R$ 1,53 mi (~73%) estão na Pneustore Digital. As demais BUs (Speedmax B2F, B2B, Gripmaster GP, OHT Pro, Rede Pneustore) têm valores bem menores. O problema é majoritariamente do e-commerce PneuStore.",
-      "fonteCanal": "Área interna",
-      "forca": "Dado quantitativo",
-      "frequencia": null,
-      "impacto": "Médio",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
-      ]
-    },
-    {
       "id": "3d81c97d-43e7-81bf-b728-ce50f21a27c9",
       "achado": "Só ~1% das devoluções por medida/modelo é refaturado — vira custo quase integral",
       "tipo": "Dado",
@@ -1331,6 +1287,27 @@
       ]
     },
     {
+      "id": "3d81c97d-43e7-81f7-aa10-e14b49eba347",
+      "achado": "Ordenar por menor preço mistura câmara de ar e pneu de moto no resultado da medida",
+      "tipo": "Dor",
+      "citacao": "A hora que põe menor preço, mistura tudo... aparece câmera de ar, pneu de moto",
+      "evidencia": "Eduardo reproduziu ao vivo: digitando a medida e ordenando por menor preço, o resultado traz itens não relacionados (câmara de ar, pneu de moto), dificultando achar o pneu certo.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Alta",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
+      ]
+    },
+    {
       "id": "3d81c97d-43e7-81fe-8543-fbd25295b92d",
       "achado": "Comitê oficial funde 'Medida/Modelo' num motivo único rotulado 'Erro cliente' — impossível separar e culpa do cliente por padrão",
       "tipo": "Dado",
@@ -1350,6 +1327,29 @@
       ],
       "frenteIds": [
         "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
+      ]
+    },
+    {
+      "id": "3d81c97d-43e7-81ff-9d25-f5ed991947e6",
+      "achado": "Busca por placa / Minha Garagem retornou medida incompatível — pneu não coube no veículo",
+      "tipo": "Dor",
+      "citacao": "Coloquei a minha placa e apareceu o Palio... o que comprei era maior... na oficina o rapaz falou 'essa aqui não dá certo'",
+      "evidencia": "Rafael cadastrou o carro e buscou pela placa na Minha Garagem; o retorno o levou a comprar uma medida maior, que a oficina disse que agarraria no paralama. Contradiz a tese de que a busca por placa 'acerta ~99%'.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": null,
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb",
+        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb",
+        "https://app.notion.com/3c91c97d43e781368083cfbe011f582a"
       ]
     },
     {
@@ -1375,24 +1375,24 @@
       ]
     },
     {
-      "id": "3dd1c97d-43e7-81d6-bdf0-eaf23cfd12f0",
-      "achado": "Erro Expedição sobe +8% (769→830) enquanto o lado do cliente cai — vetores opostos",
+      "id": "3dd1c97d-43e7-8190-900d-d29c15a8e9b8",
+      "achado": "A taxonomia oficial dobra a medida errada: rótulo legado combinado + rótulo novo separado, ao mesmo tempo",
       "tipo": "Dado",
       "citacao": null,
-      "evidencia": "No mesmo período jun–ago, o Erro Expedição (empresa enviou errado) subiu de 769 para 830 tickets (+8%), puxado por Cancelamento (309→361, +17%) mais que Troca (460→469, +2%). Vai na direção contrária do lado do cliente, que caiu (Erro Cliente -30%, Medida Incorreta -24%). Ou seja, a melhora do número é só do lado do cliente; o erro operacional de expedição cresceu. Ressalva: 2026 ainda não 100% fechado (37 em Hold/Open).",
-      "fonteCanal": "Zendesk / CIEX",
+      "evidencia": "Na base do comitê o mesmo problema aparece em dois motivos simultaneamente: legado 'Erro cliente - Medida/Modelo errado' (combinado, 175 ordens no PS Digital) e novo 'Compra: Medida incorreta' (separado, 133 ordens). Não dá pra ler o número de medida sem unificar os dois. Confirmado pela própria ação 'Treinamento de utilização dos motivos' (Vitoria) no plano de ação — eles sabem que o preenchimento está inconsistente. Evidência de Classificação interna no nível mais alto.",
+      "fonteCanal": "Área interna",
       "forca": "Dado quantitativo",
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
       ],
       "fonteIds": [
-        "https://app.notion.com/3dd1c97d43e7814c9573f0069ff7b329"
+        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
       ],
       "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
+        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
       ]
     },
     {
@@ -1438,6 +1438,27 @@
       ]
     },
     {
+      "id": "3dd1c97d-43e7-81d6-bdf0-eaf23cfd12f0",
+      "achado": "Erro Expedição sobe +8% (769→830) enquanto o lado do cliente cai — vetores opostos",
+      "tipo": "Dado",
+      "citacao": null,
+      "evidencia": "No mesmo período jun–ago, o Erro Expedição (empresa enviou errado) subiu de 769 para 830 tickets (+8%), puxado por Cancelamento (309→361, +17%) mais que Troca (460→469, +2%). Vai na direção contrária do lado do cliente, que caiu (Erro Cliente -30%, Medida Incorreta -24%). Ou seja, a melhora do número é só do lado do cliente; o erro operacional de expedição cresceu. Ressalva: 2026 ainda não 100% fechado (37 em Hold/Open).",
+      "fonteCanal": "Zendesk / CIEX",
+      "forca": "Dado quantitativo",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3dd1c97d43e7814c9573f0069ff7b329"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
+      ]
+    },
+    {
       "id": "3dd1c97d-43e7-81f3-bb3c-c2f15704a9a7",
       "achado": "% Dev cai no agregado Cantu (2,38%) mas o PneuStore Digital está acima da meta (4,39% vs 4,00%)",
       "tipo": "Dado",
@@ -1459,13 +1480,13 @@
       ]
     },
     {
-      "id": "3dd1c97d-43e7-8190-900d-d29c15a8e9b8",
-      "achado": "A taxonomia oficial dobra a medida errada: rótulo legado combinado + rótulo novo separado, ao mesmo tempo",
+      "id": "3de1c97d-43e7-810f-a163-f07f50bb4581",
+      "achado": "No Magalu o motivo 'comprei errado' é auto-selecionado pelo cliente num menu, com resposta automática do bot e sem verificação",
       "tipo": "Dado",
-      "citacao": null,
-      "evidencia": "Na base do comitê o mesmo problema aparece em dois motivos simultaneamente: legado 'Erro cliente - Medida/Modelo errado' (combinado, 175 ordens no PS Digital) e novo 'Compra: Medida incorreta' (separado, 133 ordens). Não dá pra ler o número de medida sem unificar os dois. Confirmado pela própria ação 'Treinamento de utilização dos motivos' (Vitoria) no plano de ação — eles sabem que o preenchimento está inconsistente. Evidência de Classificação interna no nível mais alto.",
+      "citacao": "ele tem que ter um motivo pra isso... E no Magalu fica, é, comprei errado, atraso na entrega [...] o cliente coloca comprei errado e aí o chat dá tipo uma resposta automática",
+      "evidencia": "No fluxo de cancelamento do Magalu o cliente escolhe o motivo numa lista pré-definida ('comprei errado'); o bot responde automaticamente e o pós-venda segue sem verificar se foi de fato medida errada. Corrobora, por outro canal (marketplace), o achado da Jéssica no Zendesk: o rótulo é autodeclarado.",
       "fonteCanal": "Área interna",
-      "forca": "Dado quantitativo",
+      "forca": "Relato recorrente",
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
@@ -1473,10 +1494,468 @@
         "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
       ],
       "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
+        "https://app.notion.com/3de1c97d43e78175bd1de991133b6e64"
       ],
       "frenteIds": [
         "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
+      ]
+    },
+    {
+      "id": "3de1c97d-43e7-8111-b2e2-e84eacfd2d87",
+      "achado": "Bot autoclassifica 'medida incorreta' na entrada do chamado",
+      "tipo": "Dado",
+      "citacao": "pelo Zendesk, aí ele abre, lá o robô já abre como medida incorreta pra gente",
+      "evidencia": "O cliente interage com o bot no Zendesk e o próprio fluxo já rotula o chamado como 'medida incorreta' antes de qualquer análise humana. O rótulo entra por autodeclaração guiada pelo bot, não por diagnóstico da causa.",
+      "fonteCanal": "Área interna",
+      "forca": "Caso concreto",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
+      ],
+      "frenteIds": []
+    },
+    {
+      "id": "3de1c97d-43e7-8115-bea3-da217a79f47b",
+      "achado": "Sazonalidade: pico de cancelamentos pós-Black (jan–abr)",
+      "tipo": "Dado",
+      "citacao": "o período pós-Black... janeiro, fevereiro, março, abril é o período que a gente tá colhendo tudo que vendeu na Black",
+      "evidencia": "O pico de vendas da Black Friday gera pico de cancelamentos nos meses seguintes (jan–abr), período de maior volume para o relacionamento.",
+      "fonteCanal": "Área interna",
+      "forca": "Relato recorrente",
+      "frequencia": "Média",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [],
+      "fonteIds": [
+        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
+      ],
+      "frenteIds": []
+    },
+    {
+      "id": "3de1c97d-43e7-8125-8cac-f22013aa094e",
+      "achado": "Parte dos clientes alega ter sido induzida pelo site na compatibilidade (sugeriu modelo compatível e não encaixou) — a desambiguar",
+      "tipo": "Hipótese",
+      "citacao": "fui induzido pelo site (a confirmar no verbatim)",
+      "evidencia": "Ocorrem casos em que o cliente diz ter sido induzido: o sistema sugeriu um modelo compatível com o carro e o pneu chegou sem encaixar. A desambiguar de qual indutor se trata — garagem/compatibilidade do próprio ML, campo 'carros compatíveis' do anúncio, ou ordenação da busca. Conversa com achados de Jéssica (site oferta pneu incompatível) e Maria Laura (catálogo da Cantu ignora ano/versão).",
+      "fonteCanal": "Entrevista",
+      "forca": "Indício",
+      "frequencia": "Média",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3de1c97d43e781be8072e11a53256442"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e781368083cfbe011f582a"
+      ]
+    },
+    {
+      "id": "3de1c97d-43e7-8126-b056-ea8afef24a34",
+      "achado": "Cliente só descobre a medida errada pós-entrega, ao consultar o borracheiro — sem barramento antes do envio",
+      "tipo": "Dor",
+      "citacao": "perfil baixo, não deu na minha roda (a confirmar no verbatim)",
+      "evidencia": "Praticamente 100% dos cancelamentos no ML ocorrem pós-entrega: o cliente recebe o pneu, leva ao borracheiro e constata que não serve. Não há barramento efetivo antes do envio — o pedido sai e volta gerando custo logístico.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3de1c97d43e781be8072e11a53256442"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3de1c97d43e781199f1dfd64a3a2629b"
+      ]
+    },
+    {
+      "id": "3de1c97d-43e7-812b-bc27-d2537a8dcb66",
+      "achado": "Medida errada é a causa nº1 de cancelamento da Pneu Store no ML — ~10 a 15 casos/dia só com a Graziella",
+      "tipo": "Dado",
+      "citacao": "10 a 15 casos por dia só de medida errada (a confirmar no verbatim)",
+      "evidencia": "Graziella, responsável exclusiva por reclamações/mediações do Mercado Livre, atende 10–15 casos/dia de medida errada e afirma ser a causa nº1 de cancelamento da Pneu Store no canal. Corrobora o Comitê (marketplaces devolvem 6,89% vs site 2,93%).",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [],
+      "fonteIds": [
+        "https://app.notion.com/3de1c97d43e781be8072e11a53256442"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
+      ]
+    },
+    {
+      "id": "3de1c97d-43e7-812f-b7d1-c165d4eac414",
+      "achado": "Troca não é permitida quando o erro é do cliente no marketplace — só cancelamento/reembolso",
+      "tipo": "Dado",
+      "citacao": "troca de modelo e medida incorreto pelo cliente, a gente não consegue fazer essa troca [...] porque como foi um erro dele, impactaria muito na nossa devolução",
+      "evidencia": "Regra do pós-venda: quando o erro é atribuído ao cliente, não há troca, apenas cancelamento e reembolso. Ajuda a explicar por que os casos de 'medida errada' aparecem 100% como cancelamento — artefato estrutural do fluxo, não comportamento.",
+      "fonteCanal": "Área interna",
+      "forca": "Relato recorrente",
+      "frequencia": "Alta",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3de1c97d43e78175bd1de991133b6e64"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
+      ]
+    },
+    {
+      "id": "3de1c97d-43e7-8138-8e16-e92438a7356c",
+      "achado": "Barrar a entrega quase nunca funciona — processo reseta para coleta (30+30 dias)",
+      "tipo": "Dor",
+      "citacao": "eu consigo contar nos dedos o pedido que a gente consegue barrar... aí vira uma coleta, começa do zero de novo",
+      "evidencia": "Tickets raramente chegam a tempo de barrar a entrega; quando o cliente recebe, o processo vira coleta e reinicia do zero, podendo passar de 60 dias. Piora com cartão de crédito (cliente espera reembolso para recomprar).",
+      "fonteCanal": "Área interna",
+      "forca": "Caso concreto",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
+      ],
+      "frenteIds": []
+    },
+    {
+      "id": "3de1c97d-43e7-813f-8e65-e7bdac3546ab",
+      "achado": "Anúncio da Pneu Store no ML tem info completa (medida, perfil, carros compatíveis) e ainda assim o volume de medida errada é alto",
+      "tipo": "Pista",
+      "citacao": null,
+      "evidencia": "Os anúncios contêm medida, perfil e carros compatíveis (ex.: Mobi, Up). Mesmo com a informação disponível, o volume de cancelamentos por medida errada permanece alto — o que enfraquece a hipótese de 'falta informação' e aponta para informação não consumida. Atenção à tensão: o campo 'carros compatíveis' pode ao mesmo tempo ser a info completa e um indutor de erro se ignorar ano/versão (ver Maria Laura/Amazon).",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Média",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3de1c97d43e781be8072e11a53256442"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
+      ]
+    },
+    {
+      "id": "3de1c97d-43e7-814e-9e0c-f6e755e6f1d5",
+      "achado": "No Magalu o cliente busca pelo modelo do carro e escolhe por menor preço/marca conhecida, sem ler as especificações",
+      "tipo": "Pista",
+      "citacao": "eles vão ou pelo mais barato ou por uma marca que ele já tem confiança [...] o erro em não ler também as especificações, as informações corretas do pneu",
+      "evidencia": "Visão do pós-venda de marketplace: o cliente pesquisa na 'lupinha' pelo modelo do carro, aparecem várias medidas/marcas e ele decide por preço ou marca conhecida, sem conferir a especificação técnica. Corrobora, em novo canal, o padrão de decisão leiga já visto em RA/pré-venda.",
+      "fonteCanal": "Área interna",
+      "forca": "Relato recorrente",
+      "frequencia": "Alta",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02",
+        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3de1c97d43e78175bd1de991133b6e64"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
+      ]
+    },
+    {
+      "id": "3de1c97d-43e7-8156-8728-eb5df7959694",
+      "achado": "Forma de compra define a quem o cliente atribui o erro (manual = assume; Tire Select = culpa o site)",
+      "tipo": "Dado",
+      "citacao": "se ele mesmo foi lá colocou a medida... ele vai assumir. Mas quando ele segue pela parte do site que coloca o carro... ele fala que foi culpa nossa",
+      "evidencia": "Insight para separar a causa Usuário da causa Recomendação: quem compra manualmente costuma assumir o erro; quem usa a busca guiada responsabiliza o site.",
+      "fonteCanal": "Área interna",
+      "forca": "Relato recorrente",
+      "frequencia": "Média",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02",
+        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
+      ],
+      "frenteIds": []
+    },
+    {
+      "id": "3de1c97d-43e7-816f-a3ed-de4e05004bec",
+      "achado": "No ML o motivo não é capturado na entrada — o bot registra devolução/cancelamento sem o motivo; só detalha via script no Zendesk",
+      "tipo": "Pista",
+      "citacao": "comprei errado, quero devolver (a confirmar no verbatim)",
+      "evidencia": "O bot do Mercado Livre coleta fotos e registra o pedido como devolução/cancelamento, mas não captura o motivo específico (ex.: medida errada). O motivo só aparece quando o atendente envia um script no Zendesk pedindo foto e razão. Mensagens do cliente são muito vagas. Reforça Jéssica (Zendesk) e Maria Laura (Magalu/Amazon): o rótulo depende de interpretação e o número é impreciso na origem.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Alta",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3de1c97d43e781be8072e11a53256442"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
+      ]
+    },
+    {
+      "id": "3de1c97d-43e7-8171-be18-f39a199431da",
+      "achado": "Cliente cancela logo após comprar, mas o ticket demora na fila e o pedido já faturou",
+      "tipo": "Dor",
+      "citacao": "ele acabou de fazer o pedido, só teve o pagamento aprovado... até esse ticket chegar na Esther, o pedido já faturou, já foi enviado",
+      "evidencia": "Cancelamento pedido minutos/horas após a compra não é processado a tempo por causa da fila (2 pessoas na retenção). O faturamento é rápido; se só há pagamento aprovado dá para cancelar direto (reembolso em 72h), mas na prática quase sempre já faturou e cai no protocolo de 30 dias.",
+      "fonteCanal": "Área interna",
+      "forca": "Caso concreto",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
+      ],
+      "frenteIds": []
+    },
+    {
+      "id": "3de1c97d-43e7-8181-838b-c84e31750518",
+      "achado": "Tire Select é percebido pelo cliente como indutor do erro",
+      "tipo": "Dor",
+      "citacao": "fui induzido, foi o próprio site de vocês que indicou a medida errada",
+      "evidencia": "Clientes que compram pela busca guiada (Tire Select) tendem a atribuir o erro ao site. Relato recorrente na retenção; já foi levado antes à Andressa/DNs/devs do Vera para criar alerta na tela.",
+      "fonteCanal": "Área interna",
+      "forca": "Relato recorrente",
+      "frequencia": "Média",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087",
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
+      ],
+      "frenteIds": []
+    },
+    {
+      "id": "3de1c97d-43e7-8187-a471-e6c1e09b7079",
+      "achado": "Volume de retenção caiu de ~100 para ~40 tickets/dia",
+      "tipo": "Dado",
+      "citacao": "eram uns 100 tickets por dia... hoje tá bem menor",
+      "evidencia": "Volume total de retenção (todos os motivos) caiu para ~40 tickets/dia, contra ~100/dia até dez/jan, quando eram 3 pessoas no time. Número total, não só medida incorreta. A confirmar no relatório.",
+      "fonteCanal": "Área interna",
+      "forca": "Dado quantitativo",
+      "frequencia": "Alta",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [],
+      "fonteIds": [
+        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
+      ],
+      "frenteIds": []
+    },
+    {
+      "id": "3de1c97d-43e7-81ab-abe0-dd10fc28c1c8",
+      "achado": "Erro de expedição vira cancelamento por causa da burocracia da troca",
+      "tipo": "Dor",
+      "citacao": "quando eu vou explicar todo o fluxo... 30 dias pra tratativa completa, a maioria acaba virando cancelamento",
+      "evidencia": "A troca por erro de expedição tem processo longo (7–15 dias úteis de coleta, 30 dias de tratativa). A maioria dos clientes desiste no meio e converte em cancelamento — mesmo sendo erro da empresa.",
+      "fonteCanal": "Área interna",
+      "forca": "Caso concreto",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
+      ],
+      "frenteIds": []
+    },
+    {
+      "id": "3de1c97d-43e7-81ac-94a4-d51ef4922af7",
+      "achado": "Cupom de desconto usado como confirmador informal de que o erro foi do cliente",
+      "tipo": "Pista",
+      "citacao": "na maioria eles aceitam o cupom... acaba sendo um método de confirmar se ele comprou a medida incorreta mesmo",
+      "evidencia": "A retenção oferece cupom para recompra da medida certa; o aceite funciona como heurística informal de triagem entre erro do cliente e erro da empresa. Em caso de erro de expedição, o cupom gera insatisfação (cliente ainda espera reembolso para usar).",
+      "fonteCanal": "Área interna",
+      "forca": "Relato recorrente",
+      "frequencia": "Média",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
+      ],
+      "frenteIds": []
+    },
+    {
+      "id": "3de1c97d-43e7-81af-8996-de62874505c1",
+      "achado": "Cliente navega por preço entre páginas e troca de medida sem perceber",
+      "tipo": "Pista",
+      "citacao": "vai mudando as páginas e aí vai mudando a medida e ele nem percebe... vai pelo preço",
+      "evidencia": "Ao procurar o menor preço navegando entre páginas/resultados, o cliente acaba mudando de medida sem notar e finaliza numa medida que não é a dele.",
+      "fonteCanal": "Comportamento de busca",
+      "forca": "Relato recorrente",
+      "frequencia": "Média",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb",
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
+      ],
+      "frenteIds": []
+    },
+    {
+      "id": "3de1c97d-43e7-81c9-9b86-fb85ba35bacd",
+      "achado": "'Na maioria das vezes' há ticket rotulado medida errada que na verdade era envio trocado (expedição/transportadora)",
+      "tipo": "Pista",
+      "citacao": "às vezes, na maioria das vezes, acontece... na expedição ocorreu uma troca ou na própria transportadora [...] quando o cliente recebe errado mesmo a gente coleta esse pedido e faz uma reinserção do pedido correto",
+      "evidencia": "Maria Laura relata que casos abertos como 'medida errada' são, com frequência, envio incorreto pela expedição ou pela transportadora — nesses casos faz-se reinserção do pedido correto. Reforça que o número de 'medida errada' está inflado por casos de Operação.",
+      "fonteCanal": "Área interna",
+      "forca": "Relato recorrente",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572",
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3de1c97d43e78175bd1de991133b6e64"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
+      ]
+    },
+    {
+      "id": "3de1c97d-43e7-81e7-b4e3-d53af8b41e91",
+      "achado": "Só ~4 em 10 tickets 'medida incorreta' são compra errada do cliente; o resto é erro de expedição",
+      "tipo": "Dado",
+      "citacao": "a cada 10, uns 4, ele realmente comprou errado. Os outros, ele recebeu realmente de forma incorreta",
+      "evidencia": "Estimativa da atendente da retenção: a maioria dos tickets rotulados 'medida incorreta' é erro de expedição (produto certo etiquetado/enviado errado), não escolha errada do cliente. Sugere que o número está inflado pela classificação. A confirmar no relatório da Laura.",
+      "fonteCanal": "Área interna",
+      "forca": "Dado quantitativo",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572",
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
+      ],
+      "frenteIds": []
+    },
+    {
+      "id": "3de1c97d-43e7-81ed-adee-c024a18e79cb",
+      "achado": "Anúncios da Amazon listam modelos de carro compatíveis (Siena, Mobi) e induzem à compra errada — e são do catálogo da própria Cantu",
+      "tipo": "Pista",
+      "citacao": "vem serve para carros, tipo Siena, Mobi... isso acaba induzindo o cliente a comprar errado [...] isso é culpa do nosso catálogo, porque a gente que monta os anúncios e manda para eles",
+      "evidencia": "Na Amazon o anúncio associa o pneu a modelos de carro sem distinguir ano/versão, o que induz o cliente a comprar pelo modelo do veículo. Diferente do Magalu, que não tem essa listagem. Ponto acionável: os anúncios são montados pelo catálogo da própria Cantu (time do Kaique/Saulo), não pela Amazon.",
+      "fonteCanal": "Área interna",
+      "forca": "Caso concreto",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7818294facb56d5f83bd9"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3de1c97d43e78175bd1de991133b6e64"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7818d89aff022000a540e"
+      ]
+    },
+    {
+      "id": "3de1c97d-43e7-81f0-987a-cd8da482cb48",
+      "achado": "Retenção não coleta perfil do cliente (1ª compra vs recorrente)",
+      "tipo": "Pista",
+      "citacao": "a gente não tem esse hábito de fazer esse questionamento... fica um pouco misto",
+      "evidencia": "Não há registro se o erro é mais comum em primeira compra ou cliente recorrente; percepção é de que é misto. Lacuna a investigar com dado.",
+      "fonteCanal": "Área interna",
+      "forca": "Indício",
+      "frequencia": "Baixa",
+      "impacto": "Baixo",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
+      ],
+      "frenteIds": []
+    },
+    {
+      "id": "3de1c97d-43e7-81f6-b798-dd1f92663a7d",
+      "achado": "Carro com múltiplos modelos: site mostra a 1ª medida sem alerta de variar por modelo",
+      "tipo": "Pista",
+      "citacao": "a medida que o site indicou de fato estava certo, só que pro carro dele tinha várias medidas... não tem isso explícito no site",
+      "evidencia": "Em simulação feita pela atendente, o site indicou uma medida válida, mas o carro tinha variações de modelo com medidas diferentes; a opção mostrada primeiro não era a do cliente e não havia aviso na tela.",
+      "fonteCanal": "Área interna",
+      "forca": "Caso concreto",
+      "frequencia": "Média",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf",
+        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
+      ],
+      "frenteIds": []
+    },
+    {
+      "id": "3de1c97d-43e7-81f7-be3d-d0576047bc04",
+      "achado": "No Magalu é mais frequente o cliente já ter recebido o pneu antes de pedir cancelamento (barramento raro) — gera custo",
+      "tipo": "Pista",
+      "citacao": "Chega a receber, é mais frequente que ele receba... muito mais frequente",
+      "evidencia": "Maria Laura estima que o cancelamento por medida errada costuma vir depois da entrega, sendo o barramento em trânsito menos comum — o pneu sai e volta ao CD gerando custo logístico. Reforça, por novo canal, o achado de que 'medida errada' tende a não ser barrada a tempo.",
+      "fonteCanal": "Área interna",
+      "forca": "Relato recorrente",
+      "frequencia": "Alta",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3de1c97d43e78175bd1de991133b6e64"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
       ]
     }
   ],
@@ -1680,6 +2159,60 @@
         "https://app.notion.com/3dd1c97d43e781d6bdf0eaf23cfd12f0",
         "https://app.notion.com/3dd1c97d43e7815f862ec2c89b513f5f"
       ]
+    },
+    {
+      "id": "3de1c97d-43e7-8175-bd1d-e991133b6e64",
+      "fonte": "Entrevista Pós-venda Marketplace — Maria Laura (Magalu + Amazon, cancelamento)",
+      "tipo": "Área interna",
+      "statusAnalise": "Em análise",
+      "extraido": "Entrevista 16/09 (Djeison; João ouvinte) com Maria Laura, 1a8m na Cantu, pós-venda de Marketplace — trata EXCLUSIVAMENTE cancelamento: Magalu à tarde, Amazon de manhã. Não cuida de anúncio/cadastro (isso é do e-commerce do Kaique — Saulo/Paloma). PRINCIPAIS EXTRAÇÕES: (1) No Magalu o motivo 'comprei errado' é AUTO-SELECIONADO pelo cliente num menu e o bot responde automático — sem verificação (corrobora Jéssica/Zendesk). (2) 'Na maioria das vezes' há ticket rotulado medida errada que era ENVIO TROCADO (expedição/transportadora) → reforça inflação do número (Classificação interna + Operação). (3) Padrão de compra: cliente pesquisa pelo MODELO DO CARRO na busca, escolhe por menor preço/marca conhecida, sem ler especificações (Usuário/Informação). (4) AMAZON: anúncios listam modelos de carro compatíveis (Siena, Mobi) e INDUZEM ao erro ao ignorar ano/versão — e os anúncios são do CATÁLOGO DA PRÓPRIA CANTU (Cadastro; acionável). No Magalu NÃO há essa listagem de carro. (5) Troca não é permitida quando o erro é do cliente — só cancelamento/reembolso (explica o '100% cancelamento' como artefato estrutural). (6) Barramento vs pós-entrega: mais frequente o cliente JÁ TER RECEBIDO antes de cancelar → gera custo logístico. RELATÓRIO DE TICKETS: já disponível — é a base enviada pela Camila (RA), que engloba PneuStore + todos os marketplaces (Shopee, Magalu, Mercado Livre, Amazon). Não é mais necessário pedir à Paloma um relatório separado; a separação por marketplace vira etapa de análise (segmentar por canal, pois cada um tem fluxo/regra diferente). PENDÊNCIAS/AÇÕES restantes: pegar contato da colega de dúvidas gerais do Magalu ('Pucu') via Teams; levar ao time de catálogo (Kaique/Saulo) a questão dos anúncios da Amazon; avaliar contato com pré-venda p/ casos de modelo errado percebido antes da entrega.",
+      "link": "https://app.notion.com/p/3dd1c97d43e78053be2cf79816483a76",
+      "evidenciasGeradasIds": [
+        "https://app.notion.com/3de1c97d43e7810fa163f07f50bb4581",
+        "https://app.notion.com/3de1c97d43e781c99b86fb85ba35bacd",
+        "https://app.notion.com/3de1c97d43e7814e9e0cf6e755e6f1d5",
+        "https://app.notion.com/3de1c97d43e781edadeec024a18e79cb",
+        "https://app.notion.com/3de1c97d43e7812fb7d1c165d4eac414",
+        "https://app.notion.com/3de1c97d43e781f7be3dd0576047bc04"
+      ]
+    },
+    {
+      "id": "3de1c97d-43e7-81be-8072-e11a53256442",
+      "fonte": "Entrevista Voz/Retenção Mercado Livre — Graziella (reclamações e mediações ML)",
+      "tipo": "Área interna",
+      "statusAnalise": "Em análise",
+      "extraido": "Entrevista 17/09 (Djeison) com Graziella, responsável EXCLUSIVAMENTE por reclamações e mediações do Mercado Livre — atende 10–15 casos/dia de medida errada. PRINCIPAIS EXTRAÇÕES: (1) Medida errada é a causa nº1 de cancelamento da Pneu Store no ML (corrobora Comitê: marketplaces 6,89% vs site 2,93%). (2) Motivo NÃO é capturado na entrada: o bot do ML coleta fotos e registra devolução/cancelamento, mas não pega o motivo específico; o detalhe só vem depois, quando o atendente manda script no Zendesk pedindo foto+motivo (reforça Jéssica/Zendesk e Maria Laura — número impreciso na origem). (3) Mensagens do cliente são muito vagas ('comprei errado, quero devolver', a confirmar no verbatim), sem explicar o motivo real. (4) Anúncio da Pneu Store no ML tem info completa (medida, perfil, carros compatíveis — ex.: Mobi, Up) e AINDA ASSIM o volume é alto → enfraquece a hipótese 'falta informação'. (5) Parte dos clientes alega ter sido INDUZIDA pelo site (sistema sugeriu modelo compatível com o carro e não encaixou) — a desambiguar: garagem/compatibilidade do ML, campo 'carros compatíveis' do anúncio, ou busca. (6) ~100% dos cancelamentos são pós-entrega (cliente recebe, consulta o borracheiro e constata que não serve); não há barramento efetivo antes do envio. RELATÓRIO DE TICKETS: já disponível — é a base enviada pela Camila (RA), que engloba PneuStore + todos os marketplaces (inclui Mercado Livre); segmentar por canal na análise. Não é mais necessário pedir números à Graziella nem falar com a Paloma sobre volume de tickets. Pendência restante: pegar com a Graziella o link da loja oficial no ML. Sistemas ML e Zendesk integrados; equipe consulta ambos.",
+      "link": "https://app.notion.com/p/3de1c97d43e7808d9309f9a87ee83639",
+      "evidenciasGeradasIds": [
+        "https://app.notion.com/3de1c97d43e7812bbc27d2537a8dcb66",
+        "https://app.notion.com/3de1c97d43e78126b056ea8afef24a34",
+        "https://app.notion.com/3de1c97d43e7816fa3edde4e05004bec",
+        "https://app.notion.com/3de1c97d43e7813f8e65e7bdac3546ab",
+        "https://app.notion.com/3de1c97d43e781258cacf22013aa094e"
+      ]
+    },
+    {
+      "id": "3de1c97d-43e7-81e0-a7a3-dbedf05a2954",
+      "fonte": "Entrevista Voz & Retenção — Laura e Esther (PneuStore, 17/09)",
+      "tipo": "Área interna",
+      "statusAnalise": "Em análise",
+      "extraido": "Fluxo do cancelamento por medida incorreta visto pela retenção. Achado central: ~4 em cada 10 tickets rotulados 'medida incorreta' são de fato compra errada do cliente; o restante é erro de expedição (produto certo, etiqueta/envio errado). Bot autoclassifica 'medida incorreta' na entrada (Zendesk). Tire Select induz erro em carros com múltiplas medidas, sem alerta na tela. Volume caiu de ~100 para ~40 tickets/dia (total retenção); pico pós-Black (jan–abr). Burocracia da troca (30+30 dias) transforma troca em cancelamento. NOTA sobre dados: o relatório de tickets por período já está disponível — é a mesma base enviada pela Camila (RA), que engloba PneuStore + todos os marketplaces (Shopee, Magalu, Mercado Livre, Amazon). Ao analisar, segmentar por canal, pois marketplaces têm fluxo e regras de cancelamento/reembolso diferentes.",
+      "link": "https://app.notion.com/p/3de1c97d43e7809590fbc8d45216f34c",
+      "evidenciasGeradasIds": [
+        "https://app.notion.com/3de1c97d43e78111b2e2e84eacfd2d87",
+        "https://app.notion.com/3de1c97d43e781e7b4e3d53af8b41e91",
+        "https://app.notion.com/3de1c97d43e78181838bc84e31750518",
+        "https://app.notion.com/3de1c97d43e781f6b798dd1f92663a7d",
+        "https://app.notion.com/3de1c97d43e781af8996de62874505c1",
+        "https://app.notion.com/3de1c97d43e781568728eb5df7959694",
+        "https://app.notion.com/3de1c97d43e781ababe0dd10fc28c1c8",
+        "https://app.notion.com/3de1c97d43e781ac94a4d51ef4922af7",
+        "https://app.notion.com/3de1c97d43e781f0987acd8da482cb48",
+        "https://app.notion.com/3de1c97d43e78187a471e6c1e09b7079",
+        "https://app.notion.com/3de1c97d43e78115bea3da217a79f47b",
+        "https://app.notion.com/3de1c97d43e781388e16e92438a7356c",
+        "https://app.notion.com/3de1c97d43e78171be18f39a199431da"
+      ]
     }
   ],
   "frentes": [
@@ -1694,7 +2227,8 @@
       "causasIds": [],
       "evidenciasIds": [
         "https://app.notion.com/3ca1c97d43e7813a800ccb965b1f438c",
-        "https://app.notion.com/3ce1c97d43e781feb09aeade1a4041b9"
+        "https://app.notion.com/3ce1c97d43e781feb09aeade1a4041b9",
+        "https://app.notion.com/3de1c97d43e781c99b86fb85ba35bacd"
       ]
     },
     {
@@ -1738,7 +2272,8 @@
       "evidenciasIds": [
         "https://app.notion.com/3cf1c97d43e7817b8644c39202542592",
         "https://app.notion.com/3d81c97d43e781ff9d25f5ed991947e6",
-        "https://app.notion.com/3d81c97d43e781b6b5f0ed11b529bcdd"
+        "https://app.notion.com/3d81c97d43e781b6b5f0ed11b529bcdd",
+        "https://app.notion.com/3de1c97d43e781258cacf22013aa094e"
       ]
     },
     {
@@ -1785,7 +2320,8 @@
         "https://app.notion.com/3d81c97d43e781bfb728ce50f21a27c9",
         "https://app.notion.com/3dd1c97d43e781d6bdf0eaf23cfd12f0",
         "https://app.notion.com/3dd1c97d43e781c99e55dcf1c1cbdbdd",
-        "https://app.notion.com/3dd1c97d43e781f3bb3cc2f15704a9a7"
+        "https://app.notion.com/3dd1c97d43e781f3bb3cc2f15704a9a7",
+        "https://app.notion.com/3de1c97d43e7812bbc27d2537a8dcb66"
       ]
     },
     {
@@ -1808,7 +2344,10 @@
         "https://app.notion.com/3d81c97d43e781fe8543fbd25295b92d",
         "https://app.notion.com/3d81c97d43e78106adc8cba44b3e4970",
         "https://app.notion.com/3dd1c97d43e7815f862ec2c89b513f5f",
-        "https://app.notion.com/3dd1c97d43e78190900dd29c15a8e9b8"
+        "https://app.notion.com/3dd1c97d43e78190900dd29c15a8e9b8",
+        "https://app.notion.com/3de1c97d43e7810fa163f07f50bb4581",
+        "https://app.notion.com/3de1c97d43e7812fb7d1c165d4eac414",
+        "https://app.notion.com/3de1c97d43e7816fa3edde4e05004bec"
       ]
     },
     {
@@ -1832,7 +2371,8 @@
       "proximoPasso": "Mapear processo, sistemas, áreas e como a classificação é feita (CIEX + trocas/devoluções; operação em Itajaí).",
       "causasIds": [],
       "evidenciasIds": [
-        "https://app.notion.com/3ca1c97d43e78135afe7eab65f5f3082"
+        "https://app.notion.com/3ca1c97d43e78135afe7eab65f5f3082",
+        "https://app.notion.com/3de1c97d43e781edadeec024a18e79cb"
       ]
     },
     {
@@ -1851,7 +2391,8 @@
         "https://app.notion.com/3d11c97d43e781cea77dc386ce3b9812",
         "https://app.notion.com/3d81c97d43e7819497b6ce53a7536929",
         "https://app.notion.com/3d81c97d43e781ad8145eb383e25e5da",
-        "https://app.notion.com/3d81c97d43e7812c858ed801b21b76ad"
+        "https://app.notion.com/3d81c97d43e7812c858ed801b21b76ad",
+        "https://app.notion.com/3de1c97d43e7813f8e65e7bdac3546ab"
       ]
     },
     {
@@ -1877,7 +2418,8 @@
         "https://app.notion.com/3d11c97d43e781658227dc300953baed",
         "https://app.notion.com/3d51c97d43e7818bae92fe3bca53f4fa",
         "https://app.notion.com/3d81c97d43e781ff9d25f5ed991947e6",
-        "https://app.notion.com/3d81c97d43e781f7aa10e14b49eba347"
+        "https://app.notion.com/3d81c97d43e781f7aa10e14b49eba347",
+        "https://app.notion.com/3de1c97d43e7814e9e0cf6e755e6f1d5"
       ]
     },
     {
@@ -1902,7 +2444,21 @@
         "https://app.notion.com/3d51c97d43e781618f3cd2fc8e176344",
         "https://app.notion.com/3d81c97d43e781598c78c97b84f90de5",
         "https://app.notion.com/3d81c97d43e781bfb728ce50f21a27c9",
-        "https://app.notion.com/3dd1c97d43e781a994d5cac58e38a85f"
+        "https://app.notion.com/3dd1c97d43e781a994d5cac58e38a85f",
+        "https://app.notion.com/3de1c97d43e781f7be3dd0576047bc04"
+      ]
+    },
+    {
+      "id": "3de1c97d-43e7-8119-9f1d-fd64a3a2629b",
+      "frente": "13. Barramento pré-envio",
+      "grupo": "D — Solução UX",
+      "tipo": "Solução",
+      "status": "A fazer",
+      "prioridade": "Média",
+      "proximoPasso": "Criar um checkpoint que intercepte o pedido de medida provavelmente errada ANTES do envio (~100% dos cancelamentos ML são pós-entrega; hoje não há barramento — pedido com NF não emitida sai e volta gerando custo logístico). Frente cruza UX (confirmação 'essa é a medida do seu veículo?' antes de faturar) e Operação (hold do pedido entre compra e expedição). Origem: entrevistas Graziella (ML) e Jéssica (Zendesk).",
+      "causasIds": [],
+      "evidenciasIds": [
+        "https://app.notion.com/3de1c97d43e78126b056ea8afef24a34"
       ]
     }
   ]
