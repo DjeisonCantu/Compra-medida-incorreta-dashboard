@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-18T09:12:17.713Z",
-  "generatedAtLabel": "18/09/2026, 06:12 (Brasília)",
+  "generatedAt": "2026-09-19T09:12:39.588Z",
+  "generatedAtLabel": "19/09/2026, 06:12 (Brasília)",
   "causas": [
     {
       "id": "3c91c97d-43e7-813d-bf61-c2bab85ddee7",
@@ -9,7 +9,7 @@
       "hipotese": "A fricção no pós-compra (sem rastreio, cobrança fora do Zendesk, sem alerta de urgência, CPF na abertura) agrava e prolonga a devolução/troca.",
       "leitura": "Alta",
       "status": "Evidência parcial",
-      "nEvidencias": 23
+      "nEvidencias": 22
     },
     {
       "id": "3c91c97d-43e7-814f-a5d5-d84af14ab572",
@@ -18,7 +18,7 @@
       "hipotese": null,
       "leitura": "Alta",
       "status": "Confirmada",
-      "nEvidencias": 24
+      "nEvidencias": 27
     },
     {
       "id": "3c91c97d-43e7-817e-ba33-ed6d318547bb",
@@ -27,7 +27,7 @@
       "hipotese": "Busca por veículo (hipótese: paginação; e informar só a versão retorna 3–4 medidas) e filtro fraco na PDP levam à medida divergente. Placa (nova plataforma) e medida ficaram mais assertivas e derrubaram o número; a busca por veículo é o gap que não melhorou.",
       "leitura": "Alta",
       "status": "Evidência parcial",
-      "nEvidencias": 20
+      "nEvidencias": 21
     },
     {
       "id": "3c91c97d-43e7-817f-af94-ccb1b7baab02",
@@ -36,7 +36,7 @@
       "hipotese": "Cliente majoritariamente leigo na nomenclatura; muitos decidem no visual/achismo, sem saber ler a medida.",
       "leitura": "Média",
       "status": "Evidência parcial",
-      "nEvidencias": 14
+      "nEvidencias": 16
     },
     {
       "id": "3c91c97d-43e7-8182-94fa-cb56d5f83bd9",
@@ -45,7 +45,7 @@
       "hipotese": "Anúncio ativo sem estoque leva à compra de produto indisponível → troca/cancelamento.",
       "leitura": "Baixa",
       "status": "Investigando",
-      "nEvidencias": 4
+      "nEvidencias": 6
     },
     {
       "id": "3c91c97d-43e7-81b3-8fe6-cacfaf8d1bcf",
@@ -54,7 +54,7 @@
       "hipotese": "Nomenclatura complexa (XL, radial, TT/TL, índices) confunde; o time compensa mandando o cliente ver o manual e perguntando se ele sabe ler a medida.",
       "leitura": "Alta",
       "status": "Evidência parcial",
-      "nEvidencias": 16
+      "nEvidencias": 19
     },
     {
       "id": "3c91c97d-43e7-81c4-b26e-d757b964d087",
@@ -63,7 +63,7 @@
       "hipotese": "Regra automática de substituição de estoque oferta uma medida que não corresponde.",
       "leitura": "Média",
       "status": "Evidência parcial",
-      "nEvidencias": 10
+      "nEvidencias": 11
     }
   ],
   "evidencias": [
@@ -1957,6 +1957,218 @@
       "frenteIds": [
         "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
       ]
+    },
+    {
+      "id": "3df1c97d-43e7-811c-b4c2-c72cb16d06ba",
+      "achado": "Caso 'produto falsificado' que era medida incorreta — protocolo travado e avaliação negativa pública",
+      "tipo": "Dor",
+      "citacao": "\"Continuou como um pneu falsificado, mesmo que o motivo fosse outro\"",
+      "evidencia": "Cliente abriu protocolo como 'produto falsificado' sendo, na verdade, compra medida incorreta. O motivo não pôde ser alterado na Shopee; gerou avaliação negativa pública sem direito de resposta da loja.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Baixa",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3df1c97d43e781cb8254f9249c8f58b5"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
+      ]
+    },
+    {
+      "id": "3df1c97d-43e7-8135-988d-f593d1325751",
+      "achado": "Devolução é fenômeno de consumidor/autoatendimento: ~0% no B2B, 2–5%+ nos canais de consumidor",
+      "tipo": "Dado",
+      "citacao": null,
+      "evidencia": "Nos 550 mil pedidos de jul/ago 2025 e 2026, a taxa de devolução (DEV sobre entregue) é praticamente 0% no B2B — comprador profissional que sabe a medida — e sobe para 2–5%+ nos canais de autoatendimento: Amazon 3,8%, Shopee 3,7%, Via Varejo 4,2%, B2C 2,3% (2026). O ticket médio da devolução (R$1.296) é bem menor que o do entregue (R$2.933). Aponta para a jornada de autoatendimento (Usuário/Informação/Busca) como onde o erro de medida aparece. Ressalva: a base não tem motivo nem produto, então 'medida errada' não está isolada — este é o universo, não o número final.",
+      "fonteCanal": "Área interna",
+      "forca": "Dado quantitativo",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3df1c97d43e7814e82c9ce291d53f45a"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7813c8a33cb3949e0fd75"
+      ]
+    },
+    {
+      "id": "3df1c97d-43e7-814c-ad4a-d36d2da8cdac",
+      "achado": "Algoritmo da Shopee induz o cliente a comprar medida diferente da necessária",
+      "tipo": "Hipótese",
+      "citacao": "\"a plataforma começa a recomendar para ele esse tipo de pneu... é uma indução da própria plataforma por causa do algoritmo\"",
+      "evidencia": "Caso nítido: cliente cujos interesses no feed eram só câmara de ar e pneu de moto (pneu AHT), medida divergente da compra. Foi o único caso nítido observado — fora do controle da equipe (plataforma).",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Baixa",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3df1c97d43e781cb8254f9249c8f58b5"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7818d89aff022000a540e"
+      ]
+    },
+    {
+      "id": "3df1c97d-43e7-8153-8fdc-fd3550a40caa",
+      "achado": "Excesso de informação nos anúncios confunde o público mais idoso",
+      "tipo": "Dor",
+      "citacao": "\"fica muita informação no anúncio dos nossos pneus... ainda mais que é um público mais idoso, fica bem confuso\"",
+      "evidencia": "Sugestão da própria atendente: anúncios mais claros e didáticos reduziriam a incidência. É a única alavanca sob controle da Cantu (as demais são da plataforma).",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3df1c97d43e781cb8254f9249c8f58b5"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e78119896ce22e7921e76c"
+      ]
+    },
+    {
+      "id": "3df1c97d-43e7-8171-9aab-f7d6b550e397",
+      "achado": "Estimativa de ~9 em 10 tickets ligados a medida incorreta",
+      "tipo": "Hipótese",
+      "citacao": "\"uns nove acontece muito\"",
+      "evidencia": "Estimativa de percepção da atendente, sem base extraída de dado. Não deve virar dado quantitativo até cruzar com o relatório de tickets.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3df1c97d43e781cb8254f9249c8f58b5"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7813c8a33cb3949e0fd75"
+      ]
+    },
+    {
+      "id": "3df1c97d-43e7-8172-b97f-c5fbd0b8e257",
+      "achado": "Anúncios da Shopee não indicam compatibilidade por modelo de carro",
+      "tipo": "Pista",
+      "citacao": "\"Não tem essa especificação. É bem assim, o cliente tem que saber\"",
+      "evidencia": "O anúncio exige que o cliente já saiba a medida de antemão; não há busca/seleção por veículo na Shopee.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": "Média",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf",
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3df1c97d43e781cb8254f9249c8f58b5"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
+      ]
+    },
+    {
+      "id": "3df1c97d-43e7-8176-ad1c-c60cde86bbf3",
+      "achado": "Erro de anúncio Speedmax em agosto — anunciado 255/50, SKU entregue 165/40",
+      "tipo": "Dado",
+      "citacao": "\"estava sendo anunciado o pneu Speedmax na medida 255 barra 50, mas estava chegando o SKU era da medida 165 com 40\"",
+      "evidencia": "Falha real de cadastro/anúncio em agosto gerou volume atípico de tickets de 'recebi produto errado' — não é medida errada do cliente. Sem número de tickets levantado.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Baixa",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7818294facb56d5f83bd9"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3df1c97d43e781cb8254f9249c8f58b5"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7818d89aff022000a540e"
+      ]
+    },
+    {
+      "id": "3df1c97d-43e7-8176-bb08-c8a4e940b029",
+      "achado": "IA de atendimento da Shopee repassa medida errada puxando o 1º número do título",
+      "tipo": "Pista",
+      "citacao": "\"esse bot de atendimento vai puxar esse primeiro número como medida... mesmo que não seja a medida correta\"",
+      "evidencia": "No transbordo da IA da Shopee para o GoBots, a IA responde com informação do título do anúncio; a equipe não tem acesso ao que foi repassado. Título com número antes da medida é o gatilho.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Média",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf",
+        "https://app.notion.com/3c91c97d43e7818294facb56d5f83bd9"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3df1c97d43e781cb8254f9249c8f58b5"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e78119896ce22e7921e76c"
+      ]
+    },
+    {
+      "id": "3df1c97d-43e7-819c-b8bb-f499e1aa74e0",
+      "achado": "Cliente compra 'no olhômetro', sem saber a medida",
+      "tipo": "Dor",
+      "citacao": "\"compra assim, meio que de olho, digamos assim... vai no olhômetro\"",
+      "evidencia": "Muitos compradores não sabem ver a medida na lateral do pneu e compram por aparência. Público mais idoso agrava.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3df1c97d43e781cb8254f9249c8f58b5"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7813f9403f7acddadc129"
+      ]
+    },
+    {
+      "id": "3df1c97d-43e7-81d5-bf7b-edf706b2db72",
+      "achado": "Shopee não oferece 'medida incorreta' como motivo de cancelamento — cliente escolhe motivo aproximado",
+      "tipo": "Dado",
+      "citacao": "\"dentro da Shopee não existe um tema compra medida incorreta... os motivos são sempre aleatórios: recebi errado, produto não serviu, arrependimento, prazo muito longo\"",
+      "evidencia": "O motivo real da compra medida incorreta só é levantado durante o atendimento; o motivo registrado na origem (protocolo Shopee) é uma aproximação escolhida pelo próprio cliente. Parte do número de 'medida errada' pode estar mascarada em outros rótulos e vice-versa.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3df1c97d43e781cb8254f9249c8f58b5"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
+      ]
     }
   ],
   "fontes": [
@@ -2213,6 +2425,36 @@
         "https://app.notion.com/3de1c97d43e781388e16e92438a7356c",
         "https://app.notion.com/3de1c97d43e78171be18f39a199431da"
       ]
+    },
+    {
+      "id": "3df1c97d-43e7-81cb-8254-f9249c8f58b5",
+      "fonte": "Entrevista Voz & Retenção Shopee — Isabela Nunes (pós-venda, 18/09)",
+      "tipo": "Área interna",
+      "statusAnalise": "Analisado",
+      "extraido": "Entrevista com Isabela (pós-venda Shopee). Principais achados: Shopee não tem motivo 'compra medida incorreta' — cliente escolhe motivos aproximados (produto não serviu, recebi errado, arrependimento, prazo); o real motivo só aparece no atendimento. ~9/10 tickets são medida incorreta (percepção da atendente). Público mais idoso (50-60, sem dado concreto), compra 'no olhômetro'. Anúncios não trazem compatibilidade por modelo de carro nem são didáticos. Algoritmo da Shopee induz medida errada por feed; IA de atendimento (transbordo GoBots) repassa medida errada puxando o 1º número do título. Casos: cliente que abriu protocolo como 'produto falsificado' sendo medida incorreta (travou, gerou avaliação negativa pública); erro de anúncio Speedmax 255/50 x SKU 165/40 em agosto. Sem integração Shopee-Zendesk (tickets manuais). Sem troca; fluxo é coleta + estorno em até 10 dias úteis.",
+      "link": "https://app.notion.com/p/3df1c97d43e7802b894fe4a7121b15d6",
+      "evidenciasGeradasIds": [
+        "https://app.notion.com/3df1c97d43e781d5bf7bedf706b2db72",
+        "https://app.notion.com/3df1c97d43e781719aabf7d6b550e397",
+        "https://app.notion.com/3df1c97d43e7819cb8bbf499e1aa74e0",
+        "https://app.notion.com/3df1c97d43e78172b97fc5fbd0b8e257",
+        "https://app.notion.com/3df1c97d43e7814cad4ad36d2da8cdac",
+        "https://app.notion.com/3df1c97d43e78176bb08c8a4e940b029",
+        "https://app.notion.com/3df1c97d43e781538fdcfd3550a40caa",
+        "https://app.notion.com/3df1c97d43e7811cb4c2c72cb16d06ba",
+        "https://app.notion.com/3df1c97d43e78176ad1cc60cde86bbf3"
+      ]
+    },
+    {
+      "id": "3df1c97d-43e7-814e-82c9-ce291d53f45a",
+      "fonte": "Base de pedidos (export Salesforce) — jul/ago 2025 e 2026",
+      "tipo": "Dashboard / BI",
+      "statusAnalise": "Analisado",
+      "extraido": "550.087 pedidos (jul+ago de 2025 e 2026). Não há campo de motivo nem de produto/medida — 'medida errada' não está marcada. Universo mapeado: 3.679 devoluções (DEV, pós-entrega, R$ 4,77 mi) e 69.452 cancelamentos (CAN, pré-entrega, R$ 186 mi). Achado central: devolução é fenômeno de consumidor/autoatendimento — B2B ~0%, canais de consumidor 2–5%+ (Amazon 3,8% / Shopee 3,7% / Via Varejo 4,2% / B2C 2,3% em 2026). Ticket médio da devolução (R$1.296) < entregue (R$2.933). B2C subiu de 0,15% (2025) para 2,32% (2026). Análise completa em Excel local (5 abas, com lista das 3.679 devoluções). Falta cruzar com base de trocas/devoluções que tenha o MOTIVO.",
+      "link": null,
+      "evidenciasGeradasIds": [
+        "https://app.notion.com/3df1c97d43e78135988df593d1325751"
+      ]
     }
   ],
   "frentes": [
@@ -2246,7 +2488,9 @@
         "https://app.notion.com/3cf1c97d43e7814db32bfd40a137c6f6",
         "https://app.notion.com/3cf1c97d43e781d0ae8af509e9a7008e",
         "https://app.notion.com/3cf1c97d43e781eaa850d3ac318d722e",
-        "https://app.notion.com/3d11c97d43e781f98758cb95ec6f1afa"
+        "https://app.notion.com/3d11c97d43e781f98758cb95ec6f1afa",
+        "https://app.notion.com/3df1c97d43e78176bb08c8a4e940b029",
+        "https://app.notion.com/3df1c97d43e781538fdcfd3550a40caa"
       ]
     },
     {
@@ -2286,7 +2530,9 @@
       "proximoPasso": "Consolidar pesquisa anterior + Reclame Aqui + dados de troca/devolução já existentes.",
       "causasIds": [],
       "evidenciasIds": [
-        "https://app.notion.com/3d81c97d43e781dfa28bfa739271a29c"
+        "https://app.notion.com/3d81c97d43e781dfa28bfa739271a29c",
+        "https://app.notion.com/3df1c97d43e781719aabf7d6b550e397",
+        "https://app.notion.com/3df1c97d43e78135988df593d1325751"
       ]
     },
     {
@@ -2298,7 +2544,9 @@
       "prioridade": "Média",
       "proximoPasso": "Investigar como o usuário descobre, identifica e escolhe a medida — a partir da base anterior.",
       "causasIds": [],
-      "evidenciasIds": []
+      "evidenciasIds": [
+        "https://app.notion.com/3df1c97d43e7819cb8bbf499e1aa74e0"
+      ]
     },
     {
       "id": "3c91c97d-43e7-8150-bf4f-f9015195b6a0",
@@ -2347,7 +2595,9 @@
         "https://app.notion.com/3dd1c97d43e78190900dd29c15a8e9b8",
         "https://app.notion.com/3de1c97d43e7810fa163f07f50bb4581",
         "https://app.notion.com/3de1c97d43e7812fb7d1c165d4eac414",
-        "https://app.notion.com/3de1c97d43e7816fa3edde4e05004bec"
+        "https://app.notion.com/3de1c97d43e7816fa3edde4e05004bec",
+        "https://app.notion.com/3df1c97d43e781d5bf7bedf706b2db72",
+        "https://app.notion.com/3df1c97d43e7811cb4c2c72cb16d06ba"
       ]
     },
     {
@@ -2372,7 +2622,9 @@
       "causasIds": [],
       "evidenciasIds": [
         "https://app.notion.com/3ca1c97d43e78135afe7eab65f5f3082",
-        "https://app.notion.com/3de1c97d43e781edadeec024a18e79cb"
+        "https://app.notion.com/3de1c97d43e781edadeec024a18e79cb",
+        "https://app.notion.com/3df1c97d43e7814cad4ad36d2da8cdac",
+        "https://app.notion.com/3df1c97d43e78176ad1cc60cde86bbf3"
       ]
     },
     {
@@ -2419,7 +2671,8 @@
         "https://app.notion.com/3d51c97d43e7818bae92fe3bca53f4fa",
         "https://app.notion.com/3d81c97d43e781ff9d25f5ed991947e6",
         "https://app.notion.com/3d81c97d43e781f7aa10e14b49eba347",
-        "https://app.notion.com/3de1c97d43e7814e9e0cf6e755e6f1d5"
+        "https://app.notion.com/3de1c97d43e7814e9e0cf6e755e6f1d5",
+        "https://app.notion.com/3df1c97d43e78172b97fc5fbd0b8e257"
       ]
     },
     {
