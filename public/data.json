@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-19T09:12:39.588Z",
-  "generatedAtLabel": "19/09/2026, 06:12 (Brasília)",
+  "generatedAt": "2026-09-20T09:12:35.657Z",
+  "generatedAtLabel": "20/09/2026, 06:12 (Brasília)",
   "causas": [
     {
       "id": "3c91c97d-43e7-813d-bf61-c2bab85ddee7",
@@ -9,7 +9,7 @@
       "hipotese": "A fricção no pós-compra (sem rastreio, cobrança fora do Zendesk, sem alerta de urgência, CPF na abertura) agrava e prolonga a devolução/troca.",
       "leitura": "Alta",
       "status": "Evidência parcial",
-      "nEvidencias": 22
+      "nEvidencias": 23
     },
     {
       "id": "3c91c97d-43e7-814f-a5d5-d84af14ab572",
