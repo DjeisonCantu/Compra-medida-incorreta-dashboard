@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-29T09:14:16.670Z",
-  "generatedAtLabel": "29/09/2026, 06:14 (Brasília)",
+  "generatedAt": "2026-09-30T09:16:02.612Z",
+  "generatedAtLabel": "30/09/2026, 06:16 (Brasília)",
   "causas": [
     {
       "id": "3c91c97d-43e7-813d-bf61-c2bab85ddee7",
@@ -27,7 +27,7 @@
       "hipotese": "Busca por veículo (hipótese: paginação; e informar só a versão retorna 3–4 medidas) e filtro fraco na PDP levam à medida divergente. Placa (nova plataforma) e medida ficaram mais assertivas e derrubaram o número; a busca por veículo é o gap que não melhorou.",
       "leitura": "Alta",
       "status": "Evidência parcial",
-      "nEvidencias": 21
+      "nEvidencias": 23
     },
     {
       "id": "3c91c97d-43e7-817f-af94-ccb1b7baab02",
@@ -36,7 +36,7 @@
       "hipotese": "Cliente majoritariamente leigo na nomenclatura; muitos decidem no visual/achismo, sem saber ler a medida.",
       "leitura": "Média",
       "status": "Evidência parcial",
-      "nEvidencias": 16
+      "nEvidencias": 17
     },
     {
       "id": "3c91c97d-43e7-8182-94fa-cb56d5f83bd9",
@@ -45,7 +45,7 @@
       "hipotese": "Anúncio ativo sem estoque leva à compra de produto indisponível → troca/cancelamento.",
       "leitura": "Baixa",
       "status": "Investigando",
-      "nEvidencias": 6
+      "nEvidencias": 7
     },
     {
       "id": "3c91c97d-43e7-81b3-8fe6-cacfaf8d1bcf",
@@ -54,7 +54,7 @@
       "hipotese": "Nomenclatura complexa (XL, radial, TT/TL, índices) confunde; o time compensa mandando o cliente ver o manual e perguntando se ele sabe ler a medida.",
       "leitura": "Alta",
       "status": "Evidência parcial",
-      "nEvidencias": 19
+      "nEvidencias": 20
     },
     {
       "id": "3c91c97d-43e7-81c4-b26e-d757b964d087",
@@ -2169,6 +2169,69 @@
       "frenteIds": [
         "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
       ]
+    },
+    {
+      "id": "3ea1c97d-43e7-8112-bba2-d8f244e2fd90",
+      "achado": "Cliente profissional pesquisa por MEDIDA, não por placa, porque usa medidas adaptadas",
+      "tipo": "Pista",
+      "citacao": "Geralmente eu pesquiso mais por medidas mesmo, porque às vezes o pessoal altera... Se você puxar por placa, vai te dar o pneu original ali do carro, mas nem sempre é assim.",
+      "evidencia": "Emerson altera a medida de propósito (ex.: subir o perfil para estradas rurais). Buscar por placa entregaria a medida original de fábrica — justamente a que ele NÃO quer. Implica que 'buscar por placa' não é solução universal: para o público profissional pode gerar o pneu indesejado. Reforça hipótese de segmentação por perfil na frente de Busca.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Baixa",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb",
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ea1c97d43e781f996b8fde816f31dc8"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
+      ]
+    },
+    {
+      "id": "3ea1c97d-43e7-8146-9f00-dc5f125b262d",
+      "achado": "Dúvida de medida é resolvida no Google/manual, nunca no suporte da Pneu Store",
+      "tipo": "Pista",
+      "citacao": "Quando eu tenho dúvida, eu consulto mais o Google mesmo... Mas eu nunca entrei em contato com vocês mesmo pra tirar dúvida não.",
+      "evidencia": "A validação da medida acontece FORA do produto. O site não é fonte de confiança para responder 'essa medida é a certa?'. Aponta oportunidade de apoio à decisão de medida dentro do fluxo e de conteúdo educativo.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Baixa",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf",
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ea1c97d43e781f996b8fde816f31dc8"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e78119896ce22e7921e76c"
+      ]
+    },
+    {
+      "id": "3ea1c97d-43e7-81b6-85d9-e6a9eed74f82",
+      "achado": "Interesse no app, mas abandonou o cadastro no meio do caminho",
+      "tipo": "Dor",
+      "citacao": "Tentei entrar cada vez mais no aplicativo... em algum momento no meio do caminho eu me perdi, eu não lembro se eu concluí a inscrição.",
+      "evidencia": "Fricção de onboarding no app: usuário com intenção de uso não conclui o cadastro. Relato único e vago (indício). Tangencial ao escopo de medida errada.",
+      "fonteCanal": "Entrevista",
+      "forca": "Indício",
+      "frequencia": "Baixa",
+      "impacto": "Baixo",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7818294facb56d5f83bd9"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ea1c97d43e781f996b8fde816f31dc8"
+      ],
+      "frenteIds": []
     }
   ],
   "fontes": [
@@ -2455,6 +2518,19 @@
         "https://app.notion.com/3df1c97d43e7811cb4c2c72cb16d06ba",
         "https://app.notion.com/3df1c97d43e78176ad1cc60cde86bbf3"
       ]
+    },
+    {
+      "id": "3ea1c97d-43e7-81f9-96b8-fde816f31dc8",
+      "fonte": "Entrevista — Emerson Geraldi (Andrade Centro Automotivo) · 24/09/2026",
+      "tipo": "Outro",
+      "statusAnalise": "Analisado",
+      "extraido": "Entrevista com cliente PF profissional (gerente de centro automotivo, 51 anos, Santo Antônio do Monte-MG). Compra sempre pelo site, à vista, via CPF. NÃO é caso de medida errada: nunca comprou medida errada nem teve dificuldade em achar a medida. Achados úteis por contraste: (1) busca deliberada por MEDIDA e não por placa, porque usa medidas adaptadas (não as originais de fábrica); (2) dúvida de medida resolvida no Google/manual, nunca no suporte da Pneu Store; (3) abandono do cadastro no app. Sinaliza hipótese de segmentação (profissional vs. leigo) e cautela com 'buscar por placa' como solução universal.",
+      "link": "https://app.notion.com/p/3e51c97d43e7803bb03add82ed59c258",
+      "evidenciasGeradasIds": [
+        "https://app.notion.com/3ea1c97d43e78112bba2d8f244e2fd90",
+        "https://app.notion.com/3ea1c97d43e781469f00dc5f125b262d",
+        "https://app.notion.com/3ea1c97d43e781b685d9e6a9eed74f82"
+      ]
     }
   ],
   "frentes": [
@@ -2512,7 +2588,8 @@
         "https://app.notion.com/3cf1c97d43e781eaa850d3ac318d722e",
         "https://app.notion.com/3d11c97d43e781f98758cb95ec6f1afa",
         "https://app.notion.com/3df1c97d43e78176bb08c8a4e940b029",
-        "https://app.notion.com/3df1c97d43e781538fdcfd3550a40caa"
+        "https://app.notion.com/3df1c97d43e781538fdcfd3550a40caa",
+        "https://app.notion.com/3ea1c97d43e781469f00dc5f125b262d"
       ]
     },
     {
@@ -2672,7 +2749,8 @@
         "https://app.notion.com/3d81c97d43e781ff9d25f5ed991947e6",
         "https://app.notion.com/3d81c97d43e781f7aa10e14b49eba347",
         "https://app.notion.com/3de1c97d43e7814e9e0cf6e755e6f1d5",
-        "https://app.notion.com/3df1c97d43e78172b97fc5fbd0b8e257"
+        "https://app.notion.com/3df1c97d43e78172b97fc5fbd0b8e257",
+        "https://app.notion.com/3ea1c97d43e78112bba2d8f244e2fd90"
       ]
     },
     {
