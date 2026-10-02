@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-01T09:14:36.244Z",
-  "generatedAtLabel": "01/10/2026, 06:14 (Brasília)",
+  "generatedAt": "2026-10-02T09:16:23.342Z",
+  "generatedAtLabel": "02/10/2026, 06:16 (Brasília)",
   "causas": [
     {
       "id": "3c91c97d-43e7-813d-bf61-c2bab85ddee7",
@@ -9,7 +9,7 @@
       "hipotese": "A fricção no pós-compra (sem rastreio, cobrança fora do Zendesk, sem alerta de urgência, CPF na abertura) agrava e prolonga a devolução/troca.",
       "leitura": "Alta",
       "status": "Evidência parcial",
-      "nEvidencias": 23
+      "nEvidencias": 30
     },
     {
       "id": "3c91c97d-43e7-814f-a5d5-d84af14ab572",
@@ -18,7 +18,7 @@
       "hipotese": null,
       "leitura": "Alta",
       "status": "Confirmada",
-      "nEvidencias": 27
+      "nEvidencias": 29
     },
     {
       "id": "3c91c97d-43e7-817e-ba33-ed6d318547bb",
@@ -27,7 +27,7 @@
       "hipotese": "Busca por veículo (hipótese: paginação; e informar só a versão retorna 3–4 medidas) e filtro fraco na PDP levam à medida divergente. Placa (nova plataforma) e medida ficaram mais assertivas e derrubaram o número; a busca por veículo é o gap que não melhorou.",
       "leitura": "Alta",
       "status": "Evidência parcial",
-      "nEvidencias": 23
+      "nEvidencias": 26
     },
     {
       "id": "3c91c97d-43e7-817f-af94-ccb1b7baab02",
@@ -36,7 +36,7 @@
       "hipotese": "Cliente majoritariamente leigo na nomenclatura; muitos decidem no visual/achismo, sem saber ler a medida.",
       "leitura": "Média",
       "status": "Evidência parcial",
-      "nEvidencias": 17
+      "nEvidencias": 21
     },
     {
       "id": "3c91c97d-43e7-8182-94fa-cb56d5f83bd9",
@@ -54,7 +54,7 @@
       "hipotese": "Nomenclatura complexa (XL, radial, TT/TL, índices) confunde; o time compensa mandando o cliente ver o manual e perguntando se ele sabe ler a medida.",
       "leitura": "Alta",
       "status": "Evidência parcial",
-      "nEvidencias": 20
+      "nEvidencias": 22
     },
     {
       "id": "3c91c97d-43e7-81c4-b26e-d757b964d087",
@@ -2232,6 +2232,283 @@
         "https://app.notion.com/3ea1c97d43e781f996b8fde816f31dc8"
       ],
       "frenteIds": []
+    },
+    {
+      "id": "3ec1c97d-43e7-8146-894e-c1e7e5333a7d",
+      "achado": "Cliente assume o erro de escolha e não culpa a loja",
+      "tipo": "Dado",
+      "citacao": "\"Eu comprei errado, a culpa não foi de vcs\" / \"Não avalio o erro da compra como erro de vcs\"",
+      "evidencia": "Em entrevista, o cliente atribuiu explicitamente a si o erro de medida/modelo, isentando a loja. Caso que entra no número de 'compra medida errada' mas é percebido pelo próprio cliente como erro dele.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": null,
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02",
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ec1c97d43e7812986a5fbc6ffda2be7"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
+      ]
+    },
+    {
+      "id": "3ec1c97d-43e7-817e-93c2-d3bdb00a277c",
+      "achado": "Devolução burocrática é o real motivo do churn (não a medida errada)",
+      "tipo": "Dor",
+      "citacao": "\"a experiência da devolução foi tão difícil que jamais compraria novamente\" / \"foi muito burocrático, tive q mandar email etc\" / \"a burocracia de ter q mandar muito documento, email etc… Pra mim não foi legal\"",
+      "evidencia": "O que determinou a não-recompra foi a fricção do processo de devolução (muitos documentos, e-mails), e não o erro de medida em si.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": null,
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ec1c97d43e7812986a5fbc6ffda2be7"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
+      ]
+    },
+    {
+      "id": "3ec1c97d-43e7-8147-ba0d-effde800573a",
+      "achado": "Logística de entrega não é a dor — a fricção é a burocracia documental",
+      "tipo": "Dado",
+      "citacao": "\"Não estou falando da logística de entrega, sei que o seu produto requer um transporte diferente… Uma entrega que não fosse transportadora seria muito caro e ia acabar inviabilizando\"",
+      "evidencia": "Cliente isenta o frete/transportadora (reconhece peso/volume do produto) e localiza a dor na burocracia de documentos/e-mails. Delimita o escopo do problema de devolução.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": null,
+      "impacto": "Baixo",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ec1c97d43e7812986a5fbc6ffda2be7"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
+      ]
+    },
+    {
+      "id": "3ec1c97d-43e7-8159-9165-cbe0db5a2604",
+      "achado": "Variação dentro do mesmo modelo (uso misto vs. pick-up) não percebida",
+      "tipo": "Pista",
+      "citacao": "\"Existiam 2 modelos de pneus e um era uso misto, algo assim\" / \"Era pneu para pick-up\" / \"procurei o modelo e tinha uma 'subcategoria' dentro desse mesmo modelo que não observei\"",
+      "evidencia": "Cliente comprou a variante errada porque a diferença entre variações/'subcategorias' do mesmo modelo (ex.: uso misto vs. pick-up) não ficou evidente na jornada.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": null,
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf",
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ec1c97d43e7812986a5fbc6ffda2be7"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
+      ]
+    },
+    {
+      "id": "3ec1c97d-43e7-8185-9077-e5f3f22e5aee",
+      "achado": "Benchmark: devolução deveria ser menos burocrática, 'como o do ML'",
+      "tipo": "Pista",
+      "citacao": "\"Acho que deveria ser menos burocrático como o do ML\"",
+      "evidencia": "Cliente aponta o fluxo de devolução do Mercado Livre (ML) como referência de menor fricção.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": null,
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ec1c97d43e7812986a5fbc6ffda2be7"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
+      ]
+    },
+    {
+      "id": "3ec1c97d-43e7-8198-bc22-ced924a38ff0",
+      "achado": "Hipótese de método: investigar pedidos devolvidos como fonte de churn",
+      "tipo": "Hipótese",
+      "citacao": "\"eu focaria nos pedidos devolvidos… entrar em contato com os consumidores que precisaram desse serviço e avaliaria se todos julgam a isso como entrave para novas compras\"",
+      "evidencia": "O próprio cliente sugere cruzar a base de pedidos devolvidos e checar se a devolução vira entrave a novas compras.",
+      "fonteCanal": "Entrevista",
+      "forca": "Indício",
+      "frequencia": null,
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ec1c97d43e7812986a5fbc6ffda2be7"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7813c8a33cb3949e0fd75",
+        "https://app.notion.com/3c91c97d43e7813f9403f7acddadc129"
+      ]
+    },
+    {
+      "id": "3ec1c97d-43e7-816d-9500-e00b6e409be6",
+      "achado": "Cliente confiante acha 'quase impossível' errar → reforça hipótese de segmentação",
+      "tipo": "Hipótese",
+      "citacao": "as opções para consulta é muito grande... a montadora, o modelo, o ano... É praticamente quase impossível uma pessoa fazer uma compra errada.",
+      "evidencia": "Um cliente com repertório técnico acha o erro quase impossível — mas o projeto sabe que o erro é frequente. Logo, a população que erra NÃO se parece com ele. Direciona o recrutamento das próximas entrevistas para quem de fato errou / não domina a medida.",
+      "fonteCanal": "Entrevista",
+      "forca": "Relato recorrente",
+      "frequencia": "Média",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02",
+        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ec1c97d43e781f789dedeb713282a61"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7813f9403f7acddadc129"
+      ]
+    },
+    {
+      "id": "3ec1c97d-43e7-8171-abe5-db4492be4e06",
+      "achado": "Atendimento humano levou +2h (ao confirmar autenticidade do convite de pesquisa)",
+      "tipo": "Dor",
+      "citacao": "A única dificuldade que eu senti foi conseguir um atendimento humano... demorou, acredito eu, mais de duas horas.",
+      "evidencia": "Dor de atendimento: >2h para falar com humano. Contexto: o cliente desconfiou do convite da pesquisa (sem e-mail oficial) e tentou confirmar via SAC. Não ocorreu na compra. Também é recado de research-ops: sugestão de token/confirmação oficial e entrevista dentro da plataforma.",
+      "fonteCanal": "Entrevista",
+      "forca": "Indício",
+      "frequencia": "Baixa",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ec1c97d43e781f789dedeb713282a61"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
+      ]
+    },
+    {
+      "id": "3ec1c97d-43e7-81f5-9160-c4352ff3ce09",
+      "achado": "Busca direta por medida com conhecimento prévio → resultado 100% relevante",
+      "tipo": "Pista",
+      "citacao": "Direto pela medida... pelo conhecimento que eu tenho já do pneu... Cem por cento em cima do que eu tava procurando.",
+      "evidencia": "Cliente que já sabe a medida busca direto na barra e encontra exatamente o que queria. É o segundo relato igual (após Emerson): a busca por medida funciona bem para quem domina a medida. Reforça a leitura de que a causa Busca não é o gargalo para esse perfil.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Baixa",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb",
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ec1c97d43e781f789dedeb713282a61"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
+      ]
+    },
+    {
+      "id": "3ec1c97d-43e7-812b-a5da-f521f97baf73",
+      "achado": "Entrega sem data confiável nem rastreamento deixa o cliente 'preso em casa' esperando",
+      "tipo": "Dor",
+      "citacao": "a única coisa que eu achei chata foi a falta de clareza da empresa, da entrega na data... o Mercado Livre te avisa se a encomenda está perto de você",
+      "evidencia": "A transportadora dizia 'semana que vem', o chatbot dizia 2–3 dias úteis; sem rastreamento, Rafael ficou preso em casa com o pai idoso e recebeu 'por sorte'. Inconsistência entre prazo prometido e praticado + falta de visibilidade. Benchmark espontâneo: Mercado Livre.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Média",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ec1c97d43e781d08bfed3290bcb871b"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
+      ]
+    },
+    {
+      "id": "3ec1c97d-43e7-814b-8381-ceee28f63a54",
+      "achado": "Entregador anunciou 'dois pneus' quando eram quatro — risco de recebimento a menos, agravado com cliente idoso",
+      "tipo": "Dor",
+      "citacao": "quem foi entregar... falou, tem dois pneus aqui pro senhor. Aí eu... São quatro... O cara podia chegar e entregar só dois pneus e ir embora. O papai ia assinar a nota e ir embora.",
+      "evidencia": "Dois pares embalados juntos + comunicação imprecisa na entrega = risco de o cliente receber a menos e assinar a nota sem conferir. Rafael, presente, precisou intervir; um idoso sozinho teria aceitado. Operação/transportadora terceirizada.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Baixa",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ec1c97d43e781d08bfed3290bcb871b"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
+      ]
+    },
+    {
+      "id": "3ec1c97d-43e7-819e-a79a-c8f45f64ba7b",
+      "achado": "Busca por modelo do veículo é didática e leigo comprando p/ terceiro não erra a medida",
+      "tipo": "Pista",
+      "citacao": "ele é muito didático... você vai pesquisando o carro, ele vai dando... muito fácil. [conferi] foto do pneu pra ver a numeração",
+      "evidencia": "Rafael (leigo, 1ª compra, comprando para o carro do pai) buscou por modelo do veículo, conferiu a numeração por foto e não teve dúvida nem erro. Contraponto aos casos Emerson/Paulo (busca por medida): a busca por VEÍCULO funciona bem para o perfil leigo. Reforça a tese de segmentação — os dois caminhos (medida e veículo) precisam funcionar, para públicos diferentes.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Baixa",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb",
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ec1c97d43e781d08bfed3290bcb871b"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
+      ]
+    },
+    {
+      "id": "3ec1c97d-43e7-8151-a004-f413c299f52d",
+      "achado": "Cruzamento ticket a ticket não confirma a hipótese de que 'medida errada' seja majoritariamente expedição: só 1,7% de overlap",
+      "tipo": "Dado",
+      "citacao": null,
+      "evidencia": "Pelo NumeroPedido, apenas 52 de 3.017 tickets de Medida Incorreta (1,7%) têm o mesmo pedido na base de Erro Expedição (jun–ago, 2025+2026: 28 em 2025, 24 em 2026). Como os dois motivos são mutuamente exclusivos no Zendesk, um caso de expedição carimbado como 'medida' fica só na base de medida e não aparece no cruzamento — logo 1,7% é piso, não a medição real. A estimativa de ~4 em 10 (medida) / ~6 em 10 (expedição) do time de retenção segue como percepção, não confirmada por dado.",
+      "fonteCanal": "Zendesk / CIEX",
+      "forca": "Dado quantitativo",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Validado",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ec1c97d43e78186a156d1a7ab3eba20"
+      ],
+      "frenteIds": []
     }
   ],
   "fontes": [
@@ -2531,6 +2808,59 @@
         "https://app.notion.com/3ea1c97d43e781469f00dc5f125b262d",
         "https://app.notion.com/3ea1c97d43e781b685d9e6a9eed74f82"
       ]
+    },
+    {
+      "id": "3ec1c97d-43e7-8129-86a5-fbc6ffda2be7",
+      "fonte": "Entrevista WhatsApp — Vitor Valencia (devolução) · 01/10/2026",
+      "tipo": "Outro",
+      "statusAnalise": "Em análise",
+      "extraido": "Cliente que devolveu o produto e não voltaria a comprar. Gerou 6 evidências (EV1–EV6): (1) assume o erro de escolha e não culpa a loja; (2) variação/\"subcategoria\" dentro do mesmo modelo não percebida (uso misto vs. pick-up) → Informação/Busca; (3) devolução burocrática é o real motivo do churn → Operação; (4) benchmark: devolução deveria ser menos burocrática, \"como o do ML\"; (5) logística de entrega NÃO é a dor (delimita escopo — a dor é a burocracia documental, não o frete); (6) hipótese de método sugerida pelo cliente: focar nos pedidos devolvidos e checar se viram entrave a novas compras. Obs.: cliente repetiu que \"faz tempo, não lembro os detalhes\" — como ele chegou ao modelo ficou sem resposta.",
+      "link": null,
+      "evidenciasGeradasIds": [
+        "https://app.notion.com/3ec1c97d43e78146894ec1e7e5333a7d",
+        "https://app.notion.com/3ec1c97d43e781599165cbe0db5a2604",
+        "https://app.notion.com/3ec1c97d43e7817e93c2d3bdb00a277c",
+        "https://app.notion.com/3ec1c97d43e781859077e5f3f22e5aee",
+        "https://app.notion.com/3ec1c97d43e78147ba0deffde800573a",
+        "https://app.notion.com/3ec1c97d43e78198bc22ced924a38ff0"
+      ]
+    },
+    {
+      "id": "3ec1c97d-43e7-81f7-89de-deb713282a61",
+      "fonte": "Entrevista — Paulo César Andrade Júnior (cliente PF, Goiânia-GO) · 01/10/2026",
+      "tipo": "Outro",
+      "statusAnalise": "Analisado",
+      "extraido": "Cliente PF, 48 anos, 2 compras pelo app (uma pra si, uma pra amigo), chegou via influenciador (Fachini) com cupom. NÃO é caso de medida errada: buscou direto pela medida (conhecimento prévio), resultado 100% relevante, acha 'quase impossível' errar dada a riqueza de referências. Segundo 'não-caso' seguido (como Emerson) — reforça hipótese de segmentação: quem domina a medida não erra. Dor real: atendimento humano demorou +2h, mas no contexto de confirmar a autenticidade do convite da pesquisa (research-ops), não na compra. Sugestões comerciais fora de escopo (fidelização, seguros, causa social). Ponto positivo: filtros (mais popular/mais barato/custo-benefício/prêmio) bem avaliados.",
+      "link": "https://app.notion.com/p/3ec1c97d43e780b4bdbdca1b0257de16",
+      "evidenciasGeradasIds": [
+        "https://app.notion.com/3ec1c97d43e781f59160c4352ff3ce09",
+        "https://app.notion.com/3ec1c97d43e7816d9500e00b6e409be6",
+        "https://app.notion.com/3ec1c97d43e78171abe5db4492be4e06"
+      ]
+    },
+    {
+      "id": "3ec1c97d-43e7-81d0-8bfe-d3290bcb871b",
+      "fonte": "Entrevista — Rafael Castro (cliente PF, comprou p/ o pai) · 01/10/2026",
+      "tipo": "Outro",
+      "statusAnalise": "Analisado",
+      "extraido": "Cliente PF (44, RJ), 1ª compra, comprou pneu pelo site para o pai (~80 anos) em cidade pequena de MG onde o modelo (New Fiesta) era indisponível. NÃO errou a medida: buscou por modelo do veículo, conferiu numeração por foto do pneu antigo, achou o fluxo 'muito didático'. Terceiro não-caso de medida. A dor migrou toda para a ENTREGA: (1) sem clareza de data e sem rastreamento (benchmark espontâneo = Mercado Livre); ficou 'preso em casa' esperando; (2) entregador anunciou 'dois pneus' quando eram quatro (dois pares embalados juntos) — risco a cliente idoso, precisou intervir. Chatbot informou prazo 2–3 dias úteis, divergente do 'semana que vem' da transportadora. Instalação em borracheiro local (sem oficina parceira na cidade).",
+      "link": "https://app.notion.com/p/3ec1c97d43e780dc8fede762adc6a1db",
+      "evidenciasGeradasIds": [
+        "https://app.notion.com/3ec1c97d43e7819ea79ac8f45f64ba7b",
+        "https://app.notion.com/3ec1c97d43e7812ba5daf521f97baf73",
+        "https://app.notion.com/3ec1c97d43e7814b8381ceee28f63a54"
+      ]
+    },
+    {
+      "id": "3ec1c97d-43e7-8186-a156-d1a7ab3eba20",
+      "fonte": "Cruzamento Zendesk — Medida Incorreta × Erro Expedição (jun–ago, 2025 e 2026)",
+      "tipo": "Zendesk",
+      "statusAnalise": "Analisado",
+      "extraido": "Cruzamento das duas bases do Zendesk (Erro Cliente/Medida Incorreta × Erro Expedição), jun–ago de 2025 e 2026, pela chave NumeroPedido. NÚMEROS: 3.017 tickets 'Medida Incorreta' (1.714 em 2025, 1.303 em 2026) × 1.599 'Erro Expedição' (769/830). Pedido preenchido em 98–100%. OVERLAP: apenas 52 pedidos (1,7%) de Medida Incorreta aparecem também como Erro Expedição (28 em 2025, 24 em 2026). 'Modelo Incorreto' é balde à parte (469/218), fora do número de medida. Sem recontato (pedido único nesta base curada). CONCLUSÃO: os dois motivos são mutuamente exclusivos — um caso de expedição carimbado como 'medida' fica só na base de medida e NÃO aparece no cruzamento; logo, o 1,7% é PISO, não a medição real. Portanto a estimativa da retenção (~4 em 10 medida / ~6 em 10 expedição) NÃO é confirmada por estas bases — segue como percepção. Para medir de verdade, falta a base com medida/SKU comprada × enviada (faturada) por pedido (relatório Kaique/Paloma). Planilha auditável com os 52 pedidos: Cruzamento_Medida_x_Expedicao.xlsx.",
+      "link": null,
+      "evidenciasGeradasIds": [
+        "https://app.notion.com/3ec1c97d43e78151a004f413c299f52d"
+      ]
     }
   ],
   "frentes": [
@@ -2568,7 +2898,10 @@
       "evidenciasIds": [
         "https://app.notion.com/3ca1c97d43e7813a800ccb965b1f438c",
         "https://app.notion.com/3ce1c97d43e781feb09aeade1a4041b9",
-        "https://app.notion.com/3de1c97d43e781c99b86fb85ba35bacd"
+        "https://app.notion.com/3de1c97d43e781c99b86fb85ba35bacd",
+        "https://app.notion.com/3ec1c97d43e78171abe5db4492be4e06",
+        "https://app.notion.com/3ec1c97d43e7812ba5daf521f97baf73",
+        "https://app.notion.com/3ec1c97d43e7814b8381ceee28f63a54"
       ]
     },
     {
@@ -2620,7 +2953,8 @@
       "evidenciasIds": [
         "https://app.notion.com/3d81c97d43e781dfa28bfa739271a29c",
         "https://app.notion.com/3df1c97d43e781719aabf7d6b550e397",
-        "https://app.notion.com/3df1c97d43e78135988df593d1325751"
+        "https://app.notion.com/3df1c97d43e78135988df593d1325751",
+        "https://app.notion.com/3ec1c97d43e78198bc22ced924a38ff0"
       ]
     },
     {
@@ -2633,7 +2967,9 @@
       "proximoPasso": "Investigar como o usuário descobre, identifica e escolhe a medida — a partir da base anterior.",
       "causasIds": [],
       "evidenciasIds": [
-        "https://app.notion.com/3df1c97d43e7819cb8bbf499e1aa74e0"
+        "https://app.notion.com/3df1c97d43e7819cb8bbf499e1aa74e0",
+        "https://app.notion.com/3ec1c97d43e78198bc22ced924a38ff0",
+        "https://app.notion.com/3ec1c97d43e7816d9500e00b6e409be6"
       ]
     },
     {
@@ -2685,7 +3021,8 @@
         "https://app.notion.com/3de1c97d43e7812fb7d1c165d4eac414",
         "https://app.notion.com/3de1c97d43e7816fa3edde4e05004bec",
         "https://app.notion.com/3df1c97d43e781d5bf7bedf706b2db72",
-        "https://app.notion.com/3df1c97d43e7811cb4c2c72cb16d06ba"
+        "https://app.notion.com/3df1c97d43e7811cb4c2c72cb16d06ba",
+        "https://app.notion.com/3ec1c97d43e78146894ec1e7e5333a7d"
       ]
     },
     {
@@ -2721,7 +3058,8 @@
         "https://app.notion.com/3d81c97d43e7819497b6ce53a7536929",
         "https://app.notion.com/3d81c97d43e781ad8145eb383e25e5da",
         "https://app.notion.com/3d81c97d43e7812c858ed801b21b76ad",
-        "https://app.notion.com/3de1c97d43e7813f8e65e7bdac3546ab"
+        "https://app.notion.com/3de1c97d43e7813f8e65e7bdac3546ab",
+        "https://app.notion.com/3ec1c97d43e781599165cbe0db5a2604"
       ]
     },
     {
@@ -2750,7 +3088,9 @@
         "https://app.notion.com/3d81c97d43e781f7aa10e14b49eba347",
         "https://app.notion.com/3de1c97d43e7814e9e0cf6e755e6f1d5",
         "https://app.notion.com/3df1c97d43e78172b97fc5fbd0b8e257",
-        "https://app.notion.com/3ea1c97d43e78112bba2d8f244e2fd90"
+        "https://app.notion.com/3ea1c97d43e78112bba2d8f244e2fd90",
+        "https://app.notion.com/3ec1c97d43e781f59160c4352ff3ce09",
+        "https://app.notion.com/3ec1c97d43e7819ea79ac8f45f64ba7b"
       ]
     },
     {
@@ -2776,7 +3116,10 @@
         "https://app.notion.com/3d81c97d43e781598c78c97b84f90de5",
         "https://app.notion.com/3d81c97d43e781bfb728ce50f21a27c9",
         "https://app.notion.com/3dd1c97d43e781a994d5cac58e38a85f",
-        "https://app.notion.com/3de1c97d43e781f7be3dd0576047bc04"
+        "https://app.notion.com/3de1c97d43e781f7be3dd0576047bc04",
+        "https://app.notion.com/3ec1c97d43e7817e93c2d3bdb00a277c",
+        "https://app.notion.com/3ec1c97d43e781859077e5f3f22e5aee",
+        "https://app.notion.com/3ec1c97d43e78147ba0deffde800573a"
       ]
     },
     {
