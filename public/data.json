@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-02T09:16:23.342Z",
-  "generatedAtLabel": "02/10/2026, 06:16 (Brasília)",
+  "generatedAt": "2026-10-03T09:15:49.938Z",
+  "generatedAtLabel": "03/10/2026, 06:15 (Brasília)",
   "causas": [
     {
       "id": "3c91c97d-43e7-813d-bf61-c2bab85ddee7",
@@ -2256,27 +2256,6 @@
       ]
     },
     {
-      "id": "3ec1c97d-43e7-817e-93c2-d3bdb00a277c",
-      "achado": "Devolução burocrática é o real motivo do churn (não a medida errada)",
-      "tipo": "Dor",
-      "citacao": "\"a experiência da devolução foi tão difícil que jamais compraria novamente\" / \"foi muito burocrático, tive q mandar email etc\" / \"a burocracia de ter q mandar muito documento, email etc… Pra mim não foi legal\"",
-      "evidencia": "O que determinou a não-recompra foi a fricção do processo de devolução (muitos documentos, e-mails), e não o erro de medida em si.",
-      "fonteCanal": "Entrevista",
-      "forca": "Caso concreto",
-      "frequencia": null,
-      "impacto": "Alto",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ec1c97d43e7812986a5fbc6ffda2be7"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
-    },
-    {
       "id": "3ec1c97d-43e7-8147-ba0d-effde800573a",
       "achado": "Logística de entrega não é a dor — a fricção é a burocracia documental",
       "tipo": "Dado",
@@ -2317,6 +2296,27 @@
       ],
       "frenteIds": [
         "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
+      ]
+    },
+    {
+      "id": "3ec1c97d-43e7-817e-93c2-d3bdb00a277c",
+      "achado": "Devolução burocrática é o real motivo do churn (não a medida errada)",
+      "tipo": "Dor",
+      "citacao": "\"a experiência da devolução foi tão difícil que jamais compraria novamente\" / \"foi muito burocrático, tive q mandar email etc\" / \"a burocracia de ter q mandar muito documento, email etc… Pra mim não foi legal\"",
+      "evidencia": "O que determinou a não-recompra foi a fricção do processo de devolução (muitos documentos, e-mails), e não o erro de medida em si.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": null,
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ec1c97d43e7812986a5fbc6ffda2be7"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
       ]
     },
     {
