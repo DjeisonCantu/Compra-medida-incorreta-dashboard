@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T09:17:09.696Z",
-  "generatedAtLabel": "06/10/2026, 06:17 (Brasília)",
+  "generatedAt": "2026-10-07T09:17:44.411Z",
+  "generatedAtLabel": "07/10/2026, 06:17 (Brasília)",
   "causas": [
     {
       "id": "3c91c97d-43e7-813d-bf61-c2bab85ddee7",
@@ -9,7 +9,7 @@
       "hipotese": "A fricção no pós-compra (sem rastreio, cobrança fora do Zendesk, sem alerta de urgência, CPF na abertura) agrava e prolonga a devolução/troca.",
       "leitura": "Alta",
       "status": "Evidência parcial",
-      "nEvidencias": 30
+      "nEvidencias": 35
     },
     {
       "id": "3c91c97d-43e7-814f-a5d5-d84af14ab572",
@@ -18,7 +18,7 @@
       "hipotese": null,
       "leitura": "Alta",
       "status": "Confirmada",
-      "nEvidencias": 29
+      "nEvidencias": 31
     },
     {
       "id": "3c91c97d-43e7-817e-ba33-ed6d318547bb",
@@ -27,7 +27,7 @@
       "hipotese": "Busca por veículo (hipótese: paginação; e informar só a versão retorna 3–4 medidas) e filtro fraco na PDP levam à medida divergente. Placa (nova plataforma) e medida ficaram mais assertivas e derrubaram o número; a busca por veículo é o gap que não melhorou.",
       "leitura": "Alta",
       "status": "Evidência parcial",
-      "nEvidencias": 26
+      "nEvidencias": 27
     },
     {
       "id": "3c91c97d-43e7-817f-af94-ccb1b7baab02",
@@ -36,7 +36,7 @@
       "hipotese": "Cliente majoritariamente leigo na nomenclatura; muitos decidem no visual/achismo, sem saber ler a medida.",
       "leitura": "Média",
       "status": "Evidência parcial",
-      "nEvidencias": 21
+      "nEvidencias": 22
     },
     {
       "id": "3c91c97d-43e7-8182-94fa-cb56d5f83bd9",
@@ -54,7 +54,7 @@
       "hipotese": "Nomenclatura complexa (XL, radial, TT/TL, índices) confunde; o time compensa mandando o cliente ver o manual e perguntando se ele sabe ler a medida.",
       "leitura": "Alta",
       "status": "Evidência parcial",
-      "nEvidencias": 22
+      "nEvidencias": 23
     },
     {
       "id": "3c91c97d-43e7-81c4-b26e-d757b964d087",
@@ -63,7 +63,7 @@
       "hipotese": "Regra automática de substituição de estoque oferta uma medida que não corresponde.",
       "leitura": "Média",
       "status": "Evidência parcial",
-      "nEvidencias": 11
+      "nEvidencias": 12
     }
   ],
   "evidencias": [
@@ -2509,6 +2509,181 @@
       "frenteIds": [
         "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
       ]
+    },
+    {
+      "id": "3f11c97d-43e7-8161-8eb4-cc80125e87d3",
+      "achado": "Mesma devolução de ~1,5 mês NÃO virou churn porque o item (estepe) não era urgente",
+      "tipo": "Pista",
+      "citacao": "a experiência acabou que foi fluida, porque é final de ano... como era o estepe, os pneus que eu precisava urgentemente eu já tinha... teria doído mais se tivesse sido um dos pneus que eu ia precisar usar na hora",
+      "evidencia": "Prazo de devolução semelhante ao do Vitor/Frederico, mas aqui não houve churn — porque o item não era urgente. A gravidade da dor de devolução depende da urgência do item devolvido, não só do prazo. Insumo para priorizar casos de devolução por criticidade do item.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Baixa",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3f11c97d43e7817f893cd1ba26f51a9e"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
+      ]
+    },
+    {
+      "id": "3f11c97d-43e7-816a-a99c-c9908325c244",
+      "achado": "Medida errada no estepe: usuário não sabia que o estepe tem medida diferente — e propõe alerta no site",
+      "tipo": "Dor",
+      "citacao": "eu não sabia que o Step tinha uma medida diferente... comprou um pneu 14 e precisava ser 13... se tivesse um aviso falando que o Step é de tamanho diferente... seria um diferencial que nenhum outro site vai ter",
+      "evidencia": "Caso concreto de medida errada DO USUÁRIO por falta de informação: cliente leigo comprou os 3 pneus pela mesma medida (pesquisada no Google), sem saber que o estepe é aro menor. Causa Usuário + Informação, com solução específica e barata nomeada pelo próprio cliente: alerta/indicador de estepe na PDP/busca, ou categoria/filtro de estepe. Endereça diretamente a prevenção na jornada.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Baixa",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02",
+        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3f11c97d43e7817f893cd1ba26f51a9e"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776",
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
+      ]
+    },
+    {
+      "id": "3f11c97d-43e7-8181-9730-ccbc97f1a5fd",
+      "achado": "Troca negada por 'prazo de erro de escolha' — classificado como erro do cliente, mesmo sendo indicação do sistema",
+      "tipo": "Dor",
+      "citacao": "me informaram que não podem realizar a troca pois o prazo pra troca por erro de escolha já havia passado... Vou precisar ficar com 4 pneus que não me servem de nada por falha do sistema da PneuStore?",
+      "evidencia": "O caso foi classificado pelo atendimento como 'erro de escolha' do cliente (e a troca negada por prazo), quando o próprio cliente aponta que a indicação veio do sistema. Liga Classificação interna (como o motivo é rotulado) com Operação/pós-venda (troca negada), e mostra o custo ao cliente (4 pneus inúteis).",
+      "fonteCanal": "Reclame Aqui",
+      "forca": "Caso concreto",
+      "frequencia": "Baixa",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572",
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3f11c97d43e7819a85d3c38b2f687635"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
+      ]
+    },
+    {
+      "id": "3f11c97d-43e7-8183-aec9-f20ff602670d",
+      "achado": "Devolução de +2 meses, só por e-mail e respostas automatizadas (IA), sem atendimento humano → churn",
+      "tipo": "Dor",
+      "citacao": "foi a pior experiência de compra que eu tive até hoje... tudo tinha que tratar por e-mail... o retorno era automatizado, não tinha um retorno humanizado... [a PneuStore] largou isso na mão de uma inteligência artificial",
+      "evidencia": "A devolução de um erro que foi da empresa levou +2 meses, só por e-mail/IA, sem humano. O cliente atribui o fracasso à ausência de atendimento humano no pós-venda. Virou churn e NPS negativo (falou mal para amigos; hesita recomprar pneu da moto).",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Média",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3f11c97d43e7817cad22ceb10c1fd730"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
+      ]
+    },
+    {
+      "id": "3f11c97d-43e7-81aa-9c6e-d2817d3ed111",
+      "achado": "Devolução travou porque o papel de identificação do pneu foi retirado pelo instalador parceiro",
+      "tipo": "Dor",
+      "citacao": "o suporte me pediu uma foto do pneu com o papel da nota, só que o papel que vinha no pneu já não tava mais porque a loja tinha retirado... aí [a pessoa] falou 'acho que vou escalonar'",
+      "evidencia": "Quando a entrega é feita direto no instalador parceiro, ele retira o papel de identificação do pneu para instalar — justamente o documento que o suporte pede na devolução. Gerou impasse e escalonamento. Conflito de processo entre instalação no parceiro e requisito de devolução.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Baixa",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3f11c97d43e7817f893cd1ba26f51a9e"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
+      ]
+    },
+    {
+      "id": "3f11c97d-43e7-81b2-9d8e-e13901adc5d8",
+      "achado": "Minha Garagem (busca por placa) indicou medida errada — cliente recebeu aro 15 em vez de 16",
+      "tipo": "Dor",
+      "citacao": "Fiz uma compra no site utilizando o sistema minha Garagem, onde você coloca a Placa do seu carro e o sistema retorna o Pneu para o seu veículo... o montador informou que o pneu que eu havia recebido era aro 15 e não 16 como são os pneus desse modelo... o erro foi meu ou do Sistema da PneuStore que indicou o pneu errado?",
+      "evidencia": "Caso concreto, com voz literal do cliente (print HugMe/Reclame Aqui), de medida errada INDUZIDA PELO SISTEMA: o cliente informou a placa na Minha Garagem, o site retornou as opções para o modelo, ele escolheu e pagou — e recebeu aro 15 num modelo que usa aro 16. Diferente do erro por desconhecimento (estepe/variante): aqui o próprio Tire Selector/Minha Garagem direcionou para a medida incompatível. Reforça a hipótese 'induzido pelo site' com um caso rastreável e recente.",
+      "fonteCanal": "Reclame Aqui",
+      "forca": "Caso concreto",
+      "frequencia": "Baixa",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb",
+        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3f11c97d43e7819a85d3c38b2f687635"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb",
+        "https://app.notion.com/3c91c97d43e781368083cfbe011f582a"
+      ]
+    },
+    {
+      "id": "3f11c97d-43e7-81ba-b7ab-ea5251830c07",
+      "achado": "No marketplace, A-Z da Amazon não resolve por vendedor premium; reembolso sem correção do CDC",
+      "tipo": "Dor",
+      "citacao": "tentei abrir aquela solicitação de A a Z que a Amazon tem, não consegui, por ser um parceiro-prêmio... o reembolso não veio com o reajuste previsto no Código de Defesa do Consumidor, pelo IPCA",
+      "evidencia": "Por a PneuStore ser vendedor premium (ouro), a Amazon devolveu o caso para a loja — que não resolveu; só destravou via Reclame Aqui. Além disso, teve de recomprar local mais caro e o reembolso não corrigiu pelo IPCA. Bloqueio estrutural de suporte no canal marketplace + prejuízo financeiro ao cliente.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Baixa",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3f11c97d43e7817cad22ceb10c1fd730"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
+      ]
+    },
+    {
+      "id": "3f11c97d-43e7-81eb-b671-d32369111fc0",
+      "achado": "'Medida errada' que foi ERRO DE EXPEDIÇÃO: medida certa comprada e na NF, pneu diferente entregue",
+      "tipo": "Pista",
+      "citacao": "chegou um pneu diferente do que eu comprei... a nota fiscal estava à medida que eu comprei, mas o pneu que chegou era diferente. Foi um erro de expedição, acredito eu, de separação e expedição",
+      "evidencia": "Caso concreto, com voz do cliente, de ocorrência que entra no número como 'medida errada' mas foi erro interno (separação/expedição), não do consumidor — ele comprou a medida certa (confirmada na NF). Sustenta diretamente a hipótese de Classificação interna / Operação: parte do número não é medida errada de fato.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Baixa",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7",
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3f11c97d43e7817cad22ceb10c1fd730"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482",
+        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
+      ]
     }
   ],
   "fontes": [
@@ -2861,6 +3036,44 @@
       "evidenciasGeradasIds": [
         "https://app.notion.com/3ec1c97d43e78151a004f413c299f52d"
       ]
+    },
+    {
+      "id": "3f11c97d-43e7-817c-ad22-ceb10c1fd730",
+      "fonte": "Entrevista — Frederico Fernandes (cliente PF, Amazon; medida errada por expedição) · 06/10/2026",
+      "tipo": "Outro",
+      "statusAnalise": "Analisado",
+      "extraido": "Cliente PF (38, Serra-ES, gerente de CD). 3 compras; a última (Amazon, pré-Black Friday, PIX, 2 pneus p/ rodízio, buscou pela medida) foi a pior experiência. CASO-CHAVE: comprou a MEDIDA CERTA (nota fiscal certa) e chegou pneu de MEDIDA DIFERENTE = erro de separação/expedição — ou seja, 'medida errada' que NÃO foi do cliente (sustenta a hipótese de Classificação interna). O que virou churn foi o pós-venda: devolução +2 meses, só e-mail e respostas automatizadas (IA), sem atendimento humano; A-Z da Amazon não funcionou por a PneuStore ser vendedor premium (ouro); destravou só via Reclame Aqui; teve de comprar local mais caro; reembolso sem correção IPCA (CDC). Impacto: NPS negativo ativo (falou mal p/ amigos), churn prospectivo (hesita comprar pneu da moto XRE). Benchmark espontâneo: Mercado Livre (cupom de compensação por atraso). Insight: foi para a Amazon porque o site próprio não tinha o pneu ou estava caro. 2 primeiras compras foram positivas (problema logístico da Azul, que ele não atribui à PneuStore).",
+      "link": "https://app.notion.com/p/3f11c97d43e780518363ed4a9691e909",
+      "evidenciasGeradasIds": [
+        "https://app.notion.com/3f11c97d43e781ebb671d32369111fc0",
+        "https://app.notion.com/3f11c97d43e78183aec9f20ff602670d",
+        "https://app.notion.com/3f11c97d43e781bab7abea5251830c07"
+      ]
+    },
+    {
+      "id": "3f11c97d-43e7-817f-893c-d1ba26f51a9e",
+      "fonte": "Entrevista — João (cliente PF, SP; medida errada no estepe) · 06/10/2026",
+      "tipo": "Outro",
+      "statusAnalise": "Analisado",
+      "extraido": "Cliente PF (24, dev, Santo André-SP), leigo em carro. Chegou por indicação de amigo; comprou pelo site, PIX. CASO-CHAVE de medida errada DO USUÁRIO por falta de informação: comprou 3 pneus (2 dianteiros + 1 estepe) pesquisando a medida no Google, mas NÃO sabia que o estepe tem medida diferente (comprou aro 14; o estepe é aro 13 'fininho'). O instalador parceiro percebeu que não cabia e avisou. Solução proposta pelo próprio cliente: alerta/indicador no site de que o estepe pode ter medida diferente, ou filtro/categoria de estepe ('diferencial que nenhum outro site tem'). Devolução: reembolso 17/11→29/12 (~1 mês e 15 dias), considerada fluida porque o estepe não era urgente (sem churn). Atrito: o papel de identificação do pneu (pedido pelo suporte na devolução) tinha sido retirado pelo instalador → caso escalonado. Instalador parceiro sem horário de fim de semana. Entrega direto no instalador parceiro (não em casa). Aquisição por indicação (boca a boca positivo).",
+      "link": "https://app.notion.com/p/3f11c97d43e7808bb9caea066de4118f",
+      "evidenciasGeradasIds": [
+        "https://app.notion.com/3f11c97d43e7816aa99cc9908325c244",
+        "https://app.notion.com/3f11c97d43e781aa9c6ed2817d3ed111",
+        "https://app.notion.com/3f11c97d43e781618eb4cc80125e87d3"
+      ]
+    },
+    {
+      "id": "3f11c97d-43e7-819a-85d3-c38b2f687635",
+      "fonte": "Relato Reclame Aqui/HugMe — Junior Queiroz Pereira (Minha Garagem/placa indicou medida errada) · 06/10/2026",
+      "tipo": "Reclame Aqui",
+      "statusAnalise": "Analisado",
+      "extraido": "Relato trazido pela Fernanda Carolina Cidral (atendimento — Canais Críticos/Reclame Aqui) via Teams, com print do chamado HugMe/PNEUSTORE (06/10, 14:51–14:57). CASO-CHAVE de medida errada INDUZIDA PELO SISTEMA: o cliente usou a 'Minha Garagem' (colocou a PLACA), o site retornou as marcas disponíveis para o modelo, ele escolheu e pagou; recebeu pneu ARO 15, sendo que o modelo usa ARO 16. O montador identificou na troca (carro já desmontado). Atendimento NEGOU a troca alegando que o 'prazo para troca por erro de escolha' já havia passado — classificando como erro do cliente. O cliente questiona de quem foi o erro ('meu ou do Sistema da PneuStore que indicou o pneu errado?') e ficou com 4 pneus inúteis. Sustenta Busca/Recomendação (Minha Garagem por placa indicou medida incompatível) + Classificação interna (rotulado 'erro de escolha' do cliente) + Operação/pós-venda (troca negada por prazo). Relato com voz literal do cliente (print). Fernanda ofereceu puxar carro/placa do cliente para aprofundar.",
+      "link": null,
+      "evidenciasGeradasIds": [
+        "https://app.notion.com/3f11c97d43e781b29d8ee13901adc5d8",
+        "https://app.notion.com/3f11c97d43e781819730ccbc97f1a5fd"
+      ]
     }
   ],
   "frentes": [
@@ -2901,7 +3114,9 @@
         "https://app.notion.com/3de1c97d43e781c99b86fb85ba35bacd",
         "https://app.notion.com/3ec1c97d43e78171abe5db4492be4e06",
         "https://app.notion.com/3ec1c97d43e7812ba5daf521f97baf73",
-        "https://app.notion.com/3ec1c97d43e7814b8381ceee28f63a54"
+        "https://app.notion.com/3ec1c97d43e7814b8381ceee28f63a54",
+        "https://app.notion.com/3f11c97d43e781ebb671d32369111fc0",
+        "https://app.notion.com/3f11c97d43e781bab7abea5251830c07"
       ]
     },
     {
@@ -2938,7 +3153,8 @@
         "https://app.notion.com/3cf1c97d43e7817b8644c39202542592",
         "https://app.notion.com/3d81c97d43e781ff9d25f5ed991947e6",
         "https://app.notion.com/3d81c97d43e781b6b5f0ed11b529bcdd",
-        "https://app.notion.com/3de1c97d43e781258cacf22013aa094e"
+        "https://app.notion.com/3de1c97d43e781258cacf22013aa094e",
+        "https://app.notion.com/3f11c97d43e781b29d8ee13901adc5d8"
       ]
     },
     {
@@ -3022,7 +3238,8 @@
         "https://app.notion.com/3de1c97d43e7816fa3edde4e05004bec",
         "https://app.notion.com/3df1c97d43e781d5bf7bedf706b2db72",
         "https://app.notion.com/3df1c97d43e7811cb4c2c72cb16d06ba",
-        "https://app.notion.com/3ec1c97d43e78146894ec1e7e5333a7d"
+        "https://app.notion.com/3ec1c97d43e78146894ec1e7e5333a7d",
+        "https://app.notion.com/3f11c97d43e781ebb671d32369111fc0"
       ]
     },
     {
@@ -3059,7 +3276,8 @@
         "https://app.notion.com/3d81c97d43e781ad8145eb383e25e5da",
         "https://app.notion.com/3d81c97d43e7812c858ed801b21b76ad",
         "https://app.notion.com/3de1c97d43e7813f8e65e7bdac3546ab",
-        "https://app.notion.com/3ec1c97d43e781599165cbe0db5a2604"
+        "https://app.notion.com/3ec1c97d43e781599165cbe0db5a2604",
+        "https://app.notion.com/3f11c97d43e7816aa99cc9908325c244"
       ]
     },
     {
@@ -3090,7 +3308,9 @@
         "https://app.notion.com/3df1c97d43e78172b97fc5fbd0b8e257",
         "https://app.notion.com/3ea1c97d43e78112bba2d8f244e2fd90",
         "https://app.notion.com/3ec1c97d43e781f59160c4352ff3ce09",
-        "https://app.notion.com/3ec1c97d43e7819ea79ac8f45f64ba7b"
+        "https://app.notion.com/3ec1c97d43e7819ea79ac8f45f64ba7b",
+        "https://app.notion.com/3f11c97d43e7816aa99cc9908325c244",
+        "https://app.notion.com/3f11c97d43e781b29d8ee13901adc5d8"
       ]
     },
     {
@@ -3119,7 +3339,11 @@
         "https://app.notion.com/3de1c97d43e781f7be3dd0576047bc04",
         "https://app.notion.com/3ec1c97d43e7817e93c2d3bdb00a277c",
         "https://app.notion.com/3ec1c97d43e781859077e5f3f22e5aee",
-        "https://app.notion.com/3ec1c97d43e78147ba0deffde800573a"
+        "https://app.notion.com/3ec1c97d43e78147ba0deffde800573a",
+        "https://app.notion.com/3f11c97d43e78183aec9f20ff602670d",
+        "https://app.notion.com/3f11c97d43e781aa9c6ed2817d3ed111",
+        "https://app.notion.com/3f11c97d43e781618eb4cc80125e87d3",
+        "https://app.notion.com/3f11c97d43e781819730ccbc97f1a5fd"
       ]
     },
     {
