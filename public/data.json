@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-07T09:17:44.411Z",
-  "generatedAtLabel": "07/10/2026, 06:17 (Brasília)",
+  "generatedAt": "2026-10-09T09:18:44.742Z",
+  "generatedAtLabel": "09/10/2026, 06:18 (Brasília)",
   "causas": [
     {
       "id": "3c91c97d-43e7-813d-bf61-c2bab85ddee7",
@@ -9,7 +9,7 @@
       "hipotese": "A fricção no pós-compra (sem rastreio, cobrança fora do Zendesk, sem alerta de urgência, CPF na abertura) agrava e prolonga a devolução/troca.",
       "leitura": "Alta",
       "status": "Evidência parcial",
-      "nEvidencias": 35
+      "nEvidencias": 36
     },
     {
       "id": "3c91c97d-43e7-814f-a5d5-d84af14ab572",
@@ -2234,27 +2234,6 @@
       "frenteIds": []
     },
     {
-      "id": "3ec1c97d-43e7-812b-a5da-f521f97baf73",
-      "achado": "Entrega sem data confiável nem rastreamento deixa o cliente 'preso em casa' esperando",
-      "tipo": "Dor",
-      "citacao": "a única coisa que eu achei chata foi a falta de clareza da empresa, da entrega na data... o Mercado Livre te avisa se a encomenda está perto de você",
-      "evidencia": "A transportadora dizia 'semana que vem', o chatbot dizia 2–3 dias úteis; sem rastreamento, Rafael ficou preso em casa com o pai idoso e recebeu 'por sorte'. Inconsistência entre prazo prometido e praticado + falta de visibilidade. Benchmark espontâneo: Mercado Livre.",
-      "fonteCanal": "Entrevista",
-      "forca": "Caso concreto",
-      "frequencia": "Média",
-      "impacto": "Alto",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ec1c97d43e781d08bfed3290bcb871b"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
-      ]
-    },
-    {
       "id": "3ec1c97d-43e7-8146-894e-c1e7e5333a7d",
       "achado": "Cliente assume o erro de escolha e não culpa a loja",
       "tipo": "Dado",
@@ -2298,46 +2277,6 @@
       ]
     },
     {
-      "id": "3ec1c97d-43e7-814b-8381-ceee28f63a54",
-      "achado": "Entregador anunciou 'dois pneus' quando eram quatro — risco de recebimento a menos, agravado com cliente idoso",
-      "tipo": "Dor",
-      "citacao": "quem foi entregar... falou, tem dois pneus aqui pro senhor. Aí eu... São quatro... O cara podia chegar e entregar só dois pneus e ir embora. O papai ia assinar a nota e ir embora.",
-      "evidencia": "Dois pares embalados juntos + comunicação imprecisa na entrega = risco de o cliente receber a menos e assinar a nota sem conferir. Rafael, presente, precisou intervir; um idoso sozinho teria aceitado. Operação/transportadora terceirizada.",
-      "fonteCanal": "Entrevista",
-      "forca": "Caso concreto",
-      "frequencia": "Baixa",
-      "impacto": "Alto",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ec1c97d43e781d08bfed3290bcb871b"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
-      ]
-    },
-    {
-      "id": "3ec1c97d-43e7-8151-a004-f413c299f52d",
-      "achado": "Cruzamento ticket a ticket não confirma a hipótese de que 'medida errada' seja majoritariamente expedição: só 1,7% de overlap",
-      "tipo": "Dado",
-      "citacao": null,
-      "evidencia": "Pelo NumeroPedido, apenas 52 de 3.017 tickets de Medida Incorreta (1,7%) têm o mesmo pedido na base de Erro Expedição (jun–ago, 2025+2026: 28 em 2025, 24 em 2026). Como os dois motivos são mutuamente exclusivos no Zendesk, um caso de expedição carimbado como 'medida' fica só na base de medida e não aparece no cruzamento — logo 1,7% é piso, não a medição real. A estimativa de ~4 em 10 (medida) / ~6 em 10 (expedição) do time de retenção segue como percepção, não confirmada por dado.",
-      "fonteCanal": "Zendesk / CIEX",
-      "forca": "Dado quantitativo",
-      "frequencia": "Alta",
-      "impacto": "Alto",
-      "status": "Validado",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ec1c97d43e78186a156d1a7ab3eba20"
-      ],
-      "frenteIds": []
-    },
-    {
       "id": "3ec1c97d-43e7-8159-9165-cbe0db5a2604",
       "achado": "Variação dentro do mesmo modelo (uso misto vs. pick-up) não percebida",
       "tipo": "Pista",
@@ -2357,49 +2296,6 @@
       ],
       "frenteIds": [
         "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
-      ]
-    },
-    {
-      "id": "3ec1c97d-43e7-816d-9500-e00b6e409be6",
-      "achado": "Cliente confiante acha 'quase impossível' errar → reforça hipótese de segmentação",
-      "tipo": "Hipótese",
-      "citacao": "as opções para consulta é muito grande... a montadora, o modelo, o ano... É praticamente quase impossível uma pessoa fazer uma compra errada.",
-      "evidencia": "Um cliente com repertório técnico acha o erro quase impossível — mas o projeto sabe que o erro é frequente. Logo, a população que erra NÃO se parece com ele. Direciona o recrutamento das próximas entrevistas para quem de fato errou / não domina a medida.",
-      "fonteCanal": "Entrevista",
-      "forca": "Relato recorrente",
-      "frequencia": "Média",
-      "impacto": "Alto",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02",
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ec1c97d43e781f789dedeb713282a61"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7813f9403f7acddadc129"
-      ]
-    },
-    {
-      "id": "3ec1c97d-43e7-8171-abe5-db4492be4e06",
-      "achado": "Atendimento humano levou +2h (ao confirmar autenticidade do convite de pesquisa)",
-      "tipo": "Dor",
-      "citacao": "A única dificuldade que eu senti foi conseguir um atendimento humano... demorou, acredito eu, mais de duas horas.",
-      "evidencia": "Dor de atendimento: >2h para falar com humano. Contexto: o cliente desconfiou do convite da pesquisa (sem e-mail oficial) e tentou confirmar via SAC. Não ocorreu na compra. Também é recado de research-ops: sugestão de token/confirmação oficial e entrevista dentro da plataforma.",
-      "fonteCanal": "Entrevista",
-      "forca": "Indício",
-      "frequencia": "Baixa",
-      "impacto": "Médio",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ec1c97d43e781f789dedeb713282a61"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
       ]
     },
     {
@@ -2467,25 +2363,46 @@
       ]
     },
     {
-      "id": "3ec1c97d-43e7-819e-a79a-c8f45f64ba7b",
-      "achado": "Busca por modelo do veículo é didática e leigo comprando p/ terceiro não erra a medida",
-      "tipo": "Pista",
-      "citacao": "ele é muito didático... você vai pesquisando o carro, ele vai dando... muito fácil. [conferi] foto do pneu pra ver a numeração",
-      "evidencia": "Rafael (leigo, 1ª compra, comprando para o carro do pai) buscou por modelo do veículo, conferiu a numeração por foto e não teve dúvida nem erro. Contraponto aos casos Emerson/Paulo (busca por medida): a busca por VEÍCULO funciona bem para o perfil leigo. Reforça a tese de segmentação — os dois caminhos (medida e veículo) precisam funcionar, para públicos diferentes.",
+      "id": "3ec1c97d-43e7-816d-9500-e00b6e409be6",
+      "achado": "Cliente confiante acha 'quase impossível' errar → reforça hipótese de segmentação",
+      "tipo": "Hipótese",
+      "citacao": "as opções para consulta é muito grande... a montadora, o modelo, o ano... É praticamente quase impossível uma pessoa fazer uma compra errada.",
+      "evidencia": "Um cliente com repertório técnico acha o erro quase impossível — mas o projeto sabe que o erro é frequente. Logo, a população que erra NÃO se parece com ele. Direciona o recrutamento das próximas entrevistas para quem de fato errou / não domina a medida.",
       "fonteCanal": "Entrevista",
-      "forca": "Caso concreto",
+      "forca": "Relato recorrente",
+      "frequencia": "Média",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02",
+        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ec1c97d43e781f789dedeb713282a61"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7813f9403f7acddadc129"
+      ]
+    },
+    {
+      "id": "3ec1c97d-43e7-8171-abe5-db4492be4e06",
+      "achado": "Atendimento humano levou +2h (ao confirmar autenticidade do convite de pesquisa)",
+      "tipo": "Dor",
+      "citacao": "A única dificuldade que eu senti foi conseguir um atendimento humano... demorou, acredito eu, mais de duas horas.",
+      "evidencia": "Dor de atendimento: >2h para falar com humano. Contexto: o cliente desconfiou do convite da pesquisa (sem e-mail oficial) e tentou confirmar via SAC. Não ocorreu na compra. Também é recado de research-ops: sugestão de token/confirmação oficial e entrevista dentro da plataforma.",
+      "fonteCanal": "Entrevista",
+      "forca": "Indício",
       "frequencia": "Baixa",
       "impacto": "Médio",
       "status": "Bruto",
       "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb",
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
       ],
       "fonteIds": [
-        "https://app.notion.com/3ec1c97d43e781d08bfed3290bcb871b"
+        "https://app.notion.com/3ec1c97d43e781f789dedeb713282a61"
       ],
       "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
+        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
       ]
     },
     {
@@ -2508,6 +2425,154 @@
       ],
       "frenteIds": [
         "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
+      ]
+    },
+    {
+      "id": "3ec1c97d-43e7-812b-a5da-f521f97baf73",
+      "achado": "Entrega sem data confiável nem rastreamento deixa o cliente 'preso em casa' esperando",
+      "tipo": "Dor",
+      "citacao": "a única coisa que eu achei chata foi a falta de clareza da empresa, da entrega na data... o Mercado Livre te avisa se a encomenda está perto de você",
+      "evidencia": "A transportadora dizia 'semana que vem', o chatbot dizia 2–3 dias úteis; sem rastreamento, Rafael ficou preso em casa com o pai idoso e recebeu 'por sorte'. Inconsistência entre prazo prometido e praticado + falta de visibilidade. Benchmark espontâneo: Mercado Livre.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Média",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ec1c97d43e781d08bfed3290bcb871b"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
+      ]
+    },
+    {
+      "id": "3ec1c97d-43e7-814b-8381-ceee28f63a54",
+      "achado": "Entregador anunciou 'dois pneus' quando eram quatro — risco de recebimento a menos, agravado com cliente idoso",
+      "tipo": "Dor",
+      "citacao": "quem foi entregar... falou, tem dois pneus aqui pro senhor. Aí eu... São quatro... O cara podia chegar e entregar só dois pneus e ir embora. O papai ia assinar a nota e ir embora.",
+      "evidencia": "Dois pares embalados juntos + comunicação imprecisa na entrega = risco de o cliente receber a menos e assinar a nota sem conferir. Rafael, presente, precisou intervir; um idoso sozinho teria aceitado. Operação/transportadora terceirizada.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Baixa",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ec1c97d43e781d08bfed3290bcb871b"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
+      ]
+    },
+    {
+      "id": "3ec1c97d-43e7-819e-a79a-c8f45f64ba7b",
+      "achado": "Busca por modelo do veículo é didática e leigo comprando p/ terceiro não erra a medida",
+      "tipo": "Pista",
+      "citacao": "ele é muito didático... você vai pesquisando o carro, ele vai dando... muito fácil. [conferi] foto do pneu pra ver a numeração",
+      "evidencia": "Rafael (leigo, 1ª compra, comprando para o carro do pai) buscou por modelo do veículo, conferiu a numeração por foto e não teve dúvida nem erro. Contraponto aos casos Emerson/Paulo (busca por medida): a busca por VEÍCULO funciona bem para o perfil leigo. Reforça a tese de segmentação — os dois caminhos (medida e veículo) precisam funcionar, para públicos diferentes.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Baixa",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb",
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ec1c97d43e781d08bfed3290bcb871b"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
+      ]
+    },
+    {
+      "id": "3ec1c97d-43e7-8151-a004-f413c299f52d",
+      "achado": "Cruzamento ticket a ticket não confirma a hipótese de que 'medida errada' seja majoritariamente expedição: só 1,7% de overlap",
+      "tipo": "Dado",
+      "citacao": null,
+      "evidencia": "Pelo NumeroPedido, apenas 52 de 3.017 tickets de Medida Incorreta (1,7%) têm o mesmo pedido na base de Erro Expedição (jun–ago, 2025+2026: 28 em 2025, 24 em 2026). Como os dois motivos são mutuamente exclusivos no Zendesk, um caso de expedição carimbado como 'medida' fica só na base de medida e não aparece no cruzamento — logo 1,7% é piso, não a medição real. A estimativa de ~4 em 10 (medida) / ~6 em 10 (expedição) do time de retenção segue como percepção, não confirmada por dado.",
+      "fonteCanal": "Zendesk / CIEX",
+      "forca": "Dado quantitativo",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Validado",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ec1c97d43e78186a156d1a7ab3eba20"
+      ],
+      "frenteIds": []
+    },
+    {
+      "id": "3f11c97d-43e7-8183-aec9-f20ff602670d",
+      "achado": "Devolução de +2 meses, só por e-mail e respostas automatizadas (IA), sem atendimento humano → churn",
+      "tipo": "Dor",
+      "citacao": "foi a pior experiência de compra que eu tive até hoje... tudo tinha que tratar por e-mail... o retorno era automatizado, não tinha um retorno humanizado... [a PneuStore] largou isso na mão de uma inteligência artificial",
+      "evidencia": "A devolução de um erro que foi da empresa levou +2 meses, só por e-mail/IA, sem humano. O cliente atribui o fracasso à ausência de atendimento humano no pós-venda. Virou churn e NPS negativo (falou mal para amigos; hesita recomprar pneu da moto).",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Média",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3f11c97d43e7817cad22ceb10c1fd730"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
+      ]
+    },
+    {
+      "id": "3f11c97d-43e7-81eb-b671-d32369111fc0",
+      "achado": "'Medida errada' que foi ERRO DE EXPEDIÇÃO: medida certa comprada e na NF, pneu diferente entregue",
+      "tipo": "Pista",
+      "citacao": "chegou um pneu diferente do que eu comprei... a nota fiscal estava à medida que eu comprei, mas o pneu que chegou era diferente. Foi um erro de expedição, acredito eu, de separação e expedição",
+      "evidencia": "Caso concreto, com voz do cliente, de ocorrência que entra no número como 'medida errada' mas foi erro interno (separação/expedição), não do consumidor — ele comprou a medida certa (confirmada na NF). Sustenta diretamente a hipótese de Classificação interna / Operação: parte do número não é medida errada de fato.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Baixa",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7",
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3f11c97d43e7817cad22ceb10c1fd730"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482",
+        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
+      ]
+    },
+    {
+      "id": "3f11c97d-43e7-81ba-b7ab-ea5251830c07",
+      "achado": "No marketplace, A-Z da Amazon não resolve por vendedor premium; reembolso sem correção do CDC",
+      "tipo": "Dor",
+      "citacao": "tentei abrir aquela solicitação de A a Z que a Amazon tem, não consegui, por ser um parceiro-prêmio... o reembolso não veio com o reajuste previsto no Código de Defesa do Consumidor, pelo IPCA",
+      "evidencia": "Por a PneuStore ser vendedor premium (ouro), a Amazon devolveu o caso para a loja — que não resolveu; só destravou via Reclame Aqui. Além disso, teve de recomprar local mais caro e o reembolso não corrigiu pelo IPCA. Bloqueio estrutural de suporte no canal marketplace + prejuízo financeiro ao cliente.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Baixa",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3f11c97d43e7817cad22ceb10c1fd730"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
       ]
     },
     {
@@ -2555,6 +2620,27 @@
       ]
     },
     {
+      "id": "3f11c97d-43e7-81aa-9c6e-d2817d3ed111",
+      "achado": "Devolução travou porque o papel de identificação do pneu foi retirado pelo instalador parceiro",
+      "tipo": "Dor",
+      "citacao": "o suporte me pediu uma foto do pneu com o papel da nota, só que o papel que vinha no pneu já não tava mais porque a loja tinha retirado... aí [a pessoa] falou 'acho que vou escalonar'",
+      "evidencia": "Quando a entrega é feita direto no instalador parceiro, ele retira o papel de identificação do pneu para instalar — justamente o documento que o suporte pede na devolução. Gerou impasse e escalonamento. Conflito de processo entre instalação no parceiro e requisito de devolução.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Baixa",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3f11c97d43e7817f893cd1ba26f51a9e"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
+      ]
+    },
+    {
       "id": "3f11c97d-43e7-8181-9730-ccbc97f1a5fd",
       "achado": "Troca negada por 'prazo de erro de escolha' — classificado como erro do cliente, mesmo sendo indicação do sistema",
       "tipo": "Dor",
@@ -2571,48 +2657,6 @@
       ],
       "fonteIds": [
         "https://app.notion.com/3f11c97d43e7819a85d3c38b2f687635"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
-    },
-    {
-      "id": "3f11c97d-43e7-8183-aec9-f20ff602670d",
-      "achado": "Devolução de +2 meses, só por e-mail e respostas automatizadas (IA), sem atendimento humano → churn",
-      "tipo": "Dor",
-      "citacao": "foi a pior experiência de compra que eu tive até hoje... tudo tinha que tratar por e-mail... o retorno era automatizado, não tinha um retorno humanizado... [a PneuStore] largou isso na mão de uma inteligência artificial",
-      "evidencia": "A devolução de um erro que foi da empresa levou +2 meses, só por e-mail/IA, sem humano. O cliente atribui o fracasso à ausência de atendimento humano no pós-venda. Virou churn e NPS negativo (falou mal para amigos; hesita recomprar pneu da moto).",
-      "fonteCanal": "Entrevista",
-      "forca": "Caso concreto",
-      "frequencia": "Média",
-      "impacto": "Alto",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3f11c97d43e7817cad22ceb10c1fd730"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
-    },
-    {
-      "id": "3f11c97d-43e7-81aa-9c6e-d2817d3ed111",
-      "achado": "Devolução travou porque o papel de identificação do pneu foi retirado pelo instalador parceiro",
-      "tipo": "Dor",
-      "citacao": "o suporte me pediu uma foto do pneu com o papel da nota, só que o papel que vinha no pneu já não tava mais porque a loja tinha retirado... aí [a pessoa] falou 'acho que vou escalonar'",
-      "evidencia": "Quando a entrega é feita direto no instalador parceiro, ele retira o papel de identificação do pneu para instalar — justamente o documento que o suporte pede na devolução. Gerou impasse e escalonamento. Conflito de processo entre instalação no parceiro e requisito de devolução.",
-      "fonteCanal": "Entrevista",
-      "forca": "Caso concreto",
-      "frequencia": "Baixa",
-      "impacto": "Médio",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3f11c97d43e7817f893cd1ba26f51a9e"
       ],
       "frenteIds": [
         "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
@@ -2639,50 +2683,6 @@
       "frenteIds": [
         "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb",
         "https://app.notion.com/3c91c97d43e781368083cfbe011f582a"
-      ]
-    },
-    {
-      "id": "3f11c97d-43e7-81ba-b7ab-ea5251830c07",
-      "achado": "No marketplace, A-Z da Amazon não resolve por vendedor premium; reembolso sem correção do CDC",
-      "tipo": "Dor",
-      "citacao": "tentei abrir aquela solicitação de A a Z que a Amazon tem, não consegui, por ser um parceiro-prêmio... o reembolso não veio com o reajuste previsto no Código de Defesa do Consumidor, pelo IPCA",
-      "evidencia": "Por a PneuStore ser vendedor premium (ouro), a Amazon devolveu o caso para a loja — que não resolveu; só destravou via Reclame Aqui. Além disso, teve de recomprar local mais caro e o reembolso não corrigiu pelo IPCA. Bloqueio estrutural de suporte no canal marketplace + prejuízo financeiro ao cliente.",
-      "fonteCanal": "Entrevista",
-      "forca": "Caso concreto",
-      "frequencia": "Baixa",
-      "impacto": "Médio",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3f11c97d43e7817cad22ceb10c1fd730"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
-      ]
-    },
-    {
-      "id": "3f11c97d-43e7-81eb-b671-d32369111fc0",
-      "achado": "'Medida errada' que foi ERRO DE EXPEDIÇÃO: medida certa comprada e na NF, pneu diferente entregue",
-      "tipo": "Pista",
-      "citacao": "chegou um pneu diferente do que eu comprei... a nota fiscal estava à medida que eu comprei, mas o pneu que chegou era diferente. Foi um erro de expedição, acredito eu, de separação e expedição",
-      "evidencia": "Caso concreto, com voz do cliente, de ocorrência que entra no número como 'medida errada' mas foi erro interno (separação/expedição), não do consumidor — ele comprou a medida certa (confirmada na NF). Sustenta diretamente a hipótese de Classificação interna / Operação: parte do número não é medida errada de fato.",
-      "fonteCanal": "Entrevista",
-      "forca": "Caso concreto",
-      "frequencia": "Baixa",
-      "impacto": "Alto",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7",
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3f11c97d43e7817cad22ceb10c1fd730"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482",
-        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
       ]
     }
   ],
