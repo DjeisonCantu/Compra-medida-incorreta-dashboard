@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-17T09:17:34.449Z",
-  "generatedAtLabel": "17/10/2026, 06:17 (Brasília)",
+  "generatedAt": "2026-10-18T09:22:54.955Z",
+  "generatedAtLabel": "18/10/2026, 06:22 (Brasília)",
   "causas": [
     {
       "id": "3c91c97d-43e7-813d-bf61-c2bab85ddee7",
@@ -577,7 +577,7 @@
         "https://app.notion.com/3ce1c97d43e781729715cc2fd5b4f152"
       ],
       "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e78100896dd07581f96142"
+        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
       ]
     },
     {
@@ -2256,6 +2256,27 @@
       ]
     },
     {
+      "id": "3ec1c97d-43e7-817e-93c2-d3bdb00a277c",
+      "achado": "Devolução burocrática é o real motivo do churn (não a medida errada)",
+      "tipo": "Dor",
+      "citacao": "\"a experiência da devolução foi tão difícil que jamais compraria novamente\" / \"foi muito burocrático, tive q mandar email etc\" / \"a burocracia de ter q mandar muito documento, email etc… Pra mim não foi legal\"",
+      "evidencia": "O que determinou a não-recompra foi a fricção do processo de devolução (muitos documentos, e-mails), e não o erro de medida em si.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": null,
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3ec1c97d43e7812986a5fbc6ffda2be7"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
+      ]
+    },
+    {
       "id": "3ec1c97d-43e7-8147-ba0d-effde800573a",
       "achado": "Logística de entrega não é a dor — a fricção é a burocracia documental",
       "tipo": "Dado",
@@ -2296,27 +2317,6 @@
       ],
       "frenteIds": [
         "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
-      ]
-    },
-    {
-      "id": "3ec1c97d-43e7-817e-93c2-d3bdb00a277c",
-      "achado": "Devolução burocrática é o real motivo do churn (não a medida errada)",
-      "tipo": "Dor",
-      "citacao": "\"a experiência da devolução foi tão difícil que jamais compraria novamente\" / \"foi muito burocrático, tive q mandar email etc\" / \"a burocracia de ter q mandar muito documento, email etc… Pra mim não foi legal\"",
-      "evidencia": "O que determinou a não-recompra foi a fricção do processo de devolução (muitos documentos, e-mails), e não o erro de medida em si.",
-      "fonteCanal": "Entrevista",
-      "forca": "Caso concreto",
-      "frequencia": null,
-      "impacto": "Alto",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ec1c97d43e7812986a5fbc6ffda2be7"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
       ]
     },
     {
@@ -2532,6 +2532,27 @@
       ]
     },
     {
+      "id": "3f11c97d-43e7-81ba-b7ab-ea5251830c07",
+      "achado": "No marketplace, A-Z da Amazon não resolve por vendedor premium; reembolso sem correção do CDC",
+      "tipo": "Dor",
+      "citacao": "tentei abrir aquela solicitação de A a Z que a Amazon tem, não consegui, por ser um parceiro-prêmio... o reembolso não veio com o reajuste previsto no Código de Defesa do Consumidor, pelo IPCA",
+      "evidencia": "Por a PneuStore ser vendedor premium (ouro), a Amazon devolveu o caso para a loja — que não resolveu; só destravou via Reclame Aqui. Além disso, teve de recomprar local mais caro e o reembolso não corrigiu pelo IPCA. Bloqueio estrutural de suporte no canal marketplace + prejuízo financeiro ao cliente.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Baixa",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3f11c97d43e7817cad22ceb10c1fd730"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
+      ]
+    },
+    {
       "id": "3f11c97d-43e7-81eb-b671-d32369111fc0",
       "achado": "'Medida errada' que foi ERRO DE EXPEDIÇÃO: medida certa comprada e na NF, pneu diferente entregue",
       "tipo": "Pista",
@@ -2555,11 +2576,11 @@
       ]
     },
     {
-      "id": "3f11c97d-43e7-81ba-b7ab-ea5251830c07",
-      "achado": "No marketplace, A-Z da Amazon não resolve por vendedor premium; reembolso sem correção do CDC",
-      "tipo": "Dor",
-      "citacao": "tentei abrir aquela solicitação de A a Z que a Amazon tem, não consegui, por ser um parceiro-prêmio... o reembolso não veio com o reajuste previsto no Código de Defesa do Consumidor, pelo IPCA",
-      "evidencia": "Por a PneuStore ser vendedor premium (ouro), a Amazon devolveu o caso para a loja — que não resolveu; só destravou via Reclame Aqui. Além disso, teve de recomprar local mais caro e o reembolso não corrigiu pelo IPCA. Bloqueio estrutural de suporte no canal marketplace + prejuízo financeiro ao cliente.",
+      "id": "3f11c97d-43e7-8161-8eb4-cc80125e87d3",
+      "achado": "Mesma devolução de ~1,5 mês NÃO virou churn porque o item (estepe) não era urgente",
+      "tipo": "Pista",
+      "citacao": "a experiência acabou que foi fluida, porque é final de ano... como era o estepe, os pneus que eu precisava urgentemente eu já tinha... teria doído mais se tivesse sido um dos pneus que eu ia precisar usar na hora",
+      "evidencia": "Prazo de devolução semelhante ao do Vitor/Frederico, mas aqui não houve churn — porque o item não era urgente. A gravidade da dor de devolução depende da urgência do item devolvido, não só do prazo. Insumo para priorizar casos de devolução por criticidade do item.",
       "fonteCanal": "Entrevista",
       "forca": "Caso concreto",
       "frequencia": "Baixa",
@@ -2569,18 +2590,18 @@
         "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
       ],
       "fonteIds": [
-        "https://app.notion.com/3f11c97d43e7817cad22ceb10c1fd730"
+        "https://app.notion.com/3f11c97d43e7817f893cd1ba26f51a9e"
       ],
       "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
       ]
     },
     {
-      "id": "3f11c97d-43e7-8161-8eb4-cc80125e87d3",
-      "achado": "Mesma devolução de ~1,5 mês NÃO virou churn porque o item (estepe) não era urgente",
-      "tipo": "Pista",
-      "citacao": "a experiência acabou que foi fluida, porque é final de ano... como era o estepe, os pneus que eu precisava urgentemente eu já tinha... teria doído mais se tivesse sido um dos pneus que eu ia precisar usar na hora",
-      "evidencia": "Prazo de devolução semelhante ao do Vitor/Frederico, mas aqui não houve churn — porque o item não era urgente. A gravidade da dor de devolução depende da urgência do item devolvido, não só do prazo. Insumo para priorizar casos de devolução por criticidade do item.",
+      "id": "3f11c97d-43e7-81aa-9c6e-d2817d3ed111",
+      "achado": "Devolução travou porque o papel de identificação do pneu foi retirado pelo instalador parceiro",
+      "tipo": "Dor",
+      "citacao": "o suporte me pediu uma foto do pneu com o papel da nota, só que o papel que vinha no pneu já não tava mais porque a loja tinha retirado... aí [a pessoa] falou 'acho que vou escalonar'",
+      "evidencia": "Quando a entrega é feita direto no instalador parceiro, ele retira o papel de identificação do pneu para instalar — justamente o documento que o suporte pede na devolução. Gerou impasse e escalonamento. Conflito de processo entre instalação no parceiro e requisito de devolução.",
       "fonteCanal": "Entrevista",
       "forca": "Caso concreto",
       "frequencia": "Baixa",
@@ -2617,27 +2638,6 @@
       "frenteIds": [
         "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776",
         "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
-      ]
-    },
-    {
-      "id": "3f11c97d-43e7-81aa-9c6e-d2817d3ed111",
-      "achado": "Devolução travou porque o papel de identificação do pneu foi retirado pelo instalador parceiro",
-      "tipo": "Dor",
-      "citacao": "o suporte me pediu uma foto do pneu com o papel da nota, só que o papel que vinha no pneu já não tava mais porque a loja tinha retirado... aí [a pessoa] falou 'acho que vou escalonar'",
-      "evidencia": "Quando a entrega é feita direto no instalador parceiro, ele retira o papel de identificação do pneu para instalar — justamente o documento que o suporte pede na devolução. Gerou impasse e escalonamento. Conflito de processo entre instalação no parceiro e requisito de devolução.",
-      "fonteCanal": "Entrevista",
-      "forca": "Caso concreto",
-      "frequencia": "Baixa",
-      "impacto": "Médio",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3f11c97d43e7817f893cd1ba26f51a9e"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
       ]
     },
     {
@@ -2731,27 +2731,6 @@
       ]
     },
     {
-      "id": "3f81c97d-43e7-811a-9e4e-f970fac080a5",
-      "achado": "Único atrito foi logístico (transportadora), resolvido bem via WhatsApp",
-      "tipo": "Dado",
-      "citacao": "problemas acontecem, e a diferença é como a empresa trata isso",
-      "evidencia": "Único problema relatado foi logístico (jul/2026: transportadora não entregou e devolveu o produto, depois reentregue), resolvido via WhatsApp de forma satisfatória. Mostra que pós-venda bem tratado sustenta a relação mesmo diante de falha.",
-      "fonteCanal": "Entrevista",
-      "forca": "Caso concreto",
-      "frequencia": "Baixa",
-      "impacto": "Médio",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3f81c97d43e781298b0acfdfae2703f6"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
-    },
-    {
       "id": "3f81c97d-43e7-8175-8543-d73df15885c2",
       "achado": "Comprador experiente não erra medida mesmo comprando para terceiros",
       "tipo": "Dado",
@@ -2777,7 +2756,7 @@
       "id": "3f81c97d-43e7-818e-988c-c29bd639a623",
       "achado": "Power user usa calculadora de pneus externa para achar medidas equivalentes",
       "tipo": "Pista",
-      "citacao": "eu uso uma calculadora de pneus para ver medidas similares que estejam dentro do padrão",
+      "citacao": "eu uso uma calculadora de pneus externa para ver medidas similares que estejam dentro do padrão",
       "evidencia": "Para encontrar medidas equivalentes dentro do padrão, Fernando recorre a uma calculadora de pneus externa ao site. Sinaliza ausência de função nativa de equivalência de medidas — quem não tem esse repertório fica sem a ponte.",
       "fonteCanal": "Comportamento de busca",
       "forca": "Caso concreto",
@@ -2814,6 +2793,27 @@
       ],
       "frenteIds": [
         "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
+      ]
+    },
+    {
+      "id": "3f81c97d-43e7-811a-9e4e-f970fac080a5",
+      "achado": "Único atrito foi logístico (transportadora), resolvido bem via WhatsApp",
+      "tipo": "Dado",
+      "citacao": "problemas acontecem, e a diferença é como a empresa trata isso",
+      "evidencia": "Único problema relatado foi logístico (jul/2026: transportadora não entregou e devolveu o produto, depois reentregue), resolvido via WhatsApp de forma satisfatória. Mostra que pós-venda bem tratado sustenta a relação mesmo diante de falha.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Baixa",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3f81c97d43e781298b0acfdfae2703f6"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
       ]
     }
   ],
