@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-19T09:23:39.392Z",
-  "generatedAtLabel": "19/10/2026, 06:23 (Brasília)",
+  "generatedAt": "2026-10-20T09:22:56.733Z",
+  "generatedAtLabel": "20/10/2026, 06:22 (Brasília)",
   "causas": [
     {
       "id": "3c91c97d-43e7-813d-bf61-c2bab85ddee7",
@@ -9,7 +9,7 @@
       "hipotese": "A fricção no pós-compra (sem rastreio, cobrança fora do Zendesk, sem alerta de urgência, CPF na abertura) agrava e prolonga a devolução/troca.",
       "leitura": "Alta",
       "status": "Evidência parcial",
-      "nEvidencias": 38
+      "nEvidencias": 0
     },
     {
       "id": "3c91c97d-43e7-814f-a5d5-d84af14ab572",
@@ -18,7 +18,7 @@
       "hipotese": null,
       "leitura": "Alta",
       "status": "Confirmada",
-      "nEvidencias": 32
+      "nEvidencias": 0
     },
     {
       "id": "3c91c97d-43e7-817e-ba33-ed6d318547bb",
@@ -27,7 +27,7 @@
       "hipotese": "Busca por veículo (hipótese: paginação; e informar só a versão retorna 3–4 medidas) e filtro fraco na PDP levam à medida divergente. Placa (nova plataforma) e medida ficaram mais assertivas e derrubaram o número; a busca por veículo é o gap que não melhorou.",
       "leitura": "Alta",
       "status": "Evidência parcial",
-      "nEvidencias": 28
+      "nEvidencias": 0
     },
     {
       "id": "3c91c97d-43e7-817f-af94-ccb1b7baab02",
@@ -36,7 +36,7 @@
       "hipotese": "Cliente majoritariamente leigo na nomenclatura; muitos decidem no visual/achismo, sem saber ler a medida.",
       "leitura": "Média",
       "status": "Evidência parcial",
-      "nEvidencias": 24
+      "nEvidencias": 0
     },
     {
       "id": "3c91c97d-43e7-8182-94fa-cb56d5f83bd9",
@@ -45,7 +45,7 @@
       "hipotese": "Anúncio ativo sem estoque leva à compra de produto indisponível → troca/cancelamento.",
       "leitura": "Baixa",
       "status": "Investigando",
-      "nEvidencias": 7
+      "nEvidencias": 0
     },
     {
       "id": "3c91c97d-43e7-81b3-8fe6-cacfaf8d1bcf",
@@ -54,7 +54,7 @@
       "hipotese": "Nomenclatura complexa (XL, radial, TT/TL, índices) confunde; o time compensa mandando o cliente ver o manual e perguntando se ele sabe ler a medida.",
       "leitura": "Alta",
       "status": "Evidência parcial",
-      "nEvidencias": 26
+      "nEvidencias": 0
     },
     {
       "id": "3c91c97d-43e7-81c4-b26e-d757b964d087",
@@ -63,7 +63,7 @@
       "hipotese": "Regra automática de substituição de estoque oferta uma medida que não corresponde.",
       "leitura": "Média",
       "status": "Evidência parcial",
-      "nEvidencias": 12
+      "nEvidencias": 0
     }
   ],
   "evidencias": [
@@ -78,15 +78,9 @@
       "frequencia": null,
       "impacto": null,
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ca1c97d43e781e09351ff21cef5bb63"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ca1c97d-43e7-8135-afe7-eab65f5f3082",
@@ -99,15 +93,9 @@
       "frequencia": null,
       "impacto": null,
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ca1c97d43e78152a802c72943cc1c0f"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7818d89aff022000a540e"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ca1c97d-43e7-813a-800c-cb965b1f438c",
@@ -120,15 +108,9 @@
       "frequencia": null,
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ca1c97d43e781e09351ff21cef5bb63"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ca1c97d-43e7-813a-973e-d0258c0844b1",
@@ -141,15 +123,9 @@
       "frequencia": null,
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ca1c97d43e781e09351ff21cef5bb63"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ca1c97d-43e7-8145-a6d7-d6fa14bd3119",
@@ -162,15 +138,9 @@
       "frequencia": "Alta",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ca1c97d43e781e09351ff21cef5bb63"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ca1c97d-43e7-8156-ae5b-c9fcd16dfee4",
@@ -183,15 +153,9 @@
       "frequencia": null,
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ca1c97d43e78152a802c72943cc1c0f"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ca1c97d-43e7-8159-90d3-d8db190192d8",
@@ -204,15 +168,9 @@
       "frequencia": null,
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ca1c97d43e781e09351ff21cef5bb63"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ca1c97d-43e7-8172-bb5c-e3f60306da14",
@@ -225,15 +183,9 @@
       "frequencia": null,
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ca1c97d43e78152a802c72943cc1c0f"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ca1c97d-43e7-819d-a711-c7e104f4994c",
@@ -246,15 +198,9 @@
       "frequencia": null,
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ca1c97d43e78152a802c72943cc1c0f"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ca1c97d-43e7-81c2-80ba-e9ab24e7320d",
@@ -267,15 +213,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Em análise",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7818294facb56d5f83bd9"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ca1c97d43e781e09351ff21cef5bb63"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ca1c97d-43e7-81cb-960a-c5fb1a24b60a",
@@ -288,15 +228,9 @@
       "frequencia": null,
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ca1c97d43e78152a802c72943cc1c0f"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ca1c97d-43e7-81e8-a20f-f5016b7e8a53",
@@ -309,15 +243,9 @@
       "frequencia": null,
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ca1c97d43e78152a802c72943cc1c0f"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ce1c97d-43e7-810a-ada3-d205d36ddf2f",
@@ -330,15 +258,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Arquivado",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e781729715cc2fd5b4f152"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ce1c97d-43e7-812b-b799-c809f7d57287",
@@ -351,17 +273,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7",
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e781729715cc2fd5b4f152",
-        "https://app.notion.com/3ce1c97d43e7816aa3b3e0a374f9ff4e"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ce1c97d-43e7-813a-9839-c094e70de7f1",
@@ -374,17 +288,9 @@
       "frequencia": "Média",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb",
-        "https://app.notion.com/3c91c97d43e7818294facb56d5f83bd9",
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e781729715cc2fd5b4f152"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ce1c97d-43e7-8163-ac08-cdf2d9d0409d",
@@ -397,16 +303,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Em análise",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e781729715cc2fd5b4f152",
-        "https://app.notion.com/3ce1c97d43e7816aa3b3e0a374f9ff4e"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ce1c97d-43e7-8187-a065-ebe7eab5c3f8",
@@ -419,15 +318,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e7816aa3b3e0a374f9ff4e"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ce1c97d-43e7-818d-bb04-c1b2a1000c45",
@@ -440,16 +333,9 @@
       "frequencia": "Média",
       "impacto": "Médio",
       "status": "Arquivado",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf",
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e781729715cc2fd5b4f152"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78119896ce22e7921e76c"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ce1c97d-43e7-81af-9728-f399c5fbbfaf",
@@ -462,15 +348,9 @@
       "frequencia": "Média",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e781729715cc2fd5b4f152"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ce1c97d-43e7-81c7-9d8e-c1f97c99975e",
@@ -483,15 +363,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e7816aa3b3e0a374f9ff4e"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ce1c97d-43e7-81d2-8eaa-cf930a88130f",
@@ -504,16 +378,9 @@
       "frequencia": "Média",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087",
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e781729715cc2fd5b4f152"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ce1c97d-43e7-81d7-b011-c710e49b0c86",
@@ -526,16 +393,9 @@
       "frequencia": "Média",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf",
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e781729715cc2fd5b4f152"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ce1c97d-43e7-81d8-97d5-e2a16e43b8d9",
@@ -548,16 +408,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e781729715cc2fd5b4f152",
-        "https://app.notion.com/3ce1c97d43e7816aa3b3e0a374f9ff4e"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ce1c97d-43e7-81fe-b09a-eade1a4041b9",
@@ -570,15 +423,9 @@
       "frequencia": "Baixa",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e781729715cc2fd5b4f152"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3cf1c97d-43e7-8103-9076-c69c89ec5418",
@@ -591,15 +438,9 @@
       "frequencia": null,
       "impacto": null,
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3cf1c97d43e781a5ade3f8bec95d5adf"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3cf1c97d-43e7-813c-8cb9-d14bf0003189",
@@ -612,15 +453,9 @@
       "frequencia": null,
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3cf1c97d43e781a5ade3f8bec95d5adf"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3cf1c97d-43e7-814d-b32b-fd40a137c6f6",
@@ -633,15 +468,9 @@
       "frequencia": null,
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3cf1c97d43e781a5ade3f8bec95d5adf"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78119896ce22e7921e76c"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3cf1c97d-43e7-817a-9acc-f5bcc70e0b57",
@@ -654,15 +483,9 @@
       "frequencia": null,
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3cf1c97d43e781a5ade3f8bec95d5adf"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78119896ce22e7921e76c"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3cf1c97d-43e7-817b-8644-c39202542592",
@@ -675,15 +498,9 @@
       "frequencia": null,
       "impacto": null,
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7818294facb56d5f83bd9"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3cf1c97d43e781a5ade3f8bec95d5adf"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781368083cfbe011f582a"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3cf1c97d-43e7-8185-ad8a-dc55a8bdc7a5",
@@ -696,15 +513,9 @@
       "frequencia": null,
       "impacto": null,
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3cf1c97d43e781a5ade3f8bec95d5adf"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3cf1c97d-43e7-81d0-ae8a-f509e9a7008e",
@@ -717,15 +528,9 @@
       "frequencia": null,
       "impacto": null,
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3cf1c97d43e781a5ade3f8bec95d5adf"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78119896ce22e7921e76c"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3cf1c97d-43e7-81ea-a850-d3ac318d722e",
@@ -738,15 +543,9 @@
       "frequencia": null,
       "impacto": null,
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3cf1c97d43e781a5ade3f8bec95d5adf"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78119896ce22e7921e76c"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3cf1c97d-43e7-81eb-840f-c9b990a0edd8",
@@ -759,15 +558,9 @@
       "frequencia": null,
       "impacto": null,
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3cf1c97d43e781a5ade3f8bec95d5adf"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3cf1c97d-43e7-81ec-834f-e98e6506583d",
@@ -780,15 +573,9 @@
       "frequencia": null,
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3cf1c97d43e781a5ade3f8bec95d5adf"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d11c97d-43e7-8165-8227-dc300953baed",
@@ -801,16 +588,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02",
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3d11c97d43e7810d9ccdcedd01a99fed"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d11c97d-43e7-81ce-a77d-c386ce3b9812",
@@ -823,16 +603,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02",
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3d11c97d43e7810d9ccdcedd01a99fed"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d11c97d-43e7-81f9-8758-cb95ec6f1afa",
@@ -845,16 +618,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087",
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3d11c97d43e7810d9ccdcedd01a99fed"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78119896ce22e7921e76c"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d51c97d-43e7-8152-89d5-f5ca37a04f49",
@@ -867,16 +633,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3d51c97d43e781b3b9f1c5a360b3b735",
-        "https://app.notion.com/3d51c97d43e78156b9eafbe9ca32eb89"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d51c97d-43e7-8161-8f3c-d2fc8e176344",
@@ -889,15 +648,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3d51c97d43e781b3b9f1c5a360b3b735"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d51c97d-43e7-8170-8af0-ed5944bf9522",
@@ -910,15 +663,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3d51c97d43e78156b9eafbe9ca32eb89"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d51c97d-43e7-8170-8b23-e9e17820e06a",
@@ -931,15 +678,9 @@
       "frequencia": "Média",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3d51c97d43e78156b9eafbe9ca32eb89"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d51c97d-43e7-8173-a1a9-d3ed9eec068c",
@@ -952,15 +693,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3d51c97d43e78156b9eafbe9ca32eb89"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d51c97d-43e7-818b-ae92-fe3bca53f4fa",
@@ -973,16 +708,9 @@
       "frequencia": "Média",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb",
-        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3d51c97d43e78156b9eafbe9ca32eb89"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d51c97d-43e7-819a-ae40-cff64adb6dfa",
@@ -995,15 +723,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3d51c97d43e78156b9eafbe9ca32eb89"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d51c97d-43e7-81a8-be60-d3341383fed9",
@@ -1016,16 +738,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572",
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3d51c97d43e78156b9eafbe9ca32eb89"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d51c97d-43e7-81fc-98cf-eda314e93f74",
@@ -1038,16 +753,9 @@
       "frequencia": "Média",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3d51c97d43e78156b9eafbe9ca32eb89",
-        "https://app.notion.com/3d51c97d43e781b3b9f1c5a360b3b735"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d81c97d-43e7-8106-adc8-cba44b3e4970",
@@ -1060,15 +768,9 @@
       "frequencia": null,
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d81c97d-43e7-812c-858e-d801b21b76ad",
@@ -1081,15 +783,9 @@
       "frequencia": null,
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d81c97d-43e7-8159-8c78-c97b84f90de5",
@@ -1102,15 +798,9 @@
       "frequencia": null,
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d81c97d-43e7-8167-9a45-e1e04538780e",
@@ -1123,16 +813,9 @@
       "frequencia": null,
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087",
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d81c97d-43e7-8185-b9ca-fe1f2ef5737a",
@@ -1145,16 +828,9 @@
       "frequencia": null,
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572",
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d81c97d-43e7-8191-a42d-ca047eb432e8",
@@ -1167,15 +843,9 @@
       "frequencia": null,
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d81c97d-43e7-8194-97b6-ce53a7536929",
@@ -1188,15 +858,9 @@
       "frequencia": null,
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d81c97d-43e7-81ad-8145-eb383e25e5da",
@@ -1209,16 +873,9 @@
       "frequencia": null,
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02",
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d81c97d-43e7-81b6-b5f0-ed11b529bcdd",
@@ -1231,16 +888,9 @@
       "frequencia": null,
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02",
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781368083cfbe011f582a"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d81c97d-43e7-81bf-b728-ce50f21a27c9",
@@ -1253,16 +903,9 @@
       "frequencia": null,
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6",
-        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d81c97d-43e7-81df-a28b-fa739271a29c",
@@ -1275,16 +918,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0",
-        "https://app.notion.com/3c91c97d43e7813c8a33cb3949e0fd75"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d81c97d-43e7-81f7-aa10-e14b49eba347",
@@ -1297,15 +933,9 @@
       "frequencia": "Alta",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d81c97d-43e7-81fe-8543-fbd25295b92d",
@@ -1318,16 +948,9 @@
       "frequencia": null,
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572",
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3d81c97d-43e7-81ff-9d25-f5ed991947e6",
@@ -1340,17 +963,9 @@
       "frequencia": null,
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb",
-        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e7814ba214ea328a3ca9bd"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb",
-        "https://app.notion.com/3c91c97d43e781368083cfbe011f582a"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3dd1c97d-43e7-815f-862e-c2c89b513f5f",
@@ -1363,16 +978,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3dd1c97d43e7814c9573f0069ff7b329",
-        "https://app.notion.com/3ce1c97d43e7816aa3b3e0a374f9ff4e"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3dd1c97d-43e7-8190-900d-d29c15a8e9b8",
@@ -1385,15 +993,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3dd1c97d-43e7-81a9-94d5-cac58e38a85f",
@@ -1406,15 +1008,9 @@
       "frequencia": "Média",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3dd1c97d-43e7-81c9-9e55-dcf1c1cbdbdd",
@@ -1427,15 +1023,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3dd1c97d-43e7-81d6-bdf0-eaf23cfd12f0",
@@ -1448,15 +1038,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3dd1c97d43e7814c9573f0069ff7b329"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3dd1c97d-43e7-81f3-bb3c-c2f15704a9a7",
@@ -1469,15 +1053,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ce1c97d43e781c7b58fdf16df2b5578"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3de1c97d-43e7-810f-a163-f07f50bb4581",
@@ -1490,15 +1068,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3de1c97d43e78175bd1de991133b6e64"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3de1c97d-43e7-8111-b2e2-e84eacfd2d87",
@@ -1511,12 +1083,8 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
-      ],
+      "causaRaizIds": [],
+      "fonteIds": [],
       "frenteIds": []
     },
     {
@@ -1531,9 +1099,7 @@
       "impacto": "Médio",
       "status": "Bruto",
       "causaRaizIds": [],
-      "fonteIds": [
-        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
-      ],
+      "fonteIds": [],
       "frenteIds": []
     },
     {
@@ -1547,15 +1113,9 @@
       "frequencia": "Média",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3de1c97d43e781be8072e11a53256442"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781368083cfbe011f582a"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3de1c97d-43e7-8126-b056-ea8afef24a34",
@@ -1568,15 +1128,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3de1c97d43e781be8072e11a53256442"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3de1c97d43e781199f1dfd64a3a2629b"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3de1c97d-43e7-812b-bc27-d2537a8dcb66",
@@ -1590,12 +1144,8 @@
       "impacto": "Alto",
       "status": "Bruto",
       "causaRaizIds": [],
-      "fonteIds": [
-        "https://app.notion.com/3de1c97d43e781be8072e11a53256442"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78150bf4ff9015195b6a0"
-      ]
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3de1c97d-43e7-812f-b7d1-c165d4eac414",
@@ -1608,15 +1158,9 @@
       "frequencia": "Alta",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3de1c97d43e78175bd1de991133b6e64"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3de1c97d-43e7-8138-8e16-e92438a7356c",
@@ -1629,12 +1173,8 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
-      ],
+      "causaRaizIds": [],
+      "fonteIds": [],
       "frenteIds": []
     },
     {
@@ -1648,15 +1188,9 @@
       "frequencia": "Média",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3de1c97d43e781be8072e11a53256442"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3de1c97d-43e7-814e-9e0c-f6e755e6f1d5",
@@ -1669,16 +1203,9 @@
       "frequencia": "Alta",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02",
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3de1c97d43e78175bd1de991133b6e64"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3de1c97d-43e7-8156-8728-eb5df7959694",
@@ -1691,13 +1218,8 @@
       "frequencia": "Média",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02",
-        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
-      ],
+      "causaRaizIds": [],
+      "fonteIds": [],
       "frenteIds": []
     },
     {
@@ -1711,15 +1233,9 @@
       "frequencia": "Alta",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3de1c97d43e781be8072e11a53256442"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3de1c97d-43e7-8171-be18-f39a199431da",
@@ -1732,12 +1248,8 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
-      ],
+      "causaRaizIds": [],
+      "fonteIds": [],
       "frenteIds": []
     },
     {
@@ -1751,13 +1263,8 @@
       "frequencia": "Média",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087",
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
-      ],
+      "causaRaizIds": [],
+      "fonteIds": [],
       "frenteIds": []
     },
     {
@@ -1772,9 +1279,7 @@
       "impacto": "Médio",
       "status": "Bruto",
       "causaRaizIds": [],
-      "fonteIds": [
-        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
-      ],
+      "fonteIds": [],
       "frenteIds": []
     },
     {
@@ -1788,12 +1293,8 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
-      ],
+      "causaRaizIds": [],
+      "fonteIds": [],
       "frenteIds": []
     },
     {
@@ -1807,12 +1308,8 @@
       "frequencia": "Média",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
-      ],
+      "causaRaizIds": [],
+      "fonteIds": [],
       "frenteIds": []
     },
     {
@@ -1826,13 +1323,8 @@
       "frequencia": "Média",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb",
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
-      ],
+      "causaRaizIds": [],
+      "fonteIds": [],
       "frenteIds": []
     },
     {
@@ -1846,16 +1338,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572",
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3de1c97d43e78175bd1de991133b6e64"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3de1c97d-43e7-81e7-b4e3-d53af8b41e91",
@@ -1868,13 +1353,8 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572",
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
-      ],
+      "causaRaizIds": [],
+      "fonteIds": [],
       "frenteIds": []
     },
     {
@@ -1888,15 +1368,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7818294facb56d5f83bd9"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3de1c97d43e78175bd1de991133b6e64"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7818d89aff022000a540e"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3de1c97d-43e7-81f0-987a-cd8da482cb48",
@@ -1909,12 +1383,8 @@
       "frequencia": "Baixa",
       "impacto": "Baixo",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
-      ],
+      "causaRaizIds": [],
+      "fonteIds": [],
       "frenteIds": []
     },
     {
@@ -1928,13 +1398,8 @@
       "frequencia": "Média",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf",
-        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3de1c97d43e781e0a7a3dbedf05a2954"
-      ],
+      "causaRaizIds": [],
+      "fonteIds": [],
       "frenteIds": []
     },
     {
@@ -1948,15 +1413,9 @@
       "frequencia": "Alta",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3de1c97d43e78175bd1de991133b6e64"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3df1c97d-43e7-811c-b4c2-c72cb16d06ba",
@@ -1969,15 +1428,9 @@
       "frequencia": "Baixa",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3df1c97d43e781cb8254f9249c8f58b5"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3df1c97d-43e7-8135-988d-f593d1325751",
@@ -1990,15 +1443,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3df1c97d43e7814e82c9ce291d53f45a"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7813c8a33cb3949e0fd75"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3df1c97d-43e7-814c-ad4a-d36d2da8cdac",
@@ -2011,15 +1458,9 @@
       "frequencia": "Baixa",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3df1c97d43e781cb8254f9249c8f58b5"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7818d89aff022000a540e"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3df1c97d-43e7-8153-8fdc-fd3550a40caa",
@@ -2032,15 +1473,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3df1c97d43e781cb8254f9249c8f58b5"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78119896ce22e7921e76c"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3df1c97d-43e7-8171-9aab-f7d6b550e397",
@@ -2053,15 +1488,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3df1c97d43e781cb8254f9249c8f58b5"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7813c8a33cb3949e0fd75"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3df1c97d-43e7-8172-b97f-c5fbd0b8e257",
@@ -2074,16 +1503,9 @@
       "frequencia": "Média",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf",
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3df1c97d43e781cb8254f9249c8f58b5"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3df1c97d-43e7-8176-ad1c-c60cde86bbf3",
@@ -2096,15 +1518,9 @@
       "frequencia": "Baixa",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7818294facb56d5f83bd9"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3df1c97d43e781cb8254f9249c8f58b5"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7818d89aff022000a540e"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3df1c97d-43e7-8176-bb08-c8a4e940b029",
@@ -2117,16 +1533,9 @@
       "frequencia": "Média",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf",
-        "https://app.notion.com/3c91c97d43e7818294facb56d5f83bd9"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3df1c97d43e781cb8254f9249c8f58b5"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78119896ce22e7921e76c"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3df1c97d-43e7-819c-b8bb-f499e1aa74e0",
@@ -2139,15 +1548,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3df1c97d43e781cb8254f9249c8f58b5"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7813f9403f7acddadc129"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3df1c97d-43e7-81d5-bf7b-edf706b2db72",
@@ -2160,15 +1563,9 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3df1c97d43e781cb8254f9249c8f58b5"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ea1c97d-43e7-8112-bba2-d8f244e2fd90",
@@ -2181,16 +1578,9 @@
       "frequencia": "Baixa",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb",
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ea1c97d43e781f996b8fde816f31dc8"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ea1c97d-43e7-8146-9f00-dc5f125b262d",
@@ -2203,16 +1593,9 @@
       "frequencia": "Baixa",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf",
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ea1c97d43e781f996b8fde816f31dc8"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78119896ce22e7921e76c"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ea1c97d-43e7-81b6-85d9-e6a9eed74f82",
@@ -2225,12 +1608,8 @@
       "frequencia": "Baixa",
       "impacto": "Baixo",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7818294facb56d5f83bd9"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ea1c97d43e781f996b8fde816f31dc8"
-      ],
+      "causaRaizIds": [],
+      "fonteIds": [],
       "frenteIds": []
     },
     {
@@ -2244,15 +1623,9 @@
       "frequencia": "Média",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ec1c97d43e781d08bfed3290bcb871b"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ec1c97d-43e7-8146-894e-c1e7e5333a7d",
@@ -2265,16 +1638,9 @@
       "frequencia": null,
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02",
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ec1c97d43e7812986a5fbc6ffda2be7"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ec1c97d-43e7-8147-ba0d-effde800573a",
@@ -2287,15 +1653,9 @@
       "frequencia": null,
       "impacto": "Baixo",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ec1c97d43e7812986a5fbc6ffda2be7"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ec1c97d-43e7-814b-8381-ceee28f63a54",
@@ -2308,15 +1668,9 @@
       "frequencia": "Baixa",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ec1c97d43e781d08bfed3290bcb871b"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ec1c97d-43e7-8151-a004-f413c299f52d",
@@ -2329,12 +1683,8 @@
       "frequencia": "Alta",
       "impacto": "Alto",
       "status": "Validado",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ec1c97d43e78186a156d1a7ab3eba20"
-      ],
+      "causaRaizIds": [],
+      "fonteIds": [],
       "frenteIds": []
     },
     {
@@ -2348,16 +1698,9 @@
       "frequencia": null,
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf",
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ec1c97d43e7812986a5fbc6ffda2be7"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ec1c97d-43e7-816d-9500-e00b6e409be6",
@@ -2370,16 +1713,9 @@
       "frequencia": "Média",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02",
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ec1c97d43e781f789dedeb713282a61"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7813f9403f7acddadc129"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ec1c97d-43e7-8171-abe5-db4492be4e06",
@@ -2392,15 +1728,9 @@
       "frequencia": "Baixa",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ec1c97d43e781f789dedeb713282a61"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ec1c97d-43e7-817e-93c2-d3bdb00a277c",
@@ -2413,15 +1743,9 @@
       "frequencia": null,
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ec1c97d43e7812986a5fbc6ffda2be7"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ec1c97d-43e7-8185-9077-e5f3f22e5aee",
@@ -2434,15 +1758,9 @@
       "frequencia": null,
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ec1c97d43e7812986a5fbc6ffda2be7"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ec1c97d-43e7-8198-bc22-ced924a38ff0",
@@ -2455,16 +1773,9 @@
       "frequencia": null,
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ec1c97d43e7812986a5fbc6ffda2be7"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7813c8a33cb3949e0fd75",
-        "https://app.notion.com/3c91c97d43e7813f9403f7acddadc129"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ec1c97d-43e7-819e-a79a-c8f45f64ba7b",
@@ -2477,16 +1788,9 @@
       "frequencia": "Baixa",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb",
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ec1c97d43e781d08bfed3290bcb871b"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3ec1c97d-43e7-81f5-9160-c4352ff3ce09",
@@ -2499,16 +1803,9 @@
       "frequencia": "Baixa",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb",
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3ec1c97d43e781f789dedeb713282a61"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3f11c97d-43e7-8161-8eb4-cc80125e87d3",
@@ -2521,15 +1818,9 @@
       "frequencia": "Baixa",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3f11c97d43e7817f893cd1ba26f51a9e"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3f11c97d-43e7-816a-a99c-c9908325c244",
@@ -2542,17 +1833,9 @@
       "frequencia": "Baixa",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02",
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3f11c97d43e7817f893cd1ba26f51a9e"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776",
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3f11c97d-43e7-8181-9730-ccbc97f1a5fd",
@@ -2565,16 +1848,9 @@
       "frequencia": "Baixa",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572",
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3f11c97d43e7819a85d3c38b2f687635"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3f11c97d-43e7-8183-aec9-f20ff602670d",
@@ -2587,15 +1863,9 @@
       "frequencia": "Média",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3f11c97d43e7817cad22ceb10c1fd730"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3f11c97d-43e7-81aa-9c6e-d2817d3ed111",
@@ -2608,15 +1878,9 @@
       "frequencia": "Baixa",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3f11c97d43e7817f893cd1ba26f51a9e"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3f11c97d-43e7-81b2-9d8e-e13901adc5d8",
@@ -2629,17 +1893,9 @@
       "frequencia": "Baixa",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb",
-        "https://app.notion.com/3c91c97d43e781c4b26ed757b964d087"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3f11c97d43e7819a85d3c38b2f687635"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb",
-        "https://app.notion.com/3c91c97d43e781368083cfbe011f582a"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3f11c97d-43e7-81ba-b7ab-ea5251830c07",
@@ -2652,15 +1908,9 @@
       "frequencia": "Baixa",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3f11c97d43e7817cad22ceb10c1fd730"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3f11c97d-43e7-81eb-b671-d32369111fc0",
@@ -2673,17 +1923,9 @@
       "frequencia": "Baixa",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7",
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3f11c97d43e7817cad22ceb10c1fd730"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7816794dde12a3462d482",
-        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3f41c97d-43e7-810f-94ce-e72e92d02b3e",
@@ -2696,16 +1938,9 @@
       "frequencia": "Média",
       "impacto": "Alto",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3f41c97d43e781669d60dc216ea0258e"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6",
-        "https://app.notion.com/3c91c97d43e78100896dd07581f96142"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3f41c97d-43e7-8174-8ab7-d8cad73c0779",
@@ -2718,17 +1953,9 @@
       "frequencia": "Baixa",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02",
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3f41c97d43e781669d60dc216ea0258e"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb",
-        "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3f81c97d-43e7-811a-9e4e-f970fac080a5",
@@ -2741,15 +1968,9 @@
       "frequencia": "Baixa",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3f81c97d43e781298b0acfdfae2703f6"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3f81c97d-43e7-8175-8543-d73df15885c2",
@@ -2762,16 +1983,9 @@
       "frequencia": "Baixa",
       "impacto": "Baixo",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572",
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3f81c97d43e781298b0acfdfae2703f6"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7813f9403f7acddadc129"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3f81c97d-43e7-818e-988c-c29bd639a623",
@@ -2784,16 +1998,9 @@
       "frequencia": "Média",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817eba33ed6d318547bb",
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3f81c97d43e781298b0acfdfae2703f6"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     },
     {
       "id": "3f81c97d-43e7-81e7-a52f-c8fe8b1c4018",
@@ -2806,15 +2013,84 @@
       "frequencia": "Média",
       "impacto": "Médio",
       "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e781b38fe6cacfaf8d1bcf"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3f81c97d43e781298b0acfdfae2703f6"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7818d928be1c8c0aff776"
-      ]
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
+    },
+    {
+      "id": "3fe1c97d-43e7-81af-a124-e396503fbfff",
+      "achado": "Recebeu pneu totalmente diferente do comprado — erro de expedição",
+      "tipo": "Dor",
+      "citacao": "Eu comprei a medida certa... veio outro aro, veio um aro 17... totalmente diferente",
+      "evidencia": "Thiago comprou a medida certa (aro 16, Kicks da mãe) e recebeu pneu de outro aro (17), outra marca e mais caro. Não é erro de escolha do cliente — é erro interno de separação/expedição.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Média",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
+    },
+    {
+      "id": "3fe1c97d-43e7-81ec-abda-d9b7f523dfb1",
+      "achado": "Desencontro interno: marketing proativo no carrinho x suporte ausente na devolução",
+      "tipo": "Pista",
+      "citacao": "em paralelo a isso não me dava um retorno em relação a esse pneu que eu precisava devolver",
+      "evidencia": "Enquanto a devolução não era respondida, o cliente recebia contato proativo sobre um pneu parado no carrinho com oferta de cupom. Empresa ágil para vender, ausente para resolver — agrava a percepção de pós-venda falho.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Baixa",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
+    },
+    {
+      "id": "3fe1c97d-43e7-810f-aa0b-d9bb5fd5d774",
+      "achado": "Comprador experiente vai direto pela medida e compra p/ família, sem dúvida",
+      "tipo": "Dado",
+      "citacao": "eu já sei qual é a medida do pneu do carro, já vou direto na medida",
+      "evidencia": "Pesquisa no Google antes, vai direto pela medida, compra para o círculo próximo (mãe, esposa, irmão), sem dúvida no fluxo nem insegurança no pagamento. Reforça que a escolha da medida não é o gargalo para esse perfil.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Média",
+      "impacto": "Baixo",
+      "status": "Bruto",
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
+    },
+    {
+      "id": "3fe1c97d-43e7-8184-a578-f7057ab6846a",
+      "achado": "Pós-venda lento e confuso na devolução; perdeu a promoção",
+      "tipo": "Dor",
+      "citacao": "as respostas foram demoradas... demorava até dois, três dias",
+      "evidencia": "Devolução via WhatsApp: pediam foto, respostas a cada 2-3 dias. Não conseguiu troca, só cancelamento/reembolso; ao recomprar, perdeu a promoção do produto original. Fricção concentra-se no pós-venda.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Alta",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
+    },
+    {
+      "id": "3fe1c97d-43e7-811f-acc1-da56b2290087",
+      "achado": "NF saiu com o produto errado (o enviado), confirmando erro interno",
+      "tipo": "Pista",
+      "citacao": "a nota veio com o pneu errado",
+      "evidencia": "A nota fiscal veio com os dados do pneu efetivamente enviado (o errado), não do comprado. Evidência de que o caso entra na estatística como 'medida errada' sem ser do cliente — é falha de expedição/classificação. Investigar como o comitê classificaria este caso.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Média",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [],
+      "fonteIds": [],
+      "frenteIds": []
     }
   ],
   "fontes": [
@@ -2825,14 +2101,7 @@
       "statusAnalise": "Em análise",
       "extraido": "Fricção no pós-compra que agrava devolução/troca; vocabulário de sistemas (Zendesk, Rugby, Swing, SAP, Reclame Aqui).",
       "link": null,
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3ca1c97d43e78135afe7eab65f5f3082",
-        "https://app.notion.com/3ca1c97d43e781cb960ac5fb1a24b60a",
-        "https://app.notion.com/3ca1c97d43e7819da711c7e104f4994c",
-        "https://app.notion.com/3ca1c97d43e781e8a20ff5016b7e8a53",
-        "https://app.notion.com/3ca1c97d43e78172bb5ce3f60306da14",
-        "https://app.notion.com/3ca1c97d43e78156ae5bc9fcd16dfee4"
-      ]
+      "evidenciasGeradasIds": []
     },
     {
       "id": "3ca1c97d-43e7-81e0-9351-ff21cef5bb63",
@@ -2841,14 +2110,7 @@
       "statusAnalise": "Em análise",
       "extraido": "Papéis de pré e pós-venda; origem da medida errada na busca e no estoque. Analistas de pós-venda (Jenifer, Ester) ainda não ouvidas individualmente.",
       "link": null,
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3ca1c97d43e7813a973ed0258c0844b1",
-        "https://app.notion.com/3ca1c97d43e7813a800ccb965b1f438c",
-        "https://app.notion.com/3ca1c97d43e781c280bae9ab24e7320d",
-        "https://app.notion.com/3ca1c97d43e78145a6d7d6fa14bd3119",
-        "https://app.notion.com/3ca1c97d43e7815990d3d8db190192d8",
-        "https://app.notion.com/3ca1c97d43e781288de3c69c56321deb"
-      ]
+      "evidenciasGeradasIds": []
     },
     {
       "id": "3ce1c97d-43e7-814b-a214-ea328a3ca9bd",
@@ -2857,17 +2119,7 @@
       "statusAnalise": "Analisado",
       "extraido": "Material recuperado: 3 transcrições de entrevistas com usuários conduzidas pelo Rodrigo Beckmann (Djeison como observador), 04–05/12/2025, no OneDrive do Rodrigo (Arquivos de Chat do Teams) — Eduardo (Captiva), Marcos (moto Yamaha) e Rafael (Palio). Gerou 9 evidências: compra por excesso de confiança sem conferir (Usuário); busca por placa/Minha Garagem retornou medida incompatível (Busca+Recomendação — contradiz a tese de placa ~99%); ordenação por menor preço mistura câmara de ar/pneu de moto (Busca); caso rotulado 'medida errada' era MODELO com/sem câmara (Classificação interna); induzido ao erro por atendente da Shopee (Recomendação); Minha Garagem existe mas o cliente não conhece (Usuário); erro só descoberto ao emparelhar o pneu ao carro, sem checkpoint (Informação); pedido espontâneo e recorrente de alerta de confirmação (PDP); atrito no pós-compra — logística reversa sem agendamento/contato e exigência de fotos (Operação). Obs.: a pesquisa 'não engatou' na época, mas as 3 entrevistas são completas e aproveitáveis.",
       "link": null,
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3d81c97d43e7819497b6ce53a7536929",
-        "https://app.notion.com/3d81c97d43e781ff9d25f5ed991947e6",
-        "https://app.notion.com/3d81c97d43e781f7aa10e14b49eba347",
-        "https://app.notion.com/3d81c97d43e78185b9cafe1f2ef5737a",
-        "https://app.notion.com/3d81c97d43e781679a45e1e04538780e",
-        "https://app.notion.com/3d81c97d43e781b6b5f0ed11b529bcdd",
-        "https://app.notion.com/3d81c97d43e781ad8145eb383e25e5da",
-        "https://app.notion.com/3d81c97d43e7812c858ed801b21b76ad",
-        "https://app.notion.com/3d81c97d43e781598c78c97b84f90de5"
-      ]
+      "evidenciasGeradasIds": []
     },
     {
       "id": "3ce1c97d-43e7-816a-a3b3-e0a374f9ff4e",
@@ -2876,14 +2128,7 @@
       "statusAnalise": "Analisado",
       "extraido": "1ª entrega da Camila (01/09): deck 'Motivo - Erro Cliente.pptx' + base 'Base_Motivo_Erro_Cliente.xlsx' (tickets Zendesk, jun–ago, 2025 vs 2026). ACHADOS: a base 'Erro Cliente' tem 2 sub-motivos — Medida Incorreta e Modelo Incorreto. MEDIDA ERRADA REAL (Medida Incorreta): 1.714 (2025) → 1.303 (2026), queda de 24%. O -30% do deck (2.183→1.521) está inflado pela queda de Modelo Incorreto (-53%); medida é ~80% do bucket, então o número de 2026 é 1.303, não 1.521. 100% dos tickets são Assunto=CANCELAMENTO. Agosto YoY -33%. Reclame Aqui na contramão: 79→89 (+13%) enquanto o total caiu. Reorg de filas entre 2025-2026 (N1 Voz vira topo, surge Gestão Canais Receptivos) — não ler grupos como comportamento. PENDÊNCIAS: lado Expedição (fechar erro cliente × expedição); volume total de tickets p/ virar taxa; 2026 ainda não 100% fechado (44 em Hold/Open/Pending/Solved); 31 recontatos do mesmo pedido em 2026.",
       "link": null,
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3ce1c97d43e781d897d5e2a16e43b8d9",
-        "https://app.notion.com/3ce1c97d43e7812bb799c809f7d57287",
-        "https://app.notion.com/3ce1c97d43e78163ac08cdf2d9d0409d",
-        "https://app.notion.com/3ce1c97d43e78187a065ebe7eab5c3f8",
-        "https://app.notion.com/3ce1c97d43e781c79d8ec1f97c99975e",
-        "https://app.notion.com/3dd1c97d43e7815f862ec2c89b513f5f"
-      ]
+      "evidenciasGeradasIds": []
     },
     {
       "id": "3ce1c97d-43e7-8172-9715-cc2fd5b4f152",
@@ -2892,18 +2137,7 @@
       "statusAnalise": "Em análise",
       "extraido": "Segunda conversa com o time de Canais Críticos/RA (Camila, Gabriela, Fernanda, Ingrid), com foco em medida errada. Principais extrações: o número de 'medida errada' é autodeclarado pelo cliente e não é verificado; a reclamação quase sempre é sobre falha de cancelamento/morosidade da devolução, não sobre a medida; indutores no site (disparo de substituição, ordenação da busca, busca por veículo desatualizada); cliente compra por preço/Inmetro; ideia de conteúdo 'compra assertiva'. Percepção do time: número já diminuiu.",
       "link": "https://app.notion.com/p/3ce1c97d43e780bb95c6fb115790b1a9",
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3ce1c97d43e781d897d5e2a16e43b8d9",
-        "https://app.notion.com/3ce1c97d43e7812bb799c809f7d57287",
-        "https://app.notion.com/3ce1c97d43e7810aada3d205d36ddf2f",
-        "https://app.notion.com/3ce1c97d43e781d28eaacf930a88130f",
-        "https://app.notion.com/3ce1c97d43e781d7b011c710e49b0c86",
-        "https://app.notion.com/3ce1c97d43e7813a9839c094e70de7f1",
-        "https://app.notion.com/3ce1c97d43e781af9728f399c5fbbfaf",
-        "https://app.notion.com/3ce1c97d43e781feb09aeade1a4041b9",
-        "https://app.notion.com/3ce1c97d43e7818dbb04c1b2a1000c45",
-        "https://app.notion.com/3ce1c97d43e78163ac08cdf2d9d0409d"
-      ]
+      "evidenciasGeradasIds": []
     },
     {
       "id": "3ce1c97d-43e7-818a-a957-f9f49d964843",
@@ -2921,17 +2155,7 @@
       "statusAnalise": "Em análise",
       "extraido": "Comitê oficial de devoluções da Cantu (Gestão da Qualidade, Nayara Almeida). Material: apresentação 'Apresentação Comitê Devoluções V2' + base 'data (24).xlsx' (retrato 01–09/set/2026, por ordem, em R$). ACHADOS: (1) MEDIDA ERRADA É O MAIOR OFENSOR de devolução do PneuStore Digital — 308 ordens / R$398 mil = 34% do valor devolvido do PS Digital (R$1,16 mi); no agregado Cantu 'Erro cliente - Medida/Modelo errado' também lidera (R$586 mil, 20,6%). (2) TAXONOMIA DOBRADA: o mesmo problema aparece em dois rótulos ao mesmo tempo — legado 'Erro cliente - Medida/Modelo errado' (combinado) + novo 'Compra: Medida incorreta' (separado); já há ação 'Treinamento de utilização dos motivos' (Vitoria) no plano. (3) % Dev cai no agregado (2026 2,38% vs 2025 3,48% vs 2024 4,27%), MAS PneuStore Digital está ACIMA da meta (meta 4,00% | ago 4,87% | set 4,39%) — a melhora é da Cantu, não do e-commerce. (4) Marketplaces devolvem 6,89% vs site 2,93%; expedição de Itajaí concentra o maior valor (R$375 mil). PLANO DE AÇÃO converge com nosso diagnóstico: SLA de cancelamento 24h (Nayara), pedidos duplicados na integração (TI, #7688183), integração pedidos cancelados Meli→SAP (Tania/Nayara), atendimento automático de devolução (fase 1 entregue). RESSALVAS: retrato de 9 dias, em R$ (não comparar direto com Zendesk jun–ago por ticket); não traz o volume de pedidos jun–ago que falta p/ fechar a taxa. Donos: Nayara Almeida, Vitória, Tania.",
       "link": null,
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3d81c97d43e781fe8543fbd25295b92d",
-        "https://app.notion.com/3d81c97d43e781dfa28bfa739271a29c",
-        "https://app.notion.com/3d81c97d43e78191a42dca047eb432e8",
-        "https://app.notion.com/3d81c97d43e781bfb728ce50f21a27c9",
-        "https://app.notion.com/3d81c97d43e78106adc8cba44b3e4970",
-        "https://app.notion.com/3dd1c97d43e781c99e55dcf1c1cbdbdd",
-        "https://app.notion.com/3dd1c97d43e78190900dd29c15a8e9b8",
-        "https://app.notion.com/3dd1c97d43e781f3bb3cc2f15704a9a7",
-        "https://app.notion.com/3dd1c97d43e781a994d5cac58e38a85f"
-      ]
+      "evidenciasGeradasIds": []
     },
     {
       "id": "3cf1c97d-43e7-815b-8c9e-f7aa3aa10a0b",
@@ -2949,18 +2173,7 @@
       "statusAnalise": "Em análise",
       "extraido": "2ª conversa do tema (1ª foi com a Carol). Número em queda, puxado por placa (nova plataforma) e medida mais assertivas; busca por veículo é o gap que não melhorou. Cliente leigo na nomenclatura; time orienta a ver o manual. Paulo é analista, não atendente de linha de frente.",
       "link": "https://app.notion.com/p/3cf1c97d43e7802fb1abeeeace1b6c9b",
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3cf1c97d43e7813c8cb9d14bf0003189",
-        "https://app.notion.com/3cf1c97d43e781ec834fe98e6506583d",
-        "https://app.notion.com/3cf1c97d43e781039076c69c89ec5418",
-        "https://app.notion.com/3cf1c97d43e781eb840fc9b990a0edd8",
-        "https://app.notion.com/3cf1c97d43e78185ad8adc55a8bdc7a5",
-        "https://app.notion.com/3cf1c97d43e7817a9accf5bcc70e0b57",
-        "https://app.notion.com/3cf1c97d43e7814db32bfd40a137c6f6",
-        "https://app.notion.com/3cf1c97d43e781d0ae8af509e9a7008e",
-        "https://app.notion.com/3cf1c97d43e7817b8644c39202542592",
-        "https://app.notion.com/3cf1c97d43e781eaa850d3ac318d722e"
-      ]
+      "evidenciasGeradasIds": []
     },
     {
       "id": "3d11c97d-43e7-810d-9ccd-cedd01a99fed",
@@ -2969,11 +2182,7 @@
       "statusAnalise": "Em análise",
       "extraido": "Dois exports entregues por Paulo Victor (03/09): (1) 'perguntas-...16_45_57.csv' — 8.653 perguntas de pré-venda no Mercado Livre (30/jun–03/set); (2) 'perguntas-...16_58_19.xls' — 4.342 perguntas no site da PneuStore (julho). ACHADOS: perguntas sobre medida/compatibilidade ('serve no meu carro?') são ~25% no ML e ~39% no site. O cliente pergunta sempre pelo veículo/ano/modelo, quase nunca pela medida técnica (205/55 R16). A maioria dessas perguntas é respondida por BOT (85% no ML, ~75% no site) e o padrão é DEVOLVER a confirmação ao cliente ('verifique no manual ou nos pneus instalados… largura, perfil, aro, índice'). Respostas humanas (Marketplace/Gabriela) confirmam de verdade, mas são minoria. Aparece confusão de índice de carga/velocidade (ex.: H102 vs H98). RESSALVA: % por palavra-chave (piso, aproximado); o site tem copiloto de IA sugerindo resposta. A MINERAR: temas além de compatibilidade, taxa de resposta que realmente resolve, produtos/medidas mais perguntados.",
       "link": null,
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3d11c97d43e781cea77dc386ce3b9812",
-        "https://app.notion.com/3d11c97d43e781658227dc300953baed",
-        "https://app.notion.com/3d11c97d43e781f98758cb95ec6f1afa"
-      ]
+      "evidenciasGeradasIds": []
     },
     {
       "id": "3d51c97d-43e7-8156-b9ea-fbe9ca32eb89",
@@ -2982,16 +2191,7 @@
       "statusAnalise": "Em análise",
       "extraido": "Entrevista 08/09 com Jéssica Lima (dona do Zendesk). Foco: como nasce o rótulo 'medida incorreta'. PRINCIPAIS EXTRAÇÕES: (1) O ticket nunca chega marcado como medida errada — chega como cancelamento/devolução; o motivo é escolhido pelo PRÓPRIO CLIENTE no fluxo do bot (campo pré-cadastrado). O atendente pode corrigir se estiver incoerente, mas normalmente não corrige e passa pra frente. O cliente não informa qual medida comprou nem qual seria a correta — não há verificação ('se o cliente falou, tá falado'). (2) 'Medida incorreta' não é assunto próprio: é sub-motivo dentro de 'erro durante a compra' > cancelamento — explica os 100% CANCELAMENTO como artefato estrutural, não comportamento. (3) Medida × Modelo: os dois campos existem mas sem regra ('não tem regra, bota o que der'); atendentes/clientes confundem — o split ~80% medida é frágil no nível do ticket. (4) O Zendesk NÃO segmenta 'cliente escolheu errado' × 'site induziu ao erro' — tudo cai no mesmo motivo ('vai pra um buraco só'); Jéssica confirma que o site oferta pneu incompatível pro modelo e induz ao erro. (5) Recontato = ticket novo, sem dedup automático — infla a contagem; o novo bot pergunta por protocolo aberto, mas se o cliente não informa, gera ticket novo. (6) Expedição no Zendesk não funciona (agentes só comentam, não transferem ticket; não atendem fim de semana; pós-limpeza de acessos 600→350) — precisa migrar pra fora do Zendesk. BÔNUS: painel (Vercel) mostra ~R$2 mi de custo logístico de cancelamento+devolução em 7 dias, filtrável por motivo (ex.: medida incorreta) — nem todo ticket tem valor, então é piso; fluxo de cancelamento burocrático (cancelar → coletar → estornar até 60 dias → recomprar); pedido com NF ainda não emitida não é barrado a tempo, sai e volta gerando custo. PENDÊNCIAS: liberar acesso ao painel Vercel; relatório de frequência do campo motivo de cancelamento; export legível do Miro do fluxo do bot.",
       "link": "https://app.notion.com/p/3d51c97d43e780478cd0dd0cc058247f",
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3d51c97d43e7819aae40cff64adb6dfa",
-        "https://app.notion.com/3d51c97d43e781708af0ed5944bf9522",
-        "https://app.notion.com/3d51c97d43e781a8be60d3341383fed9",
-        "https://app.notion.com/3d51c97d43e7818bae92fe3bca53f4fa",
-        "https://app.notion.com/3d51c97d43e781708b23e9e17820e06a",
-        "https://app.notion.com/3d51c97d43e781fc98cfeda314e93f74",
-        "https://app.notion.com/3d51c97d43e78173a1a9d3ed9eec068c",
-        "https://app.notion.com/3d51c97d43e7815289d5f5ca37a04f49"
-      ]
+      "evidenciasGeradasIds": []
     },
     {
       "id": "3d51c97d-43e7-81b3-b9f1-c5a360b3b735",
@@ -3000,11 +2200,7 @@
       "statusAnalise": "Em análise",
       "extraido": "Export do painel Cantu filtrado por Motivo=Medida Incorreta. 13.203 tickets, 02/01/2025–07/09/2026 (~613 dias, ~21,5/dia). Colunas: ID, Data, Status, Motivo, Resultado, Tipo, Loja, Canal, Pedido, NF, Remessa, Filial, FormaPagto, Valor, Assunto. ACHADOS: (1) RESULTADO — Coletado 4.172 (31,6%) > Barrado 2.387 (18,1%), Sem info 6.644 (50,3%); entre os com info, 64% Coletado × 36% Barrado → medida errada tende a NÃO ser barrada a tempo (pior que o painel geral, 61% barrado). (2) VALOR — só 42% preenchido; soma bruta R$702.337.317,65 (= número do painel), MAS 6 linhas > R$1M somam R$665,6M (95% do total) e são lixo (R$161,9M / R$60M numa devolução de pneu). Limpo: R$36,7M (excl. >R$1M) ou ~R$8M (excl. >R$50k); mediana R$1.170/ticket. Exposição real na casa de R$6–37M, não R$702M. (3) RECONTATO — campo Pedido preenchido em só 16% (2.158); no mediível, 44 pedidos com >1 ticket (56 extras, ~2,6%). Não dá pra deduplicar em escala. (4) Loja: PneuStore 53%, resto marketplace (ML, Shopee, Magalu, Amazon). Canal: Ativo Voz e Marketplace lideram; Reclame Aqui 479. Filial de origem nº1: Itajai/SC (4.166), depois Serra/ES e Jaboatão/PE. Status: 91% Fechado. Assunto é texto livre quase vazio — não re-testa o '100% cancelamento' (aquilo era outro campo).",
       "link": null,
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3d51c97d43e781618f3cd2fc8e176344",
-        "https://app.notion.com/3d51c97d43e7815289d5f5ca37a04f49",
-        "https://app.notion.com/3d51c97d43e781fc98cfeda314e93f74"
-      ]
+      "evidenciasGeradasIds": []
     },
     {
       "id": "3dd1c97d-43e7-814c-9573-f0069ff7b329",
@@ -3013,10 +2209,7 @@
       "statusAnalise": "Em análise",
       "extraido": "Contraparte do Erro Cliente, entregue pela Camila: base 'Cópia de Erro expedição.xlsx' + dash 'Dash Erro Expedição.pptx' (Zendesk, jun–ago, 2025 vs 2026). NÚMEROS: Erro Expedição 769 (2025) → 830 (2026), +8% — puxado por Cancelamento (309→361, +17%) mais que Troca (460→469, +2%). VETORES OPOSTOS: enquanto o lado do cliente cai (Erro Cliente -30%, Medida Incorreta -24%), o lado da empresa (expedição) sobe +8%. Medida Incorreta = 55–58% de todo o universo cancelamento+troca (cliente+expedição). DISTINÇÃO: Erro Expedição = empresa enviou errado (causa Operação), não é compra medida errada; e é majoritariamente TROCA DE MERCADORIA (~460/769), ao contrário do Erro Cliente que era 100% CANCELAMENTO. PENDÊNCIAS: volume total de pedidos/tickets (denominador) ainda não veio — segue absoluto, não taxa; 2026 não 100% fechado (37 em Hold/Open); mesma reorg de filas. A CRUZAR: quanto do que entra como 'medida errada do cliente' é na verdade expedição enviando a medida errada.",
       "link": null,
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3dd1c97d43e781d6bdf0eaf23cfd12f0",
-        "https://app.notion.com/3dd1c97d43e7815f862ec2c89b513f5f"
-      ]
+      "evidenciasGeradasIds": []
     },
     {
       "id": "3de1c97d-43e7-8175-bd1d-e991133b6e64",
@@ -3025,14 +2218,7 @@
       "statusAnalise": "Em análise",
       "extraido": "Entrevista 16/09 (Djeison; João ouvinte) com Maria Laura, 1a8m na Cantu, pós-venda de Marketplace — trata EXCLUSIVAMENTE cancelamento: Magalu à tarde, Amazon de manhã. Não cuida de anúncio/cadastro (isso é do e-commerce do Kaique — Saulo/Paloma). PRINCIPAIS EXTRAÇÕES: (1) No Magalu o motivo 'comprei errado' é AUTO-SELECIONADO pelo cliente num menu e o bot responde automático — sem verificação (corrobora Jéssica/Zendesk). (2) 'Na maioria das vezes' há ticket rotulado medida errada que era ENVIO TROCADO (expedição/transportadora) → reforça inflação do número (Classificação interna + Operação). (3) Padrão de compra: cliente pesquisa pelo MODELO DO CARRO na busca, escolhe por menor preço/marca conhecida, sem ler especificações (Usuário/Informação). (4) AMAZON: anúncios listam modelos de carro compatíveis (Siena, Mobi) e INDUZEM ao erro ao ignorar ano/versão — e os anúncios são do CATÁLOGO DA PRÓPRIA CANTU (Cadastro; acionável). No Magalu NÃO há essa listagem de carro. (5) Troca não é permitida quando o erro é do cliente — só cancelamento/reembolso (explica o '100% cancelamento' como artefato estrutural). (6) Barramento vs pós-entrega: mais frequente o cliente JÁ TER RECEBIDO antes de cancelar → gera custo logístico. RELATÓRIO DE TICKETS: já disponível — é a base enviada pela Camila (RA), que engloba PneuStore + todos os marketplaces (Shopee, Magalu, Mercado Livre, Amazon). Não é mais necessário pedir à Paloma um relatório separado; a separação por marketplace vira etapa de análise (segmentar por canal, pois cada um tem fluxo/regra diferente). PENDÊNCIAS/AÇÕES restantes: pegar contato da colega de dúvidas gerais do Magalu ('Pucu') via Teams; levar ao time de catálogo (Kaique/Saulo) a questão dos anúncios da Amazon; avaliar contato com pré-venda p/ casos de modelo errado percebido antes da entrega.",
       "link": "https://app.notion.com/p/3dd1c97d43e78053be2cf79816483a76",
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3de1c97d43e7810fa163f07f50bb4581",
-        "https://app.notion.com/3de1c97d43e781c99b86fb85ba35bacd",
-        "https://app.notion.com/3de1c97d43e7814e9e0cf6e755e6f1d5",
-        "https://app.notion.com/3de1c97d43e781edadeec024a18e79cb",
-        "https://app.notion.com/3de1c97d43e7812fb7d1c165d4eac414",
-        "https://app.notion.com/3de1c97d43e781f7be3dd0576047bc04"
-      ]
+      "evidenciasGeradasIds": []
     },
     {
       "id": "3de1c97d-43e7-81be-8072-e11a53256442",
@@ -3041,13 +2227,7 @@
       "statusAnalise": "Em análise",
       "extraido": "Entrevista 17/09 (Djeison) com Graziella, responsável EXCLUSIVAMENTE por reclamações e mediações do Mercado Livre — atende 10–15 casos/dia de medida errada. PRINCIPAIS EXTRAÇÕES: (1) Medida errada é a causa nº1 de cancelamento da Pneu Store no ML (corrobora Comitê: marketplaces 6,89% vs site 2,93%). (2) Motivo NÃO é capturado na entrada: o bot do ML coleta fotos e registra devolução/cancelamento, mas não pega o motivo específico; o detalhe só vem depois, quando o atendente manda script no Zendesk pedindo foto+motivo (reforça Jéssica/Zendesk e Maria Laura — número impreciso na origem). (3) Mensagens do cliente são muito vagas ('comprei errado, quero devolver', a confirmar no verbatim), sem explicar o motivo real. (4) Anúncio da Pneu Store no ML tem info completa (medida, perfil, carros compatíveis — ex.: Mobi, Up) e AINDA ASSIM o volume é alto → enfraquece a hipótese 'falta informação'. (5) Parte dos clientes alega ter sido INDUZIDA pelo site (sistema sugeriu modelo compatível com o carro e não encaixou) — a desambiguar: garagem/compatibilidade do ML, campo 'carros compatíveis' do anúncio, ou busca. (6) ~100% dos cancelamentos são pós-entrega (cliente recebe, consulta o borracheiro e constata que não serve); não há barramento efetivo antes do envio. RELATÓRIO DE TICKETS: já disponível — é a base enviada pela Camila (RA), que engloba PneuStore + todos os marketplaces (inclui Mercado Livre); segmentar por canal na análise. Não é mais necessário pedir números à Graziella nem falar com a Paloma sobre volume de tickets. Pendência restante: pegar com a Graziella o link da loja oficial no ML. Sistemas ML e Zendesk integrados; equipe consulta ambos.",
       "link": "https://app.notion.com/p/3de1c97d43e7808d9309f9a87ee83639",
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3de1c97d43e7812bbc27d2537a8dcb66",
-        "https://app.notion.com/3de1c97d43e78126b056ea8afef24a34",
-        "https://app.notion.com/3de1c97d43e7816fa3edde4e05004bec",
-        "https://app.notion.com/3de1c97d43e7813f8e65e7bdac3546ab",
-        "https://app.notion.com/3de1c97d43e781258cacf22013aa094e"
-      ]
+      "evidenciasGeradasIds": []
     },
     {
       "id": "3de1c97d-43e7-81e0-a7a3-dbedf05a2954",
@@ -3056,21 +2236,7 @@
       "statusAnalise": "Em análise",
       "extraido": "Fluxo do cancelamento por medida incorreta visto pela retenção. Achado central: ~4 em cada 10 tickets rotulados 'medida incorreta' são de fato compra errada do cliente; o restante é erro de expedição (produto certo, etiqueta/envio errado). Bot autoclassifica 'medida incorreta' na entrada (Zendesk). Tire Select induz erro em carros com múltiplas medidas, sem alerta na tela. Volume caiu de ~100 para ~40 tickets/dia (total retenção); pico pós-Black (jan–abr). Burocracia da troca (30+30 dias) transforma troca em cancelamento. NOTA sobre dados: o relatório de tickets por período já está disponível — é a mesma base enviada pela Camila (RA), que engloba PneuStore + todos os marketplaces (Shopee, Magalu, Mercado Livre, Amazon). Ao analisar, segmentar por canal, pois marketplaces têm fluxo e regras de cancelamento/reembolso diferentes.",
       "link": "https://app.notion.com/p/3de1c97d43e7809590fbc8d45216f34c",
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3de1c97d43e78111b2e2e84eacfd2d87",
-        "https://app.notion.com/3de1c97d43e781e7b4e3d53af8b41e91",
-        "https://app.notion.com/3de1c97d43e78181838bc84e31750518",
-        "https://app.notion.com/3de1c97d43e781f6b798dd1f92663a7d",
-        "https://app.notion.com/3de1c97d43e781af8996de62874505c1",
-        "https://app.notion.com/3de1c97d43e781568728eb5df7959694",
-        "https://app.notion.com/3de1c97d43e781ababe0dd10fc28c1c8",
-        "https://app.notion.com/3de1c97d43e781ac94a4d51ef4922af7",
-        "https://app.notion.com/3de1c97d43e781f0987acd8da482cb48",
-        "https://app.notion.com/3de1c97d43e78187a471e6c1e09b7079",
-        "https://app.notion.com/3de1c97d43e78115bea3da217a79f47b",
-        "https://app.notion.com/3de1c97d43e781388e16e92438a7356c",
-        "https://app.notion.com/3de1c97d43e78171be18f39a199431da"
-      ]
+      "evidenciasGeradasIds": []
     },
     {
       "id": "3df1c97d-43e7-814e-82c9-ce291d53f45a",
@@ -3079,9 +2245,7 @@
       "statusAnalise": "Analisado",
       "extraido": "550.087 pedidos (jul+ago de 2025 e 2026). Não há campo de motivo nem de produto/medida — 'medida errada' não está marcada. Universo mapeado: 3.679 devoluções (DEV, pós-entrega, R$ 4,77 mi) e 69.452 cancelamentos (CAN, pré-entrega, R$ 186 mi). Achado central: devolução é fenômeno de consumidor/autoatendimento — B2B ~0%, canais de consumidor 2–5%+ (Amazon 3,8% / Shopee 3,7% / Via Varejo 4,2% / B2C 2,3% em 2026). Ticket médio da devolução (R$1.296) < entregue (R$2.933). B2C subiu de 0,15% (2025) para 2,32% (2026). Análise completa em Excel local (5 abas, com lista das 3.679 devoluções). Falta cruzar com base de trocas/devoluções que tenha o MOTIVO.",
       "link": null,
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3df1c97d43e78135988df593d1325751"
-      ]
+      "evidenciasGeradasIds": []
     },
     {
       "id": "3df1c97d-43e7-81cb-8254-f9249c8f58b5",
@@ -3090,17 +2254,7 @@
       "statusAnalise": "Analisado",
       "extraido": "Entrevista com Isabela (pós-venda Shopee). Principais achados: Shopee não tem motivo 'compra medida incorreta' — cliente escolhe motivos aproximados (produto não serviu, recebi errado, arrependimento, prazo); o real motivo só aparece no atendimento. ~9/10 tickets são medida incorreta (percepção da atendente). Público mais idoso (50-60, sem dado concreto), compra 'no olhômetro'. Anúncios não trazem compatibilidade por modelo de carro nem são didáticos. Algoritmo da Shopee induz medida errada por feed; IA de atendimento (transbordo GoBots) repassa medida errada puxando o 1º número do título. Casos: cliente que abriu protocolo como 'produto falsificado' sendo medida incorreta (travou, gerou avaliação negativa pública); erro de anúncio Speedmax 255/50 x SKU 165/40 em agosto. Sem integração Shopee-Zendesk (tickets manuais). Sem troca; fluxo é coleta + estorno em até 10 dias úteis.",
       "link": "https://app.notion.com/p/3df1c97d43e7802b894fe4a7121b15d6",
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3df1c97d43e781d5bf7bedf706b2db72",
-        "https://app.notion.com/3df1c97d43e781719aabf7d6b550e397",
-        "https://app.notion.com/3df1c97d43e7819cb8bbf499e1aa74e0",
-        "https://app.notion.com/3df1c97d43e78172b97fc5fbd0b8e257",
-        "https://app.notion.com/3df1c97d43e7814cad4ad36d2da8cdac",
-        "https://app.notion.com/3df1c97d43e78176bb08c8a4e940b029",
-        "https://app.notion.com/3df1c97d43e781538fdcfd3550a40caa",
-        "https://app.notion.com/3df1c97d43e7811cb4c2c72cb16d06ba",
-        "https://app.notion.com/3df1c97d43e78176ad1cc60cde86bbf3"
-      ]
+      "evidenciasGeradasIds": []
     },
     {
       "id": "3ea1c97d-43e7-81f9-96b8-fde816f31dc8",
@@ -3109,11 +2263,7 @@
       "statusAnalise": "Analisado",
       "extraido": "Entrevista com cliente PF profissional (gerente de centro automotivo, 51 anos, Santo Antônio do Monte-MG). Compra sempre pelo site, à vista, via CPF. NÃO é caso de medida errada: nunca comprou medida errada nem teve dificuldade em achar a medida. Achados úteis por contraste: (1) busca deliberada por MEDIDA e não por placa, porque usa medidas adaptadas (não as originais de fábrica); (2) dúvida de medida resolvida no Google/manual, nunca no suporte da Pneu Store; (3) abandono do cadastro no app. Sinaliza hipótese de segmentação (profissional vs. leigo) e cautela com 'buscar por placa' como solução universal.",
       "link": "https://app.notion.com/p/3e51c97d43e7803bb03add82ed59c258",
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3ea1c97d43e78112bba2d8f244e2fd90",
-        "https://app.notion.com/3ea1c97d43e781469f00dc5f125b262d",
-        "https://app.notion.com/3ea1c97d43e781b685d9e6a9eed74f82"
-      ]
+      "evidenciasGeradasIds": []
     },
     {
       "id": "3ec1c97d-43e7-8129-86a5-fbc6ffda2be7",
@@ -3122,40 +2272,7 @@
       "statusAnalise": "Em análise",
       "extraido": "Cliente que devolveu o produto e não voltaria a comprar. Gerou 6 evidências (EV1–EV6): (1) assume o erro de escolha e não culpa a loja; (2) variação/\"subcategoria\" dentro do mesmo modelo não percebida (uso misto vs. pick-up) → Informação/Busca; (3) devolução burocrática é o real motivo do churn → Operação; (4) benchmark: devolução deveria ser menos burocrática, \"como o do ML\"; (5) logística de entrega NÃO é a dor (delimita escopo — a dor é a burocracia documental, não o frete); (6) hipótese de método sugerida pelo cliente: focar nos pedidos devolvidos e checar se viram entrave a novas compras. Obs.: cliente repetiu que \"faz tempo, não lembro os detalhes\" — como ele chegou ao modelo ficou sem resposta.",
       "link": null,
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3ec1c97d43e78146894ec1e7e5333a7d",
-        "https://app.notion.com/3ec1c97d43e781599165cbe0db5a2604",
-        "https://app.notion.com/3ec1c97d43e7817e93c2d3bdb00a277c",
-        "https://app.notion.com/3ec1c97d43e781859077e5f3f22e5aee",
-        "https://app.notion.com/3ec1c97d43e78147ba0deffde800573a",
-        "https://app.notion.com/3ec1c97d43e78198bc22ced924a38ff0"
-      ]
-    },
-    {
-      "id": "3ec1c97d-43e7-81f7-89de-deb713282a61",
-      "fonte": "Entrevista — Paulo César Andrade Júnior (cliente PF, Goiânia-GO) · 01/10/2026",
-      "tipo": "Outro",
-      "statusAnalise": "Analisado",
-      "extraido": "Cliente PF, 48 anos, 2 compras pelo app (uma pra si, uma pra amigo), chegou via influenciador (Fachini) com cupom. NÃO é caso de medida errada: buscou direto pela medida (conhecimento prévio), resultado 100% relevante, acha 'quase impossível' errar dada a riqueza de referências. Segundo 'não-caso' seguido (como Emerson) — reforça hipótese de segmentação: quem domina a medida não erra. Dor real: atendimento humano demorou +2h, mas no contexto de confirmar a autenticidade do convite da pesquisa (research-ops), não na compra. Sugestões comerciais fora de escopo (fidelização, seguros, causa social). Ponto positivo: filtros (mais popular/mais barato/custo-benefício/prêmio) bem avaliados.",
-      "link": "https://app.notion.com/p/3ec1c97d43e780b4bdbdca1b0257de16",
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3ec1c97d43e781f59160c4352ff3ce09",
-        "https://app.notion.com/3ec1c97d43e7816d9500e00b6e409be6",
-        "https://app.notion.com/3ec1c97d43e78171abe5db4492be4e06"
-      ]
-    },
-    {
-      "id": "3ec1c97d-43e7-81d0-8bfe-d3290bcb871b",
-      "fonte": "Entrevista — Rafael Castro (cliente PF, comprou p/ o pai) · 01/10/2026",
-      "tipo": "Outro",
-      "statusAnalise": "Analisado",
-      "extraido": "Cliente PF (44, RJ), 1ª compra, comprou pneu pelo site para o pai (~80 anos) em cidade pequena de MG onde o modelo (New Fiesta) era indisponível. NÃO errou a medida: buscou por modelo do veículo, conferiu numeração por foto do pneu antigo, achou o fluxo 'muito didático'. Terceiro não-caso de medida. A dor migrou toda para a ENTREGA: (1) sem clareza de data e sem rastreamento (benchmark espontâneo = Mercado Livre); ficou 'preso em casa' esperando; (2) entregador anunciou 'dois pneus' quando eram quatro (dois pares embalados juntos) — risco a cliente idoso, precisou intervir. Chatbot informou prazo 2–3 dias úteis, divergente do 'semana que vem' da transportadora. Instalação em borracheiro local (sem oficina parceira na cidade).",
-      "link": "https://app.notion.com/p/3ec1c97d43e780dc8fede762adc6a1db",
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3ec1c97d43e7819ea79ac8f45f64ba7b",
-        "https://app.notion.com/3ec1c97d43e7812ba5daf521f97baf73",
-        "https://app.notion.com/3ec1c97d43e7814b8381ceee28f63a54"
-      ]
+      "evidenciasGeradasIds": []
     },
     {
       "id": "3ec1c97d-43e7-8186-a156-d1a7ab3eba20",
@@ -3164,9 +2281,25 @@
       "statusAnalise": "Analisado",
       "extraido": "Cruzamento das duas bases do Zendesk (Erro Cliente/Medida Incorreta × Erro Expedição), jun–ago de 2025 e 2026, pela chave NumeroPedido. NÚMEROS: 3.017 tickets 'Medida Incorreta' (1.714 em 2025, 1.303 em 2026) × 1.599 'Erro Expedição' (769/830). Pedido preenchido em 98–100%. OVERLAP: apenas 52 pedidos (1,7%) de Medida Incorreta aparecem também como Erro Expedição (28 em 2025, 24 em 2026). 'Modelo Incorreto' é balde à parte (469/218), fora do número de medida. Sem recontato (pedido único nesta base curada). CONCLUSÃO: os dois motivos são mutuamente exclusivos — um caso de expedição carimbado como 'medida' fica só na base de medida e NÃO aparece no cruzamento; logo, o 1,7% é PISO, não a medição real. Portanto a estimativa da retenção (~4 em 10 medida / ~6 em 10 expedição) NÃO é confirmada por estas bases — segue como percepção. Para medir de verdade, falta a base com medida/SKU comprada × enviada (faturada) por pedido (relatório Kaique/Paloma). Planilha auditável com os 52 pedidos: Cruzamento_Medida_x_Expedicao.xlsx.",
       "link": null,
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3ec1c97d43e78151a004f413c299f52d"
-      ]
+      "evidenciasGeradasIds": []
+    },
+    {
+      "id": "3ec1c97d-43e7-81d0-8bfe-d3290bcb871b",
+      "fonte": "Entrevista — Rafael Castro (cliente PF, comprou p/ o pai) · 01/10/2026",
+      "tipo": "Outro",
+      "statusAnalise": "Analisado",
+      "extraido": "Cliente PF (44, RJ), 1ª compra, comprou pneu pelo site para o pai (~80 anos) em cidade pequena de MG onde o modelo (New Fiesta) era indisponível. NÃO errou a medida: buscou por modelo do veículo, conferiu numeração por foto do pneu antigo, achou o fluxo 'muito didático'. Terceiro não-caso de medida. A dor migrou toda para a ENTREGA: (1) sem clareza de data e sem rastreamento (benchmark espontâneo = Mercado Livre); ficou 'preso em casa' esperando; (2) entregador anunciou 'dois pneus' quando eram quatro (dois pares embalados juntos) — risco a cliente idoso, precisou intervir. Chatbot informou prazo 2–3 dias úteis, divergente do 'semana que vem' da transportadora. Instalação em borracheiro local (sem oficina parceira na cidade).",
+      "link": "https://app.notion.com/p/3ec1c97d43e780dc8fede762adc6a1db",
+      "evidenciasGeradasIds": []
+    },
+    {
+      "id": "3ec1c97d-43e7-81f7-89de-deb713282a61",
+      "fonte": "Entrevista — Paulo César Andrade Júnior (cliente PF, Goiânia-GO) · 01/10/2026",
+      "tipo": "Outro",
+      "statusAnalise": "Analisado",
+      "extraido": "Cliente PF, 48 anos, 2 compras pelo app (uma pra si, uma pra amigo), chegou via influenciador (Fachini) com cupom. NÃO é caso de medida errada: buscou direto pela medida (conhecimento prévio), resultado 100% relevante, acha 'quase impossível' errar dada a riqueza de referências. Segundo 'não-caso' seguido (como Emerson) — reforça hipótese de segmentação: quem domina a medida não erra. Dor real: atendimento humano demorou +2h, mas no contexto de confirmar a autenticidade do convite da pesquisa (research-ops), não na compra. Sugestões comerciais fora de escopo (fidelização, seguros, causa social). Ponto positivo: filtros (mais popular/mais barato/custo-benefício/prêmio) bem avaliados.",
+      "link": "https://app.notion.com/p/3ec1c97d43e780b4bdbdca1b0257de16",
+      "evidenciasGeradasIds": []
     },
     {
       "id": "3f11c97d-43e7-817c-ad22-ceb10c1fd730",
@@ -3175,11 +2308,7 @@
       "statusAnalise": "Analisado",
       "extraido": "Cliente PF (38, Serra-ES, gerente de CD). 3 compras; a última (Amazon, pré-Black Friday, PIX, 2 pneus p/ rodízio, buscou pela medida) foi a pior experiência. CASO-CHAVE: comprou a MEDIDA CERTA (nota fiscal certa) e chegou pneu de MEDIDA DIFERENTE = erro de separação/expedição — ou seja, 'medida errada' que NÃO foi do cliente (sustenta a hipótese de Classificação interna). O que virou churn foi o pós-venda: devolução +2 meses, só e-mail e respostas automatizadas (IA), sem atendimento humano; A-Z da Amazon não funcionou por a PneuStore ser vendedor premium (ouro); destravou só via Reclame Aqui; teve de comprar local mais caro; reembolso sem correção IPCA (CDC). Impacto: NPS negativo ativo (falou mal p/ amigos), churn prospectivo (hesita comprar pneu da moto XRE). Benchmark espontâneo: Mercado Livre (cupom de compensação por atraso). Insight: foi para a Amazon porque o site próprio não tinha o pneu ou estava caro. 2 primeiras compras foram positivas (problema logístico da Azul, que ele não atribui à PneuStore).",
       "link": "https://app.notion.com/p/3f11c97d43e780518363ed4a9691e909",
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3f11c97d43e781ebb671d32369111fc0",
-        "https://app.notion.com/3f11c97d43e78183aec9f20ff602670d",
-        "https://app.notion.com/3f11c97d43e781bab7abea5251830c07"
-      ]
+      "evidenciasGeradasIds": []
     },
     {
       "id": "3f11c97d-43e7-817f-893c-d1ba26f51a9e",
@@ -3188,11 +2317,7 @@
       "statusAnalise": "Analisado",
       "extraido": "Cliente PF (24, dev, Santo André-SP), leigo em carro. Chegou por indicação de amigo; comprou pelo site, PIX. CASO-CHAVE de medida errada DO USUÁRIO por falta de informação: comprou 3 pneus (2 dianteiros + 1 estepe) pesquisando a medida no Google, mas NÃO sabia que o estepe tem medida diferente (comprou aro 14; o estepe é aro 13 'fininho'). O instalador parceiro percebeu que não cabia e avisou. Solução proposta pelo próprio cliente: alerta/indicador no site de que o estepe pode ter medida diferente, ou filtro/categoria de estepe ('diferencial que nenhum outro site tem'). Devolução: reembolso 17/11→29/12 (~1 mês e 15 dias), considerada fluida porque o estepe não era urgente (sem churn). Atrito: o papel de identificação do pneu (pedido pelo suporte na devolução) tinha sido retirado pelo instalador → caso escalonado. Instalador parceiro sem horário de fim de semana. Entrega direto no instalador parceiro (não em casa). Aquisição por indicação (boca a boca positivo).",
       "link": "https://app.notion.com/p/3f11c97d43e7808bb9caea066de4118f",
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3f11c97d43e7816aa99cc9908325c244",
-        "https://app.notion.com/3f11c97d43e781aa9c6ed2817d3ed111",
-        "https://app.notion.com/3f11c97d43e781618eb4cc80125e87d3"
-      ]
+      "evidenciasGeradasIds": []
     },
     {
       "id": "3f11c97d-43e7-819a-85d3-c38b2f687635",
@@ -3201,10 +2326,7 @@
       "statusAnalise": "Analisado",
       "extraido": "Relato trazido pela Fernanda Carolina Cidral (atendimento — Canais Críticos/Reclame Aqui) via Teams, com print do chamado HugMe/PNEUSTORE (06/10, 14:51–14:57). CASO-CHAVE de medida errada INDUZIDA PELO SISTEMA: o cliente usou a 'Minha Garagem' (colocou a PLACA), o site retornou as marcas disponíveis para o modelo, ele escolheu e pagou; recebeu pneu ARO 15, sendo que o modelo usa ARO 16. O montador identificou na troca (carro já desmontado). Atendimento NEGOU a troca alegando que o 'prazo para troca por erro de escolha' já havia passado — classificando como erro do cliente. O cliente questiona de quem foi o erro ('meu ou do Sistema da PneuStore que indicou o pneu errado?') e ficou com 4 pneus inúteis. Sustenta Busca/Recomendação (Minha Garagem por placa indicou medida incompatível) + Classificação interna (rotulado 'erro de escolha' do cliente) + Operação/pós-venda (troca negada por prazo). Relato com voz literal do cliente (print). Fernanda ofereceu puxar carro/placa do cliente para aprofundar.",
       "link": null,
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3f11c97d43e781b29d8ee13901adc5d8",
-        "https://app.notion.com/3f11c97d43e781819730ccbc97f1a5fd"
-      ]
+      "evidenciasGeradasIds": []
     },
     {
       "id": "3f41c97d-43e7-8166-9d60-dc216ea0258e",
@@ -3213,10 +2335,7 @@
       "statusAnalise": "Analisado",
       "extraido": "Cliente PF (40, SP), administrador que trabalha com tecnologia de atendimento/jornada do cliente (atende Brasil Prev, CPFL, Rodobens, Randon) — perfil especialista, críticas acionáveis. Chegou por preço/promoção, validou no Reclame Aqui, deu credibilidade à propaganda com Galvão Bueno. Comprou pelo site, cartão. MEDIDA ERRADA DO USUÁRIO por pesquisa externa: buscou direto pela medida, mas pegou a medida errada pesquisando na internet; percebeu só na entrega. DOR PRINCIPAL: pós-venda quase virou cancelamento — +1h no bot/URA e ~30min no telefone sem retorno; sem canal direto, teve que garimpar funcionários da PneuStore no LinkedIn (mandou mensagem para Adriana Lopes de Souza, do comercial, dizendo que preferia cancelar a trocar). Após contato humano, a troca saiu sem problema. Insegurança no pagamento pelo look and feel (checou HTTPS/certificados/CNPJ; 'tá muito fácil'). Tese dele: 'o pós-venda tem que ser no mínimo equivalente à compra'. Props: medir esforço do cliente (TMA, espera, resolutividade), ouvir todos os canais p/ achar detratores silenciosos, speech analytics (ofereceu apresentar a solução da empresa dele). Ações: enviar voucher R$50; levantar histórico de atendimento dele (nº chamadas, TMA, tempo URA, resolutividade).",
       "link": "https://app.notion.com/p/3f31c97d43e78024a1a0ff9abaf52b8b",
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3f41c97d43e781748ab7d8cad73c0779",
-        "https://app.notion.com/3f41c97d43e7810f94cee72e92d02b3e"
-      ]
+      "evidenciasGeradasIds": []
     },
     {
       "id": "3f81c97d-43e7-8129-8b0a-cfdfae2703f6",
@@ -3225,12 +2344,16 @@
       "statusAnalise": "Analisado",
       "extraido": "Entrevista de satisfação (não houve erro de medida). Caso de contraste: comprador experiente (45, Brasília), compra p/ si e terceiros, busca pela medida + calculadora de pneus externa; confirmação de compatibilidade no fluxo é percebida e confiável; sempre recebeu exatamente o pneu escolhido. Único atrito foi logístico (transportadora, jul/2026, devolução+reentrega), resolvido via WhatsApp satisfatoriamente. Compra só pelo site, nunca app.",
       "link": "https://app.notion.com/p/3f81c97d43e78073ad5afce2d9a80e3a",
-      "evidenciasGeradasIds": [
-        "https://app.notion.com/3f81c97d43e781e7a52fc8fe8b1c4018",
-        "https://app.notion.com/3f81c97d43e7818e988cc29bd639a623",
-        "https://app.notion.com/3f81c97d43e781758543d73df15885c2",
-        "https://app.notion.com/3f81c97d43e7811a9e4ef970fac080a5"
-      ]
+      "evidenciasGeradasIds": []
+    },
+    {
+      "id": "3fe1c97d-43e7-816c-96e3-fb3259daad19",
+      "fonte": "Entrevista cliente final — Thiago Guglielmo (19/10/2026)",
+      "tipo": "Outro",
+      "statusAnalise": "Analisado",
+      "extraido": "Caso de ERRO INTERNO DE EXPEDIÇÃO classificado como 'medida errada': comprou a medida certa (aro 16, carro Kicks da mãe) e recebeu pneu totalmente diferente (aro 17, marca mais cara, ~225/50-45); a NF veio com o produto errado (o que foi enviado). Comprador experiente (advogado, 42, Campo Grande/MS), vai direto pela medida, compra p/ família. Dor no pós-venda: devolução lenta/confusa via WhatsApp (pediam foto, respostas a cada 2-3 dias), só cancelamento (sem troca), perdeu a promoção ao recomprar. Desencontro interno: marketing contatava proativamente sobre pneu no carrinho enquanto o suporte não respondia a devolução. Site/compra/pagamento avaliados como bons e seguros.",
+      "link": "https://app.notion.com/p/3fe1c97d43e780468499ddf468de02a7",
+      "evidenciasGeradasIds": []
     }
   ],
   "frentes": [
@@ -3265,17 +2388,7 @@
       "prioridade": "Média",
       "proximoPasso": "Identificar erros que acontecem depois da compra e separá-los de 'medida errada'.",
       "causasIds": [],
-      "evidenciasIds": [
-        "https://app.notion.com/3ca1c97d43e7813a800ccb965b1f438c",
-        "https://app.notion.com/3ce1c97d43e781feb09aeade1a4041b9",
-        "https://app.notion.com/3de1c97d43e781c99b86fb85ba35bacd",
-        "https://app.notion.com/3ec1c97d43e78171abe5db4492be4e06",
-        "https://app.notion.com/3ec1c97d43e7812ba5daf521f97baf73",
-        "https://app.notion.com/3ec1c97d43e7814b8381ceee28f63a54",
-        "https://app.notion.com/3f11c97d43e781ebb671d32369111fc0",
-        "https://app.notion.com/3f11c97d43e781bab7abea5251830c07",
-        "https://app.notion.com/3f41c97d43e7810f94cee72e92d02b3e"
-      ]
+      "evidenciasIds": []
     },
     {
       "id": "3c91c97d-43e7-8119-896c-e22e7921e76c",
@@ -3286,17 +2399,7 @@
       "prioridade": "Baixa",
       "proximoPasso": "Melhorar a explicação da medida (205/55 R16) e 'como comprar o pneu correto', possivelmente com Marketing.",
       "causasIds": [],
-      "evidenciasIds": [
-        "https://app.notion.com/3ce1c97d43e7818dbb04c1b2a1000c45",
-        "https://app.notion.com/3cf1c97d43e7817a9accf5bcc70e0b57",
-        "https://app.notion.com/3cf1c97d43e7814db32bfd40a137c6f6",
-        "https://app.notion.com/3cf1c97d43e781d0ae8af509e9a7008e",
-        "https://app.notion.com/3cf1c97d43e781eaa850d3ac318d722e",
-        "https://app.notion.com/3d11c97d43e781f98758cb95ec6f1afa",
-        "https://app.notion.com/3df1c97d43e78176bb08c8a4e940b029",
-        "https://app.notion.com/3df1c97d43e781538fdcfd3550a40caa",
-        "https://app.notion.com/3ea1c97d43e781469f00dc5f125b262d"
-      ]
+      "evidenciasIds": []
     },
     {
       "id": "3c91c97d-43e7-8136-8083-cfbe011f582a",
@@ -3307,13 +2410,7 @@
       "prioridade": "Baixa",
       "proximoPasso": "Explorar compatibilidade veículo × pneu (veículo cadastrado, compatíveis, medida recomendada).",
       "causasIds": [],
-      "evidenciasIds": [
-        "https://app.notion.com/3cf1c97d43e7817b8644c39202542592",
-        "https://app.notion.com/3d81c97d43e781ff9d25f5ed991947e6",
-        "https://app.notion.com/3d81c97d43e781b6b5f0ed11b529bcdd",
-        "https://app.notion.com/3de1c97d43e781258cacf22013aa094e",
-        "https://app.notion.com/3f11c97d43e781b29d8ee13901adc5d8"
-      ]
+      "evidenciasIds": []
     },
     {
       "id": "3c91c97d-43e7-813c-8a33-cb3949e0fd75",
@@ -3324,12 +2421,7 @@
       "prioridade": "Alta",
       "proximoPasso": "Consolidar pesquisa anterior + Reclame Aqui + dados de troca/devolução já existentes.",
       "causasIds": [],
-      "evidenciasIds": [
-        "https://app.notion.com/3d81c97d43e781dfa28bfa739271a29c",
-        "https://app.notion.com/3df1c97d43e781719aabf7d6b550e397",
-        "https://app.notion.com/3df1c97d43e78135988df593d1325751",
-        "https://app.notion.com/3ec1c97d43e78198bc22ced924a38ff0"
-      ]
+      "evidenciasIds": []
     },
     {
       "id": "3c91c97d-43e7-813f-9403-f7acddadc129",
@@ -3340,12 +2432,7 @@
       "prioridade": "Média",
       "proximoPasso": "Investigar como o usuário descobre, identifica e escolhe a medida — a partir da base anterior.",
       "causasIds": [],
-      "evidenciasIds": [
-        "https://app.notion.com/3df1c97d43e7819cb8bbf499e1aa74e0",
-        "https://app.notion.com/3ec1c97d43e78198bc22ced924a38ff0",
-        "https://app.notion.com/3ec1c97d43e7816d9500e00b6e409be6",
-        "https://app.notion.com/3f81c97d43e781758543d73df15885c2"
-      ]
+      "evidenciasIds": []
     },
     {
       "id": "3c91c97d-43e7-8150-bf4f-f9015195b6a0",
@@ -3356,20 +2443,7 @@
       "prioridade": "Alta",
       "proximoPasso": "Criar visão do problema por causa/origem — decompor o número.",
       "causasIds": [],
-      "evidenciasIds": [
-        "https://app.notion.com/3ce1c97d43e78163ac08cdf2d9d0409d",
-        "https://app.notion.com/3cf1c97d43e78185ad8adc55a8bdc7a5",
-        "https://app.notion.com/3d51c97d43e781a8be60d3341383fed9",
-        "https://app.notion.com/3d51c97d43e781fc98cfeda314e93f74",
-        "https://app.notion.com/3d51c97d43e7815289d5f5ca37a04f49",
-        "https://app.notion.com/3d81c97d43e781dfa28bfa739271a29c",
-        "https://app.notion.com/3d81c97d43e78191a42dca047eb432e8",
-        "https://app.notion.com/3d81c97d43e781bfb728ce50f21a27c9",
-        "https://app.notion.com/3dd1c97d43e781d6bdf0eaf23cfd12f0",
-        "https://app.notion.com/3dd1c97d43e781c99e55dcf1c1cbdbdd",
-        "https://app.notion.com/3dd1c97d43e781f3bb3cc2f15704a9a7",
-        "https://app.notion.com/3de1c97d43e7812bbc27d2537a8dcb66"
-      ]
+      "evidenciasIds": []
     },
     {
       "id": "3c91c97d-43e7-8167-94dd-e12a3462d482",
@@ -3380,26 +2454,7 @@
       "prioridade": "Alta",
       "proximoPasso": "Entender o que realmente entra em 'medida errada' e como o comitê classifica os motivos.",
       "causasIds": [],
-      "evidenciasIds": [
-        "https://app.notion.com/3ce1c97d43e781d897d5e2a16e43b8d9",
-        "https://app.notion.com/3ce1c97d43e78187a065ebe7eab5c3f8",
-        "https://app.notion.com/3d51c97d43e7819aae40cff64adb6dfa",
-        "https://app.notion.com/3d51c97d43e781708af0ed5944bf9522",
-        "https://app.notion.com/3d51c97d43e781708b23e9e17820e06a",
-        "https://app.notion.com/3d81c97d43e78185b9cafe1f2ef5737a",
-        "https://app.notion.com/3d81c97d43e781679a45e1e04538780e",
-        "https://app.notion.com/3d81c97d43e781fe8543fbd25295b92d",
-        "https://app.notion.com/3d81c97d43e78106adc8cba44b3e4970",
-        "https://app.notion.com/3dd1c97d43e7815f862ec2c89b513f5f",
-        "https://app.notion.com/3dd1c97d43e78190900dd29c15a8e9b8",
-        "https://app.notion.com/3de1c97d43e7810fa163f07f50bb4581",
-        "https://app.notion.com/3de1c97d43e7812fb7d1c165d4eac414",
-        "https://app.notion.com/3de1c97d43e7816fa3edde4e05004bec",
-        "https://app.notion.com/3df1c97d43e781d5bf7bedf706b2db72",
-        "https://app.notion.com/3df1c97d43e7811cb4c2c72cb16d06ba",
-        "https://app.notion.com/3ec1c97d43e78146894ec1e7e5333a7d",
-        "https://app.notion.com/3f11c97d43e781ebb671d32369111fc0"
-      ]
+      "evidenciasIds": []
     },
     {
       "id": "3c91c97d-43e7-818d-89af-f022000a540e",
@@ -3410,12 +2465,7 @@
       "prioridade": "Alta",
       "proximoPasso": "Mapear processo, sistemas, áreas e como a classificação é feita (CIEX + trocas/devoluções; operação em Itajaí).",
       "causasIds": [],
-      "evidenciasIds": [
-        "https://app.notion.com/3ca1c97d43e78135afe7eab65f5f3082",
-        "https://app.notion.com/3de1c97d43e781edadeec024a18e79cb",
-        "https://app.notion.com/3df1c97d43e7814cad4ad36d2da8cdac",
-        "https://app.notion.com/3df1c97d43e78176ad1cc60cde86bbf3"
-      ]
+      "evidenciasIds": []
     },
     {
       "id": "3c91c97d-43e7-818d-928b-e1c8c0aff776",
@@ -3426,20 +2476,7 @@
       "prioridade": "Média",
       "proximoPasso": "Criar mecanismos de confirmação/segurança ('essa é a medida do seu veículo?').",
       "causasIds": [],
-      "evidenciasIds": [
-        "https://app.notion.com/3ca1c97d43e781c280bae9ab24e7320d",
-        "https://app.notion.com/3ca1c97d43e78145a6d7d6fa14bd3119",
-        "https://app.notion.com/3ce1c97d43e781af9728f399c5fbbfaf",
-        "https://app.notion.com/3d11c97d43e781cea77dc386ce3b9812",
-        "https://app.notion.com/3d81c97d43e7819497b6ce53a7536929",
-        "https://app.notion.com/3d81c97d43e781ad8145eb383e25e5da",
-        "https://app.notion.com/3d81c97d43e7812c858ed801b21b76ad",
-        "https://app.notion.com/3de1c97d43e7813f8e65e7bdac3546ab",
-        "https://app.notion.com/3ec1c97d43e781599165cbe0db5a2604",
-        "https://app.notion.com/3f11c97d43e7816aa99cc9908325c244",
-        "https://app.notion.com/3f41c97d43e781748ab7d8cad73c0779",
-        "https://app.notion.com/3f81c97d43e781e7a52fc8fe8b1c4018"
-      ]
+      "evidenciasIds": []
     },
     {
       "id": "3c91c97d-43e7-81bd-be17-cea81e45f2bb",
@@ -3450,31 +2487,7 @@
       "prioridade": "Média",
       "proximoPasso": "Avaliar busca guiada, veículo, placa e medida; evitar que o usuário precise saber a medida.",
       "causasIds": [],
-      "evidenciasIds": [
-        "https://app.notion.com/3ca1c97d43e7813a973ed0258c0844b1",
-        "https://app.notion.com/3ca1c97d43e7815990d3d8db190192d8",
-        "https://app.notion.com/3ca1c97d43e781288de3c69c56321deb",
-        "https://app.notion.com/3ce1c97d43e781d28eaacf930a88130f",
-        "https://app.notion.com/3ce1c97d43e781d7b011c710e49b0c86",
-        "https://app.notion.com/3ce1c97d43e7813a9839c094e70de7f1",
-        "https://app.notion.com/3cf1c97d43e7813c8cb9d14bf0003189",
-        "https://app.notion.com/3cf1c97d43e781ec834fe98e6506583d",
-        "https://app.notion.com/3cf1c97d43e781039076c69c89ec5418",
-        "https://app.notion.com/3cf1c97d43e781eb840fc9b990a0edd8",
-        "https://app.notion.com/3d11c97d43e781658227dc300953baed",
-        "https://app.notion.com/3d51c97d43e7818bae92fe3bca53f4fa",
-        "https://app.notion.com/3d81c97d43e781ff9d25f5ed991947e6",
-        "https://app.notion.com/3d81c97d43e781f7aa10e14b49eba347",
-        "https://app.notion.com/3de1c97d43e7814e9e0cf6e755e6f1d5",
-        "https://app.notion.com/3df1c97d43e78172b97fc5fbd0b8e257",
-        "https://app.notion.com/3ea1c97d43e78112bba2d8f244e2fd90",
-        "https://app.notion.com/3ec1c97d43e781f59160c4352ff3ce09",
-        "https://app.notion.com/3ec1c97d43e7819ea79ac8f45f64ba7b",
-        "https://app.notion.com/3f11c97d43e7816aa99cc9908325c244",
-        "https://app.notion.com/3f11c97d43e781b29d8ee13901adc5d8",
-        "https://app.notion.com/3f41c97d43e781748ab7d8cad73c0779",
-        "https://app.notion.com/3f81c97d43e7818e988cc29bd639a623"
-      ]
+      "evidenciasIds": []
     },
     {
       "id": "3ca1c97d-43e7-81ba-80a8-e331e52028b6",
@@ -3485,31 +2498,7 @@
       "prioridade": "Média",
       "proximoPasso": "Mapear e reduzir a fricção do pós-compra que prolonga a devolução/troca (sem rastreio de transportadora, cobrança de áreas fora do Zendesk, sem alerta de urgência, CPF na abertura do ticket). Separar 'por que erra' de 'por que a resolução demora'.",
       "causasIds": [],
-      "evidenciasIds": [
-        "https://app.notion.com/3ca1c97d43e781cb960ac5fb1a24b60a",
-        "https://app.notion.com/3ca1c97d43e7819da711c7e104f4994c",
-        "https://app.notion.com/3ca1c97d43e781e8a20ff5016b7e8a53",
-        "https://app.notion.com/3ca1c97d43e78172bb5ce3f60306da14",
-        "https://app.notion.com/3ca1c97d43e78156ae5bc9fcd16dfee4",
-        "https://app.notion.com/3ce1c97d43e7812bb799c809f7d57287",
-        "https://app.notion.com/3ce1c97d43e7810aada3d205d36ddf2f",
-        "https://app.notion.com/3ce1c97d43e781c79d8ec1f97c99975e",
-        "https://app.notion.com/3d51c97d43e78173a1a9d3ed9eec068c",
-        "https://app.notion.com/3d51c97d43e781618f3cd2fc8e176344",
-        "https://app.notion.com/3d81c97d43e781598c78c97b84f90de5",
-        "https://app.notion.com/3d81c97d43e781bfb728ce50f21a27c9",
-        "https://app.notion.com/3dd1c97d43e781a994d5cac58e38a85f",
-        "https://app.notion.com/3de1c97d43e781f7be3dd0576047bc04",
-        "https://app.notion.com/3ec1c97d43e7817e93c2d3bdb00a277c",
-        "https://app.notion.com/3ec1c97d43e781859077e5f3f22e5aee",
-        "https://app.notion.com/3ec1c97d43e78147ba0deffde800573a",
-        "https://app.notion.com/3f11c97d43e78183aec9f20ff602670d",
-        "https://app.notion.com/3f11c97d43e781aa9c6ed2817d3ed111",
-        "https://app.notion.com/3f11c97d43e781618eb4cc80125e87d3",
-        "https://app.notion.com/3f11c97d43e781819730ccbc97f1a5fd",
-        "https://app.notion.com/3f41c97d43e7810f94cee72e92d02b3e",
-        "https://app.notion.com/3f81c97d43e7811a9e4ef970fac080a5"
-      ]
+      "evidenciasIds": []
     },
     {
       "id": "3de1c97d-43e7-8119-9f1d-fd64a3a2629b",
@@ -3520,9 +2509,7 @@
       "prioridade": "Média",
       "proximoPasso": "Criar um checkpoint que intercepte o pedido de medida provavelmente errada ANTES do envio (~100% dos cancelamentos ML são pós-entrega; hoje não há barramento — pedido com NF não emitida sai e volta gerando custo logístico). Frente cruza UX (confirmação 'essa é a medida do seu veículo?' antes de faturar) e Operação (hold do pedido entre compra e expedição). Origem: entrevistas Graziella (ML) e Jéssica (Zendesk).",
       "causasIds": [],
-      "evidenciasIds": [
-        "https://app.notion.com/3de1c97d43e78126b056ea8afef24a34"
-      ]
+      "evidenciasIds": []
     }
   ]
 }
