@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-21T09:22:18.069Z",
-  "generatedAtLabel": "21/10/2026, 06:22 (Brasília)",
+  "generatedAt": "2026-10-22T09:23:47.520Z",
+  "generatedAtLabel": "22/10/2026, 06:23 (Brasília)",
   "causas": [
     {
       "id": "3c91c97d-43e7-813d-bf61-c2bab85ddee7",
@@ -9,7 +9,7 @@
       "hipotese": "A fricção no pós-compra (sem rastreio, cobrança fora do Zendesk, sem alerta de urgência, CPF na abertura) agrava e prolonga a devolução/troca.",
       "leitura": "Alta",
       "status": "Evidência parcial",
-      "nEvidencias": 41
+      "nEvidencias": 42
     },
     {
       "id": "3c91c97d-43e7-814f-a5d5-d84af14ab572",
@@ -36,7 +36,7 @@
       "hipotese": "Cliente majoritariamente leigo na nomenclatura; muitos decidem no visual/achismo, sem saber ler a medida.",
       "leitura": "Média",
       "status": "Evidência parcial",
-      "nEvidencias": 25
+      "nEvidencias": 26
     },
     {
       "id": "3c91c97d-43e7-8182-94fa-cb56d5f83bd9",
@@ -63,7 +63,7 @@
       "hipotese": "Regra automática de substituição de estoque oferta uma medida que não corresponde.",
       "leitura": "Média",
       "status": "Evidência parcial",
-      "nEvidencias": 12
+      "nEvidencias": 11
     }
   ],
   "evidencias": [
@@ -2921,6 +2921,48 @@
       "frenteIds": [
         "https://app.notion.com/3c91c97d43e7813f9403f7acddadc129"
       ]
+    },
+    {
+      "id": "4001c97d-43e7-8151-8d9d-eea0a05b8449",
+      "achado": "Pneus coletados mas estorno nunca realizado — prejuízo financeiro em aberto",
+      "tipo": "Dor",
+      "citacao": "coletaram os pneus e não estornou no cartão... Paguei por algo que nem tenho aqui",
+      "evidencia": "Após cancelamento por erro de medida, os pneus foram coletados mas o estorno no cartão nunca ocorreu; caso tão antigo que o cliente trocou de carro 2x desde então. Dano financeiro concreto e não resolvido — pior que a lentidão vista em outros casos (dinheiro retido). Sem canal direto: cliente pediu um contato de WhatsApp do pós-venda. Protocolo 4397741.",
+      "fonteCanal": "Troca / devolução",
+      "forca": "Caso concreto",
+      "frequencia": "Média",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/4001c97d43e781319b39e89312b2a984"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
+      ]
+    },
+    {
+      "id": "4001c97d-43e7-81b5-a89b-f862c46bdc20",
+      "achado": "Cliente admite ter errado a medida ao pedir — '2 veio maiores'",
+      "tipo": "Dado",
+      "citacao": "Pedi errado as dimensões do pneu, 2 veio maiores",
+      "evidencia": "André atribui a si o erro: pediu as dimensões erradas e 2 pneus vieram maiores. Caso raro de erro genuíno do usuário na escolha da medida — reforça a Causa Usuário, pouco evidenciada até aqui (a maioria dos casos foi erro interno, variante ou estepe).",
+      "fonteCanal": "Troca / devolução",
+      "forca": "Caso concreto",
+      "frequencia": "Baixa",
+      "impacto": "Médio",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/4001c97d43e781319b39e89312b2a984"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3c91c97d43e781bdbe17cea81e45f2bb"
+      ]
     }
   ],
   "fontes": [
@@ -3352,6 +3394,18 @@
         "https://app.notion.com/3fe1c97d43e781ecabdad9b7f523dfb1",
         "https://app.notion.com/3fe1c97d43e7810faa0bd9bb5fd5d774"
       ]
+    },
+    {
+      "id": "4001c97d-43e7-8131-9b39-e89312b2a984",
+      "fonte": "WhatsApp — André Felipe (devolução sem estorno, protocolo 4397741) · 21/10/2026",
+      "tipo": "Troca / devolução",
+      "statusAnalise": "Em análise",
+      "extraido": "Contato via WhatsApp (DDD 33/MG, conta comercial 'Estúdio André Felipe', +5533998824504). Respondeu ao recrutamento com reclamação. Dois sinais: (1) ERRO DE MEDIDA AUTO-ATRIBUÍDO — 'Pedi errado as dimensões do pneu, 2 veio maiores' (caso raro de Causa Usuário); (2) PÓS-VENDA GRAVE — pneus coletados mas estorno nunca realizado, caso arrastado (trocou de carro 2x desde então), prejuízo financeiro em aberto, sem canal direto. Protocolo 4397741. Conversa AINDA EM ANDAMENTO — reanalisar quando avançar.",
+      "link": null,
+      "evidenciasGeradasIds": [
+        "https://app.notion.com/4001c97d43e781b5a89bf862c46bdc20",
+        "https://app.notion.com/4001c97d43e781518d9deea0a05b8449"
+      ]
     }
   ],
   "frentes": [
@@ -3596,7 +3650,8 @@
         "https://app.notion.com/3f11c97d43e7816aa99cc9908325c244",
         "https://app.notion.com/3f11c97d43e781b29d8ee13901adc5d8",
         "https://app.notion.com/3f41c97d43e781748ab7d8cad73c0779",
-        "https://app.notion.com/3f81c97d43e7818e988cc29bd639a623"
+        "https://app.notion.com/3f81c97d43e7818e988cc29bd639a623",
+        "https://app.notion.com/4001c97d43e781b5a89bf862c46bdc20"
       ]
     },
     {
@@ -3633,7 +3688,8 @@
         "https://app.notion.com/3f41c97d43e7810f94cee72e92d02b3e",
         "https://app.notion.com/3f81c97d43e7811a9e4ef970fac080a5",
         "https://app.notion.com/3fe1c97d43e78184a578f7057ab6846a",
-        "https://app.notion.com/3fe1c97d43e781ecabdad9b7f523dfb1"
+        "https://app.notion.com/3fe1c97d43e781ecabdad9b7f523dfb1",
+        "https://app.notion.com/4001c97d43e781518d9deea0a05b8449"
       ]
     },
     {
