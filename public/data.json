@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-23T09:24:29.757Z",
-  "generatedAtLabel": "23/10/2026, 06:24 (Brasília)",
+  "generatedAt": "2026-10-24T09:33:09.474Z",
+  "generatedAtLabel": "24/10/2026, 06:33 (Brasília)",
   "causas": [
     {
       "id": "3c91c97d-43e7-813d-bf61-c2bab85ddee7",
@@ -3511,9 +3511,9 @@
       "frente": "4. Pesquisa com usuário",
       "grupo": "C — Pesquisa usuário",
       "tipo": "Pesquisa",
-      "status": "A fazer",
+      "status": "Concluído",
       "prioridade": "Média",
-      "proximoPasso": "Investigar como o usuário descobre, identifica e escolhe a medida — a partir da base anterior.",
+      "proximoPasso": "Frente C (escuta de campo) concluída em 23/10 — ver Fechamento — Pesquisa com Usuário (Frente C). Entregas seguintes passam para Taxonomia/Métricas (decompor o número), Pós-venda/Devolução e PDP/Busca (confirmação de medida + alerta de estepe).",
       "causasIds": [],
       "evidenciasIds": [
         "https://app.notion.com/3df1c97d43e7819cb8bbf499e1aa74e0",
