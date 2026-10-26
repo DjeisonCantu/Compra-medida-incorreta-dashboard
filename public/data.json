@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-25T09:23:21.576Z",
-  "generatedAtLabel": "25/10/2026, 06:23 (Brasília)",
+  "generatedAt": "2026-10-26T09:25:59.067Z",
+  "generatedAtLabel": "26/10/2026, 06:25 (Brasília)",
   "causas": [
     {
       "id": "3c91c97d-43e7-813d-bf61-c2bab85ddee7",
@@ -2817,25 +2817,24 @@
       ]
     },
     {
-      "id": "3fe1c97d-43e7-81af-a124-e396503fbfff",
-      "achado": "Recebeu pneu totalmente diferente do comprado — erro de expedição",
-      "tipo": "Dor",
-      "citacao": "Eu comprei a medida certa... veio outro aro, veio um aro 17... totalmente diferente",
-      "evidencia": "Thiago comprou a medida certa (aro 16, Kicks da mãe) e recebeu pneu de outro aro (17), outra marca e mais caro. Não é erro de escolha do cliente — é erro interno de separação/expedição.",
+      "id": "3fe1c97d-43e7-810f-aa0b-d9bb5fd5d774",
+      "achado": "Comprador experiente vai direto pela medida e compra p/ família, sem dúvida",
+      "tipo": "Dado",
+      "citacao": "eu já sei qual é a medida do pneu do carro, já vou direto na medida",
+      "evidencia": "Pesquisa no Google antes, vai direto pela medida, compra para o círculo próximo (mãe, esposa, irmão), sem dúvida no fluxo nem insegurança no pagamento. Reforça que a escolha da medida não é o gargalo para esse perfil.",
       "fonteCanal": "Entrevista",
       "forca": "Caso concreto",
       "frequencia": "Média",
-      "impacto": "Alto",
+      "impacto": "Baixo",
       "status": "Bruto",
       "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7",
-        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
+        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
       ],
       "fonteIds": [
         "https://app.notion.com/3fe1c97d43e7816c96e3fb3259daad19"
       ],
       "frenteIds": [
-        "https://app.notion.com/3de1c97d43e781199f1dfd64a3a2629b"
+        "https://app.notion.com/3c91c97d43e7813f9403f7acddadc129"
       ]
     },
     {
@@ -2881,6 +2880,28 @@
       ]
     },
     {
+      "id": "3fe1c97d-43e7-81af-a124-e396503fbfff",
+      "achado": "Recebeu pneu totalmente diferente do comprado — erro de expedição",
+      "tipo": "Dor",
+      "citacao": "Eu comprei a medida certa... veio outro aro, veio um aro 17... totalmente diferente",
+      "evidencia": "Thiago comprou a medida certa (aro 16, Kicks da mãe) e recebeu pneu de outro aro (17), outra marca e mais caro. Não é erro de escolha do cliente — é erro interno de separação/expedição.",
+      "fonteCanal": "Entrevista",
+      "forca": "Caso concreto",
+      "frequencia": "Média",
+      "impacto": "Alto",
+      "status": "Bruto",
+      "causaRaizIds": [
+        "https://app.notion.com/3c91c97d43e7813dbf61c2bab85ddee7",
+        "https://app.notion.com/3c91c97d43e7814fa5d5d84af14ab572"
+      ],
+      "fonteIds": [
+        "https://app.notion.com/3fe1c97d43e7816c96e3fb3259daad19"
+      ],
+      "frenteIds": [
+        "https://app.notion.com/3de1c97d43e781199f1dfd64a3a2629b"
+      ]
+    },
+    {
       "id": "3fe1c97d-43e7-81ec-abda-d9b7f523dfb1",
       "achado": "Desencontro interno: marketing proativo no carrinho x suporte ausente na devolução",
       "tipo": "Pista",
@@ -2899,27 +2920,6 @@
       ],
       "frenteIds": [
         "https://app.notion.com/3ca1c97d43e781ba80a8e331e52028b6"
-      ]
-    },
-    {
-      "id": "3fe1c97d-43e7-810f-aa0b-d9bb5fd5d774",
-      "achado": "Comprador experiente vai direto pela medida e compra p/ família, sem dúvida",
-      "tipo": "Dado",
-      "citacao": "eu já sei qual é a medida do pneu do carro, já vou direto na medida",
-      "evidencia": "Pesquisa no Google antes, vai direto pela medida, compra para o círculo próximo (mãe, esposa, irmão), sem dúvida no fluxo nem insegurança no pagamento. Reforça que a escolha da medida não é o gargalo para esse perfil.",
-      "fonteCanal": "Entrevista",
-      "forca": "Caso concreto",
-      "frequencia": "Média",
-      "impacto": "Baixo",
-      "status": "Bruto",
-      "causaRaizIds": [
-        "https://app.notion.com/3c91c97d43e7817faf94ccb1b7baab02"
-      ],
-      "fonteIds": [
-        "https://app.notion.com/3fe1c97d43e7816c96e3fb3259daad19"
-      ],
-      "frenteIds": [
-        "https://app.notion.com/3c91c97d43e7813f9403f7acddadc129"
       ]
     },
     {
