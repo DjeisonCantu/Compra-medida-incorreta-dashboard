@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-29T09:24:56.458Z",
-  "generatedAtLabel": "29/10/2026, 06:24 (Brasília)",
+  "generatedAt": "2026-10-30T09:24:14.195Z",
+  "generatedAtLabel": "30/10/2026, 06:24 (Brasília)",
   "causas": [
     {
       "id": "3c91c97d-43e7-813d-bf61-c2bab85ddee7",
@@ -2967,6 +2967,24 @@
   ],
   "fontes": [
     {
+      "id": "3ce1c97d-43e7-818a-a957-f9f49d964843",
+      "fonte": "Prints de reclamações reais (RA) — medida errada",
+      "tipo": "Reclame Aqui",
+      "statusAnalise": "A analisar",
+      "extraido": "Fernanda, Ingrid e Gabriela enviarão 2–3 prints cada de reclamações reais de medida errada no chat da reunião de 01/09. Insumo qualitativo para o banco de evidências.",
+      "link": null,
+      "evidenciasGeradasIds": []
+    },
+    {
+      "id": "3cf1c97d-43e7-815b-8c9e-f7aa3aa10a0b",
+      "fonte": "Relatório GoBots — perguntas/respostas (1º jun–30 ago)",
+      "tipo": "Dashboard / BI",
+      "statusAnalise": "Analisado",
+      "extraido": "Consolidado na fonte 'Pré-venda — Perguntas Mercado Livre + Site (Paulo Victor)': o material do GoBots que o Paulo enviou foi analisado e as evidências (compatibilidade/medida ~25% ML e ~39% site; maioria respondida por bot) já estão registradas lá. Esta linha é a mesma fonte — fechada para não duplicar. Dúvidas frequentes: compatibilidade, garantia, se o pneu é novo.",
+      "link": null,
+      "evidenciasGeradasIds": []
+    },
+    {
       "id": "3ca1c97d-43e7-8152-a802-c72943cc1c0f",
       "fonte": "Entrevista em grupo — Canais Críticos / Reclame Aqui (REP-18)",
       "tipo": "Pesquisa anterior",
@@ -3054,15 +3072,6 @@
       ]
     },
     {
-      "id": "3ce1c97d-43e7-818a-a957-f9f49d964843",
-      "fonte": "Prints de reclamações reais (RA) — medida errada",
-      "tipo": "Reclame Aqui",
-      "statusAnalise": "A analisar",
-      "extraido": "Fernanda, Ingrid e Gabriela enviarão 2–3 prints cada de reclamações reais de medida errada no chat da reunião de 01/09. Insumo qualitativo para o banco de evidências.",
-      "link": null,
-      "evidenciasGeradasIds": []
-    },
-    {
       "id": "3ce1c97d-43e7-81c7-b58f-df16df2b5578",
       "fonte": "Comitê de Melhorias Devoluções — Gestão da Qualidade (NAI)",
       "tipo": "Dashboard / BI",
@@ -3080,15 +3089,6 @@
         "https://app.notion.com/3dd1c97d43e781f3bb3cc2f15704a9a7",
         "https://app.notion.com/3dd1c97d43e781a994d5cac58e38a85f"
       ]
-    },
-    {
-      "id": "3cf1c97d-43e7-815b-8c9e-f7aa3aa10a0b",
-      "fonte": "Relatório GoBots — perguntas/respostas (1º jun–30 ago)",
-      "tipo": "Dashboard / BI",
-      "statusAnalise": "Analisado",
-      "extraido": "Consolidado na fonte 'Pré-venda — Perguntas Mercado Livre + Site (Paulo Victor)': o material do GoBots que o Paulo enviou foi analisado e as evidências (compatibilidade/medida ~25% ML e ~39% site; maioria respondida por bot) já estão registradas lá. Esta linha é a mesma fonte — fechada para não duplicar. Dúvidas frequentes: compatibilidade, garantia, se o pneu é novo.",
-      "link": null,
-      "evidenciasGeradasIds": []
     },
     {
       "id": "3cf1c97d-43e7-81a5-ade3-f8bec95d5adf",
@@ -3410,28 +3410,6 @@
   ],
   "frentes": [
     {
-      "id": "3c91c97d-43e7-8129-bc28-db217f951da1",
-      "frente": "0. Macro diagnóstico (entrega da semana)",
-      "grupo": "A — Entender interno",
-      "tipo": "Plano",
-      "status": "Em andamento",
-      "prioridade": "Alta",
-      "proximoPasso": "Montar o macro pedido pela Grace: objetivo → o que já sabemos → o que precisamos descobrir → áreas envolvidas → dados/fontes → pesquisa → frentes de solução. Sem detalhar demais.",
-      "causasIds": [],
-      "evidenciasIds": []
-    },
-    {
-      "id": "3c91c97d-43e7-8174-acc1-c3e9af4cec16",
-      "frente": "11. Plano de ação",
-      "grupo": "E — Medir",
-      "tipo": "Plano",
-      "status": "A fazer",
-      "prioridade": "Média",
-      "proximoPasso": "Transformar descobertas em iniciativas priorizadas.",
-      "causasIds": [],
-      "evidenciasIds": []
-    },
-    {
       "id": "3c91c97d-43e7-8100-896d-d07581f96142",
       "frente": "9. Operação",
       "grupo": "A — Entender interno",
@@ -3472,6 +3450,17 @@
         "https://app.notion.com/3df1c97d43e781538fdcfd3550a40caa",
         "https://app.notion.com/3ea1c97d43e781469f00dc5f125b262d"
       ]
+    },
+    {
+      "id": "3c91c97d-43e7-8129-bc28-db217f951da1",
+      "frente": "0. Macro diagnóstico (entrega da semana)",
+      "grupo": "A — Entender interno",
+      "tipo": "Plano",
+      "status": "Em andamento",
+      "prioridade": "Alta",
+      "proximoPasso": "Montar o macro pedido pela Grace: objetivo → o que já sabemos → o que precisamos descobrir → áreas envolvidas → dados/fontes → pesquisa → frentes de solução. Sem detalhar demais.",
+      "causasIds": [],
+      "evidenciasIds": []
     },
     {
       "id": "3c91c97d-43e7-8136-8083-cfbe011f582a",
@@ -3577,6 +3566,17 @@
         "https://app.notion.com/3f11c97d43e781ebb671d32369111fc0",
         "https://app.notion.com/3fe1c97d43e7811facc1da56b2290087"
       ]
+    },
+    {
+      "id": "3c91c97d-43e7-8174-acc1-c3e9af4cec16",
+      "frente": "11. Plano de ação",
+      "grupo": "E — Medir",
+      "tipo": "Plano",
+      "status": "A fazer",
+      "prioridade": "Média",
+      "proximoPasso": "Transformar descobertas em iniciativas priorizadas.",
+      "causasIds": [],
+      "evidenciasIds": []
     },
     {
       "id": "3c91c97d-43e7-818d-89af-f022000a540e",
