@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-30T09:24:14.195Z",
-  "generatedAtLabel": "30/10/2026, 06:24 (Brasília)",
+  "generatedAt": "2026-10-31T09:23:41.934Z",
+  "generatedAtLabel": "31/10/2026, 06:23 (Brasília)",
   "causas": [
     {
       "id": "3c91c97d-43e7-813d-bf61-c2bab85ddee7",
@@ -3410,6 +3410,28 @@
   ],
   "frentes": [
     {
+      "id": "3c91c97d-43e7-8129-bc28-db217f951da1",
+      "frente": "0. Macro diagnóstico (entrega da semana)",
+      "grupo": "A — Entender interno",
+      "tipo": "Plano",
+      "status": "Em andamento",
+      "prioridade": "Alta",
+      "proximoPasso": "Montar o macro pedido pela Grace: objetivo → o que já sabemos → o que precisamos descobrir → áreas envolvidas → dados/fontes → pesquisa → frentes de solução. Sem detalhar demais.",
+      "causasIds": [],
+      "evidenciasIds": []
+    },
+    {
+      "id": "3c91c97d-43e7-8174-acc1-c3e9af4cec16",
+      "frente": "11. Plano de ação",
+      "grupo": "E — Medir",
+      "tipo": "Plano",
+      "status": "A fazer",
+      "prioridade": "Média",
+      "proximoPasso": "Transformar descobertas em iniciativas priorizadas.",
+      "causasIds": [],
+      "evidenciasIds": []
+    },
+    {
       "id": "3c91c97d-43e7-8100-896d-d07581f96142",
       "frente": "9. Operação",
       "grupo": "A — Entender interno",
@@ -3450,17 +3472,6 @@
         "https://app.notion.com/3df1c97d43e781538fdcfd3550a40caa",
         "https://app.notion.com/3ea1c97d43e781469f00dc5f125b262d"
       ]
-    },
-    {
-      "id": "3c91c97d-43e7-8129-bc28-db217f951da1",
-      "frente": "0. Macro diagnóstico (entrega da semana)",
-      "grupo": "A — Entender interno",
-      "tipo": "Plano",
-      "status": "Em andamento",
-      "prioridade": "Alta",
-      "proximoPasso": "Montar o macro pedido pela Grace: objetivo → o que já sabemos → o que precisamos descobrir → áreas envolvidas → dados/fontes → pesquisa → frentes de solução. Sem detalhar demais.",
-      "causasIds": [],
-      "evidenciasIds": []
     },
     {
       "id": "3c91c97d-43e7-8136-8083-cfbe011f582a",
@@ -3566,17 +3577,6 @@
         "https://app.notion.com/3f11c97d43e781ebb671d32369111fc0",
         "https://app.notion.com/3fe1c97d43e7811facc1da56b2290087"
       ]
-    },
-    {
-      "id": "3c91c97d-43e7-8174-acc1-c3e9af4cec16",
-      "frente": "11. Plano de ação",
-      "grupo": "E — Medir",
-      "tipo": "Plano",
-      "status": "A fazer",
-      "prioridade": "Média",
-      "proximoPasso": "Transformar descobertas em iniciativas priorizadas.",
-      "causasIds": [],
-      "evidenciasIds": []
     },
     {
       "id": "3c91c97d-43e7-818d-89af-f022000a540e",
